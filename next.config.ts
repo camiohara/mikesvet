@@ -15,7 +15,7 @@ const securityHeaders = [
       "img-src 'self' data: blob: https://cdn.sanity.io https://static.wixstatic.com",
       "font-src 'self' data:",
       "frame-src https://app.cw.vet",                          // ezyVet booking iframe
-      "connect-src 'self' https://*.sanity.io https://api.sanity.io",
+      "connect-src 'self' https://*.sanity.io https://api.sanity.io https://formspree.io",
       "media-src 'self'",
     ].join('; '),
   },

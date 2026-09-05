@@ -46,3 +46,47 @@ export const postBySlugQuery = groq`
     category
   }
 `
+
+// All non-adopted animals, featured first then oldest-waiting first
+export const adoptionsQuery = groq`
+  *[_type == "adoption" && status != "adopted"] | order(featured desc, dateAvailable asc) {
+    _id,
+    name,
+    "slug": slug.current,
+    species,
+    breed,
+    gender,
+    ageYears,
+    ageMonths,
+    "photo": photos[0],
+    status,
+    dateAvailable,
+    personalityTags,
+    vaccinated,
+    neutered,
+    microchipped,
+    featured,
+  }
+`
+
+export const adoptionBySlugQuery = groq`
+  *[_type == "adoption" && slug.current == $slug][0] {
+    _id,
+    name,
+    "slug": slug.current,
+    species,
+    breed,
+    gender,
+    ageYears,
+    ageMonths,
+    photos,
+    status,
+    dateAvailable,
+    description,
+    personalityTags,
+    vaccinated,
+    neutered,
+    microchipped,
+    featured,
+  }
+`

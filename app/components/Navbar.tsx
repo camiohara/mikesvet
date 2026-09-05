@@ -28,6 +28,7 @@ export default function Navbar() {
           <Link href="#services" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Services</Link>
           <Link href="#team" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Team</Link>
           <Link href="#about" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Story</Link>
+          <Link href="/adoptions" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Adoptions</Link>
           <Link href="#press" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
           <Link href="#contact" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Find Us</Link>
         </nav>
@@ -67,6 +68,7 @@ export default function Navbar() {
             { href: '#services', label: 'Services' },
             { href: '#team', label: 'Our Team' },
             { href: '#about', label: 'Our Story' },
+            { href: '/adoptions', label: 'Adoptions' },
             { href: '#press', label: 'Press' },
             { href: '#contact', label: 'Find Us' },
           ].map(({ href, label }) => (
