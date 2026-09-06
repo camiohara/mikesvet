@@ -46,7 +46,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#booking"
+            href="/#booking"
             className="px-8 py-4 rounded-full font-semibold text-base transition-opacity hover:opacity-90 shadow-lg"
             style={{ backgroundColor: 'var(--color-brand)', color: 'white' }}
           >

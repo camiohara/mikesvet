@@ -35,7 +35,7 @@ export default function Navbar() {
 
         {/* Book Now CTA — desktop only */}
         <div className="hidden md:flex items-center shrink-0">
-          <a href="#booking" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
+          <a href="/#booking" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
             Book Appointment
           </a>
         </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
         {/* Mobile: Book button + hamburger */}
         <div className="flex md:hidden items-center gap-3">
           <a
-            href="#booking"
+            href="/#booking"
             className="nav-cta-btn px-3 py-1.5 rounded-full text-xs font-semibold text-white whitespace-nowrap"
             onClick={() => setMenuOpen(false)}
           >
