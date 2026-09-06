@@ -69,41 +69,41 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
   return (
     <>
       {/* Filters */}
-      <div className="flex flex-wrap gap-6 mb-10">
+      <div className="flex flex-col gap-3 mb-8">
         {/* Species */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)]">Species</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Species</span>
           {[['all', 'All'], ['cat', 'Cats'], ['dog', 'Dogs']].map(([v, l]) => (
             <button
               key={v}
               onClick={() => setSpecies(v)}
-              className={`${FILTER_BTN} ${species === v ? FILTER_ACTIVE : FILTER_IDLE}`}
+              className={`${FILTER_BTN} shrink-0 ${species === v ? FILTER_ACTIVE : FILTER_IDLE}`}
               style={species === v ? { backgroundColor: 'var(--color-brand)', borderColor: 'var(--color-brand)' } : {}}
             >{l}</button>
           ))}
         </div>
 
         {/* Gender */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)]">Gender</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Gender</span>
           {[['all', 'Any'], ['male', 'Male'], ['female', 'Female']].map(([v, l]) => (
             <button
               key={v}
               onClick={() => setGender(v)}
-              className={`${FILTER_BTN} ${gender === v ? FILTER_ACTIVE : FILTER_IDLE}`}
+              className={`${FILTER_BTN} shrink-0 ${gender === v ? FILTER_ACTIVE : FILTER_IDLE}`}
               style={gender === v ? { backgroundColor: 'var(--color-brand)', borderColor: 'var(--color-brand)' } : {}}
             >{l}</button>
           ))}
         </div>
 
         {/* Age */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)]">Age</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Age</span>
           {[['all', 'Any'], ['kitten', 'Kitten'], ['young', 'Young (1–3)'], ['adult', 'Adult (3–8)'], ['senior', 'Senior (8+)']].map(([v, l]) => (
             <button
               key={v}
               onClick={() => setAge(v)}
-              className={`${FILTER_BTN} ${age === v ? FILTER_ACTIVE : FILTER_IDLE}`}
+              className={`${FILTER_BTN} shrink-0 ${age === v ? FILTER_ACTIVE : FILTER_IDLE}`}
               style={age === v ? { backgroundColor: 'var(--color-brand)', borderColor: 'var(--color-brand)' } : {}}
             >{l}</button>
           ))}
@@ -121,7 +121,7 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
           <p className="text-[var(--color-gray-mid)]">No animals match your filters — try adjusting them.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
           {filtered.map((animal) => {
             const days = daysWaiting(animal.dateAvailable)
             const photoUrl = animal.photo

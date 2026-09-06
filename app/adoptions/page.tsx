@@ -10,7 +10,7 @@ export default async function AdoptionsPage() {
   return (
     <main className="pt-16">
       {/* Hero */}
-      <section className="py-20 text-center" style={{ backgroundColor: 'var(--color-brand-light)' }}>
+      <section className="py-10 sm:py-20 text-center" style={{ backgroundColor: 'var(--color-brand-light)' }}>
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-4" style={{ color: 'var(--color-brand)' }}>
             Rescue &amp; Rehoming
