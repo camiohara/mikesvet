@@ -69,10 +69,10 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
   return (
     <>
       {/* Filters */}
-      <div className="flex flex-col gap-3 mb-8">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 mb-8 sm:mb-10">
         {/* Species */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Species</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 sm:overflow-visible">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16 sm:w-auto">Species</span>
           {[['all', 'All'], ['cat', 'Cats'], ['dog', 'Dogs']].map(([v, l]) => (
             <button
               key={v}
@@ -84,8 +84,8 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
         </div>
 
         {/* Gender */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Gender</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 sm:overflow-visible">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16 sm:w-auto">Gender</span>
           {[['all', 'Any'], ['male', 'Male'], ['female', 'Female']].map(([v, l]) => (
             <button
               key={v}
@@ -97,8 +97,8 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
         </div>
 
         {/* Age */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
-          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16">Age</span>
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 sm:overflow-visible">
+          <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gray-mid)] shrink-0 w-16 sm:w-auto">Age</span>
           {[['all', 'Any'], ['kitten', 'Kitten'], ['young', 'Young (1–3)'], ['adult', 'Adult (3–8)'], ['senior', 'Senior (8+)']].map(([v, l]) => (
             <button
               key={v}
