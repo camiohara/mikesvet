@@ -14,7 +14,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src="/icon-mark.jpg"
+            src="/icon-mark.png"
             alt=""
             width={36}
             height={36}
