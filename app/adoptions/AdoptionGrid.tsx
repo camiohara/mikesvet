@@ -157,12 +157,12 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                 </div>
 
                 {/* Info */}
-                <div className="p-4 flex flex-col gap-2">
-                  <div className="flex items-start justify-between gap-2">
-                    <h3 className="font-bold text-[var(--color-navy)] text-lg leading-tight" style={{ fontFamily: 'var(--font-playfair)' }}>
+                <div className="p-3 sm:p-4 flex flex-col gap-1.5">
+                  <div className="flex items-start justify-between gap-1">
+                    <h3 className="font-bold text-[var(--color-navy)] text-base sm:text-lg leading-tight" style={{ fontFamily: 'var(--font-playfair)' }}>
                       {animal.name}
                     </h3>
-                    <span className="text-xs text-[var(--color-gray-mid)] shrink-0 mt-1">
+                    <span className="text-xs text-[var(--color-gray-mid)] shrink-0 mt-0.5">
                       {animal.gender === 'male' ? '♂' : '♀'} · {ageLabel(animal.ageYears, animal.ageMonths)}
                     </span>
                   </div>
@@ -172,8 +172,8 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                   )}
 
                   {animal.personalityTags && animal.personalityTags.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mt-1">
-                      {animal.personalityTags.slice(0, 3).map((tag) => (
+                    <div className="flex flex-wrap gap-1 mt-0.5">
+                      {animal.personalityTags.slice(0, 2).map((tag) => (
                         <span
                           key={tag}
                           className="text-xs px-2 py-0.5 rounded-full font-medium"
@@ -185,10 +185,17 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                     </div>
                   )}
 
-                  <div className="flex items-center gap-3 mt-2 pt-2 border-t border-[var(--color-border)] text-xs text-[var(--color-gray-mid)]">
-                    {animal.vaccinated && <span>✓ Vaccinated</span>}
-                    {animal.neutered && <span>✓ Neutered</span>}
-                    {animal.microchipped && <span>✓ Chipped</span>}
+                  <div className="flex items-center gap-2 mt-1.5 pt-2 border-t border-[var(--color-border)]">
+                    {[
+                      { show: animal.vaccinated, label: 'Vacc.' },
+                      { show: animal.neutered, label: 'Neutered' },
+                      { show: animal.microchipped, label: 'Chipped' },
+                    ].filter(i => i.show).map(({ label }) => (
+                      <span key={label} className="flex items-center gap-0.5 text-xs text-[var(--color-gray-mid)]">
+                        <span className="w-3.5 h-3.5 rounded-full bg-green-500 flex items-center justify-center text-white shrink-0" style={{ fontSize: '8px' }}>✓</span>
+                        <span className="hidden sm:inline">{label}</span>
+                      </span>
+                    ))}
                   </div>
                 </div>
               </Link>
