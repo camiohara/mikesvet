@@ -1,9 +1,9 @@
 import { client } from '@/sanity/lib/client'
 import { adoptionBySlugQuery, adoptionsQuery } from '@/sanity/lib/queries'
 import { urlForImage } from '@/sanity/lib/image'
-import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import PhotoGallery from './PhotoGallery'
 
 export const revalidate = 60
 
@@ -29,9 +29,10 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
   if (!animal) notFound()
 
   const days = daysWaiting(animal.dateAvailable)
-  const mainPhotoUrl = animal.photos?.[0]
-    ? urlForImage(animal.photos[0])?.width(900).height(900).fit('crop').url() ?? ''
-    : ''
+  const photoUrls: string[] = (animal.photos ?? [])
+    .slice(0, 4)
+    .map((p: { asset: { _ref: string } }) => urlForImage(p)?.width(900).height(900).fit('crop').url() ?? '')
+    .filter(Boolean)
 
   return (
     <main className="pt-16">
@@ -45,35 +46,7 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
           {/* Photos */}
-          <div className="flex flex-col gap-4">
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-md">
-              {mainPhotoUrl ? (
-                <Image src={mainPhotoUrl} alt={animal.name} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-8xl bg-[var(--color-brand-light)]">🐾</div>
-              )}
-              <span
-                className="absolute top-4 left-4 text-sm font-bold px-3 py-1.5 rounded-full text-white"
-                style={{ backgroundColor: animal.status === 'fostering' ? '#F59E0B' : 'var(--color-brand)' }}
-              >
-                {animal.status === 'fostering' ? 'Available to Foster' : 'Available for Adoption'}
-              </span>
-            </div>
-
-            {/* Additional photos */}
-            {animal.photos?.length > 1 && (
-              <div className="grid grid-cols-3 gap-3">
-                {animal.photos.slice(1, 4).map((photo: { asset: { _ref: string } }, i: number) => {
-                  const url = urlForImage(photo)?.width(300).height(300).fit('crop').url() ?? ''
-                  return (
-                    <div key={i} className="relative aspect-square rounded-xl overflow-hidden">
-                      <Image src={url} alt={`${animal.name} photo ${i + 2}`} fill className="object-cover" sizes="100px" />
-                    </div>
-                  )
-                })}
-              </div>
-            )}
-          </div>
+          <PhotoGallery photos={photoUrls} name={animal.name} status={animal.status} />
 
           {/* Details */}
           <div>
