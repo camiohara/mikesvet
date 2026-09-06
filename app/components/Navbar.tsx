@@ -12,7 +12,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center shrink-0">
+        <Link href="/" className="flex items-center gap-2 shrink-0">
+          <Image
+            src="/icon-mark.jpg"
+            alt=""
+            width={36}
+            height={36}
+            className="h-9 w-9 rounded-full object-cover"
+            priority
+          />
           <Image
             src="/logo.avif"
             alt="Mike's Vet Dubai"
