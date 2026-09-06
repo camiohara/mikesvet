@@ -62,7 +62,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll cue */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white opacity-50" style={{ zIndex: 2 }}>
+      <div className="hidden sm:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-white opacity-50" style={{ zIndex: 2 }}>
         <span className="text-xs uppercase tracking-widest">Scroll</span>
         <div className="w-px h-8 bg-white" />
       </div>
