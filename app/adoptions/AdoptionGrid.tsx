@@ -187,13 +187,13 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
 
                   <div className="flex items-center gap-2 mt-1.5 pt-2 border-t border-[var(--color-border)]">
                     {[
-                      { show: animal.vaccinated, label: 'Vacc.' },
-                      { show: animal.neutered, label: 'Neutered' },
-                      { show: animal.microchipped, label: 'Chipped' },
+                      { show: animal.vaccinated, label: 'Vacc' },
+                      { show: animal.neutered, label: 'Neut' },
+                      { show: animal.microchipped, label: 'Chip' },
                     ].filter(i => i.show).map(({ label }) => (
-                      <span key={label} className="flex items-center gap-0.5 text-xs text-[var(--color-gray-mid)]">
-                        <span className="w-3.5 h-3.5 rounded-full bg-green-500 flex items-center justify-center text-white shrink-0" style={{ fontSize: '8px' }}>✓</span>
-                        <span className="hidden sm:inline">{label}</span>
+                      <span key={label} className="flex items-center gap-0.5 text-[var(--color-gray-mid)]" style={{ fontSize: '10px' }}>
+                        <span className="w-3 h-3 rounded-full bg-green-500 flex items-center justify-center text-white shrink-0" style={{ fontSize: '7px' }}>✓</span>
+                        {label}
                       </span>
                     ))}
                   </div>
