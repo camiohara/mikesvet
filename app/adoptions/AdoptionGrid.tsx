@@ -145,9 +145,9 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                   {/* Status badge */}
                   <span
                     className="absolute top-3 left-3 text-xs font-bold px-2.5 py-1 rounded-full text-white"
-                    style={{ backgroundColor: animal.status === 'fostering' ? '#F59E0B' : 'var(--color-brand)' }}
+                    style={{ backgroundColor: 'var(--color-brand)' }}
                   >
-                    {animal.status === 'fostering' ? 'Foster' : 'Adopt'}
+                    Adopt / Foster
                   </span>
 
                   {/* Days waiting */}
