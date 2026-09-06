@@ -4,8 +4,31 @@ import { urlForImage } from '@/sanity/lib/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import PhotoGallery from './PhotoGallery'
+import type { Metadata } from 'next'
 
 export const revalidate = 60
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const animal = await client.fetch(adoptionBySlugQuery, { slug }).catch(() => null)
+  if (!animal) return {}
+  const photoUrl = animal.photos?.[0]
+    ? urlForImage(animal.photos[0])?.width(600).height(600).fit('crop').url() ?? ''
+    : ''
+  return {
+    title: `Adopt ${animal.name} — ${animal.breed ?? animal.species} in Dubai`,
+    description: animal.description
+      ? animal.description.slice(0, 155)
+      : `${animal.name} is available for adoption or fostering through Mike's Vet Dubai.`,
+    alternates: { canonical: `https://mikesvet.com/adoptions/${slug}` },
+    openGraph: {
+      title: `Meet ${animal.name} | Available for Adoption in Dubai`,
+      description: animal.description?.slice(0, 155) ?? '',
+      images: photoUrl ? [{ url: photoUrl, width: 600, height: 600 }] : [],
+      url: `https://mikesvet.com/adoptions/${slug}`,
+    },
+  }
+}
 
 export async function generateStaticParams() {
   const animals = await client.fetch(adoptionsQuery).catch(() => [])

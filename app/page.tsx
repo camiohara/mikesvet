@@ -7,10 +7,12 @@ import Press from './components/Press'
 import BookingSection from './components/BookingSection'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
+import StructuredData from './components/StructuredData'
 
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <Navbar />
       <main className="pt-16">
         <Hero />

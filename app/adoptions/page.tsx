@@ -1,6 +1,19 @@
 import { client } from '@/sanity/lib/client'
 import { adoptionsQuery } from '@/sanity/lib/queries'
 import AdoptionGrid from './AdoptionGrid'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Adopt or Foster a Cat in Dubai',
+  description:
+    "Browse cats and dogs available for adoption or fostering through Mike's Vet Dubai. Every animal is rescued, vaccinated, and neutered. Apply online in minutes.",
+  alternates: { canonical: 'https://mikesvet.com/adoptions' },
+  openGraph: {
+    title: "Adopt or Foster a Cat in Dubai | Mike's Vet",
+    description: "Rescued cats and dogs looking for their forever home in Dubai. Browse animals, apply to adopt or foster — all through Mike's Vet.",
+    url: 'https://mikesvet.com/adoptions',
+  },
+}
 
 export const revalidate = 60
 

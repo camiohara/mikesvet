@@ -102,8 +102,8 @@ export default function Footer() {
               </a>
             </li>
             <li className="leading-relaxed">
-              39th St – Al Barsha Third<br />
-              Al Barsha, Dubai
+              Hessa Street<br />
+              Dubai, UAE
             </li>
           </ul>
         </div>
@@ -121,7 +121,7 @@ export default function Footer() {
 
           <div className="mt-8">
             <a
-              href="#booking"
+              href="/#booking"
               className="inline-block px-5 py-2.5 rounded-full bg-white text-sm font-semibold transition-opacity hover:opacity-90"
               style={{ color: 'var(--color-brand)' }}
             >
