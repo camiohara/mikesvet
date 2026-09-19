@@ -55,6 +55,7 @@ export default function Navbar() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-[var(--color-navy)]">
           <Link href="/services" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Services</Link>
+          <Link href="/services/home-visit" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Home Visit</Link>
           <Link href="/#team" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Team</Link>
           <Link href="/#about" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Story</Link>
           <Link href="/adoptions" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Adoptions</Link>
@@ -98,6 +99,7 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t border-[var(--color-border)] px-6 py-5 flex flex-col gap-4 text-sm font-medium shadow-lg">
           {[
             { href: '/services', label: 'Services' },
+            { href: '/services/home-visit', label: 'Home Visit' },
             { href: '/#team', label: 'Our Team' },
             { href: '/#about', label: 'Our Story' },
             { href: '/adoptions', label: 'Adoptions' },
