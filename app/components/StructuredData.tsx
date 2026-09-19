@@ -78,6 +78,7 @@ export default function StructuredData() {
       'Animal hospital services',
       'Intensive care unit (ICU)',
       'Oxygen therapy',
+      'Vet home visits',
     ],
     speakable: {
       '@type': 'SpeakableSpecification',
@@ -163,6 +164,14 @@ export default function StructuredData() {
         acceptedAnswer: {
           '@type': 'Answer',
           text: "Yes. Mike's Vet runs an active rescue and rehoming programme. You can browse animals available for adoption or fostering at mikesvet.com/adoptions and submit an online application.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "Does Mike's Vet offer home visits in Dubai?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Yes. Mike's Vet offers vet home visits across Dubai — JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches and surrounding areas. The home visit fee is AED 400 + VAT. Consultations, vaccinations, wellness checks, post-op check-ups, and chronic condition monitoring can all be done at home. Book by calling or WhatsApp on +971 4 283 7744.",
         },
       },
       {

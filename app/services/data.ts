@@ -12,6 +12,39 @@ export type Service = {
 
 export const services: Service[] = [
   {
+    slug: 'home-visit',
+    name: 'Home Visit',
+    tagline: 'Your vet comes to you — AED 400 + VAT.',
+    metaDescription: "Vet home visit in Dubai — AED 400 + VAT. Mike's Vet sends an experienced vet to your home for consultations, vaccinations, health checks and more. Covering JVC, Al Barsha, The Springs, Jumeirah and surrounding areas.",
+    intro: "Some pets do better at home than in a clinic. Cats that hide for days after a vet visit, dogs that go into overdrive in a waiting room, senior pets who find the car ride painful — for all of them, a home visit changes everything. One of our experienced vets comes to you, examines your pet in their own space, and provides the same quality of care you'd receive in our clinic on Hessa Street. AED 400 + VAT per visit.",
+    bullets: [
+      'Consultations and health assessments',
+      'Vaccinations (core and non-core)',
+      'Wellness and senior health checks',
+      'Chronic condition monitoring and medication administration',
+      'Post-operative check-ups and wound assessment',
+      'Multi-pet households — see all your pets in one visit',
+      'Covering JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches, and surrounding areas',
+    ],
+    conditions: [
+      'Cats and anxious dogs who stress badly at the clinic',
+      'Senior or mobility-impaired pets',
+      'Post-surgical recovery check-ups',
+      'Chronic conditions requiring regular monitoring',
+      'Multi-pet households',
+      'Owners with limited mobility or no transport',
+    ],
+    whyUs: "Our home visit vets are the same experienced team who work in our clinic — not agency locums. You get a vet who understands your pet's history and can coordinate seamlessly with our in-house team if follow-up diagnostics or treatment is needed.",
+    faqs: [
+      { q: 'How much does a vet home visit cost in Dubai?', a: "Our home visit fee is AED 400 + VAT. This covers the visit itself. Consultations, vaccinations, or treatments are charged separately at our standard clinic rates — you'll always be told the cost before anything is done." },
+      { q: 'Which areas of Dubai do you cover for home visits?', a: "We cover JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches, and surrounding areas. If you're unsure whether we reach you, call or WhatsApp us on +971 4 283 7744." },
+      { q: 'What can be done during a home visit?', a: "Consultations, vaccinations, health and wellness checks, senior pet assessments, post-operative check-ups, chronic condition monitoring, and medication administration. We come prepared for routine clinical work." },
+      { q: 'What can\'t be done at home?', a: "Anything that requires our in-clinic equipment — surgery, dental procedures, blood tests, X-ray, ultrasound, or emergency treatment. If we identify something at home that needs further investigation, we'll book your pet into the clinic and our records follow them." },
+      { q: 'Can you visit my home for a cat that hates the carrier?', a: "Absolutely — this is one of the most common reasons owners book a home visit. Cats examined in their own territory are typically calmer, which means a more thorough and accurate examination for the vet too." },
+      { q: 'How do I book a vet home visit?', a: "Call or WhatsApp us on +971 4 283 7744, or book online at mikesvet.com. Let us know your location and what you'd like seen — we'll confirm availability and arrange a time that works for you." },
+    ],
+  },
+  {
     slug: 'vaccinations',
     name: 'Vaccinations',
     tagline: 'Protection your pet can count on — tailored to life in Dubai.',
