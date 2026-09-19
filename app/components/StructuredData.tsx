@@ -171,7 +171,7 @@ export default function StructuredData() {
         name: "Does Mike's Vet offer home visits in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Yes. Mike's Vet offers vet home visits across Dubai — JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches and surrounding areas. The home visit fee is AED 400 + VAT. Consultations, vaccinations, wellness checks, post-op check-ups, and chronic condition monitoring can all be done at home. Book by calling or WhatsApp on +971 4 283 7744.",
+          text: "Yes. Mike's Vet offers vet home visits across Dubai — JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches, DAMAC Hills, Mudon, and surrounding areas. The home visit fee is AED 400 + VAT. Consultations, vaccinations, wellness checks, post-op check-ups, and chronic condition monitoring can all be done at home. Book by calling or WhatsApp on +971 4 283 7744.",
         },
       },
       {
