@@ -1,3 +1,20 @@
+import Link from 'next/link'
+
+const slugMap: Record<string, string> = {
+  'Vaccinations': 'vaccinations',
+  'Consultations': 'consultations',
+  'Wellness Checks': 'wellness-checks',
+  'Dental Care': 'dental-care',
+  'Spay & Neuter': 'spay-neuter',
+  'Soft Tissue Surgery': 'soft-tissue-surgery',
+  'Imaging & X-Ray': 'imaging-xray',
+  'Orthopaedic Surgery': 'orthopaedic-surgery',
+  'In-House Laboratory': 'in-house-laboratory',
+  'Ophthalmology': 'ophthalmology',
+  'Nutrition Care': 'nutrition-care',
+  'Emergency Care': 'emergency-care',
+}
+
 const services = [
   {
     name: 'Vaccinations',
@@ -174,9 +191,10 @@ export default function Services() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
           {services.map((service) => (
-            <div
+            <Link
               key={service.name}
-              className="service-card cursor-default"
+              href={`/services/${slugMap[service.name]}`}
+              className="service-card"
               style={{ height: '200px' }}
             >
               <div className="service-card-inner shadow-sm hover:shadow-md">
@@ -202,7 +220,7 @@ export default function Services() {
                 </div>
 
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
