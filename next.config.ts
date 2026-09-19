@@ -27,6 +27,7 @@ const nextConfig: NextConfig = {
     return [
       { source: '/shop', destination: '/', permanent: false },
       { source: '/shop/:path*', destination: '/', permanent: false },
+      { source: '/services/intensive-care', destination: '/services/emergency-care', permanent: true },
     ]
   },
   async headers() {
