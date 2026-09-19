@@ -284,6 +284,38 @@ export const services: Service[] = [
       { q: 'My cat is straining to urinate — is that an emergency?', a: "Yes, especially in male cats. A blocked bladder is a life-threatening emergency. If your cat is straining without producing urine, crying, licking at the genitals, or vomiting, bring them to us immediately." },
     ],
   },
+  {
+    slug: 'intensive-care',
+    name: 'Intensive Care (ICU)',
+    tagline: 'Full ICU capability — for the patients who need it most.',
+    metaDescription: "Veterinary ICU in Dubai at Mike's Vet, Hessa Street. Full intensive care unit with controlled oxygen therapy, temperature regulation, humidity control and UV sterilisation for critically ill cats and dogs.",
+    intro: "Some patients need more than treatment — they need a carefully controlled environment to recover. Mike's Vet operates a full veterinary ICU unit, allowing our team to provide continuous critical care for patients recovering from surgery, managing respiratory illness, fighting infection, or requiring oxygen support. Our ICU gives critically ill cats and dogs the best possible conditions to stabilise and heal.",
+    bullets: [
+      'Dedicated ICU chamber with precision oxygen therapy (21–65% adjustable)',
+      'Controlled temperature environment (15–38°C)',
+      'Humidity regulation (30–80%) to support respiratory recovery',
+      'UV sterilisation — 99.9% pathogen elimination in 30 minutes',
+      'Negative ion air purification for a clean recovery environment',
+      'Nebulisation therapy to deliver medication directly to the airways',
+      'Continuous monitoring by our veterinary team',
+    ],
+    conditions: [
+      'Post-operative recovery after major surgery',
+      'Respiratory distress and breathing difficulties',
+      'Severe pneumonia or pulmonary conditions',
+      'Sepsis and systemic infection',
+      'Recovery after urinary obstruction',
+      'Parvovirus and critical illness in kittens and puppies',
+      'Oxygen-dependent patients',
+    ],
+    whyUs: "Having a dedicated ICU unit on-site means critically ill patients never need to be transferred elsewhere for intensive support. Our team can monitor and adjust care in real time — day and night during our opening hours.",
+    faqs: [
+      { q: 'Does Mike\'s Vet have an ICU?', a: "Yes. We have a full veterinary ICU unit with controlled oxygen, temperature, humidity, UV sterilisation, and nebulisation capability. Critically ill patients can receive intensive care on-site without being transferred to another facility." },
+      { q: 'What conditions require ICU care for pets?', a: "ICU care is used for patients recovering from major surgery, those with severe respiratory disease or pneumonia, septic animals, oxygen-dependent patients, and critically ill kittens or puppies — for example those with parvovirus." },
+      { q: 'Can my pet stay in the ICU overnight?', a: "Our ICU unit is available during our clinic hours (9:00 AM to 9:30 PM, 7 days a week). For patients who need 24-hour monitoring, we will discuss the appropriate care plan with you." },
+      { q: 'What is oxygen therapy for pets?', a: "Oxygen therapy delivers a controlled, higher-than-normal concentration of oxygen to a patient who cannot maintain adequate oxygen levels on their own — common in respiratory illness, pneumonia, post-surgical recovery, and some heart conditions. Our ICU delivers oxygen at precisely controlled concentrations between 21% and 65%." },
+    ],
+  },
 ]
 
 export function getService(slug: string): Service | undefined {

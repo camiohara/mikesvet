@@ -76,6 +76,8 @@ export default function StructuredData() {
       'Cat adoption',
       'Cat fostering',
       'Animal hospital services',
+      'Intensive care unit (ICU)',
+      'Oxygen therapy',
     ],
     speakable: {
       '@type': 'SpeakableSpecification',
@@ -161,6 +163,14 @@ export default function StructuredData() {
         acceptedAnswer: {
           '@type': 'Answer',
           text: "Yes. Mike's Vet runs an active rescue and rehoming programme. You can browse animals available for adoption or fostering at mikesvet.com/adoptions and submit an online application.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "Does Mike's Vet have an ICU for pets in Dubai?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Yes. Mike's Vet has a full veterinary ICU unit with controlled oxygen therapy (21–65% adjustable), precise temperature and humidity regulation, UV sterilisation, and nebulisation capability. It is used for critically ill patients — post-surgical recovery, respiratory distress, severe infection, parvovirus, and oxygen-dependent animals.",
         },
       },
       {
