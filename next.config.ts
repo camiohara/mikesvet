@@ -10,12 +10,12 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval'",       // unsafe-eval needed by Sanity Studio
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://w.behold.so",  // unsafe-eval: Sanity Studio; behold.so: Instagram feed
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: blob: https://cdn.sanity.io https://static.wixstatic.com",
+      "img-src 'self' data: blob: https://cdn.sanity.io https://static.wixstatic.com https://*.behold.so https://*.cdninstagram.com https://images.unsplash.com https://cdn.shopify.com",
       "font-src 'self' data:",
-      "frame-src https://app.cw.vet",                          // ezyVet booking iframe
-      "connect-src 'self' https://*.sanity.io https://api.sanity.io https://formspree.io",
+      "frame-src https://app.cw.vet https://maps.google.com https://www.google.com",  // ezyVet + Google Maps
+      "connect-src 'self' https://*.sanity.io https://api.sanity.io https://formspree.io https://*.behold.so https://mikesvet.myshopify.com",
       "media-src 'self'",
     ].join('; '),
   },
@@ -23,11 +23,18 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   serverExternalPackages: ['sanity', 'next-sanity', '@sanity/client'],
+  async redirects() {
+    return [
+      { source: '/shop', destination: '/', permanent: false },
+      { source: '/shop/:path*', destination: '/', permanent: false },
+    ]
+  },
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }]
   },
   images: {
     formats: ['image/avif', 'image/webp'],
+    deviceSizes: [360, 480, 640, 750, 828, 1080, 1200, 1920],
     remotePatterns: [
       {
         protocol: 'https',
@@ -36,6 +43,14 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.sanity.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.shopify.com',
       },
     ],
   },

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/studio/', '/studio'],
       },
     ],
-    sitemap: 'https://mikesvet.com/sitemap.xml',
+    sitemap: 'https://www.mikesvet.com/sitemap.xml',
   }
 }
