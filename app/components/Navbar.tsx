@@ -52,7 +52,7 @@ export default function Navbar() {
 
         {/* Mobile: Book button + hamburger */}
         <div className="flex md:hidden items-center gap-3">
-          <
+          <a
             href="/#booking"
             className="nav-cta-btn px-3 py-1.5 rounded-full text-xs font-semibold text-white whitespace-nowrap"
             onClick={() => setMenuOpen(false)}
