@@ -819,8 +819,8 @@ export const posts: BlogPost[] = [
     metaTitle: "Dog Limping on Back Leg: CCL Signs & Treatment Dubai | Mike's Vet",
     metaDescription: "Is your dog limping on their back leg in Dubai? It could be a cruciate ligament (CCL) tear. Learn the signs, the simple home sit test, how it is diagnosed, and what treatment involves. From Mike's Vet.",
     heroImage: {
-      url: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&q=80&auto=format&fit=crop&crop=faces',
-      alt: 'A veterinarian gently examining a dog on a consultation table',
+      url: 'https://images.unsplash.com/photo-1562317305-58a17fe2c09e?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A chocolate Labrador retriever — one of the breeds most commonly affected by cruciate ligament tears',
       credit: 'Unsplash',
     },
     sections: [
