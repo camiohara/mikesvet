@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.mikesvet.com'),
   title: {
-    default: "Mike's Vet Dubai | Rated 4.8★ Vet Clinic on Hessa Street",
+    default: "Vet Clinic Dubai | Mike's Vet — 4.8★ | Hessa Street | Open 7 Days",
     template: "%s | Mike's Vet Dubai",
   },
   description:

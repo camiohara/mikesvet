@@ -35,10 +35,10 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-lg"
           style={{ fontFamily: 'var(--font-playfair)' }}
         >
-          Pawsitively the Best Care for Your Furry Friends
+          Dubai's Trusted Veterinary Clinic — Open Every Day
         </h1>
         <p className="text-lg md:text-xl opacity-90 mb-6 max-w-2xl mx-auto leading-relaxed">
-          Comprehensive veterinary hospital run by animal lovers — equipped with the latest technology for diagnostics, surgery, and emergency care.
+          Comprehensive animal hospital run by pet lovers — equipped with the latest technology for diagnostics, surgery, emergency care, and specialist referrals.
         </p>
         <p className="text-sm opacity-70 mb-10">
           Open 7 days &bull; 09:00 AM – 09:30 PM &bull; International team from 6 countries

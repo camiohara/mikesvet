@@ -104,6 +104,22 @@ export default function StructuredData() {
     mainEntity: [
       {
         '@type': 'Question',
+        name: "How much does it cost to see a vet in Dubai?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Vet fees in Dubai vary by clinic and service. At Mike's Vet on Hessa Street, we offer transparent pricing across all services — from routine consultations and vaccinations to dentals, surgery, and diagnostics. Our vet home visit fee is AED 400 + VAT. For specific pricing, call or WhatsApp +971 4 283 7744 or book online at mikesvet.com.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "Who is the best vet in Dubai?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated veterinary clinics, with a 4.8-star Google rating from over 500 reviews. Founded by Mike and Camelia O'Hara, the clinic offers expert care for cats and dogs — including advanced diagnostics, orthopaedic surgery, TPLO, emergency care, and ICU. Open 7 days, 9am–9:30pm including public holidays.",
+        },
+      },
+      {
+        '@type': 'Question',
         name: "What is the best vet clinic in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
