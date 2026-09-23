@@ -55,12 +55,15 @@ export default function StructuredData() {
     areaServed: [
       { '@type': 'City', name: 'Dubai' },
       { '@type': 'Place', name: 'Jumeirah Village Circle' },
+      { '@type': 'Place', name: 'Jumeirah Village Triangle' },
       { '@type': 'Place', name: 'Al Barsha' },
       { '@type': 'Place', name: 'Barsha Heights' },
       { '@type': 'Place', name: 'The Springs' },
       { '@type': 'Place', name: 'Jumeirah' },
       { '@type': 'Place', name: 'Motor City' },
       { '@type': 'Place', name: 'Arabian Ranches' },
+      { '@type': 'Place', name: 'DAMAC Hills' },
+      { '@type': 'Place', name: 'Mudon' },
     ],
     serviceType: [
       'Veterinary diagnostics',
