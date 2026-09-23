@@ -14,6 +14,238 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'dog-vaccinations-dubai',
+    title: 'Dog Vaccinations in Dubai: Complete Schedule, UAE Requirements & What Every Owner Needs to Know',
+    date: '2026-09-23',
+    readTime: '7 min read',
+    excerpt: 'Dubai has specific vaccination requirements for dogs — and the schedule is different to what you may be used to from home. Here is exactly what your dog needs, when, and why.',
+    metaTitle: "Dog Vaccinations Dubai: Full Schedule & UAE Requirements | Mike's Vet",
+    metaDescription: "Complete guide to dog vaccinations in Dubai — DHPPi, rabies, Leptospirosis, Bordetella schedules, UAE import requirements, and puppy timelines. From Mike's Vet on Hessa Street.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A yellow Labrador retriever looking up attentively',
+      credit: 'Unsplash',
+    },
+    sections: [
+      {
+        heading: 'Core Vaccines Every Dog in Dubai Needs',
+        paragraphs: [
+          "Regardless of breed, size, or lifestyle, every dog in Dubai should receive two core vaccines: DHPPi (which covers distemper, hepatitis, parvovirus, and parainfluenza in a single injection) and rabies. These are not optional — they protect against diseases that are either present in the UAE or pose a risk through travel and contact with unvaccinated animals.",
+          "Parvovirus is the most significant immediate risk for unvaccinated puppies. It is highly contagious, can survive in the environment for months, and has a high fatality rate in puppies who are not vaccinated. The Dubai heat does not kill it. Any puppy that has not completed their primary vaccine course should not be in contact with unknown dogs or areas frequented by other dogs.",
+          "Rabies vaccination is a legal requirement for dogs in Dubai and essential for any international travel. If you plan to travel with your dog from Dubai to the UK, EU, Australia, or most other countries, rabies vaccination with documented proof is the starting point for all export health requirements.",
+        ],
+      },
+      {
+        heading: 'Non-Core Vaccines: Leptospirosis and Kennel Cough',
+        paragraphs: [
+          "Leptospirosis is a bacterial disease spread through contaminated water and the urine of infected animals, including rodents. Dogs that go to parks, swim in water, or have outdoor access in Dubai are considered at risk. Leptospirosis can also be transmitted to humans, which makes vaccination an important public health measure as well as a pet health one. We include it in our standard adult dog recommendations for most Dubai lifestyles.",
+          "Bordetella (kennel cough) vaccination is required by virtually all reputable boarding facilities in Dubai and recommended for any dog that attends dog parks, training classes, grooming appointments, or has contact with other dogs. Kennel cough is extremely contagious and spreads rapidly wherever dogs gather. It is rarely fatal in healthy adult dogs but causes significant discomfort and can be serious in puppies, older dogs, or immunocompromised dogs.",
+        ],
+      },
+      {
+        heading: 'Puppy Vaccination Schedule in Dubai',
+        paragraphs: [
+          "Puppies receive maternal antibodies from their mother that gradually wane from around 6–8 weeks of age. The puppy vaccination series is designed to provide protection as maternal immunity fades, without yet knowing exactly when that transition happens for each individual puppy.",
+          "A standard puppy schedule at Mike's Vet: first DHPPi at 8 weeks, second DHPPi at 12 weeks, third DHPPi and rabies at 16 weeks, then a booster at 12–15 months (the timing of this booster is important and is what establishes the adult annual cycle). Until the series is complete, puppies should avoid contact with unvaccinated dogs and areas with high dog traffic.",
+          "After the primary series, adult dogs receive annual DHPPi and Leptospirosis boosters, with rabies given every one to three years depending on the vaccine used and UAE requirements. We keep a digital vaccination record for every patient and send reminders when boosters are due.",
+        ],
+      },
+      {
+        heading: 'Vaccinations for Dogs Coming Into Dubai',
+        paragraphs: [
+          "If you are bringing a dog into Dubai from another country, the UAE requires proof of current rabies vaccination, microchipping, and an import permit from the UAE Ministry of Climate Change and Environment. Requirements vary by country of origin, and some dogs coming from certain countries require additional documentation. Your vet in the origin country should prepare a certified health certificate within a short window before travel.",
+          "If you have recently arrived in Dubai with a dog, we recommend scheduling a full health check to establish a baseline record, update any vaccines that may be due, and register your pet in Dubai. This also gives you the opportunity to address any health issues that may have been missed or undocumented before import.",
+        ],
+      },
+      {
+        heading: 'Vaccinations and Travel: Leaving Dubai with Your Dog',
+        paragraphs: [
+          "Each destination country has different import requirements, but the common elements for most developed countries include: current rabies vaccination (documented with a valid certificate), microchipping in ISO standard format, and an official health certificate issued by an accredited vet within 10 days of travel.",
+          "For travel to the EU or UK, dogs additionally require a rabies neutralising antibody titre test done at least 30 days after the last rabies vaccine, with results above the accepted threshold. This test must be done at an EU-approved laboratory, and the waiting period begins from the date of the test — meaning you may need to plan 3–6 months ahead for these destinations. At Mike's Vet we are accredited to issue export health certificates and can help you plan your travel timeline well in advance.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What vaccines does my dog need in Dubai?', a: "Core vaccines are DHPPi (distemper, hepatitis, parvovirus, parainfluenza) and rabies. Leptospirosis is recommended for most Dubai dogs with outdoor access. Bordetella (kennel cough) is required by most boarding facilities and recommended for dogs that interact with other dogs." },
+      { q: 'How often does my dog need vaccines in Dubai?', a: "After the puppy primary series (at 8, 12, and 16 weeks), dogs receive a booster at 12–15 months, then annual boosters for DHPPi and Leptospirosis. Rabies is given every 1–3 years depending on the vaccine used. We send reminders when boosters are due." },
+      { q: 'Do dogs need vaccines to enter boarding in Dubai?', a: "Yes. All reputable boarding facilities in Dubai require up-to-date vaccinations — at minimum DHPPi, rabies, and Bordetella (kennel cough). You will typically need to provide a vaccination certificate issued by a vet." },
+      { q: 'Can I travel to the UK or EU with my dog from Dubai?', a: "Yes, but it requires advance planning. You will need a microchip, rabies vaccination, a rabies antibody titre test (done at least 30 days after vaccination at an approved lab), and an official health certificate. The titre test result determines when travel is permitted — plan at least 3–6 months ahead for these destinations. We issue export health certificates at Mike's Vet." },
+      { q: 'What age can puppies start going to the park in Dubai?', a: "We recommend keeping puppies away from public spaces frequented by unknown dogs until at least one week after their third DHPPi vaccine (given at 16 weeks). Until that point, the puppy primary series is not complete and immunity to parvovirus, in particular, may not be fully established." },
+    ],
+  },
+  {
+    slug: 'spaying-neutering-dog-dubai',
+    title: 'Spaying and Neutering Dogs in Dubai: Age, Benefits, Cost, and Recovery',
+    date: '2026-09-23',
+    readTime: '6 min read',
+    excerpt: 'When should you neuter or spay your dog in Dubai, and what should you expect? Here is what the current evidence says — including why timing matters more for large breeds.',
+    metaTitle: "Spaying & Neutering Dogs in Dubai: Age, Cost & Recovery | Mike's Vet",
+    metaDescription: "When to spay or neuter your dog in Dubai, the health benefits, what to expect from surgery, and recovery at home. Evidence-based guide from Mike's Vet, Hessa Street.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80&auto=format&fit=crop',
+      alt: 'Two dogs running together outdoors in the sunshine',
+      credit: 'Unsplash',
+    },
+    sections: [
+      {
+        heading: 'Why Spay or Neuter Your Dog?',
+        paragraphs: [
+          "Spaying (removing the ovaries and uterus in females) and neutering (removing the testes in males) are among the most impactful health decisions you can make for your dog. Beyond preventing unwanted pregnancies, these procedures offer significant long-term health benefits that are well-documented across veterinary medicine.",
+          "In female dogs, spaying before the first or second heat cycle dramatically reduces the risk of mammary tumours — the risk is less than 0.5% if spayed before the first heat, rising to 8% after the first heat and 26% after the second. It also eliminates the risk of pyometra, a life-threatening uterine infection that affects roughly 25% of unspayed females before the age of 10 and requires emergency surgery when it occurs.",
+          "In male dogs, neutering eliminates the risk of testicular cancer and reduces the risk of prostate disease, perianal tumours, and perineal hernias. It also tends to reduce testosterone-driven behaviours like roaming, marking, and inter-male aggression — though the extent of behaviour change varies by individual dog and the age at which neutering is done.",
+        ],
+      },
+      {
+        heading: 'When Should You Spay or Neuter — and Does Timing Matter?',
+        paragraphs: [
+          "For small and medium breeds (under approximately 20 kg), the traditional recommendation of 6 months holds up well. At this age, the primary vaccine course is complete, the puppy is old enough for safe anaesthesia, and the health benefits of early neutering are significant.",
+          "For large and giant breeds, the picture has become more nuanced in recent years. Several studies — particularly in Labrador Retrievers, Golden Retrievers, and German Shepherds — suggest that early neutering (before 12 months) may increase the risk of certain orthopaedic conditions, including cruciate ligament rupture, hip dysplasia, and joint disease. The sex hormones appear to play a role in musculoskeletal development, and removing them too early may affect how bones and joints mature.",
+          "The current guidance for large breeds is generally to wait until 12–18 months, allowing the growth plates to close and musculoskeletal development to complete. This is a nuanced decision that depends on your dog's breed, sex, lifestyle, and individual circumstances. Our vets will advise you on the most appropriate timing for your specific dog.",
+        ],
+      },
+      {
+        heading: 'What to Expect from the Surgery',
+        paragraphs: [
+          "Both spay and neuter procedures are performed under general anaesthesia. A pre-anaesthetic blood panel is recommended — particularly for older dogs or those with known health conditions — to check organ function before surgery. Your dog will be fasted from midnight the night before their procedure.",
+          "Spay surgery involves a single incision into the abdomen to remove the ovaries and uterus. Neuter surgery involves one or two small scrotal incisions to remove the testes. Both procedures use modern suture materials and our surgical team uses multimodal pain management — before, during, and after surgery — so your dog is comfortable throughout.",
+          "Recovery time is typically 10–14 days. During this period, your dog should be kept calm and restricted from running, jumping, or swimming. The incision site should be checked daily for signs of swelling, redness, or discharge. Your dog will likely go home with pain medication and, in some cases, an e-collar (Elizabethan collar) to prevent licking the wound.",
+        ],
+      },
+      {
+        heading: 'Recovery at Home',
+        paragraphs: [
+          "Most dogs are back to their normal selves within a few days of surgery, but internal healing takes longer. The 10–14 day rest period is not just about the external wound — it is about giving the internal sutures and tissues time to heal properly. Off-lead exercise, rough play, and climbing stairs should be avoided during this period.",
+          "At Mike's Vet, we schedule a post-operative check at 10–14 days to assess healing, remove any external sutures if present, and confirm your dog is recovering well. If you notice anything concerning before that appointment — discharge, swelling, your dog not eating, or signs of pain — call us on +971 4 283 7744 and we will advise you.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What age should I spay or neuter my dog in Dubai?', a: "For small and medium breeds: around 6 months. For large and giant breeds: 12–18 months is increasingly recommended to allow full musculoskeletal development. The right timing depends on your dog's breed, sex, and lifestyle — book a consultation for personalised advice." },
+      { q: 'How much does it cost to spay or neuter a dog in Dubai?', a: "The cost varies depending on your dog's size and sex — spay surgery is more complex than neutering as it involves opening the abdomen. Contact us on +971 4 283 7744 or WhatsApp for a specific quote for your dog." },
+      { q: 'Is spaying or neutering painful for dogs?', a: "We use modern multimodal pain management protocols — before, during, and after surgery — to ensure your dog is comfortable throughout. Most dogs show minimal signs of discomfort after the first 24–48 hours. You will go home with appropriate pain medication." },
+      { q: 'Can I spay my dog while she is in heat?', a: "It is technically possible but not ideal. The uterus is more vascular during a heat cycle, which increases surgical complexity and bleeding risk. We generally recommend waiting 8–12 weeks after the end of a heat cycle before spaying if possible." },
+      { q: "Will neutering change my dog's personality?", a: "Neutering often reduces testosterone-driven behaviours — roaming, urine marking, and some forms of aggression — but does not change your dog's fundamental personality. Learned behaviours that are not hormone-driven are unlikely to change with neutering alone." },
+    ],
+  },
+  {
+    slug: 'how-to-choose-vet-dubai',
+    title: 'How to Choose a Vet in Dubai: What to Look For, What to Ask, and Red Flags to Avoid',
+    date: '2026-09-22',
+    readTime: '5 min read',
+    excerpt: 'Choosing the right vet in Dubai is one of the most important decisions you will make as a pet owner. Here is a practical guide to finding a clinic you can trust — before you actually need one.',
+    metaTitle: "How to Choose a Vet in Dubai: A Practical Guide | Mike's Vet",
+    metaDescription: "Choosing a vet in Dubai? Here's what to look for — in-house diagnostics, emergency capability, experienced vets, transparent pricing, and how to spot the red flags. From Mike's Vet.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A veterinarian examining a dog on a consultation table',
+      credit: 'Unsplash',
+    },
+    sections: [
+      {
+        heading: 'Why It Matters to Choose Before You Need One',
+        paragraphs: [
+          "Most people register with a vet when their pet is already sick or injured — when they are stressed, time-pressed, and in no position to make a careful choice. The result is that they end up at whatever clinic is closest or has availability, which may not be the right fit for their pet's long-term needs.",
+          "Choosing a vet when your pet is healthy gives you time to visit the clinic, meet the team, check the facilities, and assess whether you feel confident and heard. It also means your vet has a baseline health record for your pet — so that when something does go wrong, they have context, not just a stranger in front of them.",
+        ],
+      },
+      {
+        heading: 'What to Look For in a Dubai Vet Clinic',
+        paragraphs: [
+          "In-house diagnostics are the single biggest practical differentiator. A clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can diagnose most conditions in a single visit. A clinic that sends everything to an external lab will ask you to come back for results — which means more stress for your pet, more time, and sometimes delayed treatment in urgent situations.",
+          "Surgical capability matters more than most owners realise. Many conditions — from a suspected foreign body in the intestine to an orthopaedic injury — require surgery within hours or days. A clinic that can perform surgery in-house means your pet gets treated faster, without the stress of transfer to a different facility with a different team. Ask specifically: do you have a surgical suite? What procedures do you perform in-house? Do your vets have any postgraduate surgical training?",
+          "Emergency capability and hours are the third pillar. Dubai has relatively few true 24-hour emergency vet facilities. Knowing whether your regular clinic has genuine emergency capability during opening hours — oxygen therapy, IV fluids, the ability to stabilise a critical patient — is important. A clinic that can stabilise your pet while you arrange a transfer is far better than one that simply redirects you elsewhere.",
+        ],
+      },
+      {
+        heading: 'Questions Worth Asking a Vet Clinic',
+        paragraphs: [
+          "Before registering your pet, ask these directly: How many vets work at this clinic? What are their backgrounds and training? Do you have in-house blood testing, X-ray, and ultrasound? What surgical procedures can you perform in-house? What happens if my pet has an emergency outside your opening hours? How do you handle pain management during and after procedures?",
+          "The quality of the answers tells you a great deal. Specific, confident answers about equipment, credentials, and protocols indicate a clinic that has thought carefully about how it operates. Vague answers about 'caring for your pet' without specifics are not reassuring. You are looking for evidence of clinical rigour, not just warmth.",
+        ],
+      },
+      {
+        heading: 'Red Flags to Watch For',
+        paragraphs: [
+          "Be cautious of clinics that offer anaesthesia-free dental cleaning — it cannot be done safely or effectively without general anaesthesia, and any clinic promoting it is prioritising marketing over evidence-based medicine. Similarly, a clinic that diagnoses and prescribes without a thorough physical examination, or that relies entirely on external labs for basic diagnostics, may not have the clinical infrastructure to properly support your pet.",
+          "Pressure to purchase unnecessary products or supplements at every visit, very high staff turnover, or a clinic where you never see the same vet twice are also worth noting. Continuity of care matters in veterinary medicine — your pet's history, their normal baseline, and the relationship between vet and patient all contribute to better outcomes over time.",
+        ],
+      },
+      {
+        heading: "What Makes Mike's Vet Different",
+        paragraphs: [
+          "Mike's Vet on Hessa Street is a full-service veterinary clinic rated 4.8 stars on Google by over 500 pet owners in Dubai. Our team includes vets from 6 countries with a range of specialist training — including postgraduate certification in small animal surgery, ultrasound, and internal medicine. We have full in-house diagnostics (IDEXX blood analysers, Zoetis Vetscan Imagyst AI parasite testing, digital X-ray, and a Mindray Vetus9 ultrasound), a dedicated surgical suite, and a fully equipped ICU.",
+          "We are open 7 days a week from 9:00 AM to 9:30 PM including public holidays, and we offer home visits for pets who are stressed by the clinic environment. Most diagnostic workups are completed in a single visit. If you would like to meet the team or see the clinic before registering your pet, you are welcome to visit us on Hessa Street or call +971 4 283 7744.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What should I look for in a vet clinic in Dubai?', a: "The most important factors are: in-house diagnostics (blood tests, X-ray, ultrasound), surgical capability, experienced vets with documented training, transparent pricing, and genuine emergency capability during opening hours. Choose before you need one — not in a crisis." },
+      { q: 'How do I know if a vet clinic in Dubai is good?', a: "Look for: Google reviews with substantive feedback (not just star ratings), a clear description of their diagnostic and surgical equipment, vets whose qualifications and backgrounds are listed, and a clinic that answers your questions with specifics rather than generalities. A visit before you register is worthwhile." },
+      { q: 'Is there a 24-hour vet in Dubai?', a: "A small number of clinics offer 24-hour emergency cover. Mike's Vet is open 7 days a week from 9:00 AM to 9:30 PM including public holidays. For after-hours emergencies, call us on +971 4 283 7744 and we will advise on the most appropriate option." },
+      { q: 'How much does a vet visit cost in Dubai?', a: "Consultation fees in Dubai vary by clinic. At Mike's Vet, we offer transparent pricing — call or WhatsApp +971 4 283 7744 for specific costs. Home visits are AED 400 + VAT." },
+    ],
+  },
+  {
+    slug: 'travelling-with-pet-from-dubai',
+    title: 'Travelling with Your Pet from Dubai: Export Health Certificates, Rabies Titres, and Country Requirements',
+    date: '2026-09-22',
+    readTime: '8 min read',
+    excerpt: 'Moving or travelling abroad with your pet from Dubai involves more planning than most owners expect. Here is what you need, how far in advance, and what happens if you miss a step.',
+    metaTitle: "Travelling with Pets from Dubai: Health Certificates & Requirements | Mike's Vet",
+    metaDescription: "Complete guide to pet export from Dubai — health certificates, rabies titre tests, microchip requirements, UK and EU pet travel rules, and timing. From Mike's Vet, Hessa Street.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog sitting near a travel bag, looking ready for a journey',
+      credit: 'Unsplash',
+    },
+    sections: [
+      {
+        heading: 'Why Pet Travel from Dubai Requires Advance Planning',
+        paragraphs: [
+          "Pet travel from Dubai to most developed countries involves a sequence of steps that must be done in the right order and within specific timeframes. Missing one step — or doing them out of order — can result in your pet being refused entry, quarantined, or returned to the country of origin. Unlike booking a flight, you cannot solve this at the last minute.",
+          "The most common mistake is underestimating the timeline. For travel to the UK, EU, Australia, and New Zealand in particular, certain requirements must be met months before your travel date. Understanding what is needed, and when, is the first step to a smooth journey for your pet.",
+        ],
+      },
+      {
+        heading: 'The Universal Requirements: Microchip and Rabies Vaccination',
+        paragraphs: [
+          "Almost every country requires that your pet be microchipped with an ISO 11784/11785 compliant chip (15-digit, 134.2 kHz) before any other health steps are taken. This is because the microchip is the unique identifier that links your pet to their health records. If your pet is microchipped after their rabies vaccination, the vaccination may not count for entry purposes — the chip must come first.",
+          "Rabies vaccination is the other universal requirement. The vaccination must be administered to a microchipped animal, and the documentation must record both the microchip number and the vaccine details (brand, batch number, expiry date, date given, and next due date). At Mike's Vet, our vaccination certificates are issued in a format that meets international documentation standards.",
+        ],
+      },
+      {
+        heading: 'UK and EU Pet Travel: The Rabies Titre Test',
+        paragraphs: [
+          "The UK and EU require a rabies neutralising antibody titre test in addition to vaccination. This blood test checks that your pet's immune system has responded adequately to the rabies vaccine — producing enough antibodies to meet the accepted threshold of 0.5 IU/mL or above.",
+          "The test must be done at an EU-approved laboratory. In Dubai, blood samples for titre testing are sent to approved labs in Europe or elsewhere. The critical timing rules are: the titre test cannot be done until at least 30 days after the rabies vaccination; and the waiting period before travel to the UK or EU begins from the date of the blood sample, not the date of the result. The minimum waiting period is 3 months after the titre blood draw (for the EU) or varies for the UK — check current APHA guidance.",
+          "This means that if you plan to travel to the UK or EU, you should begin the process at least 4–6 months before your intended travel date — sooner if your pet is not yet vaccinated. At Mike's Vet, we can advise you on the exact timeline based on your destination and current vaccine status.",
+        ],
+      },
+      {
+        heading: 'Australia and New Zealand',
+        paragraphs: [
+          "Australia and New Zealand have among the strictest pet import rules in the world, reflecting their status as rabies-free countries with unique native ecosystems. Requirements include: microchipping, rabies vaccination and titre testing, treatment for parasites and ticks, mandatory quarantine (which can be months), and an import permit obtained before travel.",
+          "Dogs coming from the UAE are typically classified as Category 3 countries, meaning they face the full quarantine protocol. Given the complexity and cost, we strongly recommend consulting a specialist pet relocation service and a vet accredited for export documentation well in advance — ideally 12 months or more before your intended travel date.",
+        ],
+      },
+      {
+        heading: 'The Export Health Certificate',
+        paragraphs: [
+          "Most countries require an official export health certificate — a government-approved document signed by an accredited vet, certifying that your pet meets all entry requirements for the destination country. This certificate typically has a very short validity window: for the UK and EU, it must be issued within 10 days of travel.",
+          "At Mike's Vet, we are accredited to issue export health certificates for a wide range of destinations. We recommend booking a health certificate appointment well in advance of your travel date, and bringing all your pet's documentation — vaccination records, microchip certificate, and titre test results if required. We will check everything is in order, complete the clinical examination, and issue the certificate.",
+          "Airline requirements vary — most airlines require pets to travel in an IATA-approved carrier, and many restrict travel during summer months due to Dubai heat. Check with your airline directly for their specific pet travel policies.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What do I need to travel from Dubai with my dog or cat?', a: "At minimum: ISO-compliant microchip (before rabies vaccination), current rabies vaccination with documentation, and an official export health certificate issued within 10 days of travel by an accredited vet. The UK, EU, Australia, and NZ have additional requirements including titre tests and/or quarantine." },
+      { q: 'How far in advance should I plan pet travel from Dubai?', a: "For the UK and EU: at least 4–6 months before travel, to allow time for rabies vaccination (if not current), titre testing, the waiting period, and the health certificate. For Australia and New Zealand: 12 months or more is realistic. For most other countries: 4–8 weeks is usually sufficient but check destination-specific rules." },
+      { q: "Does Mike's Vet issue pet export health certificates in Dubai?", a: "Yes. We are accredited to issue export health certificates for a wide range of destinations. Book an appointment by calling or WhatsApp on +971 4 283 7744. Bring all your pet's documentation to the appointment." },
+      { q: 'What is a rabies titre test and do I need one?', a: "A rabies titre test (RNATT) is a blood test that checks your pet has sufficient rabies antibodies. It is required for travel to the UK, EU, Australia, New Zealand, and some other destinations. The test must be done at an approved laboratory at least 30 days after rabies vaccination, with a waiting period after the test before travel is permitted." },
+      { q: 'Can I take my pet on a plane from Dubai in summer?', a: "Many airlines restrict or prohibit pets travelling as checked baggage or in the hold during Dubai's summer months (typically June–September) due to extreme heat at airports. Some airlines permit pets in-cabin year-round for small animals. Check directly with your airline for their specific pet travel policy." },
+    ],
+  },
+  {
     slug: 'how-to-choose-cat-vet-dubai',
     title: 'How to Choose a Cat Vet in Dubai: What Every Cat Owner Should Know',
     date: '2026-09-23',
