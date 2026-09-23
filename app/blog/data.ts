@@ -14,6 +14,67 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-choose-cat-vet-dubai',
+    title: 'How to Choose a Cat Vet in Dubai: What Every Cat Owner Should Know',
+    date: '2026-09-23',
+    readTime: '6 min read',
+    excerpt: 'Not all vet clinics are equal when it comes to cats. Here is what to look for, which questions to ask, and the signs a clinic genuinely understands feline care — from a team that treats cats every day.',
+    metaTitle: "How to Choose a Cat Vet in Dubai | Mike's Vet",
+    metaDescription: "Looking for a cat vet in Dubai? Here's exactly what to look for — low-stress handling, feline expertise, in-house diagnostics, and emergency capability. A practical guide from Mike's Vet on Hessa Street.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A tabby cat looking directly at the camera with bright eyes',
+      credit: 'Unsplash',
+    },
+    sections: [
+      {
+        heading: 'Why Cats Need a Different Kind of Vet',
+        paragraphs: [
+          "Cats are physiologically and behaviourally different from dogs in ways that matter a great deal in a clinical setting. They metabolise certain medications differently — some drugs that are safe for dogs are toxic to cats. They respond differently to pain and stress, and because they evolved as both predator and prey, they are hardwired to hide signs of illness until they feel safe to show them. A cat that 'seems fine' may have been quietly managing kidney disease, hyperthyroidism, or dental pain for months.",
+          "A vet who understands cats adjusts their entire approach — how they handle the animal, how they interpret clinical signs, which drugs they use, and how they read the subtleties that cats give you when they can't vocalise what hurts. A clinic that treats cats and dogs identically is not giving your cat the care they deserve.",
+        ],
+      },
+      {
+        heading: 'What to Look For in a Cat Vet Clinic',
+        paragraphs: [
+          "The most important thing is hands-on feline experience. Ask how many cat patients the clinic sees regularly, whether the vets have additional feline training, and how they handle anxious or fractious cats. Low-stress handling — minimal restraint, quiet approach, letting the cat set the pace — is not just kinder; it produces better clinical outcomes. A cat that is less stressed allows a more accurate examination.",
+          "Separation from dogs is another key marker. A waiting room where cats and dogs share the same space elevates feline stress immediately and measurably. Some clinics have separate waiting areas or will take cats directly into a consultation room on arrival. In-house diagnostics also matter: a clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can complete most workups in a single visit — meaning your cat spends less time in an unfamiliar environment and you get answers the same day.",
+          "For emergencies, check whether the clinic has real critical care capability — IV fluids, oxygen therapy, and a vet experienced with common feline emergencies like urinary blockages, respiratory distress, and toxin ingestion. The nearest 24-hour clinic matters less than having a clinic with genuine in-house emergency capability during normal operating hours.",
+        ],
+      },
+      {
+        heading: 'Dubai-Specific Considerations for Cat Owners',
+        paragraphs: [
+          "Dubai's climate and lifestyle create some specific risks for cats. Heat-related illness is a real danger for any cat with outdoor access or in a poorly ventilated space — and even indoor cats can be affected if air conditioning fails. Indoor cats in Dubai apartments are at higher risk of obesity and the conditions that follow: diabetes, fatty liver disease, and joint problems. Regular wellness checks and an honest conversation about diet and enrichment are particularly valuable here.",
+          "If you plan to travel internationally with your cat, Dubai has specific export requirements — and destination countries have their own import rules that typically involve rabies vaccination, microchipping, blood titre tests (for the EU and UK), and an official health certificate signed by an accredited vet within a short window of departure. A good vet clinic will know these requirements and help you plan the timeline well in advance, because some tests — particularly rabies neutralising antibody titres — need to be done months ahead of travel.",
+          "Stray and rescue cats are common in Dubai, and many residents adopt one. If you have recently brought home a stray or rescue cat, a full health screen is essential: FIV (feline immunodeficiency virus) and FeLV (feline leukaemia) testing, parasite treatment, vaccination, and dental assessment. Stray cats often carry hidden health issues that are manageable when caught early.",
+        ],
+      },
+      {
+        heading: 'Questions to Ask Before You Choose a Cat Vet',
+        paragraphs: [
+          "Before registering your cat at a clinic, it is worth asking a few direct questions. Do you see many feline patients? How do you handle cats that are anxious or uncooperative — do you use minimal restraint techniques? Is there somewhere cats wait that is separate from dogs? Do you have in-house blood testing, urinalysis, X-ray, and ultrasound? What happens if my cat has an emergency outside your operating hours?",
+          "The answers tell you a great deal. A clinic that gives vague answers to these questions, or that has no real policy on low-stress handling, is likely not cat-specialist in any meaningful sense. A clinic that answers with specifics — particular handling protocols, names of equipment, a clear emergency plan — is one that has thought seriously about feline care.",
+        ],
+      },
+      {
+        heading: 'Signs Your Cat Needs to See a Vet Urgently',
+        paragraphs: [
+          "Because cats hide illness so effectively, it is worth knowing the signs that should prompt an urgent vet visit. Straining to urinate or producing little to no urine — particularly in male cats — is a life-threatening emergency that requires immediate attention. Difficulty breathing, open-mouth breathing, or pale or blue-tinged gums are also emergencies. Sudden hind leg weakness or paralysis, an inability to stand, seizures, suspected toxin ingestion, or a swollen distended abdomen all require urgent care.",
+          "Less dramatic but still important: unexplained weight loss, changes in water intake or urination, hiding more than usual, loss of appetite lasting more than 24–48 hours, or vomiting more than once or twice a week. These signs rarely resolve on their own in cats, and early diagnosis makes treatment significantly more effective.",
+          "At Mike's Vet on Hessa Street, we see cats every day — from routine kitten appointments to complex surgical and emergency cases. If you are not sure whether your cat's symptoms warrant a visit, call us on +971 4 283 7744 or WhatsApp us and we will help you decide.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'How often should I take my cat to the vet in Dubai?', a: "Kittens need several visits in their first year for vaccines, parasite treatment, and health checks. Adult cats (1–7 years) should be seen at least once a year. Senior cats (7+) benefit from twice-yearly check-ups to catch kidney disease, hyperthyroidism, dental disease, and other age-related conditions early." },
+      { q: 'What vaccinations does my cat need in Dubai?', a: "Core vaccines for cats in Dubai are FVRCP (cat flu and feline panleucopenia) and rabies. FeLV vaccination is recommended for cats with outdoor access or contact with unknown cats. Kittens receive their first vaccines from 8 weeks, followed by boosters at 12 and 16 weeks, then annual or triennial adult boosters." },
+      { q: 'How much does a cat vet visit cost in Dubai?', a: "Cat vet consultation fees in Dubai vary by clinic and the services required. At Mike's Vet on Hessa Street, we offer transparent pricing — call or WhatsApp +971 4 283 7744 for specific costs. Our home visit fee for cat owners who prefer it is AED 400 + VAT." },
+      { q: 'What are the signs my cat needs emergency vet care?', a: "See a vet immediately if your cat is straining to urinate without producing urine (especially male cats), breathing with their mouth open, showing sudden hind leg weakness, has suspected toxin ingestion, is unresponsive, or has a distended abdomen. Call us on +971 4 283 7744." },
+      { q: 'Can a general vet treat my cat, or do I need a cat specialist?', a: "A good general vet with feline experience handles the vast majority of cat health needs well — vaccinations, dental care, spay/neuter, diagnostics, soft tissue surgery, and emergency care. A specialist (feline-only clinic or a board-certified internist) adds value for complex or rare conditions, but most Dubai cat owners will receive excellent care from an experienced general practice that takes feline medicine seriously." },
+    ],
+  },
+  {
     slug: 'stray-cat-quarantine-dubai',
     title: 'How Long to Quarantine a Stray Cat: A Dubai Guide to Bringing Home a Street Cat',
     date: '2026-09-27',
