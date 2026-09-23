@@ -35,7 +35,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-lg"
           style={{ fontFamily: 'var(--font-playfair)' }}
         >
-          Dubai's Trusted Veterinary Clinic — Open Every Day
+          Trusted Veterinary Clinic in Dubai — Open Every Day
         </h1>
         <p className="text-lg md:text-xl opacity-90 mb-6 max-w-2xl mx-auto leading-relaxed">
           Comprehensive animal hospital run by pet lovers — equipped with the latest technology for diagnostics, surgery, emergency care, and specialist referrals.
