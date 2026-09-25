@@ -18,7 +18,7 @@ const slugMap: Record<string, string> = {
 const services = [
   {
     name: 'Vaccinations',
-    description: 'Comprehensive vaccination schedules to protect your pet from common and serious diseases — tailored to their age and lifestyle.',
+    description: 'Comprehensive vaccination schedules to protect your pet from common and serious diseases - tailored to their age and lifestyle.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <path d="M44 8l12 12-4 4-12-12 4-4z" fill="var(--color-brand)" opacity=".3"/>
@@ -78,7 +78,7 @@ const services = [
   },
   {
     name: 'Soft Tissue Surgery',
-    description: 'Expert surgical procedures covering a wide range of conditions — from tumour removals to gastrointestinal and respiratory surgery.',
+    description: 'Expert surgical procedures covering a wide range of conditions - from tumour removals to gastrointestinal and respiratory surgery.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <path d="M16 16l32 32" stroke="var(--color-brand)" strokeWidth="3.5" strokeLinecap="round" opacity=".3"/>
@@ -92,7 +92,7 @@ const services = [
   },
   {
     name: 'Imaging & X-Ray',
-    description: 'In-house digital X-ray and ultrasound imaging for fast, accurate internal assessments — results without the wait of external referrals.',
+    description: 'In-house digital X-ray and ultrasound imaging for fast, accurate internal assessments - results without the wait of external referrals.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <rect x="10" y="14" width="44" height="36" rx="4" fill="var(--color-brand)" opacity=".12"/>
@@ -105,7 +105,7 @@ const services = [
   },
   {
     name: 'Orthopaedic Surgery',
-    description: 'Specialist bone and joint surgery for fractures, ligament injuries, and skeletal conditions — helping your pet move freely again.',
+    description: 'Specialist bone and joint surgery for fractures, ligament injuries, and skeletal conditions - helping your pet move freely again.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <path d="M20 10c0 4 2 6 4 8s2 6 0 10-6 6-6 12 4 10 8 10c2 0 4-1 5-3" fill="none" stroke="var(--color-brand)" strokeWidth="3" strokeLinecap="round"/>
@@ -117,7 +117,7 @@ const services = [
   },
   {
     name: 'In-House Laboratory',
-    description: 'Full IDEXX laboratory suite on-site for blood work, urine analysis, and more — giving our vets same-day results to act quickly.',
+    description: 'Full IDEXX laboratory suite on-site for blood work, urine analysis, and more - giving our vets same-day results to act quickly.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <path d="M24 12v22L14 50h36L40 34V12" stroke="var(--color-brand)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
@@ -199,7 +199,7 @@ export default function Services() {
             >
               <div className="service-card-inner shadow-sm hover:shadow-md">
 
-                {/* Front — icon + name */}
+                {/* Front - icon + name */}
                 <div className="service-card-front bg-white gap-4 px-4">
                   <div className="flex items-center justify-center w-16 h-16">
                     {service.icon}
@@ -209,7 +209,7 @@ export default function Services() {
                   </p>
                 </div>
 
-                {/* Back — description on brand teal */}
+                {/* Back - description on brand teal */}
                 <div className="service-card-back gap-3">
                   <p className="text-sm font-bold text-white text-center leading-snug mb-1">
                     {service.name}

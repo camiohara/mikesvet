@@ -276,7 +276,7 @@ function AdoptForm() {
             <div className="space-y-3">
               {[
                 ['agreeTerms', 'I understand that the welfare of the animal is the primary consideration and Mike\'s Vet reserves the right to decline any application'],
-                ['agreeReturn', 'I understand that no pet can be handed over to a third party — if I can no longer care for the animal, they must be returned to Mike\'s Vet'],
+                ['agreeReturn', 'I understand that no pet can be handed over to a third party - if I can no longer care for the animal, they must be returned to Mike\'s Vet'],
                 ['agreeDeclaration', 'I certify that all information provided on this form is true and correct'],
               ].map(([key, label]) => (
                 <label key={key} className="flex items-start gap-3 cursor-pointer">

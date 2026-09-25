@@ -39,10 +39,10 @@ export default function About() {
             {hasPhoto ? (
               <Image
                 src={photoSrc}
-                alt="Cami and Mike O'Hara — founders of Mike's Vet"
+                alt="Cami and Mike O'Hara - founders of Mike's Vet"
                 fill
                 className="object-cover object-center"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 1024px) 100vw, 620px"
               />
             ) : (
               <div className="w-full h-full flex flex-col items-center justify-center text-white opacity-60 gap-3 p-10 text-center min-h-72">

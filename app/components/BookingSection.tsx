@@ -1,6 +1,22 @@
 'use client'
 
+import { useEffect, useRef, useState } from 'react'
+
 export default function BookingSection() {
+  const sentinelRef = useRef<HTMLDivElement>(null)
+  const [iframeReady, setIframeReady] = useState(false)
+
+  useEffect(() => {
+    const el = sentinelRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setIframeReady(true) },
+      { rootMargin: '300px' }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <section id="booking" className="py-24" style={{ backgroundColor: 'var(--color-brand-light)' }}>
       <div className="max-w-5xl mx-auto px-6">
@@ -57,23 +73,36 @@ export default function BookingSection() {
           </div>
         </div>
 
-        {/* ezyVet iframe */}
-        <div className="flex justify-center w-full overflow-x-auto">
-          <iframe
-            allow="clipboard-write; fullscreen; payment *"
-            src="https://app.cw.vet/booking/ae/mikesvet"
-            title="Book an Appointment"
-            style={{
-              width: '100%',
-              minWidth: '320px',
-              maxWidth: '800px',
-              height: '800px',
-              border: 'none',
-              boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)',
-              borderRadius: '0.5rem',
-              flexShrink: 0,
-            }}
-          />
+        {/* ezyVet iframe - deferred until near viewport */}
+        <div ref={sentinelRef} className="flex justify-center w-full overflow-x-auto">
+          {iframeReady ? (
+            <iframe
+              allow="clipboard-write; fullscreen; payment *"
+              src="https://app.cw.vet/booking/ae/mikesvet"
+              title="Book an Appointment"
+              style={{
+                width: '100%',
+                minWidth: '320px',
+                maxWidth: '800px',
+                height: '800px',
+                border: 'none',
+                boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)',
+                borderRadius: '0.5rem',
+                flexShrink: 0,
+              }}
+            />
+          ) : (
+            <div
+              style={{
+                width: '100%',
+                maxWidth: '800px',
+                height: '800px',
+                borderRadius: '0.5rem',
+                backgroundColor: 'white',
+                opacity: 0.4,
+              }}
+            />
+          )}
         </div>
       </div>
     </section>

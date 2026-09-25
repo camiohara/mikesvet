@@ -5,12 +5,12 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: "Vet Services in Dubai | Mike's Vet, Hessa Street",
   description:
-    "Complete veterinary services for cats and dogs in Dubai — vaccinations, dental care, surgery, imaging, emergency care, and more. Open 7 days at Mike's Vet, Hessa Street.",
+    "Complete veterinary services for cats and dogs in Dubai - vaccinations, dental care, surgery, imaging, emergency care, and more. Open 7 days at Mike's Vet, Hessa Street.",
   alternates: { canonical: 'https://www.mikesvet.com/services' },
   openGraph: {
     title: "Vet Services in Dubai | Mike's Vet",
     description:
-      "From routine vaccinations to orthopaedic surgery — comprehensive pet care under one roof on Hessa Street, Dubai.",
+      "From routine vaccinations to orthopaedic surgery - comprehensive pet care under one roof on Hessa Street, Dubai.",
     url: 'https://www.mikesvet.com/services',
   },
 }
@@ -31,7 +31,7 @@ export default function ServicesPage() {
             Veterinary Services in Dubai
           </h1>
           <p className="text-lg text-[var(--color-gray-mid)] max-w-xl mx-auto">
-            Comprehensive care for cats and dogs — from preventive wellness to advanced surgery — all under one roof on Hessa Street.
+            Comprehensive care for cats and dogs - from preventive wellness to advanced surgery - all under one roof on Hessa Street.
           </p>
         </div>
       </section>

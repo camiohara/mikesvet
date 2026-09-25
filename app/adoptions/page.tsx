@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: 'Adopt or Foster a Cat in Dubai',
   description:
     "Browse cats and dogs available for adoption or fostering through Mike's Vet Dubai. Every animal is rescued, vaccinated, and neutered. Apply online in minutes.",
-  alternates: { canonical: 'https://mikesvet.com/adoptions' },
+  alternates: { canonical: 'https://www.mikesvet.com/adoptions' },
   openGraph: {
     title: "Adopt or Foster a Cat in Dubai | Mike's Vet",
-    description: "Rescued cats and dogs looking for their forever home in Dubai. Browse animals, apply to adopt or foster — all through Mike's Vet.",
-    url: 'https://mikesvet.com/adoptions',
+    description: "Rescued cats and dogs looking for their forever home in Dubai. Browse animals, apply to adopt or foster - all through Mike's Vet.",
+    url: 'https://www.mikesvet.com/adoptions',
   },
 }
 
@@ -34,9 +34,28 @@ export default async function AdoptionsPage() {
           >
             Give a Cat a Forever Home
           </h1>
-          <p className="text-lg text-[var(--color-gray-mid)] mb-10 max-w-xl mx-auto">
+          <p className="text-lg text-[var(--color-gray-mid)] mb-6 max-w-xl mx-auto">
             Every animal here has been rescued, vetted, and loved by our team. They&apos;re waiting for someone just like you.
           </p>
+          <div className="rounded-2xl bg-white px-6 py-5 mb-10 max-w-2xl mx-auto text-left shadow-sm">
+            <p className="text-sm font-semibold text-[var(--color-navy)] mb-3 text-center">
+              All cats available for adoption or fostering are:
+            </p>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+              {[
+                'Vaccinated',
+                'Neutered / Spayed',
+                'Microchipped',
+                'FIV & FeLV negative',
+                'Full health check passed',
+              ].map((item) => (
+                <span key={item} className="flex items-center gap-2 text-sm text-[var(--color-gray-mid)]">
+                  <span className="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center shrink-0" style={{ fontSize: '9px', color: 'white', fontWeight: 700 }}>✓</span>
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="/adoptions/adopt"
@@ -61,7 +80,7 @@ export default async function AdoptionsPage() {
         <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           {[
             { step: '01', title: 'Browse', desc: 'Find an animal whose personality matches your home and lifestyle.' },
-            { step: '02', title: 'Apply', desc: 'Fill in our short foster or adoption application — takes 5 minutes.' },
+            { step: '02', title: 'Apply', desc: 'Fill in our short foster or adoption application - takes 5 minutes.' },
             { step: '03', title: 'Meet', desc: 'Our team arranges a meet-and-greet. If it\'s a match, they go home with you.' },
           ].map(({ step, title, desc }) => (
             <div key={step} className="flex flex-col items-center gap-3">
@@ -84,7 +103,7 @@ export default async function AdoptionsPage() {
       <section className="py-16 text-center" style={{ backgroundColor: 'var(--color-brand-light)' }}>
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[var(--color-navy)] mb-4" style={{ fontFamily: 'var(--font-playfair)' }}>
-            Not sure — foster first
+            Not sure - foster first
           </h2>
           <p className="text-[var(--color-gray-mid)] mb-8 leading-relaxed">
             Fostering is a no-commitment way to give an animal a safe temporary home while they wait for their forever family. Foster parents are always first in line to adopt.

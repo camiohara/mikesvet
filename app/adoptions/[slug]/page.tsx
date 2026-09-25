@@ -16,16 +16,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     ? urlForImage(animal.photos[0])?.width(600).height(600).fit('crop').url() ?? ''
     : ''
   return {
-    title: `Adopt ${animal.name} — ${animal.breed ?? animal.species} in Dubai`,
+    title: `Adopt ${animal.name} - ${animal.breed ?? animal.species} in Dubai`,
     description: animal.description
       ? animal.description.slice(0, 155)
       : `${animal.name} is available for adoption or fostering through Mike's Vet Dubai.`,
-    alternates: { canonical: `https://mikesvet.com/adoptions/${slug}` },
+    alternates: { canonical: `https://www.mikesvet.com/adoptions/${slug}` },
     openGraph: {
       title: `Meet ${animal.name} | Available for Adoption in Dubai`,
       description: animal.description?.slice(0, 155) ?? '',
       images: photoUrl ? [{ url: photoUrl, width: 600, height: 600 }] : [],
-      url: `https://mikesvet.com/adoptions/${slug}`,
+      url: `https://www.mikesvet.com/adoptions/${slug}`,
     },
   }
 }
@@ -140,7 +140,7 @@ export default async function AnimalPage({ params }: { params: Promise<{ slug: s
             </div>
 
             <a
-              href={`https://wa.me/97142837744?text=${encodeURIComponent(`Hi! I have a question about ${animal.name} 🐾`)}`}
+              href={`https://wa.me/97142837744?text=${encodeURIComponent(`Hi! I'm interested in ${animal.name} who is available for adoption. Here is ${animal.gender === 'male' ? 'his' : 'her'} profile: https://www.mikesvet.com/adoptions/${slug}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 flex items-center justify-center gap-2 w-full py-3 rounded-full font-semibold text-white text-sm hover:opacity-90 transition-opacity"

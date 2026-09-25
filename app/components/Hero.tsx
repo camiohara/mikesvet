@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
-      {/* Background video — place your MP4 at public/hero.mp4 */}
+      {/* Background video - place your MP4 at public/hero.mp4 */}
       <video
         autoPlay
         muted
@@ -14,7 +14,7 @@ export default function Hero() {
         <source src="/hero.mp4" type="video/mp4" />
       </video>
 
-      {/* Neutral dark scrim for text readability — no colour tint */}
+      {/* Neutral dark scrim for text readability - no colour tint */}
       <div
         className="absolute inset-0"
         style={{ zIndex: 1, backgroundColor: 'rgba(0,0,0,0.45)' }}
@@ -35,10 +35,10 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-lg"
           style={{ fontFamily: 'var(--font-playfair)' }}
         >
-          Trusted Veterinary Clinic in Dubai — Open Every Day
+          Trusted Veterinary Clinic in Dubai - Open Every Day
         </h1>
         <p className="text-lg md:text-xl opacity-90 mb-6 max-w-2xl mx-auto leading-relaxed">
-          Comprehensive animal hospital run by pet lovers — equipped with the latest technology for diagnostics, surgery, emergency care, and specialist referrals.
+          Comprehensive animal hospital run by pet lovers - equipped with the latest technology for diagnostics, surgery, emergency care, and specialist referrals.
         </p>
         <p className="text-sm opacity-70 mb-10">
           Open 7 days &bull; 09:00 AM – 09:30 PM &bull; International team from 6 countries

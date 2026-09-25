@@ -7,12 +7,12 @@ const indicators = [
   {
     icon: '🔬',
     title: 'Advanced Diagnostics',
-    description: 'Full in-house IDEXX laboratory, radiology, and imaging so you get answers fast — without external referrals.',
+    description: 'Full in-house IDEXX laboratory, radiology, and imaging so you get answers fast - without external referrals.',
   },
   {
     icon: '🏥',
     title: 'Full-Spectrum Care',
-    description: 'From routine wellness checks to complex surgery and emergency critical care — we handle it all under one roof.',
+    description: 'From routine wellness checks to complex surgery and emergency critical care - we handle it all under one roof.',
   },
   {
     icon: '❤️',

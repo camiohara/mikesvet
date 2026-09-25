@@ -63,7 +63,7 @@ export default function Team() {
             International Vets, Local Heart
           </h2>
           <p className="text-[var(--color-gray-mid)] max-w-xl mx-auto text-lg">
-            Our specialists from 6 countries are united by one mission — the very best care for your pet.
+            Our specialists from 6 countries are united by one mission - the very best care for your pet.
           </p>
         </div>
 

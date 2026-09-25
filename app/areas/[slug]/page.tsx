@@ -125,7 +125,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           >
             <div>
               <p className="font-bold text-[var(--color-navy)] mb-1">Open 7 days a week · 9:00 AM – 9:30 PM</p>
-              <p className="text-sm text-[var(--color-gray-mid)]">Including Fridays and all public holidays — we&apos;re here when you need us.</p>
+              <p className="text-sm text-[var(--color-gray-mid)]">Including Fridays and all public holidays - we&apos;re here when you need us.</p>
             </div>
             <a
               href="tel:+97142837744"
@@ -197,7 +197,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             Ready to book?
           </h2>
           <p className="text-[var(--color-gray-mid)] mb-7 text-sm leading-relaxed">
-            We&apos;re {area.driveTime} from {area.name} and open every day. Book online, call, or WhatsApp — we&apos;ll get your pet seen as quickly as possible.
+            We&apos;re {area.driveTime} from {area.name} and open every day. Book online, call, or WhatsApp - we&apos;ll get your pet seen as quickly as possible.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

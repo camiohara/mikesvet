@@ -18,9 +18,9 @@ export const posts: BlogPost[] = [
     title: 'Dog Vaccinations in Dubai: Complete Schedule, UAE Requirements & What Every Owner Needs to Know',
     date: '2026-09-23',
     readTime: '7 min read',
-    excerpt: 'Dubai has specific vaccination requirements for dogs — and the schedule is different to what you may be used to from home. Here is exactly what your dog needs, when, and why.',
+    excerpt: 'Dubai has specific vaccination requirements for dogs - and the schedule is different to what you may be used to from home. Here is exactly what your dog needs, when, and why.',
     metaTitle: "Dog Vaccinations Dubai: Full Schedule & UAE Requirements | Mike's Vet",
-    metaDescription: "Complete guide to dog vaccinations in Dubai — DHPPi, rabies, Leptospirosis, Bordetella schedules, UAE import requirements, and puppy timelines. From Mike's Vet on Hessa Street.",
+    metaDescription: "Complete guide to dog vaccinations in Dubai - DHPPi, rabies, Leptospirosis, Bordetella schedules, UAE import requirements, and puppy timelines. From Mike's Vet on Hessa Street.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
       alt: 'A yellow Labrador retriever looking up attentively',
@@ -30,7 +30,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Core Vaccines Every Dog in Dubai Needs',
         paragraphs: [
-          "Regardless of breed, size, or lifestyle, every dog in Dubai should receive two core vaccines: DHPPi (which covers distemper, hepatitis, parvovirus, and parainfluenza in a single injection) and rabies. These are not optional — they protect against diseases that are either present in the UAE or pose a risk through travel and contact with unvaccinated animals.",
+          "Regardless of breed, size, or lifestyle, every dog in Dubai should receive two core vaccines: DHPPi (which covers distemper, hepatitis, parvovirus, and parainfluenza in a single injection) and rabies. These are not optional - they protect against diseases that are either present in the UAE or pose a risk through travel and contact with unvaccinated animals.",
           "Parvovirus is the most significant immediate risk for unvaccinated puppies. It is highly contagious, can survive in the environment for months, and has a high fatality rate in puppies who are not vaccinated. The Dubai heat does not kill it. Any puppy that has not completed their primary vaccine course should not be in contact with unknown dogs or areas frequented by other dogs.",
           "Rabies vaccination is a legal requirement for dogs in Dubai and essential for any international travel. If you plan to travel with your dog from Dubai to the UK, EU, Australia, or most other countries, rabies vaccination with documented proof is the starting point for all export health requirements.",
         ],
@@ -61,15 +61,15 @@ export const posts: BlogPost[] = [
         heading: 'Vaccinations and Travel: Leaving Dubai with Your Dog',
         paragraphs: [
           "Each destination country has different import requirements, but the common elements for most developed countries include: current rabies vaccination (documented with a valid certificate), microchipping in ISO standard format, and an official health certificate issued by an accredited vet within 10 days of travel.",
-          "For travel to the EU or UK, dogs additionally require a rabies neutralising antibody titre test done at least 30 days after the last rabies vaccine, with results above the accepted threshold. This test must be done at an EU-approved laboratory, and the waiting period begins from the date of the test — meaning you may need to plan 3–6 months ahead for these destinations. At Mike's Vet we are accredited to issue export health certificates and can help you plan your travel timeline well in advance.",
+          "For travel to the EU or UK, dogs additionally require a rabies neutralising antibody titre test done at least 30 days after the last rabies vaccine, with results above the accepted threshold. This test must be done at an EU-approved laboratory, and the waiting period begins from the date of the test - meaning you may need to plan 3–6 months ahead for these destinations. At Mike's Vet we are accredited to issue export health certificates and can help you plan your travel timeline well in advance.",
         ],
       },
     ],
     faqs: [
       { q: 'What vaccines does my dog need in Dubai?', a: "Core vaccines are DHPPi (distemper, hepatitis, parvovirus, parainfluenza) and rabies. Leptospirosis is recommended for most Dubai dogs with outdoor access. Bordetella (kennel cough) is required by most boarding facilities and recommended for dogs that interact with other dogs." },
       { q: 'How often does my dog need vaccines in Dubai?', a: "After the puppy primary series (at 8, 12, and 16 weeks), dogs receive a booster at 12–15 months, then annual boosters for DHPPi and Leptospirosis. Rabies is given every 1–3 years depending on the vaccine used. We send reminders when boosters are due." },
-      { q: 'Do dogs need vaccines to enter boarding in Dubai?', a: "Yes. All reputable boarding facilities in Dubai require up-to-date vaccinations — at minimum DHPPi, rabies, and Bordetella (kennel cough). You will typically need to provide a vaccination certificate issued by a vet." },
-      { q: 'Can I travel to the UK or EU with my dog from Dubai?', a: "Yes, but it requires advance planning. You will need a microchip, rabies vaccination, a rabies antibody titre test (done at least 30 days after vaccination at an approved lab), and an official health certificate. The titre test result determines when travel is permitted — plan at least 3–6 months ahead for these destinations. We issue export health certificates at Mike's Vet." },
+      { q: 'Do dogs need vaccines to enter boarding in Dubai?', a: "Yes. All reputable boarding facilities in Dubai require up-to-date vaccinations - at minimum DHPPi, rabies, and Bordetella (kennel cough). You will typically need to provide a vaccination certificate issued by a vet." },
+      { q: 'Can I travel to the UK or EU with my dog from Dubai?', a: "Yes, but it requires advance planning. You will need a microchip, rabies vaccination, a rabies antibody titre test (done at least 30 days after vaccination at an approved lab), and an official health certificate. The titre test result determines when travel is permitted - plan at least 3–6 months ahead for these destinations. We issue export health certificates at Mike's Vet." },
       { q: 'What age can puppies start going to the park in Dubai?', a: "We recommend keeping puppies away from public spaces frequented by unknown dogs until at least one week after their third DHPPi vaccine (given at 16 weeks). Until that point, the puppy primary series is not complete and immunity to parvovirus, in particular, may not be fully established." },
     ],
   },
@@ -78,7 +78,7 @@ export const posts: BlogPost[] = [
     title: 'Spaying and Neutering Dogs in Dubai: Age, Benefits, Cost, and Recovery',
     date: '2026-09-23',
     readTime: '6 min read',
-    excerpt: 'When should you neuter or spay your dog in Dubai, and what should you expect? Here is what the current evidence says — including why timing matters more for large breeds.',
+    excerpt: 'When should you neuter or spay your dog in Dubai, and what should you expect? Here is what the current evidence says - including why timing matters more for large breeds.',
     metaTitle: "Spaying & Neutering Dogs in Dubai: Age, Cost & Recovery | Mike's Vet",
     metaDescription: "When to spay or neuter your dog in Dubai, the health benefits, what to expect from surgery, and recovery at home. Evidence-based guide from Mike's Vet, Hessa Street.",
     heroImage: {
@@ -91,40 +91,40 @@ export const posts: BlogPost[] = [
         heading: 'Why Spay or Neuter Your Dog?',
         paragraphs: [
           "Spaying (removing the ovaries and uterus in females) and neutering (removing the testes in males) are among the most impactful health decisions you can make for your dog. Beyond preventing unwanted pregnancies, these procedures offer significant long-term health benefits that are well-documented across veterinary medicine.",
-          "In female dogs, spaying before the first or second heat cycle dramatically reduces the risk of mammary tumours — the risk is less than 0.5% if spayed before the first heat, rising to 8% after the first heat and 26% after the second. It also eliminates the risk of pyometra, a life-threatening uterine infection that affects roughly 25% of unspayed females before the age of 10 and requires emergency surgery when it occurs.",
-          "In male dogs, neutering eliminates the risk of testicular cancer and reduces the risk of prostate disease, perianal tumours, and perineal hernias. It also tends to reduce testosterone-driven behaviours like roaming, marking, and inter-male aggression — though the extent of behaviour change varies by individual dog and the age at which neutering is done.",
+          "In female dogs, spaying before the first or second heat cycle dramatically reduces the risk of mammary tumours - the risk is less than 0.5% if spayed before the first heat, rising to 8% after the first heat and 26% after the second. It also eliminates the risk of pyometra, a life-threatening uterine infection that affects roughly 25% of unspayed females before the age of 10 and requires emergency surgery when it occurs.",
+          "In male dogs, neutering eliminates the risk of testicular cancer and reduces the risk of prostate disease, perianal tumours, and perineal hernias. It also tends to reduce testosterone-driven behaviours like roaming, marking, and inter-male aggression - though the extent of behaviour change varies by individual dog and the age at which neutering is done.",
         ],
       },
       {
-        heading: 'When Should You Spay or Neuter — and Does Timing Matter?',
+        heading: 'When Should You Spay or Neuter - and Does Timing Matter?',
         paragraphs: [
           "For small and medium breeds (under approximately 20 kg), the traditional recommendation of 6 months holds up well. At this age, the primary vaccine course is complete, the puppy is old enough for safe anaesthesia, and the health benefits of early neutering are significant.",
-          "For large and giant breeds, the picture has become more nuanced in recent years. Several studies — particularly in Labrador Retrievers, Golden Retrievers, and German Shepherds — suggest that early neutering (before 12 months) may increase the risk of certain orthopaedic conditions, including cruciate ligament rupture, hip dysplasia, and joint disease. The sex hormones appear to play a role in musculoskeletal development, and removing them too early may affect how bones and joints mature.",
+          "For large and giant breeds, the picture has become more nuanced in recent years. Several studies - particularly in Labrador Retrievers, Golden Retrievers, and German Shepherds - suggest that early neutering (before 12 months) may increase the risk of certain orthopaedic conditions, including cruciate ligament rupture, hip dysplasia, and joint disease. The sex hormones appear to play a role in musculoskeletal development, and removing them too early may affect how bones and joints mature.",
           "The current guidance for large breeds is generally to wait until 12–18 months, allowing the growth plates to close and musculoskeletal development to complete. This is a nuanced decision that depends on your dog's breed, sex, lifestyle, and individual circumstances. Our vets will advise you on the most appropriate timing for your specific dog.",
         ],
       },
       {
         heading: 'What to Expect from the Surgery',
         paragraphs: [
-          "Both spay and neuter procedures are performed under general anaesthesia. A pre-anaesthetic blood panel is recommended — particularly for older dogs or those with known health conditions — to check organ function before surgery. Your dog will be fasted from midnight the night before their procedure.",
-          "Spay surgery involves a single incision into the abdomen to remove the ovaries and uterus. Neuter surgery involves one or two small scrotal incisions to remove the testes. Both procedures use modern suture materials and our surgical team uses multimodal pain management — before, during, and after surgery — so your dog is comfortable throughout.",
+          "Both spay and neuter procedures are performed under general anaesthesia. A pre-anaesthetic blood panel is recommended - particularly for older dogs or those with known health conditions - to check organ function before surgery. Your dog will be fasted from midnight the night before their procedure.",
+          "Spay surgery involves a single incision into the abdomen to remove the ovaries and uterus. Neuter surgery involves one or two small scrotal incisions to remove the testes. Both procedures use modern suture materials and our surgical team uses multimodal pain management - before, during, and after surgery - so your dog is comfortable throughout.",
           "Recovery time is typically 10–14 days. During this period, your dog should be kept calm and restricted from running, jumping, or swimming. The incision site should be checked daily for signs of swelling, redness, or discharge. Your dog will likely go home with pain medication and, in some cases, an e-collar (Elizabethan collar) to prevent licking the wound.",
         ],
       },
       {
         heading: 'Recovery at Home',
         paragraphs: [
-          "Most dogs are back to their normal selves within a few days of surgery, but internal healing takes longer. The 10–14 day rest period is not just about the external wound — it is about giving the internal sutures and tissues time to heal properly. Off-lead exercise, rough play, and climbing stairs should be avoided during this period.",
-          "At Mike's Vet, we schedule a post-operative check at 10–14 days to assess healing, remove any external sutures if present, and confirm your dog is recovering well. If you notice anything concerning before that appointment — discharge, swelling, your dog not eating, or signs of pain — call us on +971 4 283 7744 and we will advise you.",
+          "Most dogs are back to their normal selves within a few days of surgery, but internal healing takes longer. The 10–14 day rest period is not just about the external wound - it is about giving the internal sutures and tissues time to heal properly. Off-lead exercise, rough play, and climbing stairs should be avoided during this period.",
+          "At Mike's Vet, we schedule a post-operative check at 10–14 days to assess healing, remove any external sutures if present, and confirm your dog is recovering well. If you notice anything concerning before that appointment - discharge, swelling, your dog not eating, or signs of pain - call us on +971 4 283 7744 and we will advise you.",
         ],
       },
     ],
     faqs: [
-      { q: 'What age should I spay or neuter my dog in Dubai?', a: "For small and medium breeds: around 6 months. For large and giant breeds: 12–18 months is increasingly recommended to allow full musculoskeletal development. The right timing depends on your dog's breed, sex, and lifestyle — book a consultation for personalised advice." },
-      { q: 'How much does it cost to spay or neuter a dog in Dubai?', a: "The cost varies depending on your dog's size and sex — spay surgery is more complex than neutering as it involves opening the abdomen. Contact us on +971 4 283 7744 or WhatsApp for a specific quote for your dog." },
-      { q: 'Is spaying or neutering painful for dogs?', a: "We use modern multimodal pain management protocols — before, during, and after surgery — to ensure your dog is comfortable throughout. Most dogs show minimal signs of discomfort after the first 24–48 hours. You will go home with appropriate pain medication." },
+      { q: 'What age should I spay or neuter my dog in Dubai?', a: "For small and medium breeds: around 6 months. For large and giant breeds: 12–18 months is increasingly recommended to allow full musculoskeletal development. The right timing depends on your dog's breed, sex, and lifestyle - book a consultation for personalised advice." },
+      { q: 'How much does it cost to spay or neuter a dog in Dubai?', a: "The cost varies depending on your dog's size and sex - spay surgery is more complex than neutering as it involves opening the abdomen. Contact us on +971 4 283 7744 or WhatsApp for a specific quote for your dog." },
+      { q: 'Is spaying or neutering painful for dogs?', a: "We use modern multimodal pain management protocols - before, during, and after surgery - to ensure your dog is comfortable throughout. Most dogs show minimal signs of discomfort after the first 24–48 hours. You will go home with appropriate pain medication." },
       { q: 'Can I spay my dog while she is in heat?', a: "It is technically possible but not ideal. The uterus is more vascular during a heat cycle, which increases surgical complexity and bleeding risk. We generally recommend waiting 8–12 weeks after the end of a heat cycle before spaying if possible." },
-      { q: "Will neutering change my dog's personality?", a: "Neutering often reduces testosterone-driven behaviours — roaming, urine marking, and some forms of aggression — but does not change your dog's fundamental personality. Learned behaviours that are not hormone-driven are unlikely to change with neutering alone." },
+      { q: "Will neutering change my dog's personality?", a: "Neutering often reduces testosterone-driven behaviours - roaming, urine marking, and some forms of aggression - but does not change your dog's fundamental personality. Learned behaviours that are not hormone-driven are unlikely to change with neutering alone." },
     ],
   },
   {
@@ -132,9 +132,9 @@ export const posts: BlogPost[] = [
     title: 'How to Choose a Vet in Dubai: What to Look For, What to Ask, and Red Flags to Avoid',
     date: '2026-09-22',
     readTime: '5 min read',
-    excerpt: 'Choosing the right vet in Dubai is one of the most important decisions you will make as a pet owner. Here is a practical guide to finding a clinic you can trust — before you actually need one.',
+    excerpt: 'Choosing the right vet in Dubai is one of the most important decisions you will make as a pet owner. Here is a practical guide to finding a clinic you can trust - before you actually need one.',
     metaTitle: "How to Choose a Vet in Dubai: A Practical Guide | Mike's Vet",
-    metaDescription: "Choosing a vet in Dubai? Here's what to look for — in-house diagnostics, emergency capability, experienced vets, transparent pricing, and how to spot the red flags. From Mike's Vet.",
+    metaDescription: "Choosing a vet in Dubai? Here's what to look for - in-house diagnostics, emergency capability, experienced vets, transparent pricing, and how to spot the red flags. From Mike's Vet.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1200&q=80&auto=format&fit=crop',
       alt: 'A veterinarian examining a dog on a consultation table',
@@ -144,16 +144,16 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why It Matters to Choose Before You Need One',
         paragraphs: [
-          "Most people register with a vet when their pet is already sick or injured — when they are stressed, time-pressed, and in no position to make a careful choice. The result is that they end up at whatever clinic is closest or has availability, which may not be the right fit for their pet's long-term needs.",
-          "Choosing a vet when your pet is healthy gives you time to visit the clinic, meet the team, check the facilities, and assess whether you feel confident and heard. It also means your vet has a baseline health record for your pet — so that when something does go wrong, they have context, not just a stranger in front of them.",
+          "Most people register with a vet when their pet is already sick or injured - when they are stressed, time-pressed, and in no position to make a careful choice. The result is that they end up at whatever clinic is closest or has availability, which may not be the right fit for their pet's long-term needs.",
+          "Choosing a vet when your pet is healthy gives you time to visit the clinic, meet the team, check the facilities, and assess whether you feel confident and heard. It also means your vet has a baseline health record for your pet - so that when something does go wrong, they have context, not just a stranger in front of them.",
         ],
       },
       {
         heading: 'What to Look For in a Dubai Vet Clinic',
         paragraphs: [
-          "In-house diagnostics are the single biggest practical differentiator. A clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can diagnose most conditions in a single visit. A clinic that sends everything to an external lab will ask you to come back for results — which means more stress for your pet, more time, and sometimes delayed treatment in urgent situations.",
-          "Surgical capability matters more than most owners realise. Many conditions — from a suspected foreign body in the intestine to an orthopaedic injury — require surgery within hours or days. A clinic that can perform surgery in-house means your pet gets treated faster, without the stress of transfer to a different facility with a different team. Ask specifically: do you have a surgical suite? What procedures do you perform in-house? Do your vets have any postgraduate surgical training?",
-          "Emergency capability and hours are the third pillar. Dubai has relatively few true 24-hour emergency vet facilities. Knowing whether your regular clinic has genuine emergency capability during opening hours — oxygen therapy, IV fluids, the ability to stabilise a critical patient — is important. A clinic that can stabilise your pet while you arrange a transfer is far better than one that simply redirects you elsewhere.",
+          "In-house diagnostics are the single biggest practical differentiator. A clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can diagnose most conditions in a single visit. A clinic that sends everything to an external lab will ask you to come back for results - which means more stress for your pet, more time, and sometimes delayed treatment in urgent situations.",
+          "Surgical capability matters more than most owners realise. Many conditions - from a suspected foreign body in the intestine to an orthopaedic injury - require surgery within hours or days. A clinic that can perform surgery in-house means your pet gets treated faster, without the stress of transfer to a different facility with a different team. Ask specifically: do you have a surgical suite? What procedures do you perform in-house? Do your vets have any postgraduate surgical training?",
+          "Emergency capability and hours are the third pillar. Dubai has relatively few true 24-hour emergency vet facilities. Knowing whether your regular clinic has genuine emergency capability during opening hours - oxygen therapy, IV fluids, the ability to stabilise a critical patient - is important. A clinic that can stabilise your pet while you arrange a transfer is far better than one that simply redirects you elsewhere.",
         ],
       },
       {
@@ -166,23 +166,23 @@ export const posts: BlogPost[] = [
       {
         heading: 'Red Flags to Watch For',
         paragraphs: [
-          "Be cautious of clinics that offer anaesthesia-free dental cleaning — it cannot be done safely or effectively without general anaesthesia, and any clinic promoting it is prioritising marketing over evidence-based medicine. Similarly, a clinic that diagnoses and prescribes without a thorough physical examination, or that relies entirely on external labs for basic diagnostics, may not have the clinical infrastructure to properly support your pet.",
-          "Pressure to purchase unnecessary products or supplements at every visit, very high staff turnover, or a clinic where you never see the same vet twice are also worth noting. Continuity of care matters in veterinary medicine — your pet's history, their normal baseline, and the relationship between vet and patient all contribute to better outcomes over time.",
+          "Be cautious of clinics that offer anaesthesia-free dental cleaning - it cannot be done safely or effectively without general anaesthesia, and any clinic promoting it is prioritising marketing over evidence-based medicine. Similarly, a clinic that diagnoses and prescribes without a thorough physical examination, or that relies entirely on external labs for basic diagnostics, may not have the clinical infrastructure to properly support your pet.",
+          "Pressure to purchase unnecessary products or supplements at every visit, very high staff turnover, or a clinic where you never see the same vet twice are also worth noting. Continuity of care matters in veterinary medicine - your pet's history, their normal baseline, and the relationship between vet and patient all contribute to better outcomes over time.",
         ],
       },
       {
         heading: "What Makes Mike's Vet Different",
         paragraphs: [
-          "Mike's Vet on Hessa Street is a full-service veterinary clinic rated 4.8 stars on Google by over 500 pet owners in Dubai. Our team includes vets from 6 countries with a range of specialist training — including postgraduate certification in small animal surgery, ultrasound, and internal medicine. We have full in-house diagnostics (IDEXX blood analysers, Zoetis Vetscan Imagyst AI parasite testing, digital X-ray, and a Mindray Vetus9 ultrasound), a dedicated surgical suite, and a fully equipped ICU.",
+          "Mike's Vet on Hessa Street is a full-service veterinary clinic rated 4.8 stars on Google by over 500 pet owners in Dubai. Our team includes vets from 6 countries with a range of specialist training - including postgraduate certification in small animal surgery, ultrasound, and internal medicine. We have full in-house diagnostics (IDEXX blood analysers, Zoetis Vetscan Imagyst AI parasite testing, digital X-ray, and a Mindray Vetus9 ultrasound), a dedicated surgical suite, and a fully equipped ICU.",
           "We are open 7 days a week from 9:00 AM to 9:30 PM including public holidays, and we offer home visits for pets who are stressed by the clinic environment. Most diagnostic workups are completed in a single visit. If you would like to meet the team or see the clinic before registering your pet, you are welcome to visit us on Hessa Street or call +971 4 283 7744.",
         ],
       },
     ],
     faqs: [
-      { q: 'What should I look for in a vet clinic in Dubai?', a: "The most important factors are: in-house diagnostics (blood tests, X-ray, ultrasound), surgical capability, experienced vets with documented training, transparent pricing, and genuine emergency capability during opening hours. Choose before you need one — not in a crisis." },
+      { q: 'What should I look for in a vet clinic in Dubai?', a: "The most important factors are: in-house diagnostics (blood tests, X-ray, ultrasound), surgical capability, experienced vets with documented training, transparent pricing, and genuine emergency capability during opening hours. Choose before you need one - not in a crisis." },
       { q: 'How do I know if a vet clinic in Dubai is good?', a: "Look for: Google reviews with substantive feedback (not just star ratings), a clear description of their diagnostic and surgical equipment, vets whose qualifications and backgrounds are listed, and a clinic that answers your questions with specifics rather than generalities. A visit before you register is worthwhile." },
       { q: 'Is there a 24-hour vet in Dubai?', a: "A small number of clinics offer 24-hour emergency cover. Mike's Vet is open 7 days a week from 9:00 AM to 9:30 PM including public holidays. For after-hours emergencies, call us on +971 4 283 7744 and we will advise on the most appropriate option." },
-      { q: 'How much does a vet visit cost in Dubai?', a: "Consultation fees in Dubai vary by clinic. At Mike's Vet, we offer transparent pricing — call or WhatsApp +971 4 283 7744 for specific costs. Home visits are AED 400 + VAT." },
+      { q: 'How much does a vet visit cost in Dubai?', a: "Consultation fees in Dubai vary by clinic. At Mike's Vet, we offer transparent pricing - call or WhatsApp +971 4 283 7744 for specific costs. Home visits are AED 400 + VAT." },
     ],
   },
   {
@@ -192,7 +192,7 @@ export const posts: BlogPost[] = [
     readTime: '8 min read',
     excerpt: 'Moving or travelling abroad with your pet from Dubai involves more planning than most owners expect. Here is what you need, how far in advance, and what happens if you miss a step.',
     metaTitle: "Travelling with Pets from Dubai: Health Certificates & Requirements | Mike's Vet",
-    metaDescription: "Complete guide to pet export from Dubai — health certificates, rabies titre tests, microchip requirements, UK and EU pet travel rules, and timing. From Mike's Vet, Hessa Street.",
+    metaDescription: "Complete guide to pet export from Dubai - health certificates, rabies titre tests, microchip requirements, UK and EU pet travel rules, and timing. From Mike's Vet, Hessa Street.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80&auto=format&fit=crop',
       alt: 'A dog sitting near a travel bag, looking ready for a journey',
@@ -202,38 +202,38 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why Pet Travel from Dubai Requires Advance Planning',
         paragraphs: [
-          "Pet travel from Dubai to most developed countries involves a sequence of steps that must be done in the right order and within specific timeframes. Missing one step — or doing them out of order — can result in your pet being refused entry, quarantined, or returned to the country of origin. Unlike booking a flight, you cannot solve this at the last minute.",
+          "Pet travel from Dubai to most developed countries involves a sequence of steps that must be done in the right order and within specific timeframes. Missing one step - or doing them out of order - can result in your pet being refused entry, quarantined, or returned to the country of origin. Unlike booking a flight, you cannot solve this at the last minute.",
           "The most common mistake is underestimating the timeline. For travel to the UK, EU, Australia, and New Zealand in particular, certain requirements must be met months before your travel date. Understanding what is needed, and when, is the first step to a smooth journey for your pet.",
         ],
       },
       {
         heading: 'The Universal Requirements: Microchip and Rabies Vaccination',
         paragraphs: [
-          "Almost every country requires that your pet be microchipped with an ISO 11784/11785 compliant chip (15-digit, 134.2 kHz) before any other health steps are taken. This is because the microchip is the unique identifier that links your pet to their health records. If your pet is microchipped after their rabies vaccination, the vaccination may not count for entry purposes — the chip must come first.",
+          "Almost every country requires that your pet be microchipped with an ISO 11784/11785 compliant chip (15-digit, 134.2 kHz) before any other health steps are taken. This is because the microchip is the unique identifier that links your pet to their health records. If your pet is microchipped after their rabies vaccination, the vaccination may not count for entry purposes - the chip must come first.",
           "Rabies vaccination is the other universal requirement. The vaccination must be administered to a microchipped animal, and the documentation must record both the microchip number and the vaccine details (brand, batch number, expiry date, date given, and next due date). At Mike's Vet, our vaccination certificates are issued in a format that meets international documentation standards.",
         ],
       },
       {
         heading: 'UK and EU Pet Travel: The Rabies Titre Test',
         paragraphs: [
-          "The UK and EU require a rabies neutralising antibody titre test in addition to vaccination. This blood test checks that your pet's immune system has responded adequately to the rabies vaccine — producing enough antibodies to meet the accepted threshold of 0.5 IU/mL or above.",
-          "The test must be done at an EU-approved laboratory. In Dubai, blood samples for titre testing are sent to approved labs in Europe or elsewhere. The critical timing rules are: the titre test cannot be done until at least 30 days after the rabies vaccination; and the waiting period before travel to the UK or EU begins from the date of the blood sample, not the date of the result. The minimum waiting period is 3 months after the titre blood draw (for the EU) or varies for the UK — check current APHA guidance.",
-          "This means that if you plan to travel to the UK or EU, you should begin the process at least 4–6 months before your intended travel date — sooner if your pet is not yet vaccinated. At Mike's Vet, we can advise you on the exact timeline based on your destination and current vaccine status.",
+          "The UK and EU require a rabies neutralising antibody titre test in addition to vaccination. This blood test checks that your pet's immune system has responded adequately to the rabies vaccine - producing enough antibodies to meet the accepted threshold of 0.5 IU/mL or above.",
+          "The test must be done at an EU-approved laboratory. In Dubai, blood samples for titre testing are sent to approved labs in Europe or elsewhere. The critical timing rules are: the titre test cannot be done until at least 30 days after the rabies vaccination; and the waiting period before travel to the UK or EU begins from the date of the blood sample, not the date of the result. The minimum waiting period is 3 months after the titre blood draw (for the EU) or varies for the UK - check current APHA guidance.",
+          "This means that if you plan to travel to the UK or EU, you should begin the process at least 4–6 months before your intended travel date - sooner if your pet is not yet vaccinated. At Mike's Vet, we can advise you on the exact timeline based on your destination and current vaccine status.",
         ],
       },
       {
         heading: 'Australia and New Zealand',
         paragraphs: [
           "Australia and New Zealand have among the strictest pet import rules in the world, reflecting their status as rabies-free countries with unique native ecosystems. Requirements include: microchipping, rabies vaccination and titre testing, treatment for parasites and ticks, mandatory quarantine (which can be months), and an import permit obtained before travel.",
-          "Dogs coming from the UAE are typically classified as Category 3 countries, meaning they face the full quarantine protocol. Given the complexity and cost, we strongly recommend consulting a specialist pet relocation service and a vet accredited for export documentation well in advance — ideally 12 months or more before your intended travel date.",
+          "Dogs coming from the UAE are typically classified as Category 3 countries, meaning they face the full quarantine protocol. Given the complexity and cost, we strongly recommend consulting a specialist pet relocation service and a vet accredited for export documentation well in advance - ideally 12 months or more before your intended travel date.",
         ],
       },
       {
         heading: 'The Export Health Certificate',
         paragraphs: [
-          "Most countries require an official export health certificate — a government-approved document signed by an accredited vet, certifying that your pet meets all entry requirements for the destination country. This certificate typically has a very short validity window: for the UK and EU, it must be issued within 10 days of travel.",
-          "At Mike's Vet, we are accredited to issue export health certificates for a wide range of destinations. We recommend booking a health certificate appointment well in advance of your travel date, and bringing all your pet's documentation — vaccination records, microchip certificate, and titre test results if required. We will check everything is in order, complete the clinical examination, and issue the certificate.",
-          "Airline requirements vary — most airlines require pets to travel in an IATA-approved carrier, and many restrict travel during summer months due to Dubai heat. Check with your airline directly for their specific pet travel policies.",
+          "Most countries require an official export health certificate - a government-approved document signed by an accredited vet, certifying that your pet meets all entry requirements for the destination country. This certificate typically has a very short validity window: for the UK and EU, it must be issued within 10 days of travel.",
+          "At Mike's Vet, we are accredited to issue export health certificates for a wide range of destinations. We recommend booking a health certificate appointment well in advance of your travel date, and bringing all your pet's documentation - vaccination records, microchip certificate, and titre test results if required. We will check everything is in order, complete the clinical examination, and issue the certificate.",
+          "Airline requirements vary - most airlines require pets to travel in an IATA-approved carrier, and many restrict travel during summer months due to Dubai heat. Check with your airline directly for their specific pet travel policies.",
         ],
       },
     ],
@@ -250,9 +250,9 @@ export const posts: BlogPost[] = [
     title: 'How to Choose a Cat Vet in Dubai: What Every Cat Owner Should Know',
     date: '2026-09-23',
     readTime: '6 min read',
-    excerpt: 'Not all vet clinics are equal when it comes to cats. Here is what to look for, which questions to ask, and the signs a clinic genuinely understands feline care — from a team that treats cats every day.',
+    excerpt: 'Not all vet clinics are equal when it comes to cats. Here is what to look for, which questions to ask, and the signs a clinic genuinely understands feline care - from a team that treats cats every day.',
     metaTitle: "How to Choose a Cat Vet in Dubai | Mike's Vet",
-    metaDescription: "Looking for a cat vet in Dubai? Here's exactly what to look for — low-stress handling, feline expertise, in-house diagnostics, and emergency capability. A practical guide from Mike's Vet on Hessa Street.",
+    metaDescription: "Looking for a cat vet in Dubai? Here's exactly what to look for - low-stress handling, feline expertise, in-house diagnostics, and emergency capability. A practical guide from Mike's Vet on Hessa Street.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1200&q=80&auto=format&fit=crop',
       alt: 'A tabby cat looking directly at the camera with bright eyes',
@@ -262,48 +262,48 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why Cats Need a Different Kind of Vet',
         paragraphs: [
-          "Cats are physiologically and behaviourally different from dogs in ways that matter a great deal in a clinical setting. They metabolise certain medications differently — some drugs that are safe for dogs are toxic to cats. They respond differently to pain and stress, and because they evolved as both predator and prey, they are hardwired to hide signs of illness until they feel safe to show them. A cat that 'seems fine' may have been quietly managing kidney disease, hyperthyroidism, or dental pain for months.",
-          "A vet who understands cats adjusts their entire approach — how they handle the animal, how they interpret clinical signs, which drugs they use, and how they read the subtleties that cats give you when they can't vocalise what hurts. A clinic that treats cats and dogs identically is not giving your cat the care they deserve.",
+          "Cats are physiologically and behaviourally different from dogs in ways that matter a great deal in a clinical setting. They metabolise certain medications differently - some drugs that are safe for dogs are toxic to cats. They respond differently to pain and stress, and because they evolved as both predator and prey, they are hardwired to hide signs of illness until they feel safe to show them. A cat that 'seems fine' may have been quietly managing kidney disease, hyperthyroidism, or dental pain for months.",
+          "A vet who understands cats adjusts their entire approach - how they handle the animal, how they interpret clinical signs, which drugs they use, and how they read the subtleties that cats give you when they can't vocalise what hurts. A clinic that treats cats and dogs identically is not giving your cat the care they deserve.",
         ],
       },
       {
         heading: 'What to Look For in a Cat Vet Clinic',
         paragraphs: [
-          "The most important thing is hands-on feline experience. Ask how many cat patients the clinic sees regularly, whether the vets have additional feline training, and how they handle anxious or fractious cats. Low-stress handling — minimal restraint, quiet approach, letting the cat set the pace — is not just kinder; it produces better clinical outcomes. A cat that is less stressed allows a more accurate examination.",
-          "Separation from dogs is another key marker. A waiting room where cats and dogs share the same space elevates feline stress immediately and measurably. Some clinics have separate waiting areas or will take cats directly into a consultation room on arrival. In-house diagnostics also matter: a clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can complete most workups in a single visit — meaning your cat spends less time in an unfamiliar environment and you get answers the same day.",
-          "For emergencies, check whether the clinic has real critical care capability — IV fluids, oxygen therapy, and a vet experienced with common feline emergencies like urinary blockages, respiratory distress, and toxin ingestion. The nearest 24-hour clinic matters less than having a clinic with genuine in-house emergency capability during normal operating hours.",
+          "The most important thing is hands-on feline experience. Ask how many cat patients the clinic sees regularly, whether the vets have additional feline training, and how they handle anxious or fractious cats. Low-stress handling - minimal restraint, quiet approach, letting the cat set the pace - is not just kinder; it produces better clinical outcomes. A cat that is less stressed allows a more accurate examination.",
+          "Separation from dogs is another key marker. A waiting room where cats and dogs share the same space elevates feline stress immediately and measurably. Some clinics have separate waiting areas or will take cats directly into a consultation room on arrival. In-house diagnostics also matter: a clinic with on-site blood testing, urinalysis, X-ray, and ultrasound can complete most workups in a single visit - meaning your cat spends less time in an unfamiliar environment and you get answers the same day.",
+          "For emergencies, check whether the clinic has real critical care capability - IV fluids, oxygen therapy, and a vet experienced with common feline emergencies like urinary blockages, respiratory distress, and toxin ingestion. The nearest 24-hour clinic matters less than having a clinic with genuine in-house emergency capability during normal operating hours.",
         ],
       },
       {
         heading: 'Dubai-Specific Considerations for Cat Owners',
         paragraphs: [
-          "Dubai's climate and lifestyle create some specific risks for cats. Heat-related illness is a real danger for any cat with outdoor access or in a poorly ventilated space — and even indoor cats can be affected if air conditioning fails. Indoor cats in Dubai apartments are at higher risk of obesity and the conditions that follow: diabetes, fatty liver disease, and joint problems. Regular wellness checks and an honest conversation about diet and enrichment are particularly valuable here.",
-          "If you plan to travel internationally with your cat, Dubai has specific export requirements — and destination countries have their own import rules that typically involve rabies vaccination, microchipping, blood titre tests (for the EU and UK), and an official health certificate signed by an accredited vet within a short window of departure. A good vet clinic will know these requirements and help you plan the timeline well in advance, because some tests — particularly rabies neutralising antibody titres — need to be done months ahead of travel.",
+          "Dubai's climate and lifestyle create some specific risks for cats. Heat-related illness is a real danger for any cat with outdoor access or in a poorly ventilated space - and even indoor cats can be affected if air conditioning fails. Indoor cats in Dubai apartments are at higher risk of obesity and the conditions that follow: diabetes, fatty liver disease, and joint problems. Regular wellness checks and an honest conversation about diet and enrichment are particularly valuable here.",
+          "If you plan to travel internationally with your cat, Dubai has specific export requirements - and destination countries have their own import rules that typically involve rabies vaccination, microchipping, blood titre tests (for the EU and UK), and an official health certificate signed by an accredited vet within a short window of departure. A good vet clinic will know these requirements and help you plan the timeline well in advance, because some tests - particularly rabies neutralising antibody titres - need to be done months ahead of travel.",
           "Stray and rescue cats are common in Dubai, and many residents adopt one. If you have recently brought home a stray or rescue cat, a full health screen is essential: FIV (feline immunodeficiency virus) and FeLV (feline leukaemia) testing, parasite treatment, vaccination, and dental assessment. Stray cats often carry hidden health issues that are manageable when caught early.",
         ],
       },
       {
         heading: 'Questions to Ask Before You Choose a Cat Vet',
         paragraphs: [
-          "Before registering your cat at a clinic, it is worth asking a few direct questions. Do you see many feline patients? How do you handle cats that are anxious or uncooperative — do you use minimal restraint techniques? Is there somewhere cats wait that is separate from dogs? Do you have in-house blood testing, urinalysis, X-ray, and ultrasound? What happens if my cat has an emergency outside your operating hours?",
-          "The answers tell you a great deal. A clinic that gives vague answers to these questions, or that has no real policy on low-stress handling, is likely not cat-specialist in any meaningful sense. A clinic that answers with specifics — particular handling protocols, names of equipment, a clear emergency plan — is one that has thought seriously about feline care.",
+          "Before registering your cat at a clinic, it is worth asking a few direct questions. Do you see many feline patients? How do you handle cats that are anxious or uncooperative - do you use minimal restraint techniques? Is there somewhere cats wait that is separate from dogs? Do you have in-house blood testing, urinalysis, X-ray, and ultrasound? What happens if my cat has an emergency outside your operating hours?",
+          "The answers tell you a great deal. A clinic that gives vague answers to these questions, or that has no real policy on low-stress handling, is likely not cat-specialist in any meaningful sense. A clinic that answers with specifics - particular handling protocols, names of equipment, a clear emergency plan - is one that has thought seriously about feline care.",
         ],
       },
       {
         heading: 'Signs Your Cat Needs to See a Vet Urgently',
         paragraphs: [
-          "Because cats hide illness so effectively, it is worth knowing the signs that should prompt an urgent vet visit. Straining to urinate or producing little to no urine — particularly in male cats — is a life-threatening emergency that requires immediate attention. Difficulty breathing, open-mouth breathing, or pale or blue-tinged gums are also emergencies. Sudden hind leg weakness or paralysis, an inability to stand, seizures, suspected toxin ingestion, or a swollen distended abdomen all require urgent care.",
+          "Because cats hide illness so effectively, it is worth knowing the signs that should prompt an urgent vet visit. Straining to urinate or producing little to no urine - particularly in male cats - is a life-threatening emergency that requires immediate attention. Difficulty breathing, open-mouth breathing, or pale or blue-tinged gums are also emergencies. Sudden hind leg weakness or paralysis, an inability to stand, seizures, suspected toxin ingestion, or a swollen distended abdomen all require urgent care.",
           "Less dramatic but still important: unexplained weight loss, changes in water intake or urination, hiding more than usual, loss of appetite lasting more than 24–48 hours, or vomiting more than once or twice a week. These signs rarely resolve on their own in cats, and early diagnosis makes treatment significantly more effective.",
-          "At Mike's Vet on Hessa Street, we see cats every day — from routine kitten appointments to complex surgical and emergency cases. If you are not sure whether your cat's symptoms warrant a visit, call us on +971 4 283 7744 or WhatsApp us and we will help you decide.",
+          "At Mike's Vet on Hessa Street, we see cats every day - from routine kitten appointments to complex surgical and emergency cases. If you are not sure whether your cat's symptoms warrant a visit, call us on +971 4 283 7744 or WhatsApp us and we will help you decide.",
         ],
       },
     ],
     faqs: [
       { q: 'How often should I take my cat to the vet in Dubai?', a: "Kittens need several visits in their first year for vaccines, parasite treatment, and health checks. Adult cats (1–7 years) should be seen at least once a year. Senior cats (7+) benefit from twice-yearly check-ups to catch kidney disease, hyperthyroidism, dental disease, and other age-related conditions early." },
       { q: 'What vaccinations does my cat need in Dubai?', a: "Core vaccines for cats in Dubai are FVRCP (cat flu and feline panleucopenia) and rabies. FeLV vaccination is recommended for cats with outdoor access or contact with unknown cats. Kittens receive their first vaccines from 8 weeks, followed by boosters at 12 and 16 weeks, then annual or triennial adult boosters." },
-      { q: 'How much does a cat vet visit cost in Dubai?', a: "Cat vet consultation fees in Dubai vary by clinic and the services required. At Mike's Vet on Hessa Street, we offer transparent pricing — call or WhatsApp +971 4 283 7744 for specific costs. Our home visit fee for cat owners who prefer it is AED 400 + VAT." },
+      { q: 'How much does a cat vet visit cost in Dubai?', a: "Cat vet consultation fees in Dubai vary by clinic and the services required. At Mike's Vet on Hessa Street, we offer transparent pricing - call or WhatsApp +971 4 283 7744 for specific costs. Our home visit fee for cat owners who prefer it is AED 400 + VAT." },
       { q: 'What are the signs my cat needs emergency vet care?', a: "See a vet immediately if your cat is straining to urinate without producing urine (especially male cats), breathing with their mouth open, showing sudden hind leg weakness, has suspected toxin ingestion, is unresponsive, or has a distended abdomen. Call us on +971 4 283 7744." },
-      { q: 'Can a general vet treat my cat, or do I need a cat specialist?', a: "A good general vet with feline experience handles the vast majority of cat health needs well — vaccinations, dental care, spay/neuter, diagnostics, soft tissue surgery, and emergency care. A specialist (feline-only clinic or a board-certified internist) adds value for complex or rare conditions, but most Dubai cat owners will receive excellent care from an experienced general practice that takes feline medicine seriously." },
+      { q: 'Can a general vet treat my cat, or do I need a cat specialist?', a: "A good general vet with feline experience handles the vast majority of cat health needs well - vaccinations, dental care, spay/neuter, diagnostics, soft tissue surgery, and emergency care. A specialist (feline-only clinic or a board-certified internist) adds value for complex or rare conditions, but most Dubai cat owners will receive excellent care from an experienced general practice that takes feline medicine seriously." },
     ],
   },
   {
@@ -311,7 +311,7 @@ export const posts: BlogPost[] = [
     title: 'How Long to Quarantine a Stray Cat: A Dubai Guide to Bringing Home a Street Cat',
     date: '2026-09-27',
     readTime: '7 min read',
-    excerpt: 'Found a stray cat in Dubai and want to bring it home? Quarantine is essential — both to protect your resident pets and to give the newcomer time to decompress. Here is exactly what to do and for how long.',
+    excerpt: 'Found a stray cat in Dubai and want to bring it home? Quarantine is essential - both to protect your resident pets and to give the newcomer time to decompress. Here is exactly what to do and for how long.',
     metaTitle: "Stray Cat Quarantine Dubai: How Long & What to Do | Mike's Vet",
     metaDescription: "Bringing a stray cat home in Dubai? Learn how long to quarantine, which vet tests to run, vaccination and microchip requirements, and how to introduce them safely. From Mike's Vet.",
     heroImage: {
@@ -368,7 +368,7 @@ export const posts: BlogPost[] = [
           'Dubai has a large and well-documented community cat population, and many cats found on the street are part of managed TNR (trap-neuter-return) programmes rather than truly abandoned strays. TNR cats are typically identified by an ear tip: the very tip of one ear is removed at a straight angle during the neuter procedure as a permanent marker. If the cat you have found has an ear tip, it has already been sterilised and is part of a managed colony.',
           'Check for a microchip before assuming the cat is unowned. A vet clinic can scan for a chip within seconds. Some community cats in Dubai are registered, vaccinated, and have a designated carer.',
           "Dubai Municipality requires all cats and dogs kept as pets to be registered, vaccinated against rabies, and microchipped. If you are keeping the cat, these steps need to be completed regardless of whether the cat came from the street or a rescue organisation. Your vet can assist with registration documentation.",
-          "Dubai's climate creates year-round flea pressure that is more intense than in cooler countries. Street cats here commonly carry higher flea and parasite burdens than their counterparts in Europe or North America. Year-round flea prevention is not optional — it is the standard of care for Dubai cats, indoor or not.",
+          "Dubai's climate creates year-round flea pressure that is more intense than in cooler countries. Street cats here commonly carry higher flea and parasite burdens than their counterparts in Europe or North America. Year-round flea prevention is not optional - it is the standard of care for Dubai cats, indoor or not.",
         ],
       },
       {
@@ -810,7 +810,7 @@ export const posts: BlogPost[] = [
     title: 'Vaccinations for Cats and Dogs in Dubai: The Complete Guide',
     date: '2025-08-15',
     readTime: '6 min read',
-    excerpt: "Rabies is required by UAE law, but your cat and dog need more than that. Here's the complete vaccination guide for pet owners in Dubai — what vaccines are used, when to start, and what's different about the UAE.",
+    excerpt: "Rabies is required by UAE law, but your cat and dog need more than that. Here's the complete vaccination guide for pet owners in Dubai - what vaccines are used, when to start, and what's different about the UAE.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1200&q=80&auto=format&fit=crop&crop=faces',
       alt: 'A puppy being examined at a veterinary clinic',
@@ -822,18 +822,18 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why Vaccinations Matter More in Dubai',
         paragraphs: [
-          "Dubai's warm climate, year-round humidity, and large population of rescue and community animals create conditions where infectious diseases spread more easily than in cooler climates. Many cats and dogs in Dubai are adopted from rescue organisations with incomplete histories — making it all the more important to start a proper vaccine programme from day one.",
+          "Dubai's warm climate, year-round humidity, and large population of rescue and community animals create conditions where infectious diseases spread more easily than in cooler climates. Many cats and dogs in Dubai are adopted from rescue organisations with incomplete histories - making it all the more important to start a proper vaccine programme from day one.",
           "Under UAE law, rabies vaccination is compulsory for all cats and dogs. Beyond that, core vaccines protect your pet from diseases that are genuinely common in this region and can be fatal without protection.",
         ],
       },
       {
         heading: 'Core Vaccines for Cats in Dubai',
         paragraphs: [
-          "For cats in the UAE, the core vaccine is the PCH — which protects against three of the most serious infectious diseases in cats:",
-          "Panleukopenia (feline distemper) — a highly contagious and often fatal viral disease that attacks the immune system and gut.",
-          "Calicivirus — causes upper respiratory infections, mouth ulcers, and can lead to serious complications in kittens.",
-          "Herpesvirus (viral rhinotracheitis) — the most common cause of cat 'flu in Dubai, spreading rapidly between cats and causing chronic lifelong flare-ups once infected.",
-          "Rabies — required by UAE law for all cats. The certificate is essential for boarding, registration with Dubai Municipality, and any international travel.",
+          "For cats in the UAE, the core vaccine is the PCH - which protects against three of the most serious infectious diseases in cats:",
+          "Panleukopenia (feline distemper) - a highly contagious and often fatal viral disease that attacks the immune system and gut.",
+          "Calicivirus - causes upper respiratory infections, mouth ulcers, and can lead to serious complications in kittens.",
+          "Herpesvirus (viral rhinotracheitis) - the most common cause of cat 'flu in Dubai, spreading rapidly between cats and causing chronic lifelong flare-ups once infected.",
+          "Rabies - required by UAE law for all cats. The certificate is essential for boarding, registration with Dubai Municipality, and any international travel.",
           "FeLV (Feline Leukaemia Virus) is also strongly recommended for cats that go outdoors or live with other cats. It is transmitted through close contact and can be fatal.",
         ],
       },
@@ -851,12 +851,12 @@ export const posts: BlogPost[] = [
       {
         heading: 'Core Vaccines for Dogs in Dubai',
         paragraphs: [
-          "For dogs, the core vaccine is the DHPP — a combination vaccine protecting against four serious diseases:",
-          "Distemper — a severe viral disease affecting the respiratory, gastrointestinal, and nervous systems.",
-          "Hepatitis (Adenovirus) — causes liver disease and can be fatal in unvaccinated dogs.",
-          "Parvovirus — one of the most dangerous diseases for dogs in Dubai, particularly for puppies. Parvo spreads through contact with infected faeces and can survive in the environment for months.",
-          "Parainfluenza — a key contributor to kennel cough, which is common in Dubai due to the density of dogs in boarding and grooming facilities.",
-          "Rabies — required by UAE law for all dogs. Without a current rabies certificate your dog cannot be registered with Dubai Municipality, boarded, or exported.",
+          "For dogs, the core vaccine is the DHPP - a combination vaccine protecting against four serious diseases:",
+          "Distemper - a severe viral disease affecting the respiratory, gastrointestinal, and nervous systems.",
+          "Hepatitis (Adenovirus) - causes liver disease and can be fatal in unvaccinated dogs.",
+          "Parvovirus - one of the most dangerous diseases for dogs in Dubai, particularly for puppies. Parvo spreads through contact with infected faeces and can survive in the environment for months.",
+          "Parainfluenza - a key contributor to kennel cough, which is common in Dubai due to the density of dogs in boarding and grooming facilities.",
+          "Rabies - required by UAE law for all dogs. Without a current rabies certificate your dog cannot be registered with Dubai Municipality, boarded, or exported.",
           "Bordetella (kennel cough) is also strongly recommended for dogs that visit parks, groomers, or boarding kennels.",
         ],
       },
@@ -874,13 +874,13 @@ export const posts: BlogPost[] = [
       {
         heading: 'How Much Do Vaccinations Cost in Dubai?',
         paragraphs: [
-          "Vaccine costs in Dubai vary between clinics. At Mike's Vet, every vaccine appointment includes a thorough wellness examination — we use it as an opportunity to check your pet's weight, teeth, heart, and overall condition, not just administer an injection.",
+          "Vaccine costs in Dubai vary between clinics. At Mike's Vet, every vaccine appointment includes a thorough wellness examination - we use it as an opportunity to check your pet's weight, teeth, heart, and overall condition, not just administer an injection.",
           "Contact us for current pricing or book online. We'll give you a clear breakdown before your appointment.",
         ],
       },
     ],
     faqs: [
-      { q: 'What is the PCH vaccine for cats in Dubai?', a: "PCH stands for Panleukopenia, Calicivirus, and Herpesvirus — the three core infectious diseases we vaccinate cats against in the UAE. It is the standard feline core vaccine used at Mike's Vet and across veterinary clinics in Dubai." },
+      { q: 'What is the PCH vaccine for cats in Dubai?', a: "PCH stands for Panleukopenia, Calicivirus, and Herpesvirus - the three core infectious diseases we vaccinate cats against in the UAE. It is the standard feline core vaccine used at Mike's Vet and across veterinary clinics in Dubai." },
       { q: 'Is it compulsory to vaccinate cats and dogs in Dubai?', a: 'Rabies vaccination is required by UAE law for all cats and dogs. It is also required for boarding, international travel, and registration with Dubai Municipality. Core vaccines (PCH for cats, DHPP for dogs) are strongly recommended.' },
       { q: 'At what age should I start vaccinating my kitten or puppy?', a: 'Both kittens and puppies can start their vaccine programme from 6–8 weeks of age. The full primary course takes 8–10 weeks to complete. Starting early means your pet is protected sooner.' },
       { q: 'Can I get my cat or dog vaccinated at Mike\'s Vet in Dubai?', a: "Yes. Mike's Vet on Hessa Street offers full vaccination programmes for cats, kittens, dogs, and puppies. We are open 7 days a week, 9am–9:30pm. Book online or call +971 4 283 7744." },
@@ -891,7 +891,7 @@ export const posts: BlogPost[] = [
     title: 'Cat Spaying in Dubai: What to Expect and How Much It Costs',
     date: '2025-08-28',
     readTime: '6 min read',
-    excerpt: "Spaying your cat is one of the most important health decisions you'll make. This guide covers everything Dubai cat owners need to know — timing, the procedure, recovery, and what to look for in a vet.",
+    excerpt: "Spaying your cat is one of the most important health decisions you'll make. This guide covers everything Dubai cat owners need to know - timing, the procedure, recovery, and what to look for in a vet.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=1200&q=80&auto=format&fit=crop&crop=faces',
       alt: 'A cat resting after surgery at a veterinary clinic',
@@ -903,7 +903,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why Spaying Your Cat Is So Important in Dubai',
         paragraphs: [
-          "Dubai has a significant feral cat population, and many rescue organisations are stretched caring for kittens born to unspayed cats. Spaying your female cat is one of the most impactful things you can do — for her health and for the wider community.",
+          "Dubai has a significant feral cat population, and many rescue organisations are stretched caring for kittens born to unspayed cats. Spaying your female cat is one of the most impactful things you can do - for her health and for the wider community.",
           "Beyond population control, spaying has direct health benefits for your cat: it eliminates the risk of uterine infections (pyometra), reduces the risk of mammary tumours significantly, and prevents the stress and discomfort of repeated heat cycles.",
         ],
       },
@@ -911,7 +911,7 @@ export const posts: BlogPost[] = [
         heading: 'When Should You Spay Your Cat in Dubai?',
         paragraphs: [
           "The standard recommendation is to spay cats at around 4–6 months of age, before their first heat cycle. Cats can come into heat as early as 4 months, so we advise booking your spay appointment before this point.",
-          "Adult cats can also be safely spayed at any age, including older cats. There is no 'too late' when it comes to spaying — the benefits to health remain significant throughout a cat's life.",
+          "Adult cats can also be safely spayed at any age, including older cats. There is no 'too late' when it comes to spaying - the benefits to health remain significant throughout a cat's life.",
           "We do not recommend spaying during an active heat cycle or pregnancy unless there are medical reasons. Your vet will advise on timing based on your cat's individual status.",
         ],
       },
@@ -926,7 +926,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'How Much Does Cat Spaying Cost in Dubai?',
         paragraphs: [
-          "Spay costs in Dubai vary depending on the clinic, the cat's size, and whether additional services like pre-surgical bloodwork are included. At Mike's Vet, we include a thorough pre-operative assessment and all standard monitoring — we don't cut corners to lower a headline price.",
+          "Spay costs in Dubai vary depending on the clinic, the cat's size, and whether additional services like pre-surgical bloodwork are included. At Mike's Vet, we include a thorough pre-operative assessment and all standard monitoring - we don't cut corners to lower a headline price.",
           "Contact us for a current quote. We'll explain exactly what's included so you can make an informed decision for your cat.",
         ],
       },
@@ -943,7 +943,7 @@ export const posts: BlogPost[] = [
     title: 'Emergency Vet Dubai: What to Do When Your Pet Has an Accident',
     date: '2025-09-02',
     readTime: '5 min read',
-    excerpt: "When a pet emergency strikes, every second counts. This guide tells you exactly what to do — and what not to do — if your cat or dog has an accident or sudden illness in Dubai.",
+    excerpt: "When a pet emergency strikes, every second counts. This guide tells you exactly what to do - and what not to do - if your cat or dog has an accident or sudden illness in Dubai.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80&auto=format&fit=crop&crop=faces',
       alt: 'Two dogs outdoors in Dubai',
@@ -963,7 +963,7 @@ export const posts: BlogPost[] = [
           "• Severe bleeding that doesn't stop with pressure",
           "• Suspected broken bones or trauma after an accident",
           "• Swollen, hard, or painful abdomen",
-          "• Inability to urinate (especially in male cats — this is a life-threatening emergency)",
+          "• Inability to urinate (especially in male cats - this is a life-threatening emergency)",
           "• Prolonged vomiting or diarrhoea with blood",
           "If your pet is showing any of these signs, call a vet immediately. At Mike's Vet, you can reach us on +971 4 283 7744 or WhatsApp us.",
         ],
@@ -971,29 +971,29 @@ export const posts: BlogPost[] = [
       {
         heading: 'What to Do While Getting Your Pet to the Vet',
         paragraphs: [
-          "Stay calm — your pet can sense your anxiety, and a calm owner means a calmer patient. Here's what to do while you prepare to leave for the clinic:",
-          "**For injured pets:** Handle them carefully and minimise movement. A painful animal may bite even if they have never done so before — use a towel to wrap and support them. Do not attempt to splint fractures yourself.",
+          "Stay calm - your pet can sense your anxiety, and a calm owner means a calmer patient. Here's what to do while you prepare to leave for the clinic:",
+          "**For injured pets:** Handle them carefully and minimise movement. A painful animal may bite even if they have never done so before - use a towel to wrap and support them. Do not attempt to splint fractures yourself.",
           "**For poisoning:** Do not induce vomiting unless specifically instructed to by a vet. Call us and tell us exactly what your pet ingested, including the product name and how much they may have eaten.",
           "**For cats:** Transport in a secure carrier. If injured, line the carrier with a soft towel and keep it flat in the car.",
-          "**For dogs:** Keep them as still as possible. If they're too large to carry safely, call us — we can advise on how to move them safely.",
+          "**For dogs:** Keep them as still as possible. If they're too large to carry safely, call us - we can advise on how to move them safely.",
         ],
       },
       {
         heading: 'Common Pet Emergencies in Dubai',
         paragraphs: [
           "Dubai's environment presents some specific emergency risks for pets:",
-          "**Heatstroke** — Temperatures in Dubai can exceed 45°C. Never leave a pet in a car, and watch for heavy panting, drooling, and collapse in the heat. Move your pet to a cool area and apply cool (not cold) water before driving to the vet.",
-          "**Toxin ingestion** — Common household toxins include xylitol (in sugar-free products), grapes and raisins, certain plants, cleaning products, and human medications.",
-          "**Road accidents** — With Dubai's high traffic density, road accidents are a significant risk for pets that escape outdoors.",
-          "**Urinary blockage in male cats** — A blocked bladder is one of the most common life-threatening emergencies in cats. Signs include straining to urinate, crying out, and a hunched posture. This requires immediate treatment.",
+          "**Heatstroke** - Temperatures in Dubai can exceed 45°C. Never leave a pet in a car, and watch for heavy panting, drooling, and collapse in the heat. Move your pet to a cool area and apply cool (not cold) water before driving to the vet.",
+          "**Toxin ingestion** - Common household toxins include xylitol (in sugar-free products), grapes and raisins, certain plants, cleaning products, and human medications.",
+          "**Road accidents** - With Dubai's high traffic density, road accidents are a significant risk for pets that escape outdoors.",
+          "**Urinary blockage in male cats** - A blocked bladder is one of the most common life-threatening emergencies in cats. Signs include straining to urinate, crying out, and a hunched posture. This requires immediate treatment.",
         ],
       },
     ],
     faqs: [
       { q: 'Is there a 24-hour emergency vet in Dubai?', a: "Mike's Vet on Hessa Street is open until 9:30 PM every day. For late-night emergencies outside our hours, we recommend calling your nearest 24-hour veterinary facility. During our hours, call +971 4 283 7744." },
-      { q: 'What should I do if my cat or dog is hit by a car in Dubai?', a: "Keep calm and handle carefully — injured animals may bite. Call Mike's Vet on +971 4 283 7744 immediately. Support the animal's body, keep them warm, and drive directly to us on Hessa Street." },
+      { q: 'What should I do if my cat or dog is hit by a car in Dubai?', a: "Keep calm and handle carefully - injured animals may bite. Call Mike's Vet on +971 4 283 7744 immediately. Support the animal's body, keep them warm, and drive directly to us on Hessa Street." },
       { q: 'What is the emergency vet number in Dubai?', a: "Mike's Vet emergency number is +971 4 283 7744. You can also WhatsApp us. We are open 7 days, 9am–9:30pm on Hessa Street, Dubai." },
-      { q: 'Is heatstroke an emergency for pets in Dubai?', a: "Yes. Heatstroke is a life-threatening emergency. Move your pet to a cool area, apply cool water to their body, and bring them to a vet immediately. Do not use ice-cold water — this can cause shock." },
+      { q: 'Is heatstroke an emergency for pets in Dubai?', a: "Yes. Heatstroke is a life-threatening emergency. Move your pet to a cool area, apply cool water to their body, and bring them to a vet immediately. Do not use ice-cold water - this can cause shock." },
     ],
   },
   {
@@ -1008,7 +1008,7 @@ export const posts: BlogPost[] = [
       credit: 'Unsplash',
     },
     metaTitle: "Pet Microchipping Dubai: Law, Cost & What to Expect | Mike's Vet",
-    metaDescription: "Is microchipping required for pets in Dubai? Yes — all dogs must be microchipped by law. Learn how it works, how much it costs, and how to register your pet. From Mike's Vet, Hessa Street.",
+    metaDescription: "Is microchipping required for pets in Dubai? Yes - all dogs must be microchipped by law. Learn how it works, how much it costs, and how to register your pet. From Mike's Vet, Hessa Street.",
     sections: [
       {
         heading: 'Is Microchipping Required for Pets in Dubai?',
@@ -1020,28 +1020,28 @@ export const posts: BlogPost[] = [
       {
         heading: 'How Does Microchipping Work?',
         paragraphs: [
-          "A microchip is a tiny electronic device — about the size of a grain of rice — inserted under the skin between your pet's shoulder blades using a sterile needle. The process takes seconds and causes minimal discomfort, similar to a standard vaccination.",
+          "A microchip is a tiny electronic device - about the size of a grain of rice - inserted under the skin between your pet's shoulder blades using a sterile needle. The process takes seconds and causes minimal discomfort, similar to a standard vaccination.",
           "Each microchip has a unique 15-digit ISO number that is registered on a database alongside your contact details. If your pet is ever lost and taken to a vet or shelter, they can be scanned and reunited with you.",
-          "The microchip itself is passive — it has no battery and never needs replacing. It only activates when scanned by a compatible reader.",
+          "The microchip itself is passive - it has no battery and never needs replacing. It only activates when scanned by a compatible reader.",
         ],
       },
       {
         heading: 'Microchipping and International Travel from Dubai',
         paragraphs: [
-          "If you plan to travel internationally with your pet, microchipping is a prerequisite for obtaining a Pet Passport or UAE health certificate. Your pet must be chipped before any vaccinations can be officially recorded against the chip number — so it's important to do this early.",
+          "If you plan to travel internationally with your pet, microchipping is a prerequisite for obtaining a Pet Passport or UAE health certificate. Your pet must be chipped before any vaccinations can be officially recorded against the chip number - so it's important to do this early.",
           "Ensure your chip is ISO 15-digit standard (15 digits), as this is internationally recognised. Some older or US-standard chips (9 or 10 digits) may not be readable by overseas scanners.",
         ],
       },
       {
         heading: 'How Much Does Microchipping Cost in Dubai?',
         paragraphs: [
-          "Microchipping is one of the most affordable procedures available at a vet clinic. At Mike's Vet, we offer microchipping for cats and dogs at a straightforward price — contact us for current rates. We can often fit microchipping into an existing appointment without the need for a separate visit.",
+          "Microchipping is one of the most affordable procedures available at a vet clinic. At Mike's Vet, we offer microchipping for cats and dogs at a straightforward price - contact us for current rates. We can often fit microchipping into an existing appointment without the need for a separate visit.",
         ],
       },
     ],
     faqs: [
       { q: 'Is microchipping compulsory for dogs in Dubai?', a: 'Yes. Dubai Municipality requires all dogs to be microchipped and registered. Failure to do so can result in fines. Cats are not currently legally required to be chipped but it is strongly recommended.' },
-      { q: 'Does microchipping hurt my cat or dog?', a: 'The procedure involves a quick injection under the skin — most pets barely react. It is no more uncomfortable than a standard vaccination and takes only a few seconds.' },
+      { q: 'Does microchipping hurt my cat or dog?', a: 'The procedure involves a quick injection under the skin - most pets barely react. It is no more uncomfortable than a standard vaccination and takes only a few seconds.' },
       { q: 'Can I get my pet microchipped at Mike\'s Vet in Dubai?', a: "Yes. Mike's Vet on Hessa Street offers microchipping for cats and dogs. We use ISO-standard chips and can assist with registration. Book online or call +971 4 283 7744." },
       { q: 'Does my pet need a microchip to travel from Dubai?', a: 'Yes. An ISO-standard microchip is required for any international pet travel from the UAE, and must be in place before vaccinations are officially recorded. Arrange this early if you plan to travel with your pet.' },
     ],
@@ -1051,7 +1051,7 @@ export const posts: BlogPost[] = [
     title: 'Dental Care for Cats and Dogs in Dubai: Why It Matters',
     date: '2025-09-09',
     readTime: '5 min read',
-    excerpt: "Dental disease is the most common health problem in adult cats and dogs — and most owners don't realise there's a problem until it's advanced. Here's what Dubai pet owners need to know.",
+    excerpt: "Dental disease is the most common health problem in adult cats and dogs - and most owners don't realise there's a problem until it's advanced. Here's what Dubai pet owners need to know.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop&crop=faces',
       alt: 'A golden retriever with a happy expression',
@@ -1063,7 +1063,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Why Dental Health Is Critical for Pets',
         paragraphs: [
-          "By age 3, over 70% of cats and dogs show signs of periodontal disease. Unlike in humans, pets cannot tell us when their teeth hurt — many animals continue eating normally despite significant dental pain, which means problems are often missed until they're severe.",
+          "By age 3, over 70% of cats and dogs show signs of periodontal disease. Unlike in humans, pets cannot tell us when their teeth hurt - many animals continue eating normally despite significant dental pain, which means problems are often missed until they're severe.",
           "Untreated dental disease doesn't just cause mouth pain. Bacteria from infected gums can enter the bloodstream and damage the kidneys, heart, and liver over time. Good dental care genuinely extends the quality and length of your pet's life.",
         ],
       },
@@ -1083,9 +1083,9 @@ export const posts: BlogPost[] = [
       {
         heading: 'What Does a Professional Dental Cleaning Involve?',
         paragraphs: [
-          "Professional dental cleaning (scale and polish) for pets is performed under general anaesthetic. This is necessary because a full oral examination — probing for pockets, checking roots, taking dental X-rays — cannot be done safely or thoroughly in a conscious animal.",
+          "Professional dental cleaning (scale and polish) for pets is performed under general anaesthetic. This is necessary because a full oral examination - probing for pockets, checking roots, taking dental X-rays - cannot be done safely or thoroughly in a conscious animal.",
           "At Mike's Vet, a dental procedure includes a pre-anaesthetic health assessment and blood panel, ultrasonic scaling to remove tartar above and below the gumline, polishing of all tooth surfaces, a full oral examination including dental X-rays where indicated, and extraction of any teeth that are beyond saving.",
-          "Your pet goes home the same day, usually bright and comfortable. Most owners are amazed at the transformation — whiter teeth, fresher breath, and a happier animal.",
+          "Your pet goes home the same day, usually bright and comfortable. Most owners are amazed at the transformation - whiter teeth, fresher breath, and a happier animal.",
         ],
       },
       {
@@ -1099,7 +1099,7 @@ export const posts: BlogPost[] = [
     faqs: [
       { q: 'How often should I get my dog or cat\'s teeth cleaned in Dubai?', a: "Most pets benefit from an annual professional dental check and cleaning as needed. Small breeds and cats are often more prone to rapid tartar build-up and may need more frequent cleanings." },
       { q: 'Is dental cleaning safe for pets?', a: "Yes. Modern anaesthetic protocols make dental procedures very safe. At Mike's Vet, we run pre-anaesthetic blood tests and monitor your pet throughout. The risks of untreated dental disease far outweigh the risks of a routine cleaning." },
-      { q: 'Does my pet need to be anaesthetised for a dental cleaning?', a: "Yes. Safe and thorough dental cleaning — including below the gumline where disease develops — requires general anaesthetic. So-called 'anaesthetic-free dentals' only clean visible surfaces and are not endorsed by veterinary dental associations." },
+      { q: 'Does my pet need to be anaesthetised for a dental cleaning?', a: "Yes. Safe and thorough dental cleaning - including below the gumline where disease develops - requires general anaesthetic. So-called 'anaesthetic-free dentals' only clean visible surfaces and are not endorsed by veterinary dental associations." },
       { q: 'Can I get my pet\'s teeth cleaned at Mike\'s Vet in Dubai?', a: "Yes. Mike's Vet offers professional dental cleaning for cats and dogs on Hessa Street, Dubai. Book a dental assessment online or call +971 4 283 7744." },
     ],
   },
@@ -1108,12 +1108,12 @@ export const posts: BlogPost[] = [
     title: 'My Dog Is Limping on Their Back Leg: Could It Be a Cruciate Ligament Tear?',
     date: '2026-09-15',
     readTime: '7 min read',
-    excerpt: "Hind leg lameness is one of the most common reasons dogs come to us for orthopaedic assessment. The cranial cruciate ligament is involved in the majority of cases — and the sooner it is diagnosed, the better the outcome.",
+    excerpt: "Hind leg lameness is one of the most common reasons dogs come to us for orthopaedic assessment. The cranial cruciate ligament is involved in the majority of cases - and the sooner it is diagnosed, the better the outcome.",
     metaTitle: "Dog Limping on Back Leg: CCL Signs & Treatment Dubai | Mike's Vet",
     metaDescription: "Is your dog limping on their back leg in Dubai? It could be a cruciate ligament (CCL) tear. Learn the signs, the simple home sit test, how it is diagnosed, and what treatment involves. From Mike's Vet.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1562317305-58a17fe2c09e?w=1200&q=80&auto=format&fit=crop',
-      alt: 'A chocolate Labrador retriever — one of the breeds most commonly affected by cruciate ligament tears',
+      alt: 'A chocolate Labrador retriever - one of the breeds most commonly affected by cruciate ligament tears',
       credit: 'Unsplash',
     },
     sections: [
@@ -1163,7 +1163,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Treatment Options: Surgery vs Conservative Management',
         paragraphs: [
-          "For dogs under 10-15 kg with a partial tear, strict rest combined with physiotherapy and anti-inflammatory medication can sometimes allow sufficient scar tissue to form for the dog to regain acceptable function. This is not a cure — the joint remains arthritic — but in small dogs the outcome can be acceptable without surgery.",
+          "For dogs under 10-15 kg with a partial tear, strict rest combined with physiotherapy and anti-inflammatory medication can sometimes allow sufficient scar tissue to form for the dog to regain acceptable function. This is not a cure - the joint remains arthritic - but in small dogs the outcome can be acceptable without surgery.",
           "For medium and large dogs, conservative management rarely provides lasting relief. The joint instability continues, arthritis progresses, and many dogs go on to rupture the ligament fully even if they initially appear to improve with rest. Surgery is strongly recommended for most dogs over 15 kg.",
           "There is also a significant risk of injuring the other leg. Studies have found that up to 60% of dogs with a unilateral CCL rupture will rupture the contralateral ligament within two years. This makes prompt treatment of the first leg particularly important.",
         ],
@@ -1258,7 +1258,7 @@ export const posts: BlogPost[] = [
         heading: 'Long-Term Outcomes',
         paragraphs: [
           "The majority of dogs that undergo TPLO return to full or near-full athletic function. Long-term studies show that most owners rate their dog's post-operative function as excellent or good, with progressive osteoarthritis slowed compared to dogs managed without surgery.",
-          "TPLO does not cure arthritis that has already developed — it stops it from progressing rapidly. Dogs with established joint disease before surgery will still have some degree of arthritis in the long term, and weight management, appropriate exercise, and joint supplements can all help manage this.",
+          "TPLO does not cure arthritis that has already developed - it stops it from progressing rapidly. Dogs with established joint disease before surgery will still have some degree of arthritis in the long term, and weight management, appropriate exercise, and joint supplements can all help manage this.",
           "At Mike's Vet, our surgical team will walk you through what is realistic for your dog specifically, based on their age, weight, breed, and the degree of existing joint changes.",
         ],
       },
@@ -1328,7 +1328,7 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "Hip dysplasia is a developmental condition where the hip joint does not form correctly, leading to joint laxity, abnormal wear, pain, and eventually severe arthritis. It is most common in large breeds: German Shepherds, Labradors, Golden Retrievers, and Rottweilers are particularly predisposed.",
           "Management depends strongly on the dog's age, severity of dysplasia, degree of arthritis, and the owner's circumstances. Young dogs with significant laxity but limited arthritis are candidates for procedures like triple pelvic osteotomy (TPO), which improves joint coverage before arthritis becomes established.",
-          "For older dogs with established arthritis, medical management — weight management, anti-inflammatories, physiotherapy, joint supplements — can provide good quality of life for many years. For dogs who are not responding adequately to medical management, total hip replacement is the definitive surgical solution, typically requiring referral to a specialist centre.",
+          "For older dogs with established arthritis, medical management - weight management, anti-inflammatories, physiotherapy, joint supplements - can provide good quality of life for many years. For dogs who are not responding adequately to medical management, total hip replacement is the definitive surgical solution, typically requiring referral to a specialist centre.",
         ],
       },
       {

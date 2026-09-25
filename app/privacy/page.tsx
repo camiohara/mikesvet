@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Mike's Vet Dubai",
-  description: "Mike's Vet privacy policy — how we collect, use, and protect your personal data and your pet's records. Compliant with UAE data protection law.",
+  description: "Mike's Vet privacy policy - how we collect, use, and protect your personal data and your pet's records. Compliant with UAE data protection law.",
   alternates: { canonical: 'https://www.mikesvet.com/privacy' },
 }
 

@@ -18,11 +18,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.mikesvet.com'),
   title: {
-    default: "Vet Clinic Dubai | Mike's Vet — 4.8★ | Hessa Street | Open 7 Days",
+    default: "Vet Clinic Dubai | Mike's Vet - 4.8★ | Hessa Street | Open 7 Days",
     template: "%s | Mike's Vet Dubai",
   },
   description:
-    "Mike's Vet — Dubai's top-rated vet clinic (4.8★) on Hessa Street. Complex & orthopaedic surgery, TPLO, soft tissue surgery, dentals, emergency care & vaccinations. Open 7 days, 9am–9:30pm. Serving JVC, Al Barsha, Jumeirah & beyond.",
+    "Mike's Vet - Dubai's top-rated vet clinic (4.8★) on Hessa Street. Complex & orthopaedic surgery, TPLO, soft tissue surgery, dentals, emergency care & vaccinations. Open 7 days, 9am–9:30pm. Serving JVC, Al Barsha, Jumeirah & beyond.",
   keywords: [
     "best vet Dubai", "vet Dubai", "veterinary clinic Dubai", "cat vet Dubai", "dog vet Dubai",
     "emergency vet Dubai", "Hessa Street vet", "pet clinic Dubai", "vet near JVC Dubai",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Mike's Vet Dubai",
     title: "Mike's Vet | Veterinary Clinic on Hessa Street, Dubai",
     description:
-      "Dubai's leading vet clinic on Hessa Street — open 7 days, 9am–9:30pm. Expert care for cats & dogs, plus cat adoption and fostering.",
+      "Dubai's leading vet clinic on Hessa Street - open 7 days, 9am–9:30pm. Expert care for cats & dogs, plus cat adoption and fostering.",
     images: [{ url: '/icon-mark.png', width: 512, height: 512, alt: "Mike's Vet logo" }],
   },
   twitter: {

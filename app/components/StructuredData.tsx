@@ -110,7 +110,7 @@ export default function StructuredData() {
         name: "How much does it cost to see a vet in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Vet fees in Dubai vary by clinic and service. At Mike's Vet on Hessa Street, we offer transparent pricing across all services — from routine consultations and vaccinations to dentals, surgery, and diagnostics. Our vet home visit fee is AED 400 + VAT. For specific pricing, call or WhatsApp +971 4 283 7744 or book online at mikesvet.com.",
+          text: "Vet fees in Dubai vary by clinic and service. At Mike's Vet on Hessa Street, we offer transparent pricing across all services - from routine consultations and vaccinations to dentals, surgery, and diagnostics. Our vet home visit fee is AED 400 + VAT. For specific pricing, call or WhatsApp +971 4 283 7744 or book online at mikesvet.com.",
         },
       },
       {
@@ -118,7 +118,7 @@ export default function StructuredData() {
         name: "Who is the best vet in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated veterinary clinics, with a 4.8-star Google rating from over 500 reviews. Founded by Mike and Camelia O'Hara, the clinic offers expert care for cats and dogs — including advanced diagnostics, orthopaedic surgery, TPLO, emergency care, and ICU. Open 7 days, 9am–9:30pm including public holidays.",
+          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated veterinary clinics, with a 4.8-star Google rating from over 500 reviews. Founded by Mike and Camelia O'Hara, the clinic offers expert care for cats and dogs - including advanced diagnostics, orthopaedic surgery, TPLO, emergency care, and ICU. Open 7 days, 9am–9:30pm including public holidays.",
         },
       },
       {
@@ -126,7 +126,7 @@ export default function StructuredData() {
         name: "What is the best vet clinic in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated vet clinics, with a 4.8-star Google rating. We offer comprehensive care for cats and dogs including diagnostics, surgery, dental care, and emergency treatment — open 7 days a week from 9:00 AM to 9:30 PM.",
+          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated vet clinics, with a 4.8-star Google rating. We offer comprehensive care for cats and dogs including diagnostics, surgery, dental care, and emergency treatment - open 7 days a week from 9:00 AM to 9:30 PM.",
         },
       },
       {
@@ -142,7 +142,7 @@ export default function StructuredData() {
         name: "Which vet clinic is near JVC, Al Barsha, and Jumeirah in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Mike's Vet is located on Hessa Street, Dubai — centrally accessible from JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, and Arabian Ranches. We serve pet owners across the wider Dubai area.",
+          text: "Mike's Vet is located on Hessa Street, Dubai - centrally accessible from JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, and Arabian Ranches. We serve pet owners across the wider Dubai area.",
         },
       },
       {
@@ -190,7 +190,7 @@ export default function StructuredData() {
         name: "Does Mike's Vet offer home visits in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Yes. Mike's Vet offers vet home visits across Dubai — JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches, DAMAC Hills, Mudon, and surrounding areas. The home visit fee is AED 400 + VAT. Consultations, vaccinations, wellness checks, post-op check-ups, and chronic condition monitoring can all be done at home. Book by calling or WhatsApp on +971 4 283 7744.",
+          text: "Yes. Mike's Vet offers vet home visits across Dubai - JVC, Al Barsha, Barsha Heights, The Springs, Jumeirah, Motor City, Arabian Ranches, DAMAC Hills, Mudon, and surrounding areas. The home visit fee is AED 400 + VAT. Consultations, vaccinations, wellness checks, post-op check-ups, and chronic condition monitoring can all be done at home. Book by calling or WhatsApp on +971 4 283 7744.",
         },
       },
       {
@@ -198,7 +198,7 @@ export default function StructuredData() {
         name: "Does Mike's Vet have an ICU for pets in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Yes. Mike's Vet has a full veterinary ICU unit with controlled oxygen therapy (21–65% adjustable), precise temperature and humidity regulation, UV sterilisation, and nebulisation capability. It is used for critically ill patients — post-surgical recovery, respiratory distress, severe infection, parvovirus, and oxygen-dependent animals.",
+          text: "Yes. Mike's Vet has a full veterinary ICU unit with controlled oxygen therapy (21–65% adjustable), precise temperature and humidity regulation, UV sterilisation, and nebulisation capability. It is used for critically ill patients - post-surgical recovery, respiratory distress, severe infection, parvovirus, and oxygen-dependent animals.",
         },
       },
       {
@@ -238,7 +238,7 @@ export default function StructuredData() {
         name: "Which vet in Dubai does complex surgery for dogs and cats?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Mike's Vet on Hessa Street, Dubai has an experienced surgical team performing complex soft tissue and orthopaedic surgery for cats and dogs — including TPLO, fracture repair, gastrointestinal surgery, tumour removal, and caesarean sections. No specialist referral is required.",
+          text: "Mike's Vet on Hessa Street, Dubai has an experienced surgical team performing complex soft tissue and orthopaedic surgery for cats and dogs - including TPLO, fracture repair, gastrointestinal surgery, tumour removal, and caesarean sections. No specialist referral is required.",
         },
       },
       {
@@ -246,7 +246,7 @@ export default function StructuredData() {
         name: "Does Mike's Vet do dog fracture repair surgery in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Yes. Mike's Vet performs fracture repair surgery for dogs and cats using plates, pins, and external fixation. Our orthopaedic surgical capability is available in-house on Hessa Street, Dubai — call +971 4 283 7744 for a consultation.",
+          text: "Yes. Mike's Vet performs fracture repair surgery for dogs and cats using plates, pins, and external fixation. Our orthopaedic surgical capability is available in-house on Hessa Street, Dubai - call +971 4 283 7744 for a consultation.",
         },
       },
     ],
@@ -255,7 +255,7 @@ export default function StructuredData() {
   const surgicalServices = {
     '@context': 'https://schema.org',
     '@type': 'MedicalClinic',
-    name: "Mike's Vet — Surgical Services",
+    name: "Mike's Vet - Surgical Services",
     url: 'https://www.mikesvet.com/services',
     medicalSpecialty: [
       { '@type': 'MedicalSpecialty', name: 'Veterinary Surgery' },
@@ -271,7 +271,7 @@ export default function StructuredData() {
       },
       {
         '@type': 'MedicalProcedure',
-        name: 'Orthopaedic Surgery — Fracture Repair',
+        name: 'Orthopaedic Surgery - Fracture Repair',
         procedureType: 'https://schema.org/SurgicalProcedure',
         description: 'Fracture repair for dogs and cats using plates, pins and external fixation. Available in-house at Mike\'s Vet on Hessa Street, Dubai.',
         url: 'https://www.mikesvet.com/services/orthopaedic-surgery',

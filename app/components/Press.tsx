@@ -11,7 +11,7 @@ const pressItems = [
     publication: 'Gulf News',
     headline: 'UAE: These Dubai expats rescued 1,500 cats, here\'s why',
     date: '2023',
-    excerpt: 'Mike and Camelia O\'Hara — founders of Mike\'s Vet — have rescued over 1,500 cats across the UAE, housing 67 at their Al Barsha villa while running the clinic they built on their passion for animal welfare.',
+    excerpt: 'Mike and Camelia O\'Hara - founders of Mike\'s Vet - have rescued over 1,500 cats across the UAE, housing 67 at their Al Barsha villa while running the clinic they built on their passion for animal welfare.',
     url: 'https://gulfnews.com/uae/uae-these-dubai-expats-rescued-1500-cats-heres-why-1.97209316',
     cta: 'Read Article',
   },
@@ -19,7 +19,7 @@ const pressItems = [
     publication: 'Gulf News',
     headline: 'Free vet care offered to pets rescued from Dubai Marina tower fire',
     date: '2025',
-    excerpt: 'Following the Dubai Marina high-rise fire, Mike\'s Vet opened its doors to provide free consultations, ICU placement, and chest X-rays for smoke inhalation cases — caring for six cats and a bird rescued from the blaze.',
+    excerpt: 'Following the Dubai Marina high-rise fire, Mike\'s Vet opened its doors to provide free consultations, ICU placement, and chest X-rays for smoke inhalation cases - caring for six cats and a bird rescued from the blaze.',
     url: 'https://gulfnews.com/uae/dubai-marina-tower-fire-vets-offer-free-care-and-shelter-for-rescued-pets-1.500165169',
     cta: 'Read Article',
   },
@@ -61,7 +61,7 @@ export default function Press() {
             As Seen In
           </h2>
           <p className="text-[var(--color-gray-mid)] max-w-lg mx-auto text-base">
-            From rescuing thousands of stray cats to responding to Dubai emergencies — here&apos;s what the media has been saying about us.
+            From rescuing thousands of stray cats to responding to Dubai emergencies - here&apos;s what the media has been saying about us.
           </p>
         </div>
 

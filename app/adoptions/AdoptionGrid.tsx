@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { urlForImage } from '@/sanity/lib/image'
+import ShareButton from '../components/ShareButton'
 
 type Animal = {
   _id: string
@@ -61,7 +62,7 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
       <div className="text-center py-24">
         <p className="text-5xl mb-4">🐾</p>
         <h3 className="text-xl font-bold text-[var(--color-navy)] mb-2">Check back soon</h3>
-        <p className="text-[var(--color-gray-mid)]">No animals available right now — follow us on Instagram for updates.</p>
+        <p className="text-[var(--color-gray-mid)]">No animals available right now - follow us on Instagram for updates.</p>
       </div>
     )
   }
@@ -118,7 +119,7 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
       {/* Grid */}
       {filtered.length === 0 ? (
         <div className="text-center py-16">
-          <p className="text-[var(--color-gray-mid)]">No animals match your filters — try adjusting them.</p>
+          <p className="text-[var(--color-gray-mid)]">No animals match your filters - try adjusting them.</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
@@ -129,13 +130,9 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
               : ''
 
             return (
-              <Link
-                key={animal._id}
-                href={`/adoptions/${animal.slug}`}
-                className="group flex flex-col rounded-2xl overflow-hidden border border-[var(--color-border)] bg-white shadow-sm hover:shadow-md transition-shadow"
-              >
+              <div key={animal._id} className="group flex flex-col rounded-2xl overflow-hidden border border-[var(--color-border)] bg-white shadow-sm hover:shadow-md transition-shadow">
                 {/* Photo */}
-                <div className="relative aspect-square w-full bg-[var(--color-brand-light)]">
+                <Link href={`/adoptions/${animal.slug}`} className="relative aspect-square w-full bg-[var(--color-brand-light)] block">
                   {photoUrl ? (
                     <Image src={photoUrl} alt={animal.name} fill className="object-cover group-hover:scale-[1.02] transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
                   ) : (
@@ -154,38 +151,47 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                   <span className="absolute bottom-3 right-3 text-xs font-medium px-2 py-1 rounded-full bg-black/50 text-white backdrop-blur-sm">
                     {days === 0 ? 'Just arrived' : `${days} day${days !== 1 ? 's' : ''} waiting`}
                   </span>
-                </div>
+                </Link>
 
                 {/* Info */}
-                <div className="p-3 sm:p-4 flex flex-col gap-1.5">
+                <div className="p-3 sm:p-4 flex flex-col flex-1">
                   <div className="flex items-start justify-between gap-1">
-                    <h3 className="font-bold text-[var(--color-navy)] text-base sm:text-lg leading-tight" style={{ fontFamily: 'var(--font-playfair)' }}>
-                      {animal.name}
-                    </h3>
-                    <span className="text-xs text-[var(--color-gray-mid)] shrink-0 mt-0.5">
-                      {animal.gender === 'male' ? '♂' : '♀'} · {ageLabel(animal.ageYears, animal.ageMonths)}
-                    </span>
+                    <Link href={`/adoptions/${animal.slug}`} className="flex-1 min-w-0">
+                      <h3 className="font-bold text-[var(--color-navy)] text-base sm:text-lg leading-tight hover:text-[var(--color-brand)] transition-colors" style={{ fontFamily: 'var(--font-playfair)' }}>
+                        {animal.name}
+                      </h3>
+                    </Link>
+                    <div className="flex items-center gap-2 shrink-0 mt-0.5">
+                      <span className="text-xs text-[var(--color-gray-mid)]">
+                        {animal.gender === 'male' ? '♂' : '♀'} · {ageLabel(animal.ageYears, animal.ageMonths)}
+                      </span>
+                      <ShareButton
+                        url={`https://www.mikesvet.com/adoptions/${animal.slug}`}
+                        title={`Meet ${animal.name} - available for adoption in Dubai`}
+                        text={`${animal.name} is looking for a forever home. Meet ${animal.gender === 'male' ? 'him' : 'her'} at Mike's Vet Dubai.`}
+                        size="sm"
+                      />
+                    </div>
                   </div>
 
                   {animal.breed && (
-                    <p className="text-xs text-[var(--color-gray-mid)]">{animal.breed}</p>
+                    <p className="text-xs text-[var(--color-gray-mid)] mt-1">{animal.breed}</p>
                   )}
 
-                  {animal.personalityTags && animal.personalityTags.length > 0 && (
-                    <div className="flex flex-wrap gap-1 mt-0.5">
-                      {animal.personalityTags.slice(0, 2).map((tag) => (
-                        <span
-                          key={tag}
-                          className="text-xs px-2 py-0.5 rounded-full font-medium"
-                          style={{ backgroundColor: 'var(--color-brand-light)', color: 'var(--color-brand)' }}
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                  {/* Fixed-height tag row - always takes up space so badge strip aligns */}
+                  <div className="flex flex-wrap gap-1 mt-2 min-h-[24px]">
+                    {animal.personalityTags && animal.personalityTags.slice(0, 2).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-xs px-2 py-0.5 rounded-full font-medium"
+                        style={{ backgroundColor: 'var(--color-brand-light)', color: 'var(--color-brand)' }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
 
-                  <div className="flex items-center gap-2 mt-1.5 pt-2 border-t border-[var(--color-border)]">
+                  <div className="flex items-center gap-2 mt-auto pt-2 border-t border-[var(--color-border)]">
                     {[
                       { show: animal.vaccinated, label: 'Vaccinated' },
                       { show: animal.neutered, label: 'Neutered' },
@@ -198,7 +204,7 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
                     ))}
                   </div>
                 </div>
-              </Link>
+              </div>
             )
           })}
         </div>

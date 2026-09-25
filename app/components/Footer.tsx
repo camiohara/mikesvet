@@ -101,9 +101,16 @@ export default function Footer() {
                 reception@mikesvet.com
               </a>
             </li>
-            <li className="leading-relaxed">
-              Hessa Street<br />
-              Dubai, UAE
+            <li>
+              <a
+                href="https://maps.app.goo.gl/niYAN4UqH1f5WAYw6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="leading-relaxed hover:text-white transition-colors"
+              >
+                Hessa Street<br />
+                Dubai, UAE
+              </a>
             </li>
           </ul>
         </div>

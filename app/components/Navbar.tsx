@@ -43,7 +43,7 @@ export default function Navbar() {
           <Link href="/#contact" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Find Us</Link>
         </nav>
 
-        {/* Book Now CTA — desktop only */}
+        {/* Book Now CTA - desktop only */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
           <a href="/#booking" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
             Book Appointment

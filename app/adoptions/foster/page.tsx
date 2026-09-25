@@ -89,7 +89,7 @@ function FosterForm() {
           <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-3" style={{ color: 'var(--color-brand)' }}>Rescue &amp; Rehoming</p>
           <h1 className="text-4xl font-bold text-[var(--color-navy)] mb-3" style={{ fontFamily: 'var(--font-playfair)' }}>Foster Application</h1>
           <p className="text-[var(--color-gray-mid)] text-sm leading-relaxed max-w-md mx-auto">
-            As a foster you provide temporary care — litter, food, and love — while we find the animal a permanent home. Foster parents are always first in line to adopt.
+            As a foster you provide temporary care - litter, food, and love - while we find the animal a permanent home. Foster parents are always first in line to adopt.
           </p>
         </div>
 

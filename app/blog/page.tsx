@@ -5,7 +5,7 @@ import { posts } from './data'
 
 export const metadata: Metadata = {
   title: { absolute: "Pet Health Blog | Cat & Dog Care Tips | Mike's Vet Dubai" },
-  description: "Expert pet health advice from Mike's Vet Dubai. Guides on cat vaccinations, dog dental care, pet emergencies, and more — written by our veterinary team.",
+  description: "Expert pet health advice from Mike's Vet Dubai. Guides on cat vaccinations, dog dental care, pet emergencies, and more - written by our veterinary team.",
   alternates: { canonical: 'https://www.mikesvet.com/blog' },
   openGraph: {
     title: "Pet Health Blog | Mike's Vet Dubai",
