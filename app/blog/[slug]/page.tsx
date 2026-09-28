@@ -38,6 +38,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     '@type': 'Article',
     headline: post.title,
     datePublished: post.date,
+    ...(post.heroImage ? { image: post.heroImage.url } : {}),
     author: { '@type': 'Organization', name: "Mike's Vet Dubai" },
     publisher: {
       '@type': 'Organization',
@@ -168,6 +169,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </a>
             </div>
           </div>
+
+          {/* Related service */}
+          {post.relatedService && (
+            <div className="mt-8 flex items-center justify-between gap-4 rounded-xl border px-6 py-4" style={{ borderColor: 'var(--color-border)' }}>
+              <p className="text-sm font-semibold text-[var(--color-navy)]">
+                Related: <span style={{ color: 'var(--color-brand)' }}>{post.relatedService.name}</span>
+              </p>
+              <Link
+                href={post.relatedService.href}
+                className="shrink-0 px-4 py-2 rounded-full text-xs font-semibold text-white hover:opacity-90 transition-opacity"
+                style={{ backgroundColor: 'var(--color-brand)' }}
+              >
+                Learn more →
+              </Link>
+            </div>
+          )}
 
           {/* References */}
           {post.references && post.references.length > 0 && (

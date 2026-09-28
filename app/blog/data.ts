@@ -7,6 +7,7 @@ export interface BlogPost {
   metaTitle: string
   metaDescription: string
   heroImage?: { url: string; alt: string; credit?: string }
+  relatedService?: { name: string; href: string }
   sections: { heading?: string; paragraphs: string[] }[]
   faqs?: { q: string; a: string }[]
   references?: string[]
@@ -19,6 +20,7 @@ export const posts: BlogPost[] = [
     date: '2026-09-23',
     readTime: '7 min read',
     excerpt: 'Dubai has specific vaccination requirements for dogs - and the schedule is different to what you may be used to from home. Here is exactly what your dog needs, when, and why.',
+    relatedService: { name: 'Vaccinations at Mike\'s Vet', href: '/services/vaccinations' },
     metaTitle: "Dog Vaccinations Dubai: Full Schedule & UAE Requirements | Mike's Vet",
     metaDescription: "Complete guide to dog vaccinations in Dubai - DHPPi, rabies, Leptospirosis, Bordetella schedules, UAE import requirements, and puppy timelines. From Mike's Vet on Hessa Street.",
     heroImage: {
@@ -77,6 +79,7 @@ export const posts: BlogPost[] = [
     slug: 'spaying-neutering-dog-dubai',
     title: 'Spaying and Neutering Dogs in Dubai: Age, Benefits, Cost, and Recovery',
     date: '2026-09-23',
+    relatedService: { name: 'Spay & Neuter at Mike\'s Vet', href: '/services/spay-neuter' },
     readTime: '6 min read',
     excerpt: 'When should you neuter or spay your dog in Dubai, and what should you expect? Here is what the current evidence says - including why timing matters more for large breeds.',
     metaTitle: "Spaying & Neutering Dogs in Dubai: Age, Cost & Recovery | Mike's Vet",
@@ -246,6 +249,7 @@ export const posts: BlogPost[] = [
     ],
   },
   {
+    relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     slug: 'how-to-choose-cat-vet-dubai',
     title: 'How to Choose a Cat Vet in Dubai: What Every Cat Owner Should Know',
     date: '2026-09-23',
@@ -807,6 +811,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'when-to-vaccinate-cat-dubai',
+    relatedService: { name: 'Vaccinations at Mike\'s Vet', href: '/services/vaccinations' },
     title: 'Vaccinations for Cats and Dogs in Dubai: The Complete Guide',
     date: '2025-08-15',
     readTime: '6 min read',
@@ -888,6 +893,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'cat-spaying-dubai-guide',
+    relatedService: { name: 'Spay & Neuter at Mike\'s Vet', href: '/services/spay-neuter' },
     title: 'Cat Spaying in Dubai: What to Expect and How Much It Costs',
     date: '2025-08-28',
     readTime: '6 min read',
@@ -940,6 +946,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'emergency-vet-dubai-what-to-do',
+    relatedService: { name: 'Emergency Vet Care at Mike\'s Vet', href: '/services/emergency-care' },
     title: 'Emergency Vet Dubai: What to Do When Your Pet Has an Accident',
     date: '2025-09-02',
     readTime: '5 min read',
@@ -1048,6 +1055,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dental-care-cats-dogs-dubai',
+    relatedService: { name: 'Dental Care at Mike\'s Vet', href: '/services/dental-care' },
     title: 'Dental Care for Cats and Dogs in Dubai: Why It Matters',
     date: '2025-09-09',
     readTime: '5 min read',
@@ -1105,6 +1113,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dog-limping-back-leg-cruciate-dubai',
+    relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'My Dog Is Limping on Their Back Leg: Could It Be a Cruciate Ligament Tear?',
     date: '2026-09-15',
     readTime: '7 min read',
@@ -1192,6 +1201,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'tplo-surgery-dogs-dubai',
+    relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'TPLO Surgery for Dogs in Dubai: How It Works, What to Expect, and Recovery',
     date: '2026-09-17',
     readTime: '8 min read',
@@ -1280,6 +1290,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'orthopaedic-surgery-dogs-cats-dubai',
+    relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'Orthopaedic Surgery for Dogs and Cats in Dubai: When Is It the Right Call?',
     date: '2026-09-19',
     readTime: '7 min read',
