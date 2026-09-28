@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Mike's Vet | Veterinary Clinic on Hessa Street, Dubai",
     description:
       "Dubai's leading vet clinic on Hessa Street - open 7 days, 9am–9:30pm. Expert care for cats & dogs, plus cat adoption and fostering.",
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: "Mike's Vet - Veterinary Clinic on Hessa Street, Dubai" }],
+    images: [{ url: '/og-image.png', width: 1200, height: 720, alt: "Mike's Vet - Veterinary Clinic on Hessa Street, Dubai" }],
   },
   twitter: {
     card: 'summary',
