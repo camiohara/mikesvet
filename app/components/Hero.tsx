@@ -41,7 +41,7 @@ export default function Hero() {
           Comprehensive animal hospital run by pet lovers - equipped with the latest technology for diagnostics, surgery, emergency care, and specialist referrals.
         </p>
         <p className="text-sm opacity-70 mb-10">
-          Open 7 days &bull; 09:00 AM – 09:30 PM &bull; International team from 6 countries
+          Open 7 days &bull; 09:00 AM – 09:30 PM &bull; 80+ years combined experience &bull; 6 countries
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

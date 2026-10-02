@@ -105,7 +105,7 @@ const services = [
   },
   {
     name: 'Orthopaedic Surgery',
-    description: 'Specialist bone and joint surgery for fractures, ligament injuries, and skeletal conditions - helping your pet move freely again.',
+    description: 'TPLO for cruciate ligament tears, fracture fixation, luxating patella, and hip dysplasia - performed in-house by our surgical team. No referral needed.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <path d="M20 10c0 4 2 6 4 8s2 6 0 10-6 6-6 12 4 10 8 10c2 0 4-1 5-3" fill="none" stroke="var(--color-brand)" strokeWidth="3" strokeLinecap="round"/>
@@ -158,7 +158,7 @@ const services = [
   },
   {
     name: 'Emergency Care',
-    description: 'Urgent care when your pet needs it most. Our team is equipped and ready to handle emergencies and critical care cases.',
+    description: 'Pet emergency during our opening hours? Call us immediately. We have oxygen therapy, IV fluids, a surgical suite, and ICU on-site - no transfer needed.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <circle cx="32" cy="32" r="22" fill="var(--color-brand)" opacity=".12"/>

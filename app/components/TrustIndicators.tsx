@@ -1,8 +1,8 @@
 const indicators = [
   {
     icon: '🌍',
-    title: 'International Team',
-    description: 'Vets from 7 countries bringing specialist expertise across ophthalmology, orthopaedics, ultrasound, and more.',
+    title: '80+ Years Combined Experience',
+    description: 'Our six-vet team brings over 80 years of combined clinical experience from across 7 countries - with specialist training in surgery, orthopaedics, ultrasound, and more.',
   },
   {
     icon: '🔬',
@@ -11,13 +11,13 @@ const indicators = [
   },
   {
     icon: '🏥',
-    title: 'Full-Spectrum Care',
-    description: 'From routine wellness checks to complex surgery and emergency critical care - we handle it all under one roof.',
+    title: 'TPLO & Complex Surgery',
+    description: 'We perform TPLO, fracture repair, soft tissue surgery, and more in-house. No referral needed for the procedures most clinics can\'t handle.',
   },
   {
-    icon: '❤️',
-    title: 'Fear-Free Approach',
-    description: 'We prioritise your pet\'s comfort and wellbeing at every step, making every visit as stress-free as possible.',
+    icon: '🚨',
+    title: 'Emergency Care, Every Day',
+    description: 'Genuine emergency capability during opening hours - IV fluids, oxygen therapy, surgical suite, and ICU. Call us first.',
   },
 ]
 
