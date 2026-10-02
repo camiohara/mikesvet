@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
   },
 })
 
-const BRAND = '#1B998B'
+const BRAND = '#64a7c2'
 const NAVY = '#1B2B4B'
 const LOGO_URL = 'https://www.mikesvet.com/icon-mark.png'
 const SITE_URL = 'https://www.mikesvet.com'
