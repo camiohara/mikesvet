@@ -41,6 +41,7 @@ export default function Navbar() {
           <Link href="/blog" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Blog</Link>
           <Link href="/#press" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
           <Link href="/#contact" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Find Us</Link>
+          <Link href="/vouchers" className="hover:opacity-90 transition-opacity whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-semibold text-white" style={{ backgroundColor: 'var(--color-brand)' }}>Gift Vouchers</Link>
         </nav>
 
         {/* Book Now CTA - desktop only */}
@@ -83,6 +84,7 @@ export default function Navbar() {
             { href: '/blog', label: 'Blog' },
             { href: '/#press', label: 'Press' },
             { href: '/#contact', label: 'Find Us' },
+            { href: '/vouchers', label: 'Gift Vouchers' },
           ].map(({ href, label }) => (
             <Link
               key={href}
