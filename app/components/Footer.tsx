@@ -77,6 +77,7 @@ export default function Footer() {
               { label: 'About Us', href: '#about' },
               { label: 'Pet Health Guides', href: '#articles' },
               { label: 'Book Appointment', href: '#booking' },
+              { label: 'Gift Vouchers', href: '/vouchers' },
             ].map((link) => (
               <li key={link.label}>
                 <a href={link.href} className="hover:text-white transition-colors">

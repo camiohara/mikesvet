@@ -84,6 +84,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     ...blogUrls,
     {
+      url: 'https://www.mikesvet.com/vouchers',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
       url: 'https://www.mikesvet.com/vets',
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
