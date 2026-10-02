@@ -15,6 +15,171 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'feeding-indoor-cats-dubai',
+    title: "Feeding Indoor Cats in Dubai: What the Heat and Apartment Life Actually Mean for Your Cat's Diet",
+    date: '2026-10-02',
+    readTime: '5 min read',
+    excerpt: "Most indoor cats in Dubai are overfed, under-watered, and not moving enough. The climate makes all three problems worse. Here's what we actually see at the clinic and what to do about it.",
+    metaTitle: "Feeding Indoor Cats in Dubai: Diet, Hydration & Common Mistakes | Mike's Vet",
+    metaDescription: "Indoor cats in Dubai face specific challenges - heat, low activity, and dry air. Here's what to feed them, how much water they actually need, and the mistakes we see most often at the clinic.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A cat eating from a bowl indoors',
+      credit: 'Unsplash',
+    },
+    relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
+    sections: [
+      {
+        heading: 'The Weight Problem Nobody Talks About',
+        paragraphs: [
+          "Dubai apartment cats don't hunt, don't roam, and spend most of the day on a sofa in an air-conditioned room. That's not a criticism of the lifestyle - it's just reality, and it has a direct effect on how much they should be eating.",
+          "We regularly see cats coming in at 6, 7, 8 kilograms that should be around 4.5. Their owners are often surprised because the cat seems happy and is eating well. But excess weight in cats isn't just a cosmetic issue - it accelerates joint disease, strains the kidneys, and significantly increases the risk of diabetes.",
+          "The fix is usually simple: measure food by weight, not by eye or by how much the cat asks for. Cats are very good at convincing people they're starving. Most aren't.",
+        ],
+      },
+      {
+        heading: 'Water: The Real Problem with Dry Food in Dubai',
+        paragraphs: [
+          "Cats evolved in desert environments and have a low thirst drive. They're designed to get most of their water from prey. A mouse is about 70% water. A bowl of dry kibble is around 10%.",
+          "In Dubai's climate, with air conditioning pulling moisture from the air, this gap matters more than it would in a more temperate country. Cats on dry-only diets can exist in a state of mild chronic dehydration for years, which quietly damages kidney function over time.",
+          "A water fountain helps - running water triggers the drinking instinct better than a static bowl. But the most effective thing is adding wet food. Even one wet meal a day makes a meaningful difference to hydration.",
+        ],
+      },
+      {
+        heading: 'Wet vs Dry: We Will Give You a Straight Answer',
+        paragraphs: [
+          "Wet food is better for most adult cats in Dubai. It delivers hydration, is higher in protein, and is lower in carbohydrates than most dry foods. The argument against it is cost and convenience, which are real considerations - not every household can manage twice-daily wet meals.",
+          "If dry food is what works for your life, choose a high-quality one with meat as the first ingredient, not a grain or by-product. And add wet food at least once a day if you can. A 50/50 split is a reasonable target.",
+          "Free-feeding dry food - leaving a bowl out all day - is the biggest contributor to feline obesity we see. Cats don't self-regulate well when food is constantly available. Two measured meals a day is better.",
+        ],
+      },
+      {
+        heading: 'Mistakes We See at the Clinic',
+        paragraphs: [
+          "Feeding kittens on adult food, or adults on kitten food. The calorie and nutrient profiles are different. Kitten food fed to an adult cat for years will cause weight gain and can affect kidney health.",
+          "Giving a lot of treats on top of full meals. Treats should come out of the daily food allowance, not be added on top of it. We see cats whose treat intake alone exceeds their calorie needs.",
+          "Switching foods too abruptly when a cat goes off their food. Cats can develop food aversions quickly, especially when they've been unwell. If your cat stops eating, that's a vet visit, not a food experiment.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'How much should I feed my indoor cat in Dubai?', a: "It depends on their weight, age, and the food you're using. Most adult cats need around 200-250 calories per day, but check the feeding guide on your specific food and weigh it out rather than estimating. If your cat is overweight, speak to your vet about a target weight and feeding plan." },
+      { q: 'Should I leave dry food out all day for my cat?', a: "We don't recommend it. Free-feeding is the most common cause of feline obesity we see in Dubai. Two measured meals a day - morning and evening - works better for weight management and also means you notice quickly if your cat stops eating, which is a useful health signal." },
+      { q: 'My cat barely drinks water. Should I be worried?', a: "Cats have a low thirst drive by nature. If your cat is on wet food they may barely touch their water bowl and that's fine - they're getting hydration from their food. If they're on dry food only and rarely drink, that's worth addressing. Try a water fountain and consider adding wet food to their diet." },
+      { q: 'What is the best cat food brand in Dubai?', a: "We recommend looking at the ingredients rather than the brand. Meat should be the first ingredient. Avoid foods where the first ingredient is a grain, corn, or a by-product meal. Royal Canin, Hills, and Purina Pro Plan are widely available in Dubai and have good quality control. For cats with specific health issues, your vet may recommend a prescription diet." },
+    ],
+  },
+  {
+    slug: 'senior-pet-care-dubai',
+    title: 'Senior Dogs and Cats in Dubai: What Changes at 7, and What Your Vet Should Be Checking',
+    date: '2026-10-02',
+    readTime: '6 min read',
+    excerpt: "'They're just slowing down' is something we hear a lot about older pets. Sometimes that's true. But often it's pain, kidney disease, or a thyroid problem - things that are treatable once you find them.",
+    metaTitle: "Senior Pet Care Dubai: What to Expect as Your Dog or Cat Ages | Mike's Vet",
+    metaDescription: "Dogs and cats age faster than we think. Here's what changes at 7, what blood tests actually show, and why 'they're just slowing down' is not always the right answer.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=1200&q=80&auto=format&fit=crop',
+      alt: 'An older golden retriever resting comfortably',
+      credit: 'Unsplash',
+    },
+    relatedService: { name: "Consultations at Mike's Vet", href: '/services/consultations' },
+    sections: [
+      {
+        heading: "When Does 'Senior' Actually Start?",
+        paragraphs: [
+          "For cats and small dogs, around 10-11 years. For medium dogs, closer to 8-9. For large breeds like German Shepherds and Labradors, we start thinking about senior health checks at 6-7. Giant breeds like Great Danes can be considered senior at 5.",
+          "The reason breed size matters so much for dogs is that larger bodies age faster physiologically. A 7-year-old Labrador's kidneys and joints are at a different point in their lifespan than a 7-year-old Shih Tzu's.",
+          "Cats often get forgotten in this conversation because they age gracefully and hide illness well. A 10-year-old cat that seems fine can have significant kidney disease or hyperthyroidism that hasn't yet crossed the threshold where clinical signs are obvious.",
+        ],
+      },
+      {
+        heading: "What's Changing Inside That You Can't See",
+        paragraphs: [
+          "Kidney function declines gradually in both cats and dogs as they age. The kidneys have a large functional reserve, which means they can lose 50-60% of their capacity before blood tests show abnormal results and before the animal shows any symptoms. This is why regular monitoring matters - catching the decline early changes what you can do about it.",
+          "Hyperthyroidism is the most common hormonal disease in cats over 10. It causes weight loss despite a good appetite, increased thirst, restlessness, and a fast heart rate. Many owners assume weight loss in an older cat is just ageing. It often isn't.",
+          "Joint disease is universal in older animals to some degree. Dogs tend to show it more obviously - stiffness after rest, reluctance to jump into the car. Cats are much better at hiding pain. A cat that has stopped jumping onto the sofa isn't necessarily being lazy.",
+        ],
+      },
+      {
+        heading: 'What the Blood Panel Is Actually Checking',
+        paragraphs: [
+          "A senior blood panel typically covers kidney markers (creatinine, BUN, SDMA), liver enzymes, blood glucose, thyroid hormone in cats, a full blood count, and electrolytes. Run together, they give a picture of organ function that a physical exam alone cannot provide.",
+          "SDMA is worth mentioning specifically - it's a kidney marker that detects decline earlier than traditional markers, often before clinical signs appear. It's included in our IDEXX in-house panels and can identify kidney disease when there's still meaningful time to slow its progression.",
+          "We recommend a senior blood panel once a year from age 7 (earlier for giant breeds), and every 6 months once an abnormality has been detected. The cost of finding something early is almost always lower than managing a crisis.",
+        ],
+      },
+      {
+        heading: 'Signs That Owners Often Put Down to Ageing',
+        paragraphs: [
+          "Drinking more water. This is one of the most significant clinical signs in older pets and is often dismissed. Increased thirst in a senior dog or cat points toward kidney disease, diabetes, hyperthyroidism, or Cushing's disease - all of which are diagnosable and manageable.",
+          "Sleeping more and being less interested in things they used to enjoy. This can be pain, anaemia, or early organ disease. It's worth investigating rather than accepting as inevitable.",
+          "Changes in coat quality - dull, dry, or a cat that has stopped self-grooming properly. In older cats especially, this often means they're not feeling well or they have mobility issues that make grooming uncomfortable.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'How often should I bring my senior dog or cat to the vet?', a: "Once a year for a healthy senior pet, with a blood panel included. If there's an existing condition being monitored, every 6 months. The goal is to catch changes before they become crises - senior pets can decline more quickly than younger ones once a problem gets ahead of you." },
+      { q: 'My 10-year-old cat has lost weight but is eating well. Should I be worried?', a: "Yes, this warrants a vet visit soon rather than waiting. Weight loss with a good appetite in an older cat is a classic presentation of hyperthyroidism, which is very treatable. It can also indicate diabetes or early kidney disease. Don't wait for other symptoms to develop." },
+      { q: 'Is joint pain in older dogs treatable?', a: "Yes, meaningfully so. We have good options for managing osteoarthritis in dogs - prescription anti-inflammatory medications, joint supplements, weight management, and in some cases rehabilitation. The first step is confirming the diagnosis and ruling out other causes of mobility changes. Many owners see a significant improvement in their dog's quality of life once pain is properly managed." },
+      { q: 'What age should I switch my dog or cat to senior food?', a: "There's no universal answer - it depends on the animal's health status more than their age. Some pets do well on their adult food well into old age; others benefit from a senior or prescription diet earlier, particularly if they have kidney issues or weight problems. Speak to your vet rather than switching based purely on the number on the packet." },
+    ],
+  },
+  {
+    slug: 'cat-grooming-dubai',
+    title: "Cat Grooming in Dubai: What Your Cat Actually Needs and When to Be Worried",
+    date: '2026-10-01',
+    readTime: '5 min read',
+    excerpt: "Cats are self-sufficient groomers - until they're not. In Dubai's heat, long-haired cats especially can run into problems that look cosmetic but are sometimes medical. Here's how to tell the difference.",
+    metaTitle: "Cat Grooming Dubai: What's Normal, What Isn't, and When to See a Vet | Mike's Vet",
+    metaDescription: "Most cats groom themselves fine. But in Dubai's climate, some don't - and the signs are easy to miss. Here's what normal grooming looks like and when it becomes a health signal.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A cat grooming itself',
+      credit: 'Unsplash',
+    },
+    relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
+    sections: [
+      {
+        heading: 'What Normal Actually Looks Like',
+        paragraphs: [
+          "Cats spend roughly 30-50% of their waking hours grooming. That sounds like a lot, but for most healthy cats it's normal - it regulates body temperature, keeps the coat clean, and is a self-soothing behaviour.",
+          "Normal grooming is systematic and unhurried. The cat works through sections of their body, pausing and continuing. It's not frantic, not focused on one spot, and doesn't result in bald patches or skin irritation.",
+          "Short-haired cats in good health generally manage fine on their own. Regular brushing helps with shedding and gives you a chance to check the skin underneath, but it's not medically necessary for the coat itself.",
+        ],
+      },
+      {
+        heading: 'When Grooming Behaviour Is a Medical Signal',
+        paragraphs: [
+          "Over-grooming - where a cat licks or chews one area repeatedly until the hair thins or disappears - is almost always stress or a skin condition. Common causes include allergies (food or environmental), flea bite hypersensitivity, or anxiety. In Dubai we see a lot of cats with environmental allergies, particularly during dust season.",
+          "Under-grooming is the one that gets missed more often. A cat that has stopped maintaining their coat - dull fur, matting starting, a greasy or unkempt look - is usually not feeling well. Pain is a common reason, especially in older cats who find certain positions uncomfortable. Obesity can also make it physically difficult to reach parts of the body.",
+          "Any sudden change in grooming habits, either direction, is worth a vet visit if it persists for more than a week or two.",
+        ],
+      },
+      {
+        heading: 'Long-Haired Cats in Dubai',
+        paragraphs: [
+          "Persians, Maine Coons, Ragdolls, and similar breeds are popular in Dubai and all of them need regular human help with grooming. Their coats don't self-maintain the way a short-haired cat's does, and in Dubai's humidity swings between summer and winter, matting can develop quickly.",
+          "Mats are not just unsightly - they pull the skin, cause pain, and can hide wounds or skin infections underneath. Once a mat is tight against the skin, it needs to come off with clippers, not a brush. Trying to pull or cut out a tight mat with scissors is how cats (and owners) get hurt.",
+          "A professional groom every 6-8 weeks is a reasonable baseline for most long-haired cats in Dubai. Between appointments, a daily brush of the areas that mat fastest - behind the ears, under the armpits, around the collar area - prevents problems from building up.",
+        ],
+      },
+      {
+        heading: 'When You Need a Vet Rather Than a Groomer',
+        paragraphs: [
+          "If the cat is in pain, aggressive when touched, or the skin under a mat looks red, broken, or infected - that's a vet visit, not a grooming appointment. Groomers are not equipped to assess or treat skin conditions.",
+          "Cats that are too anxious or fractious to be groomed safely sometimes need sedation for a full clip-out. This is a medical procedure. We do this periodically for cats whose owners can't maintain the coat between visits, or for cats that have been neglected and come in with severe matting across the body.",
+          "If your cat is suddenly resistant to being touched in an area they were previously fine with, the first question is whether something hurts. A skin check and brief exam is usually faster and more useful than assuming it's a temperament issue.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do cats need to be bathed?', a: "Healthy short-haired cats don't need baths and most actively dislike them. Long-haired cats occasionally benefit from a bath if they've gotten into something, or as part of managing a skin condition - but this should be with a vet-recommended shampoo, not a human product. If your vet has recommended bathing for a specific skin issue, they'll guide you on frequency and product." },
+      { q: 'My cat has a bald patch where they keep licking. What should I do?', a: "Book a vet appointment. A single bald patch from repeated licking is almost always either a skin problem (allergy, infection, parasites) or a stress response. The cause matters because the treatment is different. Don't wait to see if it resolves - it usually won't without intervention." },
+      { q: 'How do I brush a cat that hates being brushed?', a: "Start very short - 30 seconds maximum, in an area they're comfortable with (usually the head and neck), then stop before they get agitated. Build up gradually over weeks. If they associate brushing with the session ending before they get stressed, most cats become more tolerant over time. For cats that won't tolerate it at all, a professional groomer experienced with cats is a better option than a fight at home." },
+      { q: 'Can I shave my long-haired cat in summer to keep them cool?', a: "You can, but it's not necessary for temperature regulation and it has some downsides. A cat's coat actually provides insulation against heat as well as cold, and shaved cats can sunburn. What does help is keeping them indoors during the hottest part of the day, ensuring water is always available, and regular brushing to remove dead undercoat. If matting is the issue, a partial clip of the problem areas is more targeted than a full shave." },
+    ],
+  },
+  {
     slug: 'dog-vaccinations-dubai',
     title: 'Dog Vaccinations in Dubai: Complete Schedule, UAE Requirements & What Every Owner Needs to Know',
     date: '2026-09-23',
