@@ -41,11 +41,13 @@ export default function Navbar() {
           <Link href="/blog" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Blog</Link>
           <Link href="/#press" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
           <Link href="/#contact" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Find Us</Link>
-          <Link href="/vouchers" className="hover:opacity-90 transition-opacity whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-semibold text-white" style={{ backgroundColor: 'var(--color-brand)' }}>Gift Vouchers</Link>
         </nav>
 
         {/* Book Now CTA - desktop only */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
+          <Link href="/vouchers" className="px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap border-2 transition-colors hover:text-white hover:border-[var(--color-brand)] hover:bg-[var(--color-brand)]" style={{ color: 'var(--color-brand)', borderColor: 'var(--color-brand)' }}>
+            Gift Vouchers
+          </Link>
           <a href="/#booking" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
             Book Appointment
           </a>
