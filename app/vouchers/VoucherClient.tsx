@@ -2,10 +2,12 @@
 
 import { useState } from 'react'
 
-const AMOUNTS = [100, 250, 500, 1000]
+const PRESET_AMOUNTS = [100, 250, 500, 1000]
 
 export default function VoucherClient() {
   const [amount, setAmount] = useState<number>(250)
+  const [customAmount, setCustomAmount] = useState('')
+  const [isCustom, setIsCustom] = useState(false)
   const [form, setForm] = useState({
     buyerName: '',
     buyerEmail: '',
@@ -16,15 +18,21 @@ export default function VoucherClient() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
+  const finalAmount = isCustom ? parseInt(customAmount) : amount
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    if (isCustom && (isNaN(finalAmount) || finalAmount < 50)) {
+      setError('Minimum custom amount is AED 50')
+      return
+    }
     setLoading(true)
     setError('')
     try {
       const res = await fetch('/api/vouchers/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ amount, ...form }),
+        body: JSON.stringify({ amount: finalAmount, ...form }),
       })
       const data = await res.json()
       if (!res.ok) throw new Error(data.error || 'Something went wrong')
@@ -46,15 +54,15 @@ export default function VoucherClient() {
         >
           Select an amount
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {AMOUNTS.map((a) => (
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          {PRESET_AMOUNTS.map((a) => (
             <button
               key={a}
               type="button"
-              onClick={() => setAmount(a)}
+              onClick={() => { setAmount(a); setIsCustom(false) }}
               className="py-4 rounded-xl font-bold text-lg border-2 transition-all"
               style={
-                amount === a
+                !isCustom && amount === a
                   ? { borderColor: 'var(--color-brand)', backgroundColor: 'var(--color-brand)', color: 'white' }
                   : { borderColor: 'var(--color-border)', color: 'var(--color-navy)', backgroundColor: 'white' }
               }
@@ -62,7 +70,36 @@ export default function VoucherClient() {
               AED {a}
             </button>
           ))}
+          <button
+            type="button"
+            onClick={() => setIsCustom(true)}
+            className="py-4 rounded-xl font-bold text-lg border-2 transition-all"
+            style={
+              isCustom
+                ? { borderColor: 'var(--color-brand)', backgroundColor: 'var(--color-brand)', color: 'white' }
+                : { borderColor: 'var(--color-border)', color: 'var(--color-navy)', backgroundColor: 'white' }
+            }
+          >
+            Custom
+          </button>
         </div>
+        {isCustom && (
+          <div className="mt-3">
+            <div className="relative">
+              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-semibold text-[var(--color-gray-mid)]">AED</span>
+              <input
+                type="number"
+                min={50}
+                step={1}
+                value={customAmount}
+                onChange={(e) => setCustomAmount(e.target.value)}
+                placeholder="Enter amount (min. 50)"
+                className="w-full border border-[var(--color-border)] rounded-lg pl-14 pr-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-brand)] focus:border-transparent"
+                autoFocus
+              />
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Form */}
@@ -154,7 +191,9 @@ export default function VoucherClient() {
         <div className="rounded-2xl border border-[var(--color-border)] p-6">
           <div className="flex items-center justify-between mb-5">
             <span className="text-[var(--color-navy)] font-medium">Gift voucher total</span>
-            <span className="text-2xl font-bold" style={{ color: 'var(--color-brand)' }}>AED {amount}</span>
+            <span className="text-2xl font-bold" style={{ color: 'var(--color-brand)' }}>
+              {isCustom && customAmount ? `AED ${customAmount}` : `AED ${amount}`}
+            </span>
           </div>
           <button
             type="submit"
@@ -162,7 +201,7 @@ export default function VoucherClient() {
             className="w-full py-4 rounded-full font-bold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-60"
             style={{ backgroundColor: 'var(--color-brand)' }}
           >
-            {loading ? 'Redirecting to payment...' : `Pay AED ${amount} securely`}
+            {loading ? 'Redirecting to payment...' : `Pay ${isCustom && customAmount ? `AED ${customAmount}` : `AED ${amount}`} securely`}
           </button>
           <p className="text-xs text-center text-[var(--color-gray-mid)] mt-3">
             Secure payment via Stripe. Voucher emailed instantly after payment.

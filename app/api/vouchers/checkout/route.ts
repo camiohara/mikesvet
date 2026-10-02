@@ -15,9 +15,8 @@ function generateVoucherCode(): string {
 export async function POST(request: Request) {
   const { amount, buyerName, buyerEmail, recipientName, recipientEmail, message } = await request.json()
 
-  const validAmounts = [100, 250, 500, 1000]
-  if (!validAmounts.includes(amount)) {
-    return NextResponse.json({ error: 'Invalid amount' }, { status: 400 })
+  if (!amount || isNaN(amount) || amount < 50 || amount > 50000) {
+    return NextResponse.json({ error: 'Amount must be between AED 50 and AED 50,000' }, { status: 400 })
   }
 
   if (!buyerName || !buyerEmail || !recipientName || !recipientEmail) {
