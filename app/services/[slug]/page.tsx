@@ -75,6 +75,27 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
       <main className="pt-16">
+
+        {/* Emergency call banner */}
+        {slug === 'emergency-care' && (
+          <div className="bg-red-600 text-white py-4 px-6">
+            <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p className="font-semibold text-center sm:text-left">
+                Pet emergency? Don&apos;t wait - call us now. We are open 9:00 AM to 9:30 PM, 7 days a week.
+              </p>
+              <a
+                href="tel:+97142837744"
+                className="shrink-0 inline-flex items-center gap-2 bg-white text-red-600 font-bold px-6 py-2.5 rounded-full hover:bg-red-50 transition-colors text-sm"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                  <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+                </svg>
+                Call +971 4 283 7744
+              </a>
+            </div>
+          </div>
+        )}
+
         {/* Hero */}
         <section className="py-14 sm:py-20" style={{ backgroundColor: 'var(--color-brand-light)' }}>
           <div className="max-w-3xl mx-auto px-6">
@@ -153,21 +174,33 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </section>
 
           {/* Book CTA */}
-          <section className="text-center rounded-2xl p-8" style={{ backgroundColor: 'var(--color-brand)' }}>
+          <section className="text-center rounded-2xl p-8" style={{ backgroundColor: slug === 'emergency-care' ? '#dc2626' : 'var(--color-brand)' }}>
             <h2 className="text-2xl font-bold text-white mb-2" style={{ fontFamily: 'var(--font-playfair)' }}>
-              Ready to book?
+              {slug === 'emergency-care' ? 'Call us now' : 'Ready to book?'}
             </h2>
             <p className="text-white/80 mb-6 text-sm">
               Open 7 days · 9:00 AM – 9:30 PM · Hessa Street, Dubai
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="/#booking"
-                className="px-7 py-3 rounded-full font-semibold bg-white hover:opacity-90 transition-opacity text-sm"
-                style={{ color: 'var(--color-brand)' }}
-              >
-                Book an Appointment
-              </a>
+              {slug === 'emergency-care' ? (
+                <a
+                  href="tel:+97142837744"
+                  className="px-7 py-3 rounded-full font-bold bg-white text-red-600 hover:bg-red-50 transition-colors text-sm flex items-center justify-center gap-2"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                    <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+                  </svg>
+                  +971 4 283 7744
+                </a>
+              ) : (
+                <a
+                  href="/#booking"
+                  className="px-7 py-3 rounded-full font-semibold bg-white hover:opacity-90 transition-opacity text-sm"
+                  style={{ color: 'var(--color-brand)' }}
+                >
+                  Book an Appointment
+                </a>
+              )}
               <a
                 href={`https://wa.me/97142837744?text=${encodeURIComponent(`Hi! I'd like to enquire about ${service.name} at Mike's Vet.`)}`}
                 target="_blank"
