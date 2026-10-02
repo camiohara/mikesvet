@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { sendVoucherEmails } from '../../../lib/email'
+import { writeClient } from '../../../../sanity/lib/writeClient'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!)
 
@@ -21,15 +22,31 @@ export async function POST(request: Request) {
       session.metadata || {}
 
     if (buyerEmail && recipientEmail && voucherCode) {
-      await sendVoucherEmails({
-        buyerName: buyerName || 'A friend',
-        buyerEmail,
-        recipientName: recipientName || 'there',
-        recipientEmail,
-        amount: parseInt(amount),
-        code: voucherCode,
-        message: message || undefined,
-      })
+      const parsedAmount = parseInt(amount)
+      await Promise.all([
+        sendVoucherEmails({
+          buyerName: buyerName || 'A friend',
+          buyerEmail,
+          recipientName: recipientName || 'there',
+          recipientEmail,
+          amount: parsedAmount,
+          code: voucherCode,
+          message: message || undefined,
+        }),
+        writeClient.create({
+          _type: 'voucher',
+          code: voucherCode,
+          amount: parsedAmount,
+          status: 'active',
+          purchasedAt: new Date().toISOString(),
+          buyerName: buyerName || '',
+          buyerEmail,
+          recipientName: recipientName || '',
+          recipientEmail,
+          message: message || '',
+          stripeSessionId: session.id,
+        }),
+      ])
     }
   }
 
