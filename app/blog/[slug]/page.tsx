@@ -39,7 +39,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     headline: post.title,
     datePublished: post.date,
     ...(post.heroImage ? { image: post.heroImage.url } : {}),
-    author: { '@type': 'Organization', name: "Mike's Vet Dubai" },
+    author: post.author
+      ? { '@type': 'Person', name: post.author.name, jobTitle: post.author.role }
+      : { '@type': 'Organization', name: "Mike's Vet Dubai" },
     publisher: {
       '@type': 'Organization',
       name: "Mike's Vet Dubai",
@@ -101,20 +103,49 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <p className="mt-4 text-lg text-[var(--color-gray-mid)] leading-relaxed max-w-2xl">
             {post.excerpt}
           </p>
+
+          {post.author && (
+            <div className="mt-6 flex items-center gap-3">
+              <div className="relative w-10 h-10 rounded-full overflow-hidden shrink-0 border-2 border-white shadow-sm">
+                <Image
+                  src={post.author.photo}
+                  alt={post.author.name}
+                  fill
+                  className="object-cover object-top"
+                  sizes="40px"
+                />
+              </div>
+              <div>
+                {post.author.profileHref ? (
+                  <Link
+                    href={post.author.profileHref}
+                    className="text-sm font-semibold text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors"
+                  >
+                    {post.author.name}
+                  </Link>
+                ) : (
+                  <p className="text-sm font-semibold text-[var(--color-navy)]">{post.author.name}</p>
+                )}
+                <p className="text-xs text-[var(--color-gray-mid)]">{post.author.role}</p>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
       {/* Hero image */}
       {post.heroImage && (
-        <div className="w-full max-h-[480px] overflow-hidden relative" style={{ height: '400px' }}>
-          <Image
-            src={post.heroImage.url}
-            alt={post.heroImage.alt}
-            fill
-            className="object-cover"
-            sizes="100vw"
-            priority
-          />
+        <div className="max-w-3xl mx-auto px-6 py-8">
+          <div className="relative overflow-hidden rounded-2xl aspect-[4/3] sm:aspect-[3/2]">
+            <Image
+              src={post.heroImage.url}
+              alt={post.heroImage.alt}
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 768px) 100vw, 768px"
+              priority
+            />
+          </div>
         </div>
       )}
 
