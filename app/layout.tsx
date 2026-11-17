@@ -76,6 +76,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <head>
         <link rel="preconnect" href="https://app.cw.vet" />
+        {/* Google Ads conversion tracking */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16668386512" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function(){window.dataLayer.push(arguments);}
+          window.gtag('js', new Date());
+          window.gtag('config', 'AW-16668386512');
+        `}} />
       </head>
       <body className="min-h-full flex flex-col">
         <CartProvider>
@@ -85,13 +93,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </CartProvider>
       </body>
       <GoogleTagManager gtmId="GTM-TR44GM95" />
-      <Script id="gads-tag" strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=AW-16668386512" />
-      <Script id="gads-config" strategy="afterInteractive">{`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-16668386512');
-      `}</Script>
       <Script id="oai-pixel" strategy="afterInteractive">{`
         !function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
         oaiq("init",{pixelId:"7E9qMt1jAbCK12wvo7c35E"});
