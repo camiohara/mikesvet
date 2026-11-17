@@ -85,14 +85,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </CartProvider>
       </body>
       <GoogleTagManager gtmId="GTM-TR44GM95" />
-      <Script id="gads" strategy="afterInteractive">{`
+      <Script id="oai-pixel" strategy="afterInteractive">{`
         window.dataLayer = window.dataLayer || [];
         window.gtag = function(){window.dataLayer.push(arguments);}
         window.gtag('js', new Date());
         window.gtag('config', 'AW-16668386512');
         (function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=AW-16668386512';document.head.appendChild(s);})();
-      `}</Script>
-      <Script id="oai-pixel" strategy="afterInteractive">{`
         !function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
         oaiq("init",{pixelId:"7E9qMt1jAbCK12wvo7c35E"});
       `}</Script>
