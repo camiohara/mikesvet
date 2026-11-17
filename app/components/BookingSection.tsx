@@ -45,6 +45,10 @@ export default function BookingSection() {
               href="https://wa.me/97142837744"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                (window as any).oaiq?.('measure', 'lead_created', { type: 'customer_action' });
+                (window as any).gtag?.('event', 'conversion', { send_to: 'AW-16668386512/ftN2CPGkjbIdENDJjYw-' });
+              }}
               className="flex items-center gap-3 px-7 py-3.5 rounded-full font-semibold text-white text-sm shadow-sm hover:opacity-90 transition-opacity"
               style={{ backgroundColor: '#25D366' }}
             >
@@ -56,6 +60,10 @@ export default function BookingSection() {
 
             <a
               href="tel:+97142837744"
+              onClick={() => {
+                (window as any).oaiq?.('measure', 'lead_created', { type: 'customer_action' });
+                (window as any).gtag?.('event', 'conversion', { send_to: 'AW-16668386512/ZTYJCPSkjbIdENDJjYw-' });
+              }}
               className="flex items-center gap-3 px-7 py-3.5 rounded-full font-semibold text-white text-sm shadow-sm hover:opacity-90 transition-opacity"
               style={{ backgroundColor: 'var(--color-brand)' }}
             >

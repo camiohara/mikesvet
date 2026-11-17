@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import { CartProvider } from "./components/CartContext";
 import CartSidebar from "./components/CartSidebar";
+import WelcomePopup from "./components/WelcomePopup";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,11 +21,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.mikesvet.com'),
   title: {
-    default: "Vet Clinic Dubai | Mike's Vet - 4.8★ | Hessa Street | Open 7 Days",
+    default: "Mike's Vet Dubai | 513 Reviews 4.8★ | Hessa Street | Open 7 Days",
     template: "%s | Mike's Vet Dubai",
   },
   description:
-    "Mike's Vet - Dubai's top-rated vet clinic (4.8★) on Hessa Street. Complex & orthopaedic surgery, TPLO, soft tissue surgery, dentals, emergency care & vaccinations. Open 7 days, 9am–9:30pm. Serving JVC, Al Barsha, Jumeirah & beyond.",
+    "Dubai's most-reviewed vet clinic — 513 reviews, 4.8★. Mike's Vet on Hessa Street: TPLO & orthopaedic surgery, soft tissue surgery, dentals, emergency care & vaccinations. Open 7 days, 9am–9:30pm.",
   keywords: [
     "best vet Dubai", "vet Dubai", "veterinary clinic Dubai", "cat vet Dubai", "dog vet Dubai",
     "emergency vet Dubai", "Hessa Street vet", "pet clinic Dubai", "vet near JVC Dubai",
@@ -53,9 +56,12 @@ export const metadata: Metadata = {
     images: ['/icon-mark.png'],
   },
   robots: {
-    index: true,
+    index: process.env.VERCEL_ENV === 'production',
     follow: true,
-    googleBot: { index: true, follow: true },
+    googleBot: {
+      index: process.env.VERCEL_ENV === 'production',
+      follow: true,
+    },
   },
   alternates: {
     canonical: 'https://www.mikesvet.com',
@@ -75,8 +81,21 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <CartProvider>
           {children}
           <CartSidebar />
+          <WelcomePopup />
         </CartProvider>
       </body>
+      <GoogleTagManager gtmId="GTM-TR44GM95" />
+      <Script id="gads-tag" strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=AW-16668386512" />
+      <Script id="gads-config" strategy="afterInteractive">{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-16668386512');
+      `}</Script>
+      <Script id="oai-pixel" strategy="afterInteractive">{`
+        !function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
+        oaiq("init",{pixelId:"7E9qMt1jAbCK12wvo7c35E"});
+      `}</Script>
     </html>
   );
 }
