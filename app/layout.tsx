@@ -5,7 +5,6 @@ import Script from "next/script";
 import { CartProvider } from "./components/CartContext";
 import CartSidebar from "./components/CartSidebar";
 import WelcomePopup from "./components/WelcomePopup";
-import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -84,15 +83,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <WelcomePopup />
         </CartProvider>
       </body>
-      <GoogleTagManager gtmId="GTM-TR44GM95" />
-      <Script id="oai-pixel" strategy="afterInteractive">{`
-        window.dataLayer = window.dataLayer || [];
-        window.gtag = function(){window.dataLayer.push(arguments);}
-        window.gtag('js', new Date());
-        window.gtag('config', 'AW-16668386512');
-        (function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=AW-16668386512';document.head.appendChild(s);})();
-        !function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
-        oaiq("init",{pixelId:"7E9qMt1jAbCK12wvo7c35E"});
+      <Script id="trackers" strategy="afterInteractive">{`
+        (function(){
+          window.dataLayer=window.dataLayer||[];
+          window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+          window.gtag=function(){window.dataLayer.push(arguments);}
+          window.gtag('js',new Date());
+          window.gtag('config','AW-16668386512');
+          var t=document.createElement('script');t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-TR44GM95';document.head.appendChild(t);
+          var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=AW-16668386512';document.head.appendChild(g);
+          if(!window.oaiq){var q=function(){q.q.push(arguments)};q.q=[];window.oaiq=q;var j=document.createElement('script');j.async=1;j.src='https://bzrcdn.openai.com/sdk/oaiq.min.js';document.head.appendChild(j);}
+        })();
+        oaiq('init',{pixelId:'7E9qMt1jAbCK12wvo7c35E'});
       `}</Script>
     </html>
   );
