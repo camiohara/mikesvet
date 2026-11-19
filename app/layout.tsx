@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import { GoogleTagManager } from "@next/third-parties/google";
 import { CartProvider } from "./components/CartContext";
 import CartSidebar from "./components/CartSidebar";
 import WelcomePopup from "./components/WelcomePopup";
+import GTMRouteTracker from "./components/GTMRouteTracker";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -82,11 +82,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
           <CartSidebar />
           <WelcomePopup />
+          <GTMRouteTracker />
         </CartProvider>
       </body>
-      <GoogleTagManager gtmId="GTM-TR44GM95" />
       <Script id="ads-pixel" strategy="afterInteractive">{`
-        window.dataLayer=window.dataLayer||[];
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TR44GM95');
         window.gtag=function(){window.dataLayer.push(arguments);}
         window.gtag('js',new Date());
         window.gtag('config','AW-16668386512');
