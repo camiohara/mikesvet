@@ -32,20 +32,22 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-[var(--color-navy)]">
+        <nav className="hidden md:flex items-center gap-4 lg:gap-6 text-sm font-medium text-[var(--color-navy)]">
           <Link href="/services" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Services</Link>
-          <Link href="/services/home-visit" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Home Visit</Link>
-          <Link href="/#team" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Team</Link>
-          <Link href="/#about" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Story</Link>
+          <Link href="/pricing" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Pricing</Link>
+          <Link href="/services/home-visit" className="hidden lg:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Home Visit</Link>
+          <Link href="/#team" className="hidden lg:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Team</Link>
+          <Link href="/#about" className="hidden xl:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Story</Link>
+          <Link href="/senior-pets" className="hidden lg:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Senior Pets</Link>
           <Link href="/adoptions" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Adoptions</Link>
           <Link href="/blog" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Blog</Link>
-          <Link href="/#press" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
+          <Link href="/#press" className="hidden xl:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
           <Link href="/#contact" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Find Us</Link>
         </nav>
 
         {/* Book Now CTA - desktop only */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
-          <Link href="/vouchers" className="px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap border-2 transition-colors hover:text-white hover:border-[var(--color-brand)] hover:bg-[var(--color-brand)]" style={{ color: 'var(--color-brand)', borderColor: 'var(--color-brand)' }}>
+          <Link href="/vouchers" className="voucher-pill px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap border-2 transition-colors">
             Gift Vouchers
           </Link>
           <a href="/#booking" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
@@ -79,9 +81,11 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t border-[var(--color-border)] px-6 py-5 flex flex-col gap-4 text-sm font-medium shadow-lg">
           {[
             { href: '/services', label: 'Services' },
+            { href: '/pricing', label: 'Pricing' },
             { href: '/services/home-visit', label: 'Home Visit' },
             { href: '/#team', label: 'Our Team' },
             { href: '/#about', label: 'Our Story' },
+            { href: '/senior-pets', label: 'Senior Pets' },
             { href: '/adoptions', label: 'Adoptions' },
             { href: '/blog', label: 'Blog' },
             { href: '/#press', label: 'Press' },
