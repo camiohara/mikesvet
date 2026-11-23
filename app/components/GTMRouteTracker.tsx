@@ -8,9 +8,11 @@ export default function GTMRouteTracker() {
   const isFirst = useRef(true)
 
   useEffect(() => {
-    // Skip the initial mount — GTM fires page_view on its own init
     if (isFirst.current) { isFirst.current = false; return }
-    if (typeof window !== 'undefined' && Array.isArray((window as any).dataLayer)) {
+    if (typeof window === 'undefined') return
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('event', 'page_view', { page_path: pathname, page_title: document.title })
+    } else if (Array.isArray((window as any).dataLayer)) {
       (window as any).dataLayer.push({ event: 'page_view', page_path: pathname })
     }
   }, [pathname])
