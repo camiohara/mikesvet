@@ -28,6 +28,12 @@ export const posts: BlogPost[] = [
       alt: 'A cat eating from a bowl indoors',
       credit: 'Unsplash',
     },
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     sections: [
       {
@@ -82,6 +88,12 @@ export const posts: BlogPost[] = [
       url: 'https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=1200&q=80&auto=format&fit=crop&crop=entropy',
       alt: 'An older golden retriever resting comfortably',
       credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
     },
     relatedService: { name: "Consultations at Mike's Vet", href: '/services/consultations' },
     sections: [
@@ -138,6 +150,12 @@ export const posts: BlogPost[] = [
       alt: 'A cat grooming itself',
       credit: 'Unsplash',
     },
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     sections: [
       {
@@ -186,6 +204,12 @@ export const posts: BlogPost[] = [
     date: '2026-10-22',
     readTime: '9 min read',
     excerpt: 'Dubai has specific vaccination and licensing requirements for dogs - and the schedule differs from what you may be used to at home. Here is exactly what your dog needs, when, and why - including Dubai Municipality registration requirements updated for 2026.',
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
     relatedService: { name: 'Vaccinations at Mike\'s Vet', href: '/services/vaccinations' },
     metaTitle: "Dog Vaccinations Dubai: Full Schedule & UAE Requirements | Mike's Vet",
     metaDescription: "Complete guide to dog vaccinations in Dubai - DHPPi, rabies, Leptospirosis, Bordetella schedules, UAE import requirements, and puppy timelines. From Mike's Vet on Hessa Street.",
@@ -257,6 +281,12 @@ export const posts: BlogPost[] = [
     slug: 'spaying-neutering-dog-dubai',
     title: 'Spaying and Neutering Dogs in Dubai: Age, Benefits, Cost, and Recovery',
     date: '2026-09-23',
+    author: {
+      name: 'Dr. Debora Ferraris',
+      role: 'DVM, Improve International - Small Animal Surgery',
+      photo: '/vets/debora.jpg',
+      profileHref: '/team/debora-ferraris',
+    },
     relatedService: { name: 'Spay & Neuter at Mike\'s Vet', href: '/services/spay-neuter' },
     readTime: '6 min read',
     excerpt: 'When should you neuter or spay your dog in Dubai, and what should you expect? Here is what the current evidence says - including why timing matters more for large breeds.',
@@ -310,6 +340,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'how-to-choose-vet-dubai',
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
     relatedService: { name: "Consultations at Mike's Vet", href: '/services/consultations' },
     title: 'How to Choose a Vet in Dubai: What to Look For, What to Ask, and Red Flags to Avoid',
     date: '2026-09-22',
@@ -369,6 +405,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'travelling-with-pet-from-dubai',
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
+    },
     relatedService: { name: "Wellness Checks at Mike's Vet", href: '/services/wellness-checks' },
     title: 'Travelling with Your Pet from Dubai: Export Health Certificates, Rabies Titres, and Country Requirements',
     date: '2026-09-22',
@@ -442,6 +484,12 @@ export const posts: BlogPost[] = [
       alt: 'A tabby cat looking directly at the camera with bright eyes',
       credit: 'Unsplash',
     },
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     sections: [
       {
         heading: 'Why Cats Need a Different Kind of Vet',
@@ -492,6 +540,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'stray-cat-quarantine-dubai',
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     title: 'How Long to Quarantine a Stray Cat: A Dubai Guide to Bringing Home a Street Cat',
     date: '2026-09-27',
@@ -599,6 +653,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'cat-scratch-disease-dubai',
+    author: {
+      name: 'Dr. Nick Stokes',
+      role: 'DVM GPCert SAS',
+      photo: '/vets/nick.jpg',
+      profileHref: '/team/nick-stokes',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     title: 'Cat Scratch Disease: Should You Worry About Being Scratched by a Cat?',
     date: '2026-09-25',
@@ -697,6 +757,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'ringworm-cats-dubai',
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     title: 'Ringworm in Cats: Causes, Signs, Treatment and How to Stop It Spreading',
     date: '2026-09-23',
@@ -797,6 +863,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'feline-parvovirus-panleukopenia-cats-dubai',
+    author: {
+      name: 'Dr. Nick Stokes',
+      role: 'DVM GPCert SAS',
+      photo: '/vets/nick.jpg',
+      profileHref: '/team/nick-stokes',
+    },
     relatedService: { name: "Vaccinations at Mike's Vet", href: '/services/vaccinations' },
     title: 'Feline Parvovirus in Cats: Symptoms, Treatment and Why Vaccination Saves Lives',
     date: '2026-09-21',
@@ -896,6 +968,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'feline-mycoplasma-haemofelis-cats-dubai',
+    author: {
+      name: 'Dr. Nick Stokes',
+      role: 'DVM GPCert SAS',
+      photo: '/vets/nick.jpg',
+      profileHref: '/team/nick-stokes',
+    },
     relatedService: { name: "In-House Laboratory at Mike's Vet", href: '/services/in-house-laboratory' },
     title: "Feline Mycoplasma: The Blood Parasite Your Cat's Blood Test Can Detect",
     date: '2026-09-19',
@@ -996,6 +1074,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'when-to-vaccinate-cat-dubai',
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
+    },
     relatedService: { name: 'Vaccinations at Mike\'s Vet', href: '/services/vaccinations' },
     title: 'Vaccinations for Cats and Dogs in Dubai: The Complete Guide',
     date: '2025-08-15',
@@ -1078,6 +1162,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'cat-spaying-dubai-guide',
+    author: {
+      name: 'Dr. Debora Ferraris',
+      role: 'DVM, Improve International - Small Animal Surgery',
+      photo: '/vets/debora.jpg',
+      profileHref: '/team/debora-ferraris',
+    },
     relatedService: { name: 'Spay & Neuter at Mike\'s Vet', href: '/services/spay-neuter' },
     title: 'Cat Spaying in Dubai: What to Expect and How Much It Costs',
     date: '2025-08-28',
@@ -1131,6 +1221,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'emergency-vet-dubai-what-to-do',
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
     relatedService: { name: 'Emergency Vet Care at Mike\'s Vet', href: '/services/emergency-care' },
     title: 'Emergency Vet Dubai: What to Do When Your Pet Has an Accident',
     date: '2025-09-02',
@@ -1190,6 +1286,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'pet-microchipping-dubai',
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
+    },
     relatedService: { name: "Wellness Checks at Mike's Vet", href: '/services/wellness-checks' },
     title: 'Pet Microchipping in Dubai: What You Need to Know',
     date: '2025-09-08',
@@ -1241,6 +1343,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dental-care-cats-dogs-dubai',
+    author: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM, GP Cert in Ultrasound',
+      photo: '/vets/feth.jpg',
+      profileHref: '/team/feth-mazari',
+    },
     relatedService: { name: 'Dental Care at Mike\'s Vet', href: '/services/dental-care' },
     title: 'Dental Care for Cats and Dogs in Dubai: Why It Matters',
     date: '2025-09-09',
@@ -1299,6 +1407,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'dog-limping-back-leg-cruciate-dubai',
+    author: {
+      name: 'Dr. Debora Ferraris',
+      role: 'DVM, Improve International - Small Animal Surgery',
+      photo: '/vets/debora.jpg',
+      profileHref: '/team/debora-ferraris',
+    },
     relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'My Dog Is Limping on Their Back Leg: Could It Be a Cruciate Ligament Tear?',
     date: '2026-09-15',
@@ -1387,6 +1501,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'tplo-surgery-dogs-dubai',
+    author: {
+      name: 'Dr. Debora Ferraris',
+      role: 'DVM, Improve International - Small Animal Surgery',
+      photo: '/vets/debora.jpg',
+      profileHref: '/team/debora-ferraris',
+    },
     relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'TPLO Surgery for Dogs in Dubai: How It Works, What to Expect, and Recovery',
     date: '2026-09-17',
@@ -1476,6 +1596,12 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'orthopaedic-surgery-dogs-cats-dubai',
+    author: {
+      name: 'Dr. Debora Ferraris',
+      role: 'DVM, Improve International - Small Animal Surgery',
+      photo: '/vets/debora.jpg',
+      profileHref: '/team/debora-ferraris',
+    },
     relatedService: { name: 'Orthopaedic Surgery at Mike\'s Vet', href: '/services/orthopaedic-surgery' },
     title: 'Orthopaedic Surgery for Dogs and Cats in Dubai: When Is It the Right Call?',
     date: '2026-09-19',
@@ -1567,20 +1693,26 @@ export const posts: BlogPost[] = [
     title: "Feeding Your Dog at Every Life Stage: What Actually Matters and What Doesn't",
     date: '2026-10-29',
     readTime: '8 min read',
-    excerpt: "Most dogs are fed the same food from puppyhood to old age. What a 3-month-old Labrador needs and what a 9-year-old Labrador needs are very different things — and getting it wrong quietly accumulates over years.",
+    excerpt: "Most dogs are fed the same food from puppyhood to old age. What a 3-month-old Labrador needs and what a 9-year-old Labrador needs are very different things - and getting it wrong quietly accumulates over years.",
     metaTitle: "Dog Nutrition Dubai: Life Stage Feeding & Avoiding Fad Diets | Mike's Vet",
-    metaDescription: "What to feed your dog at each life stage — puppy, adult, senior — and why fad diets like grain-free and raw aren't as straightforward as they sound. From Mike's Vet, Hessa Street, Dubai.",
+    metaDescription: "What to feed your dog at each life stage - puppy, adult, senior - and why fad diets like grain-free and raw aren't as straightforward as they sound. From Mike's Vet, Hessa Street, Dubai.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop&crop=entropy',
       alt: 'A dog eating from a bowl',
       credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
     },
     relatedService: { name: "Consultations at Mike's Vet", href: '/services/consultations' },
     sections: [
       {
         heading: 'Life Stage Feeding Is Not a Marketing Gimmick',
         paragraphs: [
-          "Most dog owners pick a food their dog eats, decide it works, and stick with it for years. That approach holds up to a point. But a dog's nutritional requirements change significantly between puppyhood, adulthood, and the senior years — in calorie density, protein levels, calcium-to-phosphorus ratios, and in how certain nutrients affect joints, kidneys, and cognitive function as the animal ages.",
+          "Most dog owners pick a food their dog eats, decide it works, and stick with it for years. That approach holds up to a point. But a dog's nutritional requirements change significantly between puppyhood, adulthood, and the senior years - in calorie density, protein levels, calcium-to-phosphorus ratios, and in how certain nutrients affect joints, kidneys, and cognitive function as the animal ages.",
           "This isn't pet food marketing. It's physiology. A large-breed puppy eating adult food risks developmental bone problems. A senior dog on high-phosphorus food with early kidney disease is accumulating damage quietly. A middle-aged dog still on high-calorie puppy food will be overweight within months.",
           "Getting it right isn't complicated. It mostly requires knowing what life stage your dog is in and choosing food formulated for it.",
         ],
@@ -1589,7 +1721,7 @@ export const posts: BlogPost[] = [
         heading: 'Puppies: Getting the Foundation Right',
         paragraphs: [
           "Puppy food isn't adult food with a different label. It's higher in protein, higher in fat, higher in certain minerals, and calibrated to support rapid tissue development, immune system maturation, and bone growth.",
-          "For small and medium breeds, the puppy period runs from weaning to roughly 12 months. For large breeds — Labradors, German Shepherds, Golden Retrievers — it extends to 15–18 months. For giant breeds like Great Danes, sometimes to 24 months. This matters because large-breed puppies are particularly sensitive to calcium and phosphorus levels during growth. A diet too high in these minerals relative to requirements can cause developmental orthopaedic disease — bone and joint problems that only become visible later.",
+          "For small and medium breeds, the puppy period runs from weaning to roughly 12 months. For large breeds - Labradors, German Shepherds, Golden Retrievers - it extends to 15–18 months. For giant breeds like Great Danes, sometimes to 24 months. This matters because large-breed puppies are particularly sensitive to calcium and phosphorus levels during growth. A diet too high in these minerals relative to requirements can cause developmental orthopaedic disease - bone and joint problems that only become visible later.",
           "This is why large-breed puppy formulations exist and why they're worth using. They're calibrated specifically for that growth rate. A Great Dane puppy eating an all-breed puppy food, or worse, adult food, is not getting what its skeleton actually needs.",
           "Transition to adult food at the end of the puppy period. Not earlier because they seem grown, and not later because you haven't finished the bag.",
         ],
@@ -1597,42 +1729,42 @@ export const posts: BlogPost[] = [
       {
         heading: 'Adult Dogs: The Part Most People Get Wrong',
         paragraphs: [
-          "Adult maintenance is the longest phase of a dog's life and the one where the most long-term damage accumulates quietly. The most common problem we see is overfeeding — not dramatically, but steadily.",
+          "Adult maintenance is the longest phase of a dog's life and the one where the most long-term damage accumulates quietly. The most common problem we see is overfeeding - not dramatically, but steadily.",
           "Food packaging gives feeding guides based on ideal body weight, not the weight your dog happens to be. If your dog is already overweight, feeding according to their current weight maintains the problem. Feeding guides are also estimates calibrated for an average dog. Activity level, metabolic rate, and whether your dog is desexed all affect actual needs.",
-          "The easiest check is the body condition score. You should be able to feel your dog's ribs without pressing hard. Looking from above, there should be a visible waist tuck. Looking from the side, a slight abdominal tuck. Most dogs we see in Dubai are carrying more than they should — and excess weight affects joint health, cardiac function, and life expectancy more than most owners realise.",
+          "The easiest check is the body condition score. You should be able to feel your dog's ribs without pressing hard. Looking from above, there should be a visible waist tuck. Looking from the side, a slight abdominal tuck. Most dogs we see in Dubai are carrying more than they should - and excess weight affects joint health, cardiac function, and life expectancy more than most owners realise.",
           "Adult food should carry a complete and balanced statement for adult maintenance. That label means it has been formulated to meet nutritional standards. It doesn't tell you everything, but it tells you the basics are covered.",
         ],
       },
       {
-        heading: 'When to Switch to Senior Food — and What It Actually Does',
+        heading: 'When to Switch to Senior Food - and What It Actually Does',
         paragraphs: [
           "Senior food is not magic. It won't reverse ageing or prevent disease. But it can support an older dog's changing physiology in ways adult maintenance food doesn't.",
           "Most dogs benefit from transitioning to a senior formulation somewhere between 7–9 years, depending on size. The adjustments typically include lower calorie density, higher fibre content, antioxidants to support cognitive function, and adjusted mineral profiles.",
-          "The kidney question is the most important one. Phosphorus restriction is recommended for dogs with confirmed kidney disease, but there's no good evidence that pre-emptively restricting phosphorus in a healthy senior dog is useful. The decision to use a kidney-support diet should follow bloodwork showing elevated renal markers — not just the dog turning 8.",
+          "The kidney question is the most important one. Phosphorus restriction is recommended for dogs with confirmed kidney disease, but there's no good evidence that pre-emptively restricting phosphorus in a healthy senior dog is useful. The decision to use a kidney-support diet should follow bloodwork showing elevated renal markers - not just the dog turning 8.",
           "One adjustment we do recommend proactively for larger seniors: joint support. Foods containing glucosamine and omega-3 fatty acids from fish oil have reasonable evidence behind them for slowing cartilage deterioration. These can also be added as supplements if the food doesn't contain them.",
-          "If your senior dog is losing weight, don't change the food without speaking to a vet first. Weight loss in older dogs is often a clinical sign — hypothyroidism, diabetes, kidney or liver disease, cancer — not a reason to switch proteins.",
+          "If your senior dog is losing weight, don't change the food without speaking to a vet first. Weight loss in older dogs is often a clinical sign - hypothyroidism, diabetes, kidney or liver disease, cancer - not a reason to switch proteins.",
         ],
       },
       {
         heading: 'Fad Diets: What the Evidence Actually Says',
         paragraphs: [
-          "Grain-free diets: the enthusiasm has outrun the evidence. Grains in dog food are not inherently harmful. Dogs have evolved alongside humans for thousands of years and are well-adapted to digesting carbohydrates. More importantly, the FDA in the US identified a potential link between certain grain-free diets — particularly those using legumes, lentils, or potatoes as the primary carbohydrate source — and dilated cardiomyopathy, a serious heart condition. The investigation is ongoing, but it's enough that we don't routinely recommend grain-free unless there's a specific diagnosed reason for it.",
-          "Raw diets: the appeal is understandable — you're feeding something that looks like food rather than processed pellets. But raw meat can carry Salmonella, Campylobacter, E. coli, and Listeria. While your dog's gut may handle these better than yours, they can shed the bacteria in their faeces, creating a real risk for people in the household — particularly children, the elderly, and immunocompromised individuals. Nutritional balance in home-prepared raw diets is also very difficult to achieve without professional formulation. Many raw-fed dogs we see are deficient in calcium, zinc, or vitamin D — deficiencies that don't show up until they cause real damage. If you want to feed raw, use a commercially prepared complete raw diet and discuss the hygiene protocol with your vet.",
+          "Grain-free diets: the enthusiasm has outrun the evidence. Grains in dog food are not inherently harmful. Dogs have evolved alongside humans for thousands of years and are well-adapted to digesting carbohydrates. More importantly, the FDA in the US identified a potential link between certain grain-free diets - particularly those using legumes, lentils, or potatoes as the primary carbohydrate source - and dilated cardiomyopathy, a serious heart condition. The investigation is ongoing, but it's enough that we don't routinely recommend grain-free unless there's a specific diagnosed reason for it.",
+          "Raw diets: the appeal is understandable - you're feeding something that looks like food rather than processed pellets. But raw meat can carry Salmonella, Campylobacter, E. coli, and Listeria. While your dog's gut may handle these better than yours, they can shed the bacteria in their faeces, creating a real risk for people in the household - particularly children, the elderly, and immunocompromised individuals. Nutritional balance in home-prepared raw diets is also very difficult to achieve without professional formulation. Many raw-fed dogs we see are deficient in calcium, zinc, or vitamin D - deficiencies that don't show up until they cause real damage. If you want to feed raw, use a commercially prepared complete raw diet and discuss the hygiene protocol with your vet.",
           "Breed-specific foods: largely marketing. A Labrador does not need food specifically formulated for Labradors in any meaningful nutritional sense. The kibble shape is different. Save your money.",
         ],
       },
       {
         heading: 'Reading a Label: What to Actually Look At',
         paragraphs: [
-          "Ingredient lists are organised by weight before cooking. Meat being the first ingredient sounds reassuring, but fresh meat is around 70% water — once cooked, the actual protein content may be lower than a named meat meal listed further down. Chicken meal or salmon meal means the water has already been removed, making it a denser protein source by weight.",
-          "What to look for: a named protein source (chicken, beef, salmon — not just 'meat' or 'poultry by-product') in the first few ingredients. A complete and balanced statement compliant with AAFCO or FEDIAF standards. A manufacturer with a track record of feeding trials, not a boutique brand launched in the last few years with no published research.",
+          "Ingredient lists are organised by weight before cooking. Meat being the first ingredient sounds reassuring, but fresh meat is around 70% water - once cooked, the actual protein content may be lower than a named meat meal listed further down. Chicken meal or salmon meal means the water has already been removed, making it a denser protein source by weight.",
+          "What to look for: a named protein source (chicken, beef, salmon - not just 'meat' or 'poultry by-product') in the first few ingredients. A complete and balanced statement compliant with AAFCO or FEDIAF standards. A manufacturer with a track record of feeding trials, not a boutique brand launched in the last few years with no published research.",
           "What not to stress about: whether the food contains grains, by-products, or preservatives. These are not inherently harmful. The overall nutritional profile and your dog's response to the food matters more than any single ingredient on the list.",
         ],
       },
     ],
     faqs: [
       { q: 'When should I switch my puppy to adult dog food?', a: "For small and medium breeds, at 12 months. For large breeds (Labrador, German Shepherd, Golden Retriever), at 15–18 months. For giant breeds (Great Dane, Saint Bernard), closer to 18–24 months. Transition gradually over 7–10 days by mixing increasing amounts of adult food into their puppy food." },
-      { q: 'Is grain-free dog food safer or healthier?', a: "Not for most dogs. Grains are not harmful to dogs, and there is a potential link between certain grain-free diets high in legumes or lentils and dilated cardiomyopathy. Unless your dog has a confirmed grain allergy — which is rare — there is no strong nutritional reason to avoid grains in their food." },
+      { q: 'Is grain-free dog food safer or healthier?', a: "Not for most dogs. Grains are not harmful to dogs, and there is a potential link between certain grain-free diets high in legumes or lentils and dilated cardiomyopathy. Unless your dog has a confirmed grain allergy - which is rare - there is no strong nutritional reason to avoid grains in their food." },
       { q: 'Can I feed my dog a raw diet in Dubai?', a: "It is possible, but there are real considerations: hygiene risks from raw meat (Salmonella, Campylobacter), and significant difficulty achieving nutritional balance with home-prepared diets. If you want to feed raw, use a commercially prepared and complete raw diet, and discuss the hygiene protocol with your vet, particularly if there are children or immunocompromised people in the household." },
       { q: 'How do I know if my dog is a healthy weight?', a: "You should be able to feel their ribs easily without pressing. From above, there should be a visible waist behind the ribcage. From the side, a slight abdominal tuck. If you cannot feel ribs without pressing, your dog is likely overweight. Your vet can give you a body condition score and a target weight at any consultation." },
       { q: 'My dog has gone off their food. Should I switch to something else?', a: "Not immediately. Dogs sometimes refuse food for behavioural reasons and learn that holding out leads to something tastier. If your dog misses one or two meals but seems otherwise well, don't immediately switch. If they are genuinely unwell, off food for more than 24–48 hours, or losing weight, that is a vet visit, not a food experiment." },
@@ -1649,28 +1781,34 @@ export const posts: BlogPost[] = [
     title: "Cat Nutrition Through Every Life Stage: What to Feed, When to Change, and What to Ignore",
     date: '2026-10-29',
     readTime: '7 min read',
-    excerpt: "Cats have specific nutritional requirements that change from kittenhood through to old age. Getting life stage feeding right matters more than the brand you choose — and some popular dietary trends do cats more harm than good.",
+    excerpt: "Cats have specific nutritional requirements that change from kittenhood through to old age. Getting life stage feeding right matters more than the brand you choose - and some popular dietary trends do cats more harm than good.",
     metaTitle: "Cat Nutrition Dubai: Life Stage Feeding & What Vets Actually Recommend | Mike's Vet",
-    metaDescription: "What to feed your cat at each life stage — kitten, adult, senior — and what the evidence says about raw diets, grain-free food, and popular trends. From Mike's Vet, Hessa Street, Dubai.",
+    metaDescription: "What to feed your cat at each life stage - kitten, adult, senior - and what the evidence says about raw diets, grain-free food, and popular trends. From Mike's Vet, Hessa Street, Dubai.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1548247416-ec66f4900b2e?w=1200&q=80&auto=format&fit=crop&crop=entropy',
       alt: 'A cat eating from a bowl',
       credit: 'Unsplash',
     },
+    author: {
+      name: 'Dr. Jana Khazaal',
+      role: 'DVM',
+      photo: '/vets/jana.jpg',
+      profileHref: '/team/jana-khazaal',
+    },
     relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
     sections: [
       {
-        heading: 'Cats Are Obligate Carnivores — and That Matters More Than You Think',
+        heading: 'Cats Are Obligate Carnivores - and That Matters More Than You Think',
         paragraphs: [
-          "Unlike dogs, cats cannot adapt their metabolism to a low-protein, plant-heavy diet. They are obligate carnivores — their bodies require nutrients that are only found in animal tissue, and they cannot synthesise several of them from plant precursors the way dogs and humans can.",
-          "Taurine is the clearest example. Cats cannot produce enough taurine from other amino acids. If their diet is deficient — which happens in improperly formulated home-cooked or vegetarian diets — they develop dilated cardiomyopathy and retinal degeneration. Both are irreversible by the time they become obvious. Arachidonic acid, vitamin A, and niacin follow the same pattern: dietary requirements that cannot be met by plants.",
-          "Commercial cat foods from reputable manufacturers account for all of this. Home-prepared diets very often do not. This is the foundational reason we are cautious about unformulated natural diets for cats — the margin for error is smaller than for almost any other species we see.",
+          "Unlike dogs, cats cannot adapt their metabolism to a low-protein, plant-heavy diet. They are obligate carnivores - their bodies require nutrients that are only found in animal tissue, and they cannot synthesise several of them from plant precursors the way dogs and humans can.",
+          "Taurine is the clearest example. Cats cannot produce enough taurine from other amino acids. If their diet is deficient - which happens in improperly formulated home-cooked or vegetarian diets - they develop dilated cardiomyopathy and retinal degeneration. Both are irreversible by the time they become obvious. Arachidonic acid, vitamin A, and niacin follow the same pattern: dietary requirements that cannot be met by plants.",
+          "Commercial cat foods from reputable manufacturers account for all of this. Home-prepared diets very often do not. This is the foundational reason we are cautious about unformulated natural diets for cats - the margin for error is smaller than for almost any other species we see.",
         ],
       },
       {
         heading: 'Kittens: High Energy, Very Specific Requirements',
         paragraphs: [
-          "From weaning to 12 months, kittens need roughly double the calories of an adult cat per kilogram of body weight, alongside higher protein, higher fat, and specific micronutrients — particularly DHA for brain and visual development, and calcium and phosphorus in the right ratios for bone growth. Kitten food is formulated for all of this. Adult cat food is not.",
+          "From weaning to 12 months, kittens need roughly double the calories of an adult cat per kilogram of body weight, alongside higher protein, higher fat, and specific micronutrients - particularly DHA for brain and visual development, and calcium and phosphorus in the right ratios for bone growth. Kitten food is formulated for all of this. Adult cat food is not.",
           "Feeding a kitten on adult food for convenience can result in deficiencies that are not visible during kittenhood but compound over time. The reverse is also true: keeping an adult cat on kitten food for too long contributes to obesity, because kitten food is calorie-dense by design.",
           "If you adopted a kitten without knowing its birth date: kittens under 6 months still have all their deciduous teeth and are visibly growing fast. By 6–9 months they are approaching adult size but still filling out. Most cats can transition to adult food at 12 months. Cats desexed early may benefit from transitioning slightly sooner, as desexing reduces metabolic rate and caloric needs. Transition over 7–10 days by mixing increasing proportions of adult food into the kitten food.",
         ],
@@ -1679,43 +1817,43 @@ export const posts: BlogPost[] = [
         heading: 'Adult Cats: Where Most of the Mistakes Happen',
         paragraphs: [
           "Adult maintenance covers roughly 1–10 years for most cats and is where gradual problems accumulate without obvious symptoms.",
-          "The most consistent issue we see is overfeeding, particularly with dry food. Free-feeding dry kibble — leaving a bowl topped up all day — is the single biggest contributor to feline obesity in our clinic population. Cats, despite the popular image of being indifferent, are food-motivated and will eat beyond their energy needs when food is constantly available. Two measured meals a day is better. It also means you notice immediately when your cat stops eating, which is a significant clinical sign.",
-          "The hydration question matters more in Dubai than in many other climates. Cats evolved in arid environments and have a low thirst drive — they are designed to get most of their water from prey. A mouse is around 70% water. Dry kibble is around 10%. In a city where air conditioning removes moisture from the air and cats spend most of the day indoors, chronic subclinical dehydration is common in cats on dry-only diets, and it quietly strains kidney function over years. We are not saying dry food is bad. Many cats do well on it. But if hydration is going to be borderline, it is more likely to cause problems in Dubai than in a cooler, more humid climate.",
+          "The most consistent issue we see is overfeeding, particularly with dry food. Free-feeding dry kibble - leaving a bowl topped up all day - is the single biggest contributor to feline obesity in our clinic population. Cats, despite the popular image of being indifferent, are food-motivated and will eat beyond their energy needs when food is constantly available. Two measured meals a day is better. It also means you notice immediately when your cat stops eating, which is a significant clinical sign.",
+          "The hydration question matters more in Dubai than in many other climates. Cats evolved in arid environments and have a low thirst drive - they are designed to get most of their water from prey. A mouse is around 70% water. Dry kibble is around 10%. In a city where air conditioning removes moisture from the air and cats spend most of the day indoors, chronic subclinical dehydration is common in cats on dry-only diets, and it quietly strains kidney function over years. We are not saying dry food is bad. Many cats do well on it. But if hydration is going to be borderline, it is more likely to cause problems in Dubai than in a cooler, more humid climate.",
         ],
       },
       {
         heading: 'Senior Cats (10 and Above): When Diet Becomes Clinical',
         paragraphs: [
           "Senior nutrition in cats is the area most commonly misunderstood, and where well-intentioned advice sometimes causes harm.",
-          "The protein myth is the most important to address. For many years, senior cat food meant lower protein — the assumption being that kidneys would be spared by processing less of it. We now know this is wrong. Older cats actually need more protein than younger adults, because their ability to utilise dietary protein decreases with age. A senior cat on a low-protein food will lose muscle mass and body condition. The thin, bony elderly cat that many owners assume is 'just old' is often a cat that has been protein-deficient for years.",
-          "The exception is confirmed chronic kidney disease (CKD). Cats with CKD do benefit from reduced protein and, more importantly, reduced phosphorus — but this should be prescribed after bloodwork confirms the diagnosis, not assumed because the cat is 11. Putting a healthy senior cat on a kidney diet is unnecessary and potentially counterproductive.",
-          "Weight loss in a senior cat is a clinical sign, not an ageing inevitability. Hyperthyroidism is the most common cause — it produces weight loss despite a normal or increased appetite, and responds well to treatment. Diabetes, dental pain, gastrointestinal disease, and cancer are also on the list. If your cat over 10 is losing weight, book a vet appointment rather than switching foods and hoping for the best.",
+          "The protein myth is the most important to address. For many years, senior cat food meant lower protein - the assumption being that kidneys would be spared by processing less of it. We now know this is wrong. Older cats actually need more protein than younger adults, because their ability to utilise dietary protein decreases with age. A senior cat on a low-protein food will lose muscle mass and body condition. The thin, bony elderly cat that many owners assume is 'just old' is often a cat that has been protein-deficient for years.",
+          "The exception is confirmed chronic kidney disease (CKD). Cats with CKD do benefit from reduced protein and, more importantly, reduced phosphorus - but this should be prescribed after bloodwork confirms the diagnosis, not assumed because the cat is 11. Putting a healthy senior cat on a kidney diet is unnecessary and potentially counterproductive.",
+          "Weight loss in a senior cat is a clinical sign, not an ageing inevitability. Hyperthyroidism is the most common cause - it produces weight loss despite a normal or increased appetite, and responds well to treatment. Diabetes, dental pain, gastrointestinal disease, and cancer are also on the list. If your cat over 10 is losing weight, book a vet appointment rather than switching foods and hoping for the best.",
         ],
       },
       {
         heading: 'Fad Diets and What Cat Food Marketing Wants You to Think',
         paragraphs: [
-          "Raw feeding: the biological rationale is sound — cats evolved eating whole prey — but the practical execution is where problems arise. Raw meat in a domestic setting can carry Salmonella, Campylobacter, Listeria, and Toxoplasma gondii. Cats can shed these in their faeces, creating transmission risks for people in the household. Nutritionally balanced home-prepared raw diets are genuinely difficult to formulate — errors in supplementation cause problems that take months to become visible.",
-          "Commercially prepared raw diets that carry a complete and balanced claim are a different proposition: they have been formulated to avoid nutritional imbalances, and many are high-pressure pasteurised to reduce pathogen load. If you want to feed raw, this is the route worth considering — and discuss hygiene protocols with your vet.",
+          "Raw feeding: the biological rationale is sound - cats evolved eating whole prey - but the practical execution is where problems arise. Raw meat in a domestic setting can carry Salmonella, Campylobacter, Listeria, and Toxoplasma gondii. Cats can shed these in their faeces, creating transmission risks for people in the household. Nutritionally balanced home-prepared raw diets are genuinely difficult to formulate - errors in supplementation cause problems that take months to become visible.",
+          "Commercially prepared raw diets that carry a complete and balanced claim are a different proposition: they have been formulated to avoid nutritional imbalances, and many are high-pressure pasteurised to reduce pathogen load. If you want to feed raw, this is the route worth considering - and discuss hygiene protocols with your vet.",
           "Grain-free for cats: less of a concern than for dogs (the cardiac link identified in dogs has not been replicated in cats, who have very different carbohydrate metabolism). But grain-free is not inherently better either. Most carbohydrates in cat food serve as binders for the kibble. Whether those carbohydrates come from grains or legumes makes very little nutritional difference for a healthy cat.",
-          "Novel protein diets — duck, kangaroo, venison — have genuine utility for cats with confirmed food allergies or intolerances. They are also heavily marketed to cats without any food sensitivity, which inflates cost without providing benefit. If your vet has not identified a food allergy, there is no nutritional reason to pay a premium for exotic proteins.",
+          "Novel protein diets - duck, kangaroo, venison - have genuine utility for cats with confirmed food allergies or intolerances. They are also heavily marketed to cats without any food sensitivity, which inflates cost without providing benefit. If your vet has not identified a food allergy, there is no nutritional reason to pay a premium for exotic proteins.",
         ],
       },
       {
         heading: 'Wet vs Dry: The Honest Answer',
         paragraphs: [
           "Wet food is generally better for adult cats than dry food, primarily for hydration reasons. It also tends to be higher in protein and lower in carbohydrates, which aligns better with feline metabolism. If you can feed wet food for at least one meal a day, that is a meaningful improvement over dry-only, even if it is not a full switch.",
-          "Transitioning a dry-food cat to wet food requires patience. Start by placing a small amount of wet food alongside their usual dry rather than removing the dry abruptly. Some cats take weeks to accept wet food, and forcing the transition too quickly can cause food aversion — where the cat associates the new food with stress and refuses it long-term. If your cat has been on dry food for years and is healthy, don't force the change. A water fountain alongside their dry food is a lower-stress way to improve hydration.",
-          "The cats that benefit most from switching to wet food are those showing early signs of kidney issues on bloodwork, cats with recurrent urinary tract problems, and overweight cats — since wet food tends to be more satiating per calorie than dry.",
+          "Transitioning a dry-food cat to wet food requires patience. Start by placing a small amount of wet food alongside their usual dry rather than removing the dry abruptly. Some cats take weeks to accept wet food, and forcing the transition too quickly can cause food aversion - where the cat associates the new food with stress and refuses it long-term. If your cat has been on dry food for years and is healthy, don't force the change. A water fountain alongside their dry food is a lower-stress way to improve hydration.",
+          "The cats that benefit most from switching to wet food are those showing early signs of kidney issues on bloodwork, cats with recurrent urinary tract problems, and overweight cats - since wet food tends to be more satiating per calorie than dry.",
         ],
       },
     ],
     faqs: [
       { q: 'When should I switch my kitten to adult cat food?', a: "At 12 months for most cats. Make the transition gradually over 7–10 days by mixing increasing amounts of adult food into their kitten food. If your kitten was desexed early, you can begin the transition slightly sooner, as desexing reduces metabolic rate and caloric needs." },
-      { q: 'My senior cat is losing weight. Should I change their food?', a: "Start with a vet visit rather than a food change. Weight loss in cats over 10 is a clinical sign — hyperthyroidism, dental pain, kidney disease, and cancer are all common causes. Switching foods can mask the problem and delay diagnosis." },
-      { q: 'Is raw feeding safe for cats in Dubai?', a: "Home-prepared raw diets carry real risks — pathogen exposure (Salmonella, Toxoplasma) and difficulty achieving nutritional balance. Commercially prepared and complete raw diets reduce both risks considerably. If you want to feed raw, choose a product with a complete and balanced claim and discuss hygiene protocols with your vet." },
+      { q: 'My senior cat is losing weight. Should I change their food?', a: "Start with a vet visit rather than a food change. Weight loss in cats over 10 is a clinical sign - hyperthyroidism, dental pain, kidney disease, and cancer are all common causes. Switching foods can mask the problem and delay diagnosis." },
+      { q: 'Is raw feeding safe for cats in Dubai?', a: "Home-prepared raw diets carry real risks - pathogen exposure (Salmonella, Toxoplasma) and difficulty achieving nutritional balance. Commercially prepared and complete raw diets reduce both risks considerably. If you want to feed raw, choose a product with a complete and balanced claim and discuss hygiene protocols with your vet." },
       { q: 'How much should I feed my cat?', a: "This depends on their weight, age, and the specific food. Use the feeding guide on the packaging as a starting point, measure by weight using a kitchen scale rather than by eye, and aim for two meals a day rather than free-feeding. Your vet can confirm whether your cat is at a healthy weight at any consultation." },
-      { q: 'My cat will only eat one brand of food and refuses everything else. Is that a problem?', a: "It is worth addressing gradually. If that food is ever unavailable, a sudden change will be very difficult. Try introducing a small amount of a second food alongside their usual food — the goal is not to replace it, just to build tolerance for variation. Cats that are ill sometimes stop eating, and a cat with a very narrow diet is harder to manage through illness or hospitalisation." },
+      { q: 'My cat will only eat one brand of food and refuses everything else. Is that a problem?', a: "It is worth addressing gradually. If that food is ever unavailable, a sudden change will be very difficult. Try introducing a small amount of a second food alongside their usual food - the goal is not to replace it, just to build tolerance for variation. Cats that are ill sometimes stop eating, and a cat with a very narrow diet is harder to manage through illness or hospitalisation." },
     ],
     references: [
       "Case LP, Daristotle L, Hayek MG, Raasch MF. Canine and Feline Nutrition. 3rd ed. Mosby Elsevier; 2011.",
@@ -1732,18 +1870,24 @@ export const posts: BlogPost[] = [
     readTime: '7 min read',
     excerpt: "New puppy? The vaccine schedule in the UAE is slightly different from what you might know from home. Here's exactly what your puppy needs, when, and why getting the timing right matters more than most people realise.",
     metaTitle: "Puppy Vaccination Schedule UAE: What Jabs & When | Mike's Vet Dubai",
-    metaDescription: "Complete puppy vaccination schedule for the UAE — core vaccines (DHPPi, rabies), kennel cough, timing of boosters, Dubai Municipality requirements, and costs. From Mike's Vet, Hessa Street.",
+    metaDescription: "Complete puppy vaccination schedule for the UAE - core vaccines (DHPPi, rabies), kennel cough, timing of boosters, Dubai Municipality requirements, and costs. From Mike's Vet, Hessa Street.",
     heroImage: {
       url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
       alt: 'A yellow Labrador puppy at a veterinary clinic',
       credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
     },
     relatedService: { name: 'Dog Vaccinations Dubai', href: '/services/dog-care' },
     sections: [
       {
         heading: 'Why the Schedule Matters More Than You Think',
         paragraphs: [
-          "Puppies are born with some maternal antibodies from their mother, but these fade. The vaccine series is timed to provide protection as that maternal immunity wanes — not too early (when maternal antibodies would block the vaccine from working) and not too late (leaving a window of vulnerability).",
+          "Puppies are born with some maternal antibodies from their mother, but these fade. The vaccine series is timed to provide protection as that maternal immunity wanes - not too early (when maternal antibodies would block the vaccine from working) and not too late (leaving a window of vulnerability).",
           "The tricky part is that we cannot know exactly when each individual puppy's maternal immunity drops. That is why puppies receive a series of injections spaced a few weeks apart, rather than a single shot. Each dose catches the puppy at the right moment.",
           "Until the series is complete, parvovirus in particular is a serious risk. It spreads in the environment, survives for months in Dubai's heat, and can be fatal in unvaccinated puppies. Keep your puppy away from unknown dogs and high-traffic areas until the full course is done.",
         ],
@@ -1751,7 +1895,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Core Vaccines: What Every UAE Puppy Needs',
         paragraphs: [
-          "The DHPPi covers four diseases in one injection: Distemper, Hepatitis, Parvovirus, and Parainfluenza. All four are relevant in the UAE — parvovirus and distemper especially. This is given three times in the puppy series.",
+          "The DHPPi covers four diseases in one injection: Distemper, Hepatitis, Parvovirus, and Parainfluenza. All four are relevant in the UAE - parvovirus and distemper especially. This is given three times in the puppy series.",
           "Leptospirosis is a bacterial disease spread through contaminated water and rodent urine. Dogs in Dubai that visit parks, swim, or spend time outdoors are at real risk. We recommend it as part of the standard course, combined with the DHPPi injection.",
           "Rabies is a legal requirement in the UAE for all dogs and is essential for Dubai Municipality registration. It is given once at 16 weeks and then renewed annually (the UAE requires annual documentation regardless of the vaccine's label duration). Without a valid rabies certificate, your dog cannot be boarded, licensed, or exported.",
         ],
@@ -1759,17 +1903,17 @@ export const posts: BlogPost[] = [
       {
         heading: "Mike's Vet Puppy Vaccination Schedule",
         paragraphs: [
-          "8 weeks: First DHPPi + Leptospirosis. This is the earliest we can start. If your puppy was vaccinated before coming to you (by a breeder or rescue), bring those records — we will work out where you are in the series.",
+          "8 weeks: First DHPPi + Leptospirosis. This is the earliest we can start. If your puppy was vaccinated before coming to you (by a breeder or rescue), bring those records - we will work out where you are in the series.",
           "12 weeks: Second DHPPi + Leptospirosis. The gap between doses must be at least 3–4 weeks. Do not shorten it.",
           "16 weeks: Third DHPPi + Leptospirosis + Rabies. This is the first time we give rabies, as it must follow the DHPPi primary course. After this final dose, wait at least one week before allowing contact with unknown dogs at parks.",
-          "12–15 months: First adult booster. Timing this correctly is important — it sets the rhythm for your dog's annual booster cycle for life. After this, annual boosters cover DHPPi, Leptospirosis, and Rabies.",
+          "12–15 months: First adult booster. Timing this correctly is important - it sets the rhythm for your dog's annual booster cycle for life. After this, annual boosters cover DHPPi, Leptospirosis, and Rabies.",
         ],
       },
       {
         heading: 'Kennel Cough (Bordetella)',
         paragraphs: [
           "Kennel cough is not in the core series but we strongly recommend it for any puppy that will go to puppy classes, dog parks, groomers, or boarding. It is required by virtually all reputable boarding facilities in Dubai.",
-          "The Bordetella vaccine is given as a single intranasal dose and takes effect within a week. It can be given from 3–4 weeks before first exposure — so if you are planning puppy class or a boarding stay, book it in well ahead.",
+          "The Bordetella vaccine is given as a single intranasal dose and takes effect within a week. It can be given from 3–4 weeks before first exposure - so if you are planning puppy class or a boarding stay, book it in well ahead.",
           "Kennel cough is not dangerous for healthy adult dogs but causes significant discomfort: a harsh, persistent cough that lasts 2–3 weeks. In young puppies, it can be more serious.",
         ],
       },
@@ -1778,17 +1922,17 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "All dogs in Dubai must be registered with Dubai Municipality annually. The requirements are: a valid ISO-compliant microchip (must be in place before rabies vaccination), current rabies vaccination, and a health certificate from an approved clinic.",
           "Mike's Vet is an approved clinic and can complete registration documentation at your puppy's annual booster appointment. Bring your puppy's full vaccination record.",
-          "Our Dog Starter Bundle (AED 550) covers the full primary course including all three DHPPi injections, Leptospirosis, and Rabies — with consultations included at each visit. It is the most cost-effective way to complete your puppy's primary series.",
+          "Our Dog Starter Bundle (AED 550) covers the full primary course including all three DHPPi injections, Leptospirosis, and Rabies - with consultations included at each visit. It is the most cost-effective way to complete your puppy's primary series.",
         ],
       },
     ],
     faqs: [
-      { q: 'When can my puppy go to the park in Dubai?', a: "One week after their third and final DHPPi injection, given at 16 weeks. Until then, keep your puppy away from unknown dogs and areas with high dog traffic — parvovirus can survive in the environment for months and is a serious risk for unvaccinated puppies." },
+      { q: 'When can my puppy go to the park in Dubai?', a: "One week after their third and final DHPPi injection, given at 16 weeks. Until then, keep your puppy away from unknown dogs and areas with high dog traffic - parvovirus can survive in the environment for months and is a serious risk for unvaccinated puppies." },
       { q: 'My puppy had vaccines before I got them. Do I need to start again?', a: "Not necessarily. Bring whatever documentation you have. If the previous vaccines were given correctly and the intervals were right, we can continue the series from where it left off. If the records are unclear or the timing was wrong, we may recommend restarting for certainty." },
-      { q: 'How much does it cost to vaccinate a puppy in Dubai?', a: "Mike's Vet Dog Starter Bundle is AED 550 and covers the full puppy primary course — three DHPPi + Leptospirosis visits plus the Rabies injection, with consultations included. Individual vaccine appointments are also available." },
+      { q: 'How much does it cost to vaccinate a puppy in Dubai?', a: "Mike's Vet Dog Starter Bundle is AED 550 and covers the full puppy primary course - three DHPPi + Leptospirosis visits plus the Rabies injection, with consultations included. Individual vaccine appointments are also available." },
       { q: 'Does my puppy need a rabies vaccine in Dubai?', a: "Yes. Rabies vaccination is required by UAE law for all dogs and is essential for Dubai Municipality registration. It is given at 16 weeks, after the DHPPi primary course, and renewed annually." },
       { q: 'Is kennel cough vaccination compulsory in Dubai?', a: "It is not legally required, but it is required by most boarding facilities, grooming salons, and dog training schools in Dubai. We recommend it for any puppy that will interact with other dogs. It is a single intranasal dose and works within a week." },
-      { q: 'How long after the last vaccine is my puppy fully protected?', a: "Allow at least one week after the final DHPPi injection at 16 weeks before exposing your puppy to unknown dogs at parks or social settings. Full immune response builds over that week. The 12–15 month booster is also important — it establishes long-term protection and starts the annual cycle." },
+      { q: 'How long after the last vaccine is my puppy fully protected?', a: "Allow at least one week after the final DHPPi injection at 16 weeks before exposing your puppy to unknown dogs at parks or social settings. Full immune response builds over that week. The 12–15 month booster is also important - it establishes long-term protection and starts the annual cycle." },
     ],
   },
   {
@@ -1800,24 +1944,30 @@ export const posts: BlogPost[] = [
     metaTitle: "Cat Dental Cleaning Dubai: Cost, Procedure & When You Need It | Mike's Vet",
     metaDescription: "Cat dental cleaning in Dubai requires general anaesthesia and is done very differently to human dentistry. Learn what's involved, the cost at Mike's Vet (AED 2,025 all-inclusive), and the signs your cat needs it.",
     heroImage: {
-      url: 'https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=1200&q=80&auto=format&fit=crop',
+      url: 'https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=1200&q=80&auto=format&fit=crop',
       alt: 'A cat being examined by a vet',
       credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM, GP Cert in Ultrasound',
+      photo: '/vets/feth.jpg',
+      profileHref: '/team/feth-mazari',
     },
     relatedService: { name: 'Cat Dental Care Dubai', href: '/services/cat-care' },
     sections: [
       {
         heading: "How Bad Is Your Cat's Mouth, Really?",
         paragraphs: [
-          "Studies consistently show that 50–90% of cats over age three have some form of periodontal disease. Most owners have no idea, because cats hide pain very effectively — a cat with a painful mouth will often continue eating until the situation is severe.",
-          "By the time you notice signs — bad breath, pawing at the mouth, dropping food, or reduced appetite — dental disease is usually well established. The absence of obvious symptoms is not the same as dental health.",
+          "Studies consistently show that 50–90% of cats over age three have some form of periodontal disease. Most owners have no idea, because cats hide pain very effectively - a cat with a painful mouth will often continue eating until the situation is severe.",
+          "By the time you notice signs - bad breath, pawing at the mouth, dropping food, or reduced appetite - dental disease is usually well established. The absence of obvious symptoms is not the same as dental health.",
           "Annual dental checks at a vet appointment, including probing under the gum line, are the only reliable way to assess what is happening. You cannot assess your cat's dental health by looking in their mouth at home.",
         ],
       },
       {
         heading: 'Why Cats Need General Anaesthesia for Dental Work',
         paragraphs: [
-          "This is the question we get most often. Human dentists work on conscious patients who can communicate, hold still, and cooperate. Cats cannot. Thorough dental cleaning requires the vet to work under and around the gum line, probe each tooth, take dental X-rays, and potentially extract teeth — none of which is possible in a cat that is awake.",
+          "This is the question we get most often. Human dentists work on conscious patients who can communicate, hold still, and cooperate. Cats cannot. Thorough dental cleaning requires the vet to work under and around the gum line, probe each tooth, take dental X-rays, and potentially extract teeth - none of which is possible in a cat that is awake.",
           "Anaesthesia-free dental cleaning (sometimes offered as a 'gentle dental' or 'awake dental') removes visible surface tartar from the crown but cannot treat the disease below the gum line where it actually progresses. It is not a substitute for a proper dental. Worse, it can create a false impression that the problem has been addressed when it has not.",
           "Modern anaesthetic protocols for healthy cats carry very low risk. A pre-anaesthetic blood panel, IV fluids during the procedure, careful monitoring, and appropriate pain management make cat dentals a routine and well-managed procedure at a well-equipped clinic.",
         ],
@@ -1825,9 +1975,9 @@ export const posts: BlogPost[] = [
       {
         heading: 'What Happens During a Cat Dental at Mike\'s Vet',
         paragraphs: [
-          "Your cat comes in fasted from midnight. We start with a pre-anaesthetic blood panel to check kidney and liver function before giving any anaesthetic drugs — this is not optional and it is included in the bundle price.",
+          "Your cat comes in fasted from midnight. We start with a pre-anaesthetic blood panel to check kidney and liver function before giving any anaesthetic drugs - this is not optional and it is included in the bundle price.",
           "Once your cat is under anaesthesia, we take full-mouth dental X-rays. This is important: approximately 40% of significant dental disease in cats is found below the gum line and not visible to the eye. Without X-rays, we are treating only part of the problem.",
-          "We then perform a full-mouth periodontal probing, ultrasonic scaling (above and below the gum line), and polishing. If extractions are needed — which is common, particularly for tooth resorption lesions — these are done at the same appointment. Your cat goes home with appropriate pain relief.",
+          "We then perform a full-mouth periodontal probing, ultrasonic scaling (above and below the gum line), and polishing. If extractions are needed - which is common, particularly for tooth resorption lesions - these are done at the same appointment. Your cat goes home with appropriate pain relief.",
         ],
       },
       {
@@ -1841,17 +1991,17 @@ export const posts: BlogPost[] = [
       {
         heading: 'Cost and How Often',
         paragraphs: [
-          "Mike's Vet Cat Dental Bundle is AED 2,025 — all-inclusive. This covers the pre-anaesthetic blood panel, IV fluids, full anaesthesia, full-mouth dental X-rays, ultrasonic scaling, and polishing. Extractions, if needed, are quoted separately at the time of the procedure.",
+          "Mike's Vet Cat Dental Bundle is AED 2,025 - all-inclusive. This covers the pre-anaesthetic blood panel, IV fluids, full anaesthesia, full-mouth dental X-rays, ultrasonic scaling, and polishing. Extractions, if needed, are quoted separately at the time of the procedure.",
           "Most cats with good dental hygiene need a professional clean every 1–2 years. Cats prone to tartar build-up, or those with crowded teeth (common in Persians and Exotics), may need annual cleans. After each dental, your vet will give you a realistic picture of how frequently your cat is likely to need future work.",
-          "Home dental care between cleans — daily toothbrushing with cat-safe toothpaste or dental chews — can meaningfully slow tartar accumulation. We will show you how to do it at your next visit.",
+          "Home dental care between cleans - daily toothbrushing with cat-safe toothpaste or dental chews - can meaningfully slow tartar accumulation. We will show you how to do it at your next visit.",
         ],
       },
     ],
     faqs: [
-      { q: 'How much does cat dental cleaning cost in Dubai?', a: "Mike's Vet Cat Dental Bundle is AED 2,025 all-inclusive — this covers the pre-anaesthetic blood panel, full anaesthesia, IV fluids, dental X-rays, ultrasonic scaling and polishing. Extractions, if needed, are quoted separately at the time of the dental." },
+      { q: 'How much does cat dental cleaning cost in Dubai?', a: "Mike's Vet Cat Dental Bundle is AED 2,025 all-inclusive - this covers the pre-anaesthetic blood panel, full anaesthesia, IV fluids, dental X-rays, ultrasonic scaling and polishing. Extractions, if needed, are quoted separately at the time of the dental." },
       { q: 'Is general anaesthesia safe for cats?', a: "Yes, with appropriate screening and monitoring. We require a pre-anaesthetic blood panel before every dental to check organ function. Modern protocols with IV fluids, temperature management, and continuous monitoring make cat dentals a routine, well-managed procedure. The risk of untreated dental disease over time is significantly greater than the risk of a well-managed anaesthetic." },
       { q: 'How do I know if my cat needs a dental?', a: "Bad breath is the clearest early sign. Other indicators include visible brown tartar on the back teeth, dropping food, reduced appetite, drooling, or pawing at the mouth. A vet check with a dental assessment will confirm whether a clean is needed and how urgently." },
-      { q: 'Can I brush my cat\'s teeth at home?', a: "Yes, and it makes a real difference if done consistently — daily is ideal. Use a finger toothbrush or a soft cat toothbrush with cat-safe enzymatic toothpaste (never human toothpaste). Start slowly: let your cat lick the toothpaste first, then gradually introduce the brush. It is easier to establish with kittens, but adult cats can learn to tolerate it with patience." },
+      { q: 'Can I brush my cat\'s teeth at home?', a: "Yes, and it makes a real difference if done consistently - daily is ideal. Use a finger toothbrush or a soft cat toothbrush with cat-safe enzymatic toothpaste (never human toothpaste). Start slowly: let your cat lick the toothpaste first, then gradually introduce the brush. It is easier to establish with kittens, but adult cats can learn to tolerate it with patience." },
       { q: 'How often does a cat need a professional dental clean?', a: "Every 1–2 years for most cats. Some breeds (Persians, Exotics) with crowded teeth need annual cleans. Your vet will advise on the right frequency after your cat's first dental, based on how quickly tartar accumulates." },
     ],
   },
@@ -1868,12 +2018,18 @@ export const posts: BlogPost[] = [
       alt: 'Two dogs on a walk, ready to travel',
       credit: 'Unsplash',
     },
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
+    },
     relatedService: { name: 'Pet Travel & Export Dubai', href: '/pricing#travel' },
     sections: [
       {
         heading: 'The Two Things That Catch People Out',
         paragraphs: [
-          "Most owners planning to travel with a pet from Dubai focus on the health certificate. The health certificate matters, but it has a very short validity window — for the UK and EU, it must be issued within 10 days of travel. That part is straightforward.",
+          "Most owners planning to travel with a pet from Dubai focus on the health certificate. The health certificate matters, but it has a very short validity window - for the UK and EU, it must be issued within 10 days of travel. That part is straightforward.",
           "What catches people out is the rabies titer test. For the UK, EU, Australia, and several other destinations, a blood test must confirm your pet has sufficient rabies antibodies. That test cannot be done until at least 30 days after the last rabies vaccination. Results take 2–4 weeks to come back from the approved laboratory. And then there is a further waiting period before travel is permitted.",
           "The total timeline from starting the process to being cleared to travel is typically 3–6 months for the UK and EU, and 12 months or more for Australia. If you are planning to leave Dubai and take your pet with you, start this process long before you book the flight.",
         ],
@@ -1881,7 +2037,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'The Universal Requirements: Microchip First',
         paragraphs: [
-          "Every country requires an ISO-compliant microchip (15-digit, 134.2 kHz) as the unique identifier linking your pet to their health records. The microchip must be implanted before the rabies vaccination — if the chip comes after the vaccine, the vaccination may not count for export purposes.",
+          "Every country requires an ISO-compliant microchip (15-digit, 134.2 kHz) as the unique identifier linking your pet to their health records. The microchip must be implanted before the rabies vaccination - if the chip comes after the vaccine, the vaccination may not count for export purposes.",
           "Check your pet's microchip number against their vaccination certificate. The number recorded in the cert must match what the scanner reads. Discrepancies cause problems at the border. If you are unsure, bring your pet in and we will scan them.",
           "Dubai Municipality registration and microchipping are required for all pets in the UAE regardless of travel plans, so if your pet is properly registered here, the microchip requirement is likely already met.",
         ],
@@ -1889,9 +2045,9 @@ export const posts: BlogPost[] = [
       {
         heading: 'The Rabies Titer Test: What It Is and Why It Takes So Long',
         paragraphs: [
-          "The rabies titer test (officially: Rabies Neutralising Antibody Titre Test, or RNATT) is a blood test that checks whether your pet's immune system has responded adequately to their rabies vaccine — producing at least 0.5 IU/mL of antibodies, the threshold set by destination countries.",
+          "The rabies titer test (officially: Rabies Neutralising Antibody Titre Test, or RNATT) is a blood test that checks whether your pet's immune system has responded adequately to their rabies vaccine - producing at least 0.5 IU/mL of antibodies, the threshold set by destination countries.",
           "The test cannot be performed until at least 30 days after the most recent rabies vaccination. The blood sample is then sent to an EU-approved laboratory (we use the Onderstepoort Veterinary Institute in South Africa or similar accredited labs). Results take 2–4 weeks to come back.",
-          "For the EU, travel is permitted 3 months after the date the blood sample was taken — not the date you get the results. For the UK, the rules have specific current requirements you should check against APHA guidance at the time of travel. At Mike's Vet, we can walk you through exactly what applies to your specific destination.",
+          "For the EU, travel is permitted 3 months after the date the blood sample was taken - not the date you get the results. For the UK, the rules have specific current requirements you should check against APHA guidance at the time of travel. At Mike's Vet, we can walk you through exactly what applies to your specific destination.",
         ],
       },
       {
@@ -1899,24 +2055,24 @@ export const posts: BlogPost[] = [
         paragraphs: [
           "UK and EU: microchip, current rabies vaccination, RNATT above 0.5 IU/mL with the required waiting period observed, official export health certificate (issued within 10 days of travel by an APHA-accredited or equivalent vet). We issue these at Mike's Vet.",
           "Australia and New Zealand: the most demanding destination from Dubai. Requirements include microchip, full vaccination history, RNATT, parasite treatments, mandatory quarantine (often 10–30 days), and an import permit obtained months in advance. Plan 12 months ahead minimum. We recommend engaging a specialist pet relocation company alongside your vet.",
-          "Most other destinations (India, Canada, USA, GCC countries): typically require microchip, current rabies vaccination, and a health certificate issued close to travel. Destination-specific requirements vary. Always check the official government portal for your destination and confirm with us — requirements change.",
+          "Most other destinations (India, Canada, USA, GCC countries): typically require microchip, current rabies vaccination, and a health certificate issued close to travel. Destination-specific requirements vary. Always check the official government portal for your destination and confirm with us - requirements change.",
         ],
       },
       {
         heading: "What Mike's Vet Offers",
         paragraphs: [
-          "APHA Rabies Titer Test: AED 1,575 — includes blood draw, processing, and submission to an approved laboratory. We will advise on timing relative to your pet's vaccination history.",
-          "UK/GB Health Certificate: AED 289 — issued by our APHA-accredited vets within the required 10-day window. Bring all your pet's documentation to the appointment.",
+          "APHA Rabies Titer Test: AED 1,575 - includes blood draw, processing, and submission to an approved laboratory. We will advise on timing relative to your pet's vaccination history.",
+          "UK/GB Health Certificate: AED 289 - issued by our APHA-accredited vets within the required 10-day window. Bring all your pet's documentation to the appointment.",
           "We also issue health certificates for a wide range of other destinations. Book an appointment with enough lead time to review your documentation and confirm everything is in order before the certificate is due. Call or WhatsApp +971 4 283 7744.",
         ],
       },
     ],
     faqs: [
-      { q: 'How far in advance do I need to start the pet export process from Dubai?', a: "For the UK or EU: at least 4–6 months. For Australia or New Zealand: 12 months minimum, ideally longer. For most other countries: 4–8 weeks is usually sufficient but confirm destination-specific requirements. The critical time sink is the rabies titer test timeline — do not leave it until the last month." },
+      { q: 'How far in advance do I need to start the pet export process from Dubai?', a: "For the UK or EU: at least 4–6 months. For Australia or New Zealand: 12 months minimum, ideally longer. For most other countries: 4–8 weeks is usually sufficient but confirm destination-specific requirements. The critical time sink is the rabies titer test timeline - do not leave it until the last month." },
       { q: 'What is a rabies titer test and do I need one?', a: "A RNATT is a blood test confirming your pet has sufficient rabies antibodies (0.5 IU/mL or above). It is required for travel to the UK, EU, Australia, New Zealand, and some other destinations. It must be done at least 30 days after vaccination, results take 2–4 weeks, and there is a further waiting period before travel. We arrange these at Mike's Vet." },
-      { q: 'How much does a pet travel health certificate cost in Dubai?', a: "At Mike's Vet, a UK/GB Health Certificate is AED 289. APHA Rabies Titer Test is AED 1,575 (includes blood draw and laboratory submission). Health certificates for other destinations are also available — call or WhatsApp us for a quote based on your destination." },
-      { q: 'Can Mike\'s Vet issue export health certificates?', a: "Yes. We are accredited to issue health certificates for the UK and a wide range of other destinations. Book an appointment at least 2 weeks before you need the certificate — not in the final days before travel. Bring all your pet's vaccination records, microchip documentation, and titer test results if required." },
-      { q: 'What if my pet fails the rabies titer test?', a: "A failing result (below 0.5 IU/mL) means your pet needs a booster rabies vaccination, followed by a waiting period before the test can be repeated. This adds months to the process. It is relatively uncommon in pets with up-to-date vaccination histories, but it does happen — another reason to start early rather than close to your travel date." },
+      { q: 'How much does a pet travel health certificate cost in Dubai?', a: "At Mike's Vet, a UK/GB Health Certificate is AED 289. APHA Rabies Titer Test is AED 1,575 (includes blood draw and laboratory submission). Health certificates for other destinations are also available - call or WhatsApp us for a quote based on your destination." },
+      { q: 'Can Mike\'s Vet issue export health certificates?', a: "Yes. We are accredited to issue health certificates for the UK and a wide range of other destinations. Book an appointment at least 2 weeks before you need the certificate - not in the final days before travel. Bring all your pet's vaccination records, microchip documentation, and titer test results if required." },
+      { q: 'What if my pet fails the rabies titer test?', a: "A failing result (below 0.5 IU/mL) means your pet needs a booster rabies vaccination, followed by a waiting period before the test can be repeated. This adds months to the process. It is relatively uncommon in pets with up-to-date vaccination histories, but it does happen - another reason to start early rather than close to your travel date." },
     ],
   },
   {
@@ -1924,11 +2080,11 @@ export const posts: BlogPost[] = [
     title: 'Heart Disease in Dogs and Cats: Signs, Susceptible Breeds, and What an Echocardiogram Reveals',
     date: '2026-11-08',
     readTime: '9 min read',
-    excerpt: "Cardiac disease is one of the most underdiagnosed conditions in pets — partly because the early signs are easy to miss, and partly because many owners don't know their breed is at risk. Here's what I see at the clinic, and what an echocardiogram can show long before a pet is visibly unwell.",
+    excerpt: "Cardiac disease is one of the most underdiagnosed conditions in pets - partly because the early signs are easy to miss, and partly because many owners don't know their breed is at risk. Here's what I see at the clinic, and what an echocardiogram can show long before a pet is visibly unwell.",
     metaTitle: "Heart Disease in Dogs and Cats Dubai: Signs, Breeds & Echocardiogram | Mike's Vet",
     metaDescription: "Which dog and cat breeds are most at risk of heart disease? What signs should you watch for? And what does an echocardiogram actually show? Written by Dr. Feth Mazari, GP Cert Ultrasound, at Mike's Vet Dubai.",
     heroImage: {
-      url: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1200&q=80&auto=format&fit=crop',
+      url: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=1200&q=80&auto=format&fit=crop',
       alt: 'Veterinarian listening to a dog\'s heart with a stethoscope',
       credit: 'Unsplash',
     },
@@ -1943,38 +2099,38 @@ export const posts: BlogPost[] = [
       {
         heading: 'More Common Than You Think',
         paragraphs: [
-          "One in ten dogs will develop some form of heart disease during their lifetime. In Cavalier King Charles Spaniels, that number climbs to virtually 100% by age ten. In cats, hypertrophic cardiomyopathy is the most common cardiac disease overall — and it can strike apparently healthy animals at any age, sometimes with no warning signs at all until the animal is in crisis.",
-          "As a vet with a postgraduate certificate in ultrasound, I perform echocardiograms regularly at Mike's Vet. What consistently surprises owners is how much we can find — and how much can be managed — when cardiac disease is caught early. This article covers what to watch for, which breeds carry the highest risk, how age factors in, and what an echocardiogram actually tells us.",
-          "The most important message: by the time heart failure is obvious from the outside — laboured breathing, exercise intolerance, collapse — significant structural damage has often already occurred. Diagnosis before that point gives us far more treatment options and far more time.",
+          "One in ten dogs will develop some form of heart disease during their lifetime. In Cavalier King Charles Spaniels, that number climbs to virtually 100% by age ten. In cats, hypertrophic cardiomyopathy is the most common cardiac disease overall - and it can strike apparently healthy animals at any age, sometimes with no warning signs at all until the animal is in crisis.",
+          "As a vet with a postgraduate certificate in ultrasound, I perform echocardiograms regularly at Mike's Vet. What consistently surprises owners is how much we can find - and how much can be managed - when cardiac disease is caught early. This article covers what to watch for, which breeds carry the highest risk, how age factors in, and what an echocardiogram actually tells us.",
+          "The most important message: by the time heart failure is obvious from the outside - laboured breathing, exercise intolerance, collapse - significant structural damage has often already occurred. Diagnosis before that point gives us far more treatment options and far more time.",
         ],
       },
       {
         heading: 'Signs to Watch For',
         paragraphs: [
-          "Early signs are often subtle and easy to dismiss. A cough first thing in the morning. Slightly reduced tolerance on walks. A pet that seems a little quieter than usual. These can go unnoticed — or be attributed to 'just getting older' — for months.",
+          "Early signs are often subtle and easy to dismiss. A cough first thing in the morning. Slightly reduced tolerance on walks. A pet that seems a little quieter than usual. These can go unnoticed - or be attributed to 'just getting older' - for months.",
           "More specific signs to take seriously: a persistent cough (especially at night or after lying down), faster or harder breathing at rest, reduced stamina, weight loss without a clear cause, abdominal distension (fluid accumulation), fainting or brief episodes of collapse, weakness in the hindquarters.",
-          "In cats, the picture is often even less obvious. Cats hide illness well. Some cats present in acute congestive heart failure — literally struggling to breathe — with no prior warning the owner could have detected. This is one reason why breed-based proactive screening matters so much in cats.",
-          "One of the most reliable early findings is a heart murmur detected on a routine physical examination. If your vet hears a murmur at a check-up, the recommendation to investigate further is not over-caution — it is early intervention at exactly the right time.",
+          "In cats, the picture is often even less obvious. Cats hide illness well. Some cats present in acute congestive heart failure - literally struggling to breathe - with no prior warning the owner could have detected. This is one reason why breed-based proactive screening matters so much in cats.",
+          "One of the most reliable early findings is a heart murmur detected on a routine physical examination. If your vet hears a murmur at a check-up, the recommendation to investigate further is not over-caution - it is early intervention at exactly the right time.",
         ],
       },
       {
         heading: 'Dog Breeds Most at Risk',
         paragraphs: [
           "Cavalier King Charles Spaniel: the highest-risk dog breed by some margin. Myxomatous mitral valve disease (MMVD) affects virtually all Cavaliers to some degree by age ten [1]. ACVIM consensus guidelines now recommend annual cardiac auscultation from age one, with echocardiography when a murmur is detected. Many cardiologists recommend a baseline echo at three to four years even before a murmur develops, so there is a reference point when disease progresses.",
-          "Boxer: prone to arrhythmogenic right ventricular cardiomyopathy (ARVC), also known as Boxer cardiomyopathy [4]. This causes ventricular arrhythmias that can lead to sudden collapse or death — sometimes as the first sign. A Boxer showing episodes of weakness, syncope, or unusual behaviour during exercise warrants prompt evaluation. Holter monitoring over 24 hours is the gold standard for arrhythmia assessment in this breed.",
+          "Boxer: prone to arrhythmogenic right ventricular cardiomyopathy (ARVC), also known as Boxer cardiomyopathy [4]. This causes ventricular arrhythmias that can lead to sudden collapse or death - sometimes as the first sign. A Boxer showing episodes of weakness, syncope, or unusual behaviour during exercise warrants prompt evaluation. Holter monitoring over 24 hours is the gold standard for arrhythmia assessment in this breed.",
           "Dobermann Pinscher: dilated cardiomyopathy (DCM) is so prevalent that screening is now recommended even in apparently healthy Dobermanns [2]. DCM in this breed can progress silently for months or years before clinical signs appear. By the time an owner notices anything wrong, the heart may already be significantly enlarged. Echo combined with Holter monitoring is the best screening approach.",
           "Great Dane and other giant breeds: also at significant DCM risk. The sheer size of the heart in giant breeds means that when function declines, it declines fast. Baseline echocardiography from around five to six years of age is advisable in Great Danes, Irish Wolfhounds, and Newfoundlands.",
           "Cocker Spaniel: English and American Cockers share the Cavalier's predisposition to mitral valve disease, though typically with a later age of onset. German Shepherd: DCM and subaortic stenosis (SAS) both occur at higher rates; SAS in particular can cause sudden death in young dogs if severe and undetected.",
-          "Other breeds worth noting: Labrador Retriever, Portuguese Water Dog, and Dachshund (mitral valve disease). Smaller crossbreeds with Cavalier heritage — common in Dubai — also carry elevated MMVD risk.",
+          "Other breeds worth noting: Labrador Retriever, Portuguese Water Dog, and Dachshund (mitral valve disease). Smaller crossbreeds with Cavalier heritage - common in Dubai - also carry elevated MMVD risk.",
         ],
       },
       {
         heading: 'Cat Breeds Most at Risk',
         paragraphs: [
           "Maine Coon: hypertrophic cardiomyopathy (HCM) is the most common cardiac disease in cats overall, and Maine Coons carry a specific genetic mutation (MYBPC3-A31P) that dramatically increases their risk [6]. Genetic testing is available and recommended. Even Maine Coons that test negative for this mutation can still develop HCM through other mechanisms, so negative genetic test results do not eliminate the need for periodic echocardiographic screening.",
-          "Ragdoll: another breed with a known HCM-associated mutation (MYBPC3-R820W) [5]. Screening echocardiography from two to three years of age is now considered best practice. Many responsible breeders screen their breeding stock — if you have a Ragdoll and don't know whether the parents were screened, it is worth arranging your own baseline.",
-          "British Shorthair: HCM prevalence studies have consistently found British Shorthairs to be over-represented. The breed is popular in Dubai and the UAE generally, and many owners here are unaware of this risk. A routine check-up is not sufficient to rule out early HCM — only an echocardiogram can assess structural changes in the myocardium.",
-          "Persian and Exotic Shorthair: moderate to high HCM risk. The brachycephalic conformation in these breeds can mask respiratory symptoms of cardiac disease, making careful echo assessment important — a Persian breathing harder than usual may have cardiac disease, respiratory disease, or both.",
+          "Ragdoll: another breed with a known HCM-associated mutation (MYBPC3-R820W) [5]. Screening echocardiography from two to three years of age is now considered best practice. Many responsible breeders screen their breeding stock - if you have a Ragdoll and don't know whether the parents were screened, it is worth arranging your own baseline.",
+          "British Shorthair: HCM prevalence studies have consistently found British Shorthairs to be over-represented. The breed is popular in Dubai and the UAE generally, and many owners here are unaware of this risk. A routine check-up is not sufficient to rule out early HCM - only an echocardiogram can assess structural changes in the myocardium.",
+          "Persian and Exotic Shorthair: moderate to high HCM risk. The brachycephalic conformation in these breeds can mask respiratory symptoms of cardiac disease, making careful echo assessment important - a Persian breathing harder than usual may have cardiac disease, respiratory disease, or both.",
           "Sphynx: HCM and restrictive cardiomyopathy (RCM) both occur at elevated rates in Sphynx compared to the general cat population. Mixed-breed cats: not immune. HCM occurs across all feline breeds and in domestic shorthairs [3]. Any cat with a murmur, respiratory signs, or a breed predisposition warrants cardiac evaluation regardless of pedigree.",
         ],
       },
@@ -1982,47 +2138,47 @@ export const posts: BlogPost[] = [
         heading: 'Age Matters: When Does Cardiac Disease Typically Develop?',
         paragraphs: [
           "In dogs, most acquired cardiac disease presents in middle age or later. Cavalier King Charles Spaniels typically develop their first murmur between three and five years, with disease progression through the later years. DCM in Dobermanns most commonly manifests between six and ten years. Giant breeds like Great Danes may show cardiac changes from five to six years onward.",
-          "Congenital defects — pulmonic stenosis, aortic stenosis, patent ductus arteriosus (PDA), ventricular septal defects — are present from birth and are typically detected during a puppy's first examination. If a murmur is heard in a puppy under six months, it is usually investigated to determine whether it is a congenital defect or an innocent flow murmur that will resolve on its own.",
-          "In cats, HCM is less age-predictable. It can occur in cats as young as one to two years, particularly in Maine Coons and Ragdolls. In mixed-breed cats it most commonly presents between six and twelve years. What makes feline cardiac disease particularly challenging is that many cats carry significant structural abnormalities for years without detectable clinical signs — then present in acute respiratory distress.",
+          "Congenital defects - pulmonic stenosis, aortic stenosis, patent ductus arteriosus (PDA), ventricular septal defects - are present from birth and are typically detected during a puppy's first examination. If a murmur is heard in a puppy under six months, it is usually investigated to determine whether it is a congenital defect or an innocent flow murmur that will resolve on its own.",
+          "In cats, HCM is less age-predictable. It can occur in cats as young as one to two years, particularly in Maine Coons and Ragdolls. In mixed-breed cats it most commonly presents between six and twelve years. What makes feline cardiac disease particularly challenging is that many cats carry significant structural abnormalities for years without detectable clinical signs - then present in acute respiratory distress.",
           "The practical implication for at-risk breeds: establishing a baseline echocardiogram before the typical age of disease onset gives you a reference point for comparison as your pet ages. For Cavaliers, I recommend this by age three to four. For Maine Coons and Ragdolls, two to three years. For Dobermanns, annually from age five. For other at-risk breeds, discuss timing with your vet based on breed-specific guidance.",
         ],
       },
       {
         heading: 'What an Echocardiogram Actually Shows',
         paragraphs: [
-          "An echocardiogram is an ultrasound of the heart. It allows us to look at the heart's structure and function in real time — watching it beat, measuring chamber sizes, assessing valve movement, and mapping blood flow with Doppler. It is non-invasive, requires no anaesthesia in most cases, and gives us information no physical examination or chest X-ray can provide.",
-          "At Mike's Vet, we use the Mindray Vetus9 — one of the most advanced veterinary ultrasound platforms available. Its Zone Sonography Technology (ZST+) delivers exceptional image clarity even in animals with deep chests, and its Tissue Doppler Imaging (TDI) capability lets us detect subtle changes in myocardial function that wouldn't be visible on a standard echo. The dedicated cardiology suite includes pulsed and colour-flow Doppler, continuous-wave Doppler, and automated ejection fraction (Auto EF) measurement.",
+          "An echocardiogram is an ultrasound of the heart. It allows us to look at the heart's structure and function in real time - watching it beat, measuring chamber sizes, assessing valve movement, and mapping blood flow with Doppler. It is non-invasive, requires no anaesthesia in most cases, and gives us information no physical examination or chest X-ray can provide.",
+          "At Mike's Vet, we use the Mindray Vetus9 - one of the most advanced veterinary ultrasound platforms available. Its Zone Sonography Technology (ZST+) delivers exceptional image clarity even in animals with deep chests, and its Tissue Doppler Imaging (TDI) capability lets us detect subtle changes in myocardial function that wouldn't be visible on a standard echo. The dedicated cardiology suite includes pulsed and colour-flow Doppler, continuous-wave Doppler, and automated ejection fraction (Auto EF) measurement.",
           "Specifically, an echocardiogram allows us to assess: the size of each cardiac chamber and whether they are within normal limits; whether chamber walls are thickened as in HCM or thinned and dilated as in DCM; how well the heart muscle is contracting and relaxing; the presence and severity of valve abnormalities; whether blood is regurgitating through a leaking valve and how significant the leak is; the presence of pericardial effusion (fluid around the heart); and signs of elevated filling pressures that indicate impending or early heart failure.",
-          "For a Cavalier with a known murmur, the echo tells us which ACVIM stage they are in — which directly determines whether and when to start medication. For a Ragdoll with no symptoms at all, it may reveal significant left atrial enlargement that changes management entirely. For a dog presenting with a cough, it distinguishes cardiac from respiratory causes — a distinction that determines the entire treatment approach.",
-          "Most pets tolerate echocardiography well without sedation. The scan takes around 20 to 40 minutes. We clip a small area of fur on the chest, usually just below the elbow joint, to allow the probe to make good contact with the skin. We provide a written report with measurements, images, and — where disease is found — a staged management plan.",
+          "For a Cavalier with a known murmur, the echo tells us which ACVIM stage they are in - which directly determines whether and when to start medication. For a Ragdoll with no symptoms at all, it may reveal significant left atrial enlargement that changes management entirely. For a dog presenting with a cough, it distinguishes cardiac from respiratory causes - a distinction that determines the entire treatment approach.",
+          "Most pets tolerate echocardiography well without sedation. The scan takes around 20 to 40 minutes. We clip a small area of fur on the chest, usually just below the elbow joint, to allow the probe to make good contact with the skin. We provide a written report with measurements, images, and - where disease is found - a staged management plan.",
         ],
       },
       {
         heading: 'Treatment and What It Can Achieve',
         paragraphs: [
-          "The most significant advance in small animal cardiology over the past decade has been the evidence from the EPIC trial, which showed that starting pimobendan in dogs with pre-clinical MMVD — specifically those with cardiac enlargement but before symptoms appear — significantly delays the onset of heart failure [1]. This changed the standard of care for Cavaliers and other dogs with mitral valve disease. We now actively look for the echocardiographic thresholds that determine whether a dog qualifies for this intervention.",
-          "For cats with HCM, management depends on the stage and presentation. Cats in congestive heart failure require diuretics; some with elevated risk of aortic thromboembolism receive antiplatelet therapy; additional agents may be used in specific cases [3]. The honest reality is that feline HCM management remains more challenging than canine MMVD — but early detection consistently improves outcomes by giving us more time and more options before a crisis develops.",
-          "For DCM, management addresses both the myocardial dysfunction and any arrhythmias present. Holter monitoring gives us the full picture of arrhythmia burden over 24 hours — essential for Dobermanns and Boxers where arrhythmia management is a central part of care.",
+          "The most significant advance in small animal cardiology over the past decade has been the evidence from the EPIC trial, which showed that starting pimobendan in dogs with pre-clinical MMVD - specifically those with cardiac enlargement but before symptoms appear - significantly delays the onset of heart failure [1]. This changed the standard of care for Cavaliers and other dogs with mitral valve disease. We now actively look for the echocardiographic thresholds that determine whether a dog qualifies for this intervention.",
+          "For cats with HCM, management depends on the stage and presentation. Cats in congestive heart failure require diuretics; some with elevated risk of aortic thromboembolism receive antiplatelet therapy; additional agents may be used in specific cases [3]. The honest reality is that feline HCM management remains more challenging than canine MMVD - but early detection consistently improves outcomes by giving us more time and more options before a crisis develops.",
+          "For DCM, management addresses both the myocardial dysfunction and any arrhythmias present. Holter monitoring gives us the full picture of arrhythmia burden over 24 hours - essential for Dobermanns and Boxers where arrhythmia management is a central part of care.",
           "Lifestyle adjustments complement medication in all cardiac cases: restricting intense exercise in certain conditions, managing weight, reducing dietary sodium where appropriate. The goal is always to extend the period before heart failure, reduce symptoms when they develop, and maintain quality of life. With early detection and appropriate management, many cardiac patients live comfortably for years after diagnosis.",
         ],
       },
       {
         heading: "Cardiac Assessment at Mike's Vet",
         paragraphs: [
-          "If you have a Cavalier King Charles Spaniel, Maine Coon, Ragdoll, Dobermann, Boxer, or British Shorthair — or any breed mentioned in this article — I would encourage you not to wait for symptoms. Book a cardiac check and get a baseline.",
+          "If you have a Cavalier King Charles Spaniel, Maine Coon, Ragdoll, Dobermann, Boxer, or British Shorthair - or any breed mentioned in this article - I would encourage you not to wait for symptoms. Book a cardiac check and get a baseline.",
           "Cardiac evaluation at Mike's Vet begins with a thorough auscultation. If we detect a murmur, or if you want a proactive baseline for an at-risk breed, the next step is an echocardiogram on the same day in most cases. We use our Mindray Vetus9 platform, provide a written report with measurements and images, and walk you through what we found and what it means.",
-          "Pre-anaesthetic cardiac screening is also advisable before surgery in any at-risk breed or any animal over eight years — we routinely incorporate cardiac assessment into our pre-operative workup for older patients. For Dobermanns and Boxers where arrhythmia evaluation is part of the picture, we can arrange Holter monitoring.",
+          "Pre-anaesthetic cardiac screening is also advisable before surgery in any at-risk breed or any animal over eight years - we routinely incorporate cardiac assessment into our pre-operative workup for older patients. For Dobermanns and Boxers where arrhythmia evaluation is part of the picture, we can arrange Holter monitoring.",
           "Cardiac workups are available at our Hessa Street clinic, 7 days a week. Book via WhatsApp at +971 4 283 7744 or online at the link below.",
         ],
       },
     ],
     faqs: [
-      { q: 'How do I know if my dog or cat has a heart problem?', a: "Early signs are often subtle: a persistent cough (especially at night), reduced exercise tolerance, faster breathing at rest, or weight loss without an obvious cause. In cats, signs can be even less obvious — some cats present in acute respiratory distress with no prior warning. If your vet hears a heart murmur on a routine examination, that is the most reliable early finding. For at-risk breeds, proactive echocardiographic screening is recommended even in apparently healthy animals." },
+      { q: 'How do I know if my dog or cat has a heart problem?', a: "Early signs are often subtle: a persistent cough (especially at night), reduced exercise tolerance, faster breathing at rest, or weight loss without an obvious cause. In cats, signs can be even less obvious - some cats present in acute respiratory distress with no prior warning. If your vet hears a heart murmur on a routine examination, that is the most reliable early finding. For at-risk breeds, proactive echocardiographic screening is recommended even in apparently healthy animals." },
       { q: 'What is HCM in cats and which breeds are affected?', a: "Hypertrophic cardiomyopathy (HCM) is the most common cardiac disease in cats. It causes the walls of the heart muscle to thicken, reducing the heart's ability to fill and pump properly. Maine Coons and Ragdolls carry known genetic mutations that increase their risk significantly. British Shorthairs, Persians, and Sphynx are also over-represented. It can occur in mixed-breed cats too, particularly in middle age and older. Early diagnosis with echocardiography allows for monitoring and timely intervention." },
-      { q: 'My vet heard a heart murmur in my dog — what happens next?', a: "A murmur is a sound caused by turbulent blood flow through the heart. It is graded on a scale of 1 to 6. A low-grade murmur in an older Cavalier may represent early mitral valve disease; the same murmur in a young puppy may be an innocent flow murmur that resolves on its own. The next step is usually an echocardiogram to assess the underlying cause, the severity of any valve abnormality, whether the heart chambers are enlarged, and what ACVIM stage the disease is at. That staging determines whether and when medication is appropriate." },
+      { q: 'My vet heard a heart murmur in my dog - what happens next?', a: "A murmur is a sound caused by turbulent blood flow through the heart. It is graded on a scale of 1 to 6. A low-grade murmur in an older Cavalier may represent early mitral valve disease; the same murmur in a young puppy may be an innocent flow murmur that resolves on its own. The next step is usually an echocardiogram to assess the underlying cause, the severity of any valve abnormality, whether the heart chambers are enlarged, and what ACVIM stage the disease is at. That staging determines whether and when medication is appropriate." },
       { q: 'How much does a pet echocardiogram cost in Dubai?', a: "At Mike's Vet, a full abdominal ultrasound is AED 886 and a chest ultrasound is AED 561. Cardiac echocardiography pricing is discussed at the time of booking depending on the scope of assessment needed. Call or WhatsApp +971 4 283 7744 for a quote. We provide a written report with all measurements and images." },
-      { q: 'Is echocardiography safe for my pet? Do they need to be sedated?', a: "Echocardiography is completely safe — it uses the same ultrasound technology as human cardiac imaging. The vast majority of dogs and cats tolerate the procedure well without any sedation. We clip a small area of fur on the chest to allow the probe to make good skin contact. The scan takes 20 to 40 minutes depending on what we are assessing." },
-      { q: 'Can heart disease in pets be cured?', a: "Most cardiac diseases in pets are managed rather than cured. Mitral valve disease progresses over time, but medications like pimobendan can significantly delay the onset of heart failure when started at the right stage. HCM in cats is managed with medications that reduce symptoms and risk of complications. Congenital defects like patent ductus arteriosus (PDA) can often be corrected surgically. The goal of management is always to extend comfortable, good-quality life — many cardiac patients do very well for years after diagnosis." },
+      { q: 'Is echocardiography safe for my pet? Do they need to be sedated?', a: "Echocardiography is completely safe - it uses the same ultrasound technology as human cardiac imaging. The vast majority of dogs and cats tolerate the procedure well without any sedation. We clip a small area of fur on the chest to allow the probe to make good skin contact. The scan takes 20 to 40 minutes depending on what we are assessing." },
+      { q: 'Can heart disease in pets be cured?', a: "Most cardiac diseases in pets are managed rather than cured. Mitral valve disease progresses over time, but medications like pimobendan can significantly delay the onset of heart failure when started at the right stage. HCM in cats is managed with medications that reduce symptoms and risk of complications. Congenital defects like patent ductus arteriosus (PDA) can often be corrected surgically. The goal of management is always to extend comfortable, good-quality life - many cardiac patients do very well for years after diagnosis." },
     ],
     references: [
       "Keene BW, Atkins CE, Bonagura JD, et al. ACVIM consensus guidelines for the diagnosis and treatment of myxomatous mitral valve disease in dogs. J Vet Intern Med. 2019;33(3):1127–1140.",
@@ -2031,6 +2187,808 @@ export const posts: BlogPost[] = [
       "Meurs KM, Spier AW, Miller MW, Lehmkuhl LB, Towbin JA. Familial ventricular arrhythmias in Boxers. J Vet Intern Med. 2001;15(5):437–439.",
       "Meurs KM, Norgard MM, Ederer MM, Hendrix SM, Kittleson MD. A substitution mutation in the myosin binding protein C gene in Ragdoll hypertrophic cardiomyopathy. Genomics. 2007;90(2):261–264.",
       "Meurs KM, Sanchez X, David RM, et al. A cardiac myosin binding protein C mutation in the Maine Coon cat with familial hypertrophic cardiomyopathy. Hum Mol Genet. 2005;14(23):3587–3593.",
+    ],
+  },
+  {
+    slug: 'walking-dog-dubai-summer',
+    title: "Walking Your Dog in Dubai Summer: Heat, Hot Pavements, and What Can Actually Kill Them",
+    date: '2026-11-15',
+    readTime: '6 min read',
+    excerpt: "Dubai's summer pavement can reach 70°C. That will burn through paw pads in under a minute. Here's what the heat actually does to dogs, which breeds are most at risk, and the rules we give every dog owner for May through October.",
+    metaTitle: "Walking Dogs in Dubai Summer: Heat Safety Guide | Mike's Vet",
+    metaDescription: "Dubai summer heat can kill dogs quickly. Learn the pavement test, safe walk times, heat stroke signs, and which breeds need extra care. Advice from Mike's Vet Dubai.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog being walked outdoors in warm weather',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
+    relatedService: { name: 'Dog Vet Clinic Dubai', href: '/services/dog-care' },
+    sections: [
+      {
+        heading: "What Dubai Summer Actually Does to a Dog",
+        paragraphs: [
+          "Dogs regulate body temperature almost entirely through panting. Unlike people, they cannot sweat through their skin in any meaningful way. In a 42°C environment with high humidity - standard for Dubai between June and September - a dog loses the ability to cool itself efficiently within minutes of vigorous exercise.",
+          "A dog's core temperature in serious heat stroke can reach 41–42°C. At that point, proteins in the blood begin to denature, the brain swells, the kidneys shut down, and the clotting system fails. Death or permanent neurological damage can follow within an hour of collapse if treatment is not immediate.",
+          "This is not a rare event in Dubai. We treat heat stroke cases every summer. Most of them happen to dogs who seemed fine ten minutes before they collapsed.",
+        ],
+      },
+      {
+        heading: "The Pavement Problem",
+        paragraphs: [
+          "Air temperature gives you an incomplete picture of the risk. The ground is what matters for paw pads, and asphalt absorbs and radiates heat far beyond air temperature. In Dubai, pavement surface temperatures of 60–70°C have been recorded during peak afternoon hours. At those temperatures, paw pad burns can occur within 60 seconds of contact.",
+          "The seven-second test: place the back of your hand firmly on the pavement. If you cannot hold it there for seven seconds without discomfort, it is too hot for your dog's feet. This is not approximate - it is a reasonable proxy for paw pad tolerance.",
+          "Paw pad burns are not always obvious immediately. The dog may not limp during the walk, but will show soreness and redness in the hours that follow. In severe cases, the pads blister and the outer layer separates. Treatment requires wound dressings, antibiotics, pain relief, and several weeks of reduced activity.",
+          "Grass provides meaningful protection - if your walking route is entirely on grass, the risk is substantially lower than on asphalt or concrete. Paved areas, particularly south-facing surfaces and parking areas, are the highest-risk surfaces.",
+        ],
+      },
+      {
+        heading: "When to Walk",
+        paragraphs: [
+          "During the Dubai summer months (May through September), the only safe windows are before 7:30am and after 8:30pm. Even those times carry risk on days when overnight temperatures stay above 30°C. If in doubt, shorten the walk.",
+          "Early morning is better than late evening because pavement has had the entire night to cool. Evening pavement retains heat accumulated through the day and may still be dangerously warm at 9pm. Check it with your hand before you let your dog step on it.",
+          "Duration matters as much as timing. A 15-minute walk at 6:30am is far safer than a 45-minute walk at the same time. Work within your dog's tolerance, watch them continuously, and do not push through signs of fatigue.",
+          "On days when the overnight low stays above 32°C, reconsider walking entirely. Indoor exercise - training sessions, fetch down a hallway, mental enrichment with puzzle feeders - can substitute for outdoor activity without putting your dog at risk.",
+        ],
+      },
+      {
+        heading: "Breeds That Need Extra Care",
+        paragraphs: [
+          "Brachycephalic (flat-faced) breeds are significantly more vulnerable to heat. Bulldogs, Pugs, French Bulldogs, Shih Tzus, and Boxers have an anatomically compromised upper airway that limits their ability to pant efficiently. The same cooling mechanism that is already marginal in a normal dog is further restricted in these breeds. During Dubai summer, brachycephalic dogs should not be exercised outdoors at all between sunrise and sunset unless the ambient temperature is below 25°C.",
+          "Heavily coated breeds - Huskies, Malamutes, Chow Chows, Samoyeds - are also high-risk. Despite the insulating properties of a double coat in cold climates, these breeds can overheat rapidly and do not thermoregulate well in sustained heat. Their dense undercoat traps heat rather than wicks it away.",
+          "Large breeds and overweight dogs are additionally at risk because of their greater body mass and the increased muscular effort required for movement. Obese dogs should be considered high-risk regardless of breed.",
+          "Puppies and older dogs have less efficient thermoregulation than healthy adults. Apply extra caution at both extremes of age.",
+        ],
+      },
+      {
+        heading: "Water and Hydration",
+        paragraphs: [
+          "Carry water on every walk from April through October. Not as a precaution - as a requirement. A dog's fluid needs increase dramatically in heat, and offering water mid-walk can help them manage temperature before they begin to show signs of distress.",
+          "Collapsible silicone bowls are practical and easily clipped to a lead or bag. Offer water every 10–15 minutes during activity in warm weather, not just at the end of the walk.",
+          "Do not give a heavily panting dog a large amount of ice-cold water rapidly. Offer cool (not freezing) water in moderate amounts and let the dog drink at their own pace.",
+        ],
+      },
+      {
+        heading: "Signs of Heat Stroke - Act Immediately",
+        paragraphs: [
+          "Heavy panting that does not stop, excessive drooling, bright red gums, staggering or weakness, vomiting, disorientation, collapse. These are the warning signs and progression of heat stroke. Any of these signs during or after outdoor activity in heat should be treated as an emergency.",
+          "Move the dog to a cool, shaded or air-conditioned environment immediately. Apply cool (not cold) water to the neck, armpits, groin, and paw pads - areas with surface blood vessels. Use a wet cloth rather than ice packs, which can cause peripheral vasoconstriction and trap heat in the core. Fan the dog to accelerate evaporative cooling.",
+          "Do not delay veterinary care by attempting to cool the dog completely at home. Cool them while in transit and get to a vet as soon as possible. IV fluids, supportive care for organ damage, and monitoring are required for moderate to severe cases. Heat stroke kills, but dogs who reach a vet quickly can make full recoveries.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What time is safe to walk a dog in Dubai summer?", a: "Before 7:30am and after 8:30pm are the safest windows. Morning is preferable to evening because pavement has had the full night to cool. During June to September, even those times carry risk on very hot nights. Always check the pavement with the back of your hand first - if you cannot hold it there for seven seconds, it is too hot for your dog." },
+      { q: "Is it safe to walk a French Bulldog or Pug in Dubai summer?", a: "French Bulldogs, Pugs, Bulldogs, and other brachycephalic breeds should not be exercised outdoors during summer daylight hours. Their restricted airway limits their ability to cool through panting, making them far more vulnerable to heat stroke than other breeds. Keep outdoor activity to a strict minimum and always in the coolest part of the day." },
+      { q: "My dog seemed fine on the walk but is limping now. Could it be from the pavement?", a: "Yes. Paw pad burns from hot pavement are not always immediately painful - the dog may walk normally during the incident and show soreness hours later. Check the pads for redness, blistering, or areas where the skin looks worn or raw. If the pads are damaged, see a vet: burns need wound care, are painful, and secondary infection can develop." },
+      { q: "How do I cool a dog down safely after a walk in Dubai?", a: "Move them to a cool, air-conditioned room, offer cool (not ice-cold) water in small amounts, and apply a damp cloth to the neck, groin, armpits, and paw pads. A fan accelerates cooling. If your dog is panting excessively and cannot settle, or shows any signs of disorientation or vomiting, treat it as an emergency and go to a vet." },
+      { q: "Can dog booties protect paw pads in Dubai summer?", a: "Booties provide real protection against hot pavement if your dog will tolerate them. They need to be introduced gradually - most dogs need several weeks of training to walk comfortably in them. They do not eliminate the systemic heat risk but do protect the pads directly. If your dog finds them too distressing, avoid hot pavement rather than forcing the issue." },
+    ],
+    references: [
+      "Bruchim Y, et al. Heat stroke in dogs: A retrospective study of 54 cases (1999–2004) and analysis of risk factors for death. Journal of Veterinary Internal Medicine. 2006;20(1):38–46.",
+      "Bruchim Y. Pathophysiology and management of heat stroke in dogs. The Veterinary Journal. 2017;222:43–47.",
+      "Johnson SI, et al. Heatstroke in small animal medicine: a clinical practice review. Journal of Veterinary Emergency and Critical Care. 2006;16(2):112–119.",
+    ],
+  },
+  {
+    slug: 'ringworm-dogs-dubai',
+    title: "Ringworm in Dogs: Signs, Treatment, and What Dubai Owners Need to Know",
+    date: '2026-11-15',
+    readTime: '5 min read',
+    excerpt: "Ringworm in dogs is less common than in cats but just as contagious - to other animals and to people. Here's how to recognise it, how treatment works, and why the UAE climate matters.",
+    metaTitle: "Ringworm in Dogs Dubai: Signs, Treatment & Zoonotic Risk | Mike's Vet",
+    metaDescription: "Ringworm in dogs is a fungal skin infection that spreads between pets and to people. Learn the signs, diagnosis, treatment, and how to handle multi-pet households in Dubai.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1583512603806-077998240c7a?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog being examined at a veterinary clinic',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM, BVSc',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
+    relatedService: { name: 'Dog Vet Clinic Dubai', href: '/services/dog-care' },
+    sections: [
+      {
+        heading: "What is Ringworm?",
+        paragraphs: [
+          "Ringworm is a fungal infection of the skin and hair - not a parasitic worm, despite the name. The technical term is dermatophytosis. In dogs, the most common causative organism is Microsporum canis, the same fungus responsible for the majority of feline cases. Microsporum gypseum (a soil organism) and Trichophyton mentagrophytes are less frequently identified but occur in dogs exposed to contaminated soil or small rodents respectively.",
+          "Dermatophyte fungi infect dead keratinised tissue - hair shafts, the surface layer of skin, and claws. They do not invade living tissue, but the immune response to fungal presence causes the skin inflammation and hair loss that characterise the condition.",
+          "Ringworm is less common in dogs than in cats in clinical practice, but it does occur - particularly in young puppies, immunosuppressed animals, and dogs recently stressed by kennelling or rescue.",
+        ],
+      },
+      {
+        heading: "Signs in Dogs",
+        paragraphs: [
+          "The classic presentation is one or more roughly circular patches of hair loss with broken hairs at the margins, fine grey scaling, and a reddened or mildly inflamed skin surface. Lesions most commonly appear on the face, around the muzzle and eyes, the ears, the forelimbs, and the paws. Claw infection (onychomycosis) can also occur, causing abnormal, brittle, or distorted nail growth.",
+          "Unlike cats, dogs with ringworm more reliably show visible lesions - asymptomatic carriage is less common in dogs than in long-haired cats. However, mild or early cases can be subtle, particularly on dogs with thick or dark coats where hair loss is not immediately obvious.",
+          "Itching (pruritus) is variable. Some dogs scratch or rub affected areas; others do not appear bothered. The differential diagnosis for patchy hair loss in dogs includes bacterial folliculitis, demodicosis (Demodex mites), allergy, and hormonal conditions - a vet examination and diagnostic testing are needed to confirm ringworm rather than assume it.",
+        ],
+      },
+      {
+        heading: "Diagnosis",
+        paragraphs: [
+          "Wood's lamp (UV) examination is a quick screening tool. Around 50% of Microsporum canis strains fluoresce an apple-green colour under UV light. It is useful for a rapid initial assessment but cannot rule the condition in or out - a negative result does not mean ringworm is absent.",
+          "Fungal culture is the diagnostic gold standard. Hair samples plucked from the edges of lesions are cultured on dermatophyte test medium (DTM). A positive culture is confirmed by colour change of the medium and microscopic examination of the fungal colony. Culture takes 10 to 14 days for a reliable result.",
+          "Trichogram (microscopic examination of plucked hairs) can identify fungal arthrospores more rapidly but is less sensitive. PCR testing offers fast and sensitive detection and is increasingly available in veterinary diagnostic laboratories. For claw infections, samples must include clippings from several claws, not just the most obviously affected.",
+        ],
+      },
+      {
+        heading: "Zoonotic Risk",
+        paragraphs: [
+          "Microsporum canis is highly contagious to people. Infected dogs are a significant source of human ringworm, particularly for children and adults who handle them frequently. Human infection presents as one or more itchy, red, ring-shaped lesions on exposed skin areas. The expanding ring and central clearing that give the condition its common name are often more reliably visible in human infections than in animals.",
+          "Immunocompromised individuals, elderly people, and young children are at highest risk of persistent or more extensive infection. If a dog in the household is confirmed or suspected to have ringworm, all household members should be informed. High-risk individuals should minimise contact with the animal until treatment is established and confirmed to be working.",
+          "Wear disposable gloves when applying topical treatments. Wash hands thoroughly after any contact with an infected dog or their bedding. Notify your doctor if you or another household member develops any skin lesions - human ringworm from pets is very treatable but requires early antifungal treatment.",
+        ],
+      },
+      {
+        heading: "Treatment",
+        paragraphs: [
+          "Treatment in dogs requires a combination of topical antifungal therapy, systemic antifungal medication (in most cases), and environmental decontamination. Treating only one element is a common cause of relapse.",
+          "Topical therapy: twice-weekly whole-body application of miconazole/chlorhexidine shampoo or lime sulphur dip (diluted 1:16) is the most evidence-based topical approach. Spot treatment of only visible lesions is not adequate - the entire haircoat must be treated because fungal spores are present on hairs that appear unaffected.",
+          "Systemic therapy: oral itraconazole at 5mg/kg every other day is the first-line systemic treatment. Terbinafine is an alternative. Treatment duration is a minimum of 6 to 8 weeks and continues until two consecutive negative fungal cultures taken 2 to 4 weeks apart confirm clearance. Stopping treatment when the skin looks normal without culture confirmation is a common cause of recurrence.",
+          "Environmental decontamination: vacuum daily during treatment, disposing of the vacuum bag after each use. Wash the dog's bedding, soft toys, and any fabric items they contact at high temperature. Wipe hard surfaces with diluted bleach (1:10 ratio). Ringworm spores survive in the environment for months - without treating the environment, the dog will reinfect.",
+        ],
+      },
+      {
+        heading: "Ringworm in Dubai's Climate",
+        paragraphs: [
+          "Dubai's warm temperatures and humid summer months allow ringworm spores to survive on environmental surfaces longer than in cooler climates. This makes environmental decontamination more important and re-exposure after apparent clearance a genuine risk.",
+          "Rescue dogs are at elevated risk. The stress of rehoming, shared kennelling environments, and the prevalence of M. canis in community dog populations in the UAE all contribute. If you have recently adopted a dog, particularly from a shelter environment, ask your vet about a ringworm screen at the initial health check.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Is ringworm in dogs contagious to other dogs?", a: "Yes. Ringworm spreads through direct contact with an infected animal or through contact with contaminated surfaces, bedding, or grooming equipment. In multi-dog households, all dogs should be examined and tested if one is confirmed positive." },
+      { q: "How long does ringworm take to clear up in dogs?", a: "Treatment typically takes 6 to 12 weeks. Response varies by the extent of infection, the dog's immune status, and how consistently treatment is applied. Treatment must continue until two consecutive negative fungal cultures taken 2 to 4 weeks apart - not until the lesions look better visually, as the fungus can still be present without obvious signs." },
+      { q: "My dog has circular patches of hair loss. Does that mean it has ringworm?", a: "Circular hair loss is suggestive but not diagnostic. The differential diagnoses include bacterial folliculitis, Demodex mange, allergy, and hormonal conditions such as hypothyroidism. Your vet will perform a Wood's lamp examination and likely take fungal culture samples to confirm or exclude ringworm. Don't treat for ringworm without a diagnosis - the treatment is very different depending on the cause." },
+      { q: "Can I use human antifungal cream on my dog for ringworm?", a: "Human topical antifungal products (miconazole, clotrimazole) can be used on dogs but should be used as directed by your vet as part of a full treatment plan. Topical treatment alone is insufficient for most cases - systemic medication is usually needed. Using topical treatment while missing systemic therapy or environmental decontamination is a common cause of treatment failure." },
+    ],
+    references: [
+      "Moriello KA, et al. Diagnosis and treatment of dermatophytosis in dogs and cats: Clinical Consensus Guidelines of the World Association for Veterinary Dermatology. Veterinary Dermatology. 2017;28(3):266-e68.",
+      "Moriello KA. Treatment of dermatophytosis in dogs and cats: review of published studies. Veterinary Dermatology. 2004;15(2):99–107.",
+    ],
+  },
+  {
+    slug: 'toxic-plants-foods-cats',
+    title: "Toxic Plants and Foods for Cats: What's in Your Dubai Home That Could Kill Your Cat",
+    date: '2026-11-15',
+    readTime: '7 min read',
+    excerpt: "Lilies will kill a cat. All parts, any amount, that is not an exaggeration. This post covers the genuinely dangerous plants and foods in Dubai homes - not a padded-out list of everything that causes mild nausea.",
+    metaTitle: "Toxic Plants and Foods for Cats Dubai | Mike's Vet Emergency Guide",
+    metaDescription: "A practical guide to genuinely toxic plants and foods for cats in Dubai - including lilies, onions, grapes, common houseplants, essential oils, and what to do in an emergency.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A cat near indoor plants',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM, GP Cert in Ultrasound',
+      photo: '/vets/feth.jpg',
+      profileHref: '/team/feth-mazari',
+    },
+    relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
+    sections: [
+      {
+        heading: "The Most Important Thing to Know: Lilies Will Kill Your Cat",
+        paragraphs: [
+          "True lilies - Lilium species including Easter lily, tiger lily, Asiatic lily, and daylily - are acutely nephrotoxic to cats. All parts of the plant are toxic: the pollen, petals, leaves, stem, and the water in a vase of cut lilies. Even small exposures - a cat brushing past a flower and licking pollen from their fur - can cause acute kidney failure.",
+          "There is no antidote for lily toxicosis in cats. The only effective intervention is decontamination (inducing vomiting, activated charcoal) and aggressive IV fluid diuresis started within 6 hours of exposure. After that window, kidney failure progresses and the prognosis becomes poor. Cats who present 24–48 hours after exposure with elevated creatinine and BUN values have a guarded to grave prognosis.",
+          "If your cat has been near lilies - even if they look well - this is an emergency. Do not wait for symptoms. By the time a cat shows signs of kidney failure, the window for effective treatment has often closed.",
+          "Lily of the Valley (Convallaria majalis) is a separate species and not a true lily, but is also highly toxic to cats and dogs. It contains cardiac glycosides that cause severe heart arrhythmias and is unrelated to the renal toxicity of true lilies.",
+        ],
+      },
+      {
+        heading: "Onions, Garlic, and the Allium Family",
+        paragraphs: [
+          "Onions, garlic, leeks, shallots, and chives - collectively the Allium family - are toxic to cats and dogs. They contain compounds (N-propyl disulphide and thiosulphates) that damage red blood cells, causing a form of anaemia called Heinz body anaemia.",
+          "In cats, the toxic dose is lower than in dogs and the red blood cells are more susceptible to oxidative damage. All forms are toxic: raw, cooked, dried, powdered, and in sauces. Garlic is roughly five times more toxic per unit weight than onion. Baby food, meat gravies, and processed foods can contain onion or garlic powder in amounts that harm a cat if ingested regularly.",
+          "Signs of Allium toxicosis include lethargy, pale or yellowed gums, weakness, reduced appetite, and dark-coloured urine. These may appear days after exposure as the red blood cell population is depleted. If you know your cat has eaten a significant amount, contact your vet promptly.",
+        ],
+      },
+      {
+        heading: "Common Houseplants That Are Toxic to Cats",
+        paragraphs: [
+          "Sago Palm (Cycas revoluta) is widely used in Dubai landscaping and sold in garden centres and malls as an ornamental plant. All parts are toxic, with the seeds containing the highest concentration of cycasin. Even a small ingestion can cause severe liver failure, and the prognosis for cats (and dogs) who eat the seeds is poor even with aggressive treatment. Fatality rates in published studies exceed 50%. If you have a sago palm, reconsider whether it belongs in a home with cats.",
+          "Dieffenbachia (Dumb Cane) is an extremely common indoor plant in Dubai. It contains insoluble calcium oxalate crystals that cause intense oral irritation, drooling, pawing at the mouth, difficulty swallowing, and vomiting. While rarely life-threatening, the oral pain is severe and cats require vet treatment for comfort.",
+          "Pothos (Epipremnum aureum) and Philodendron species - both popular, easy-care indoor plants widely sold in Dubai - also contain calcium oxalate crystals. Similar to Dieffenbachia: intense oral and GI irritation, drooling, vomiting. Not generally life-threatening but requires monitoring.",
+          "Oleander (Nerium oleander) is ubiquitous in Dubai's landscaping - along roadsides, in building gardens, and in public spaces. It contains oleandrin, a cardiac glycoside that causes severe cardiac arrhythmias. Toxicosis can be fatal. Cats who access oleander plants or ingested leaves should be seen immediately.",
+          "Peace lily (Spathiphyllum) is another common houseplant containing calcium oxalate crystals. Despite the word 'lily' in the name, it is not a true lily and does not cause kidney failure - but it does cause significant oral irritation. Much less dangerous than a true lily, but still worth monitoring.",
+          "Aloe vera is a household staple in Dubai, but the latex component of the plant (the yellow juice just below the outer leaf) is toxic to cats and can cause vomiting, diarrhoea, and lethargy. The gel is less toxic but not without risk.",
+        ],
+      },
+      {
+        heading: "Foods That Are Toxic to Cats",
+        paragraphs: [
+          "Grapes and raisins: the mechanism of toxicity is unknown, but grapes and raisins can cause acute kidney failure in cats. Not all cats are affected every time, which creates a false sense of safety. The unpredictable nature of the toxicity makes any exposure worth reporting to a vet.",
+          "Chocolate: contains theobromine and caffeine, both methylxanthines that cause vomiting, diarrhoea, rapid heart rate, tremors, and seizures. Dark chocolate and baking chocolate contain higher concentrations than milk chocolate. Cats are less likely to eat chocolate than dogs, but those that do require prompt treatment.",
+          "Xylitol: an artificial sweetener used in sugar-free products including chewing gum, some peanut butters, vitamin supplements, and oral care products. In cats, the toxic mechanism is less well-documented than in dogs, but xylitol ingestion should still be treated as an emergency.",
+          "Raw yeast dough: rising dough expands in the warm stomach environment and can cause gastric dilatation. The fermentation process also produces ethanol, which is toxic to cats. Do not leave proving dough accessible.",
+          "Alcohol: even small amounts are toxic to cats. Ethanol causes depression of the central nervous system, low blood sugar, and in sufficient amounts, respiratory failure. Alcoholic desserts or unattended drinks represent realistic exposures.",
+          "Caffeine: in sufficient quantities (coffee beans, strong coffee, tea, energy drinks), caffeine causes rapid heart rate, restlessness, tremors, and can be fatal. Ground coffee, coffee capsules, and energy drink spillage represent realistic exposures.",
+        ],
+      },
+      {
+        heading: "Essential Oils",
+        paragraphs: [
+          "Many essential oils are hepatotoxic to cats. Cats lack the liver enzyme (glucuronyl transferase) needed to metabolise certain aromatic compounds. Tea tree oil, eucalyptus, pennyroyal, clove, and citrus oils are particularly dangerous - not just if ingested but through skin application and potentially through sustained diffuser use in a small, unventilated space.",
+          "Do not apply essential oils to cats directly. If using an oil diffuser in a room your cat spends time in, ensure the room is well-ventilated and that the cat can leave. If your cat develops sudden tremors, incoordination, lethargy, drooling, or vomiting after exposure to any essential oil product, contact your vet immediately.",
+        ],
+      },
+      {
+        heading: "What to Do If Your Cat Is Exposed",
+        paragraphs: [
+          "Call your vet immediately. Do not wait for symptoms for lily exposure, Allium ingestion, or any high-risk plant. For many toxins, the window for effective decontamination is short - particularly lilies, where treatment must start within 6 hours.",
+          "Be ready to describe: what was eaten, how much (estimate), and how long ago. If you can safely bring a sample or photo of the plant, that helps with identification. Do not attempt to induce vomiting at home unless explicitly instructed by a vet - in cats, home-induced emesis is difficult and can cause additional harm.",
+          "Mike's Vet: +971 4 283 7744. For the ASPCA Animal Poison Control Center (useful for toxicity guidance if a local vet is unavailable): +1-888-426-4435.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Are lilies really that dangerous to cats?", a: "Yes. True lilies (Easter lily, tiger lily, Asiatic lily, daylily) cause acute kidney failure in cats from minimal exposure - even pollen landing on fur can be toxic when groomed off. There is no antidote. Treatment must start within hours of exposure. If your cat has been near a lily at all, treat it as an emergency and go to the vet immediately, even if they look well." },
+      { q: "Is sago palm dangerous to cats?", a: "Extremely. Sago palm (Cycas revoluta) is very common in Dubai's landscaping and gardens. All parts are toxic, particularly the seeds. Even a small ingestion causes liver failure with a fatality rate exceeding 50% in published studies. If you have a sago palm accessible to your cat, consider removing it." },
+      { q: "Can cats eat a small amount of onion or garlic?", a: "No amount is safe. Even small repeated exposures to Allium species (onion, garlic, leek, chives) can accumulate and cause haemolytic anaemia in cats. Cooked onion is not safer than raw. Garlic powder in sauces and baby food represents a hidden source. If your cat has ingested any significant amount, contact your vet." },
+      { q: "Is Peace Lily dangerous to cats?", a: "Peace lily is not a true lily and does not cause kidney failure. It does contain calcium oxalate crystals that cause oral irritation, drooling, and vomiting. Painful and unpleasant but not life-threatening in most cases. If your cat has chewed a peace lily and shows signs of oral pain or persistent vomiting, a vet visit is appropriate." },
+      { q: "Are essential oils in a diffuser safe around cats?", a: "They carry risk, particularly tea tree oil, eucalyptus, citrus, and clove. Cats lack the liver enzyme needed to metabolise certain aromatic compounds efficiently. Sustained exposure in a small, closed room is higher-risk. Use diffusers in well-ventilated spaces, ensure your cat can leave the room, and avoid any topical application of essential oils to cats." },
+    ],
+    references: [
+      "Hall JO. Lily nephrotoxicosis. In: Plumlee KH (ed). Clinical Veterinary Toxicology. St Louis: Mosby, 2004:432–434.",
+      "Langston CE. Acute renal failure caused by lily ingestion in six cats. Journal of the American Veterinary Medical Association. 1999;214(10):1578–1583.",
+      "Cortinovis C, Caloni F. Household food items toxic to dogs and cats. Frontiers in Veterinary Science. 2016;3:26.",
+      "Khan SA. Allium species toxicosis. In: Plumlee KH (ed). Clinical Veterinary Toxicology. 2004.",
+    ],
+  },
+  {
+    slug: 'toxic-plants-foods-dogs',
+    title: "Toxic Plants and Foods for Dogs: What's Dangerous in Dubai Homes and Gardens",
+    date: '2026-11-15',
+    readTime: '7 min read',
+    excerpt: "Grapes, xylitol, chocolate, and sago palm are the ones we see cause serious harm in Dubai dogs. Here's a practical breakdown of what actually matters and what to do if your dog eats something it shouldn't.",
+    metaTitle: "Toxic Plants and Foods for Dogs Dubai | What to Avoid | Mike's Vet",
+    metaDescription: "A practical guide to genuinely toxic plants and foods for dogs in Dubai - grapes, xylitol, chocolate, sago palm, oleander, and more. What to do in an emergency.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog sitting in a garden',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Nick Stokes',
+      role: 'DVM GPCert SAS',
+      photo: '/vets/nick.jpg',
+      profileHref: '/team/nick-stokes',
+    },
+    relatedService: { name: 'Dog Vet Clinic Dubai', href: '/services/dog-care' },
+    sections: [
+      {
+        heading: "Grapes and Raisins: The One That Catches People Out",
+        paragraphs: [
+          "Grapes and raisins cause acute kidney failure in dogs. The toxic mechanism remains unknown, which makes it more dangerous: there is no dose threshold below which we can say grapes are safe, and not every dog is affected every time. We have seen dogs eat a single grape with no apparent effect and others develop acute renal failure from a small handful.",
+          "This unpredictability is the real risk. Owners whose dog ate grapes before without incident assume the dog is safe. It is not. The inconsistency in reported responses may reflect individual genetic variation, the specific grape variety, or other concurrent factors - none of which you can assess in the moment.",
+          "Raisins are significantly more concentrated than fresh grapes and represent a higher risk per unit weight. Products containing raisins - fruit cake, cereal bars, bread - are common in Dubai households and represent a realistic exposure route. If your dog eats grapes or any raisin-containing product, call your vet immediately. Early decontamination and IV fluid support can be life-saving.",
+        ],
+      },
+      {
+        heading: "Xylitol: Hidden in Products You Would Not Expect",
+        paragraphs: [
+          "Xylitol is a sugar alcohol used as a sweetener in a wide range of products: sugar-free chewing gum, some brands of peanut butter, oral hygiene products (toothpaste, mouthwash), vitamin supplements, and certain baked goods. In dogs, xylitol causes rapid and severe hypoglycaemia (blood sugar crash) through abnormal insulin release, and in larger doses, acute liver failure.",
+          "The hypoglycaemia can occur within 15 to 30 minutes of ingestion. Signs include sudden weakness, unsteady gait, collapse, seizures, and in severe cases, coma. This is a genuine emergency that requires urgent veterinary treatment with IV dextrose.",
+          "Before giving your dog peanut butter - in a lick mat, Kong toy, or as a treat - check the ingredients list for xylitol. Some popular low-sugar peanut butter brands sold in UAE supermarkets contain it. Brands marketed as 'natural' or 'no sugar added' are where xylitol is most commonly substituted. If in doubt, do not give it.",
+        ],
+      },
+      {
+        heading: "Chocolate",
+        paragraphs: [
+          "Chocolate contains two methylxanthines - theobromine and caffeine - both of which dogs metabolise far more slowly than people. Theobromine stimulates the central nervous system and cardiovascular system; in sufficient doses it causes vomiting, diarrhoea, rapid heart rate, muscle tremors, and seizures.",
+          "The concentration of theobromine varies by chocolate type. Dark chocolate and baker's chocolate contain the highest amounts. Milk chocolate is less concentrated but still toxic in sufficient quantity. White chocolate contains very little theobromine. A small dog eating a large bar of dark chocolate is a potentially fatal emergency; the same dog eating a few squares of milk chocolate is cause for concern and monitoring.",
+          "If your dog eats chocolate, call your vet with the dog's weight and an estimate of how much was eaten and what type. They will help you calculate whether the exposure is clinically significant. For moderate and larger exposures, induced emesis and activated charcoal are standard initial management.",
+        ],
+      },
+      {
+        heading: "Onions, Garlic, and the Allium Family",
+        paragraphs: [
+          "Onions, garlic, leeks, shallots, and chives contain thiosulphates and N-propyl disulphide compounds that oxidise red blood cells, causing Heinz body haemolytic anaemia. Dogs are more tolerant than cats but are not immune.",
+          "All forms are toxic: raw, cooked, dehydrated, powdered. Garlic is roughly 5 times more toxic per gram than onion. A single large dose is more likely to cause acute illness; small repeated doses over time can deplete red blood cells cumulatively.",
+          "Practical exposures in Dubai homes include leftover rice dishes or curries containing onion, meat gravies and sauces, baby food (which sometimes contains onion powder), and table scraps generally. Signs of anaemia - pale gums, weakness, lethargy, rapid breathing - may take several days to appear after exposure.",
+        ],
+      },
+      {
+        heading: "Sago Palm and Other Toxic Plants Common in Dubai",
+        paragraphs: [
+          "Sago Palm (Cycas revoluta) is the most dangerous plant in Dubai for dogs. It is widely planted as a landscape feature - in villa gardens, residential compounds, hotel grounds, and public spaces throughout the UAE. All parts of the plant are toxic, with the seeds (the round nuts at the base of mature plants) containing the highest concentration of cycasin, a potent liver toxin.",
+          "Ingestion of one or two seeds can be fatal. Cycasin causes acute liver failure, neurological signs, haemorrhage, and coagulopathy. Even with aggressive intensive care treatment, fatality rates in published literature exceed 50%. Dogs that survive often have permanent liver damage. If you have a sago palm accessible to your dog, treat this as a serious safety hazard.",
+          "Oleander (Nerium oleander) is everywhere in Dubai - roadside planting, compound boundaries, garden borders. It contains cardiac glycosides (oleandrin) that cause severe arrhythmias, vomiting, and neurological signs. Even smoke from burning oleander branches is toxic. Dogs should not have access to oleander plants.",
+          "Adenium (Desert Rose) is sold in garden centres and grows widely in UAE gardens. All parts are toxic, containing cardiac glycosides similar to oleander. The sap is particularly concentrated and dangerous.",
+          "Lantana is used as decorative flowering ground cover throughout Dubai and the wider UAE. Unripe berries and foliage contain lantadene, which causes liver damage (hepatogenous photosensitisation) and GI signs. It is particularly dangerous if large amounts are consumed.",
+        ],
+      },
+      {
+        heading: "Other Foods Worth Knowing About",
+        paragraphs: [
+          "Macadamia nuts cause weakness, hyperthermia, vomiting, and tremors in dogs within 12 hours of ingestion. The mechanism is unknown. The condition is rarely fatal but causes significant distress and requires supportive treatment. Macadamia nuts appear in baked goods - cookies, chocolate-covered nuts, trail mixes.",
+          "Avocado contains persin, which is toxic to many animals including birds and rabbits. Dogs and cats are considered more resistant, but high doses (particularly of the skin, stone, and leaves) can cause vomiting and diarrhoea. The more significant practical risk in dogs is obstruction from swallowing the large stone.",
+          "Alcohol is toxic to dogs at much lower doses than to people. Ethanol depresses the central nervous system, causes hypoglycaemia, and in sufficient amounts, respiratory failure. Alcoholic desserts, unattended drinks, and raw yeast dough (which produces alcohol as it ferments) all represent realistic exposures.",
+          "Raw yeast dough rises in the warm environment of the stomach, causing physical distension and producing alcohol as a fermentation by-product. Both the mechanical expansion and the ethanol are genuinely dangerous. Keep proving dough inaccessible.",
+          "Cooked bones (chicken, lamb, fish) splinter into sharp fragments that can perforate the intestine or stomach. This is a genuine clinical risk we see regularly. Raw meaty bones are generally safer, but no cooked bone should be given.",
+        ],
+      },
+      {
+        heading: "What to Do If Your Dog Eats Something Toxic",
+        paragraphs: [
+          "Call your vet immediately. For serious toxins - grapes, xylitol, sago palm seeds, significant chocolate - time matters. The decontamination window (inducing vomiting, activated charcoal) is typically 1 to 2 hours after ingestion. After that window, the focus shifts to supportive care.",
+          "Be ready to say: what was eaten, how much, and when. If you have the packaging of a food product, bring it or take a photo - it helps the vet quickly identify whether xylitol or other toxins are present.",
+          "Do not induce vomiting at home with hydrogen peroxide or salt unless your vet explicitly instructs you to. These methods carry their own risks and are not reliably effective in dogs.",
+          "Mike's Vet: +971 4 283 7744. ASPCA Animal Poison Control Center (for toxicity guidance): +1-888-426-4435 (a consultation fee applies).",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "My dog ate one grape. Should I be worried?", a: "Yes. There is no established safe dose for grapes in dogs, and the idiosyncratic nature of grape toxicosis means some dogs develop kidney failure from small exposures while others appear unaffected. Call your vet. If ingestion was recent (within 1–2 hours), induced vomiting may be recommended. Even if it was hours ago, blood and kidney values should be monitored." },
+      { q: "Is sago palm really that dangerous? It's everywhere in Dubai.", a: "Yes. It is the most dangerous commonly encountered plant in Dubai for dogs. The seeds are the most toxic part, but all parts can cause liver failure. Fatality rates exceed 50% even with aggressive treatment. Dogs in UAE garden settings are genuinely at risk. If you have a sago palm on your property that a dog can access, seriously consider removing it." },
+      { q: "How much chocolate is dangerous for a dog?", a: "It depends on the dog's weight and the type of chocolate. Dark chocolate is significantly more toxic than milk chocolate per gram. As a rough guide, 1g of dark chocolate per kilogram of body weight can cause clinical signs in some dogs. For a 5kg dog, a single row of dark chocolate is a reason to call a vet. Contact your vet with the dog's weight and amount eaten for a quick assessment." },
+      { q: "Is peanut butter safe for dogs?", a: "Natural peanut butter without xylitol is safe and a popular treat. The critical issue is xylitol - an artificial sweetener found in some brands of peanut butter sold as sugar-free or low-calorie. Always check the ingredients before giving peanut butter to a dog. If the ingredients include xylitol, birch sugar, or E967, do not give it." },
+      { q: "My dog ate an oleander leaf. What should I do?", a: "Go to a vet immediately. Oleander contains cardiac glycosides that can cause life-threatening heart arrhythmias. This is not a 'wait and see' situation. Even one or two leaves represent a significant exposure. Bring the plant or a photo to help with identification and treatment decisions." },
+      { q: "Are cooked bones safe for dogs?", a: "No. Cooked bones from chicken, lamb, fish, and beef splinter into sharp fragments that can lacerate the mouth, throat, stomach, and intestines. Raw meaty bones given under supervision are generally safer, but cooked bones should never be given to a dog." },
+    ],
+    references: [
+      "Gwaltney-Brant S. Grape and raisin toxicosis. In: Peterson ME, Talcott PA (eds). Small Animal Toxicology. 3rd ed. Elsevier, 2013.",
+      "Dunayer EK. Hypoglycemia following canine ingestion of xylitol-containing gum. Veterinary and Human Toxicology. 2004;46(2):87–88.",
+      "Cortinovis C, Caloni F. Household food items toxic to dogs and cats. Frontiers in Veterinary Science. 2016;3:26.",
+      "Cope RB. Allium species poisoning in dogs and cats. Veterinary Medicine. 2005;100:562–566.",
+      "Langford SD, Boor PJ. Oleander toxicity: an examination of human and animal toxic exposures. Toxicology. 1996;109(1):1–13.",
+    ],
+  },
+  {
+    slug: 'cat-diet-by-age',
+    title: "How a Cat's Nutritional Needs Change With Age - and How to Know You're Feeding the Right Amount",
+    date: '2026-11-15',
+    readTime: '6 min read',
+    excerpt: "What a kitten needs from food is almost the opposite of what a senior cat needs. And 'follow the bag' is not a reliable way to measure portions - most cats are either underfed or quietly becoming obese. Here's how to get it right at every life stage.",
+    metaTitle: "Cat Diet by Age: Kitten to Senior Feeding Guide | Mike's Vet Dubai",
+    metaDescription: "How a cat's nutritional needs change from kitten to senior, how to calculate the right portion size, and what signs tell you the diet isn't working. From Mike's Vet Dubai.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A cat eating from a bowl',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM, GP Cert in Ultrasound',
+      photo: '/vets/feth.jpg',
+      profileHref: '/team/feth-mazari',
+    },
+    relatedService: { name: 'Cat Vet Clinic Dubai', href: '/services/cat-care' },
+    sections: [
+      {
+        heading: "Why Life Stage Matters",
+        paragraphs: [
+          "A cat's nutritional requirements change substantially across four broad life stages: kittenhood (0–12 months), young adult (1–6 years), mature adult (7–10 years), and senior (11+ years). Feeding the same food in the same amounts throughout a cat's life is one of the most common mistakes we see - it leads to obesity in adults and undernutrition in growing kittens.",
+          "Cats are obligate carnivores. Unlike dogs or people, they have no metabolic pathway to synthesise certain essential nutrients - taurine, arachidonic acid, vitamin A in its active form - from plant precursors. These must come from animal-source protein in the diet. A cat fed a low-quality, plant-heavy diet at any life stage will eventually show deficiency.",
+        ],
+      },
+      {
+        heading: "Kittens: 0–12 Months",
+        paragraphs: [
+          "Kittens require roughly twice the caloric density per kilogram of body weight compared to adult cats. They need higher levels of protein, fat, calcium, phosphorus, and certain amino acids to support rapid bone, muscle, and organ development. A kitten fed adult cat food may appear to eat adequately but can develop slowly and show coat or immune deficiencies over time.",
+          "Feed a food labelled 'complete and balanced for growth' or 'all life stages' - AAFCO or FEDIAF nutritional adequacy statements on the packaging confirm this. Wet food is preferable at this stage: it supports hydration from the start and establishes a positive relationship with moisture-rich food, which pays dividends later in preventing urinary and kidney disease.",
+          "Meal frequency: 3–4 small meals a day until 6 months, then 2–3 meals daily until 12 months. Free-feeding (food always available) is acceptable only if the kitten is very active and lean - most will overeat if food is permanently accessible.",
+        ],
+      },
+      {
+        heading: "Young Adults: 1–6 Years",
+        paragraphs: [
+          "By 12 months, most cats have reached their adult body weight. Caloric needs drop significantly from the kitten phase, and this is where obesity most commonly begins - owners continue feeding kitten-sized portions, or the cat transitions to free-feeding without restriction.",
+          "Indoor cats in Dubai are at particular risk of weight gain. Limited exercise in a climate that discourages outdoor activity, combined with a palatability-engineered dry food diet, creates the conditions for progressive weight gain that most owners attribute to the cat simply 'filling out'.",
+          "Target body condition score (BCS) for a healthy adult cat is 4–5 on a 9-point scale: ribs easily felt but not visible, a visible waist when viewed from above, and a slight abdominal tuck. At BCS 6–7 the cat is overweight; at 8–9 it is obese.",
+          "Two meals daily is appropriate for most adults. Wet food as the primary diet (or a significant wet component) is preferable to exclusive dry feeding for urinary health. Cats evolved as desert animals that obtained most of their moisture from prey; a dry food-only diet chronically underprovides water intake.",
+        ],
+      },
+      {
+        heading: "Mature Adults: 7–10 Years",
+        paragraphs: [
+          "From around 7 years, cats begin to show early changes in digestive efficiency and organ function that may not yet be clinically apparent. Protein digestibility decreases gradually, which means that at the same protein intake, less is absorbed - older cats often need more dietary protein, not less, to maintain lean muscle mass.",
+          "This runs counter to the intuition that an older cat needs a 'lighter' diet. Protein restriction in cats is only appropriate if kidney disease is present and confirmed - feeding a protein-restricted senior food to a healthy 8-year-old cat can accelerate muscle loss.",
+          "Annual blood and urine screening from age 7 allows early detection of kidney disease, hyperthyroidism, and diabetes - all of which require dietary changes once diagnosed. Without this baseline, diet adjustments are made blind.",
+          "Dental disease, which affects the majority of cats over 7, can make eating painful and lead to a subtle reduction in intake. If a previously good eater becomes picky or starts leaving food, a dental examination should be on the list of explanations.",
+        ],
+      },
+      {
+        heading: "Seniors: 11+ Years",
+        paragraphs: [
+          "Senior cats have markedly different nutritional needs. Hyperthyroidism (the most common endocrine disease in older cats) increases metabolic rate and can cause dramatic weight loss despite a good appetite - a senior cat that is eating well but losing weight needs a thyroid check, not just more food.",
+          "Kidney disease affects a significant proportion of cats over 12. Once diagnosed, a phosphorus-restricted diet with moderate, high-quality protein slows disease progression. This is one of the best-evidenced dietary interventions in small animal medicine. Wet food is particularly important in cats with kidney disease because hydration directly affects how hard the kidneys have to work.",
+          "Arthritis is common in older cats and is frequently missed because cats hide pain well. A cat that stops jumping to its usual feeding location, eats less, or becomes reluctant to crouch over a floor bowl may be showing pain. Bowl height and location adjustments can make a real difference.",
+          "Many senior cats lose weight even on appropriate diets - their caloric needs may actually increase as absorption efficiency declines. A senior cat that is lean or underweight should be fed more, not managed on a 'light' formula.",
+        ],
+      },
+      {
+        heading: "How to Calculate the Right Portion Size",
+        paragraphs: [
+          "Feeding guidelines on pet food packaging are starting points, not prescriptions. They are calculated for the average cat, not yours - and they are almost always generous, because the manufacturer's interest aligns with feeding more.",
+          "A more reliable method uses resting energy requirement (RER) as the base. RER in kcal/day = 70 × (body weight in kg)^0.75. For an adult neutered indoor cat at ideal weight, multiply RER by 1.2 to get the daily maintenance energy requirement (MER). For a cat that needs to lose weight, use the target weight, not the current weight.",
+          "Most wet cat food contains approximately 90–100 kcal per 100g. Most dry food contains 350–400 kcal per 100g (check the specific product - it varies significantly). Divide the daily MER by the food's caloric density to get the daily amount. Weigh portions with a kitchen scale rather than using the cup included in the packaging, which is imprecise.",
+          "Example: a 5kg neutered indoor adult cat. RER = 70 × (5)^0.75 ≈ 234 kcal. MER at 1.2× = 281 kcal/day. If feeding wet food at 95 kcal/100g: 281 ÷ 0.95 ≈ 296g wet food per day, split across two meals.",
+          "Treats count. If your cat is eating training treats, dental chews, or toppers in meaningful quantities, subtract those calories from the daily portion. A cat receiving 50 kcal in treats is being overfed if the main meal is calculated to 100% of MER.",
+        ],
+      },
+      {
+        heading: "Signs the Diet Isn't Working",
+        paragraphs: [
+          "Weight gain or loss over successive months is the clearest signal. Weigh your cat monthly - most people are surprised by how much gradual change is missed between annual vet visits. A bathroom scale works: weigh yourself holding the cat, then alone.",
+          "Poor coat quality (dull, dry, or flaky) often indicates inadequate essential fatty acids or protein. Soft stools, intermittent vomiting, or excessive shedding can point to a food that doesn't suit the individual cat. A trial with a different protein source or food format (more wet, less dry) is often worth trying before investigating further.",
+          "Excessive water intake in a cat that eats primarily dry food may simply reflect inadequate moisture in the diet - switching to wet food often normalises drinking. Genuinely polydipsic cats (drinking far more than expected even on a wet diet) need a veterinary check for diabetes, kidney disease, or hyperthyroidism.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "When should I switch from kitten food to adult cat food?", a: "At around 12 months for most breeds. Large or slow-maturing cats (Maine Coons, for example) can stay on kitten food until 18 months. The transition should be gradual over 7–10 days - mix increasing proportions of the new food into the old to avoid digestive upset." },
+      { q: "Should I feed wet food, dry food, or both?", a: "Wet food as the primary diet is preferable for most cats, particularly because cats have a low thirst drive and a dry food-only diet chronically underprovides water. Wet food supports urinary and kidney health. Dry food is not harmful in a well-hydrated cat and can have dental benefits if specifically formulated for dental health, but it should not be the sole food long-term." },
+      { q: "My senior cat has lost weight but is still eating. What's wrong?", a: "Weight loss despite a maintained or increased appetite in a senior cat is a classic presentation of hyperthyroidism, the most common endocrine disease in older cats. Diabetes, intestinal disease, and in some cases cancer can present similarly. A blood test, urine test, and thyroid panel will usually identify the cause. Don't increase portions as the first response - get a diagnosis." },
+      { q: "How do I know if my cat is overweight?", a: "Feel the ribs: in a cat at ideal weight, you should be able to feel each rib easily without pressing hard, but they should not be visibly prominent. From above, there should be a visible waist behind the ribcage. From the side, the abdomen should not hang low. If you cannot feel the ribs without pressing, the cat is overweight. Your vet can give a formal body condition score at the next visit." },
+      { q: "Is grain-free cat food better?", a: "No evidence supports grain-free diets as beneficial for cats unless there is a confirmed grain sensitivity (uncommon). Cats do not have a metabolic need for grains, but they also do not have an inherent intolerance to them. The important question is protein source and overall nutritional profile, not whether grains are present. Some grain-free foods substitute legumes (peas, lentils), which may carry their own concerns in certain formulations." },
+    ],
+    references: [
+      "Laflamme DP. Development and validation of a body condition score system for cats. Feline Practice. 1997;25(5–6):13–18.",
+      "Fascetti AJ, Delaney SJ. Applied Veterinary Clinical Nutrition. Wiley-Blackwell, 2012.",
+      "Elliott DA. Nutritional management of chronic renal disease in dogs and cats. Veterinary Clinics of North America: Small Animal Practice. 2006;36(6):1377–1384.",
+      "Perez-Camargo G. Cat nutrition: what's new in the old? Compendium on Continuing Education for the Practicing Veterinarian. 2004;26(2A):5–10.",
+    ],
+  },
+  {
+    slug: 'dog-diet-by-age',
+    title: "How a Dog's Nutritional Needs Change With Age - and How to Know You're Feeding the Right Amount",
+    date: '2026-11-15',
+    readTime: '6 min read',
+    excerpt: "What a puppy needs from food is not what an adult dog needs, and not what a senior dog needs either. 'Feeding the recommended amount on the bag' is how most dogs end up obese. Here's how to calculate portions and adjust diet through each life stage.",
+    metaTitle: "Dog Diet by Age: Puppy to Senior Feeding Guide | Mike's Vet Dubai",
+    metaDescription: "How a dog's nutritional needs change from puppy to senior, how to calculate the right daily food portion, and what warning signs tell you the diet needs changing. Mike's Vet Dubai.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog with a food bowl',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Nick Stokes',
+      role: 'DVM GPCert SAS',
+      photo: '/vets/nick.jpg',
+      profileHref: '/team/nick-stokes',
+    },
+    relatedService: { name: 'Dog Vet Clinic Dubai', href: '/services/dog-care' },
+    sections: [
+      {
+        heading: "Life Stages and Why They Matter",
+        paragraphs: [
+          "Dogs are classified into four broad nutritional life stages: puppy (from weaning to completion of growth), adult, mature adult (typically from around 7 years, or earlier in large breeds), and senior. The timing of transitions varies significantly by breed size - a Chihuahua is still functionally a puppy at 10 months; a Great Dane is approaching early adulthood at the same age.",
+          "Feeding the wrong life stage food - most commonly, keeping a dog on adult food through puppyhood, or continuing puppy food into adulthood - has real consequences. Puppies fed adult food may not receive enough calcium and phosphorus for skeletal development; adult dogs fed puppy food accumulate excess calories and may develop bone and joint problems if large-breed puppies are fed a calcium excess.",
+        ],
+      },
+      {
+        heading: "Puppies: Weaning to Adulthood",
+        paragraphs: [
+          "Puppies need a food labelled 'complete and balanced for growth' or 'all life stages' per AAFCO or FEDIAF standards. Protein and fat requirements are higher than for adults; calcium and phosphorus must be present in a correct ratio for bone development.",
+          "Large and giant breed puppies (expected adult weight above 25kg) have specific requirements that differ from small breed puppies. Excess calcium and caloric density in large breed puppies promotes excessively rapid growth, which is a significant risk factor for developmental orthopaedic diseases including hip dysplasia, osteochondrosis, and elbow dysplasia. Use a food specifically formulated for large breed puppies - do not simply feed adult large breed food, and do not supplement calcium in a puppy already eating a balanced diet.",
+          "Meal frequency: 3–4 meals daily until 12 weeks, 3 meals daily until 6 months, then twice daily. Free-feeding dry food to puppies is not recommended - structured meals allow you to monitor intake and appetite, which is an important early health signal.",
+          "Puppies finish growth at different ages: small breeds (under 10kg) around 9–12 months; medium breeds around 12–15 months; large breeds 15–18 months; giant breeds up to 24 months. Transition to adult food after the growth phase, not before.",
+        ],
+      },
+      {
+        heading: "Adults: Completion of Growth to 6–7 Years",
+        paragraphs: [
+          "Adult dogs have lower caloric needs per kilogram than puppies. This is the life stage where obesity most commonly develops, particularly in neutered animals - neutering reduces metabolic rate by 20–30%, but most owners do not adjust portions after the procedure.",
+          "Twice-daily feeding is the standard recommendation for adult dogs. It distributes caloric intake more evenly, reduces gastric acid build-up between meals (which can cause the characteristic morning vomiting of bile seen in dogs fed once daily), and reduces the risk of gastric dilatation-volvulus (bloat) in large deep-chested breeds.",
+          "Body condition scoring is the most practical ongoing measure of whether the diet is appropriate. A dog at ideal body condition (BCS 4–5 on a 9-point scale) has ribs that are easily felt under a thin layer of fat, a visible waist from above, and an abdominal tuck from the side. If the ribs require firm pressure to feel, the dog is overweight. Many owners have no reference point for what a healthy dog weight actually looks like - in Dubai, as in most urban settings, overweight dogs are so common they read as normal.",
+          "Activity level matters more than the bag suggests. Working dogs, dogs that run daily, and dogs that spend significant time outdoors have meaningfully higher energy requirements than sedentary apartment dogs fed the same food. The bag's recommendations are based on average activity - adjust up or down based on your dog's actual lifestyle and body condition.",
+        ],
+      },
+      {
+        heading: "Mature Adults: 7+ Years (Earlier in Large Breeds)",
+        paragraphs: [
+          "Large and giant breeds age faster than small breeds. A 7-year-old Labrador is a different physiological proposition to a 7-year-old Poodle. Many veterinarians consider large breeds mature from around 5–6 years; small breeds may not need dietary adjustment until 8–9.",
+          "Caloric needs often decrease further in mature adults as activity levels reduce. This can be counteracted if the dog is unwell - unexplained weight loss in a middle-aged dog needs investigation, not just a food upgrade.",
+          "Joints become a priority. Diets formulated for mature or senior dogs often include higher levels of omega-3 fatty acids (EPA and DHA from fish oil), which have anti-inflammatory effects relevant to osteoarthritis. Joint supplements (glucosamine, chondroitin) have mixed evidence but reasonable safety profiles, and some dogs show clear functional improvement on them. If your dog is stiffening on walks, discuss joint-supportive nutrition at the next vet visit.",
+          "Annual blood screening from 7 years - liver and kidney function, blood count, thyroid - provides the data needed to adjust the diet proactively. Hypothyroidism in dogs (more common in certain breeds including Labrador Retrievers, Golden Retrievers, Dobermanns, and Cocker Spaniels) causes weight gain, lethargy, and poor coat quality, and responds to medication - not food changes.",
+        ],
+      },
+      {
+        heading: "Seniors: 10+ Years",
+        paragraphs: [
+          "Senior dogs may need more calories, not fewer. Decreased gut absorption, reduced muscle mass maintenance, and concurrent disease can all mean that an older dog needs more food to maintain the same weight - the instinct to 'cut back' on a thinner senior dog often makes the problem worse.",
+          "Protein needs remain high or increase in healthy senior dogs. Protein restriction should only be implemented if kidney disease is present and at an appropriate stage - feeding a low-protein diet to a healthy older dog accelerates muscle loss without benefit.",
+          "Kidney disease in dogs does require dietary management once confirmed: phosphorus restriction, adequate high-quality protein, and good hydration are the main levers. A prescription renal diet is usually indicated once kidney values become significantly elevated.",
+          "Dental disease is near-universal in senior dogs and commonly goes untreated. A dog that eats slowly, drops food, chews on one side, or has visibly discoloured teeth likely has significant dental pain. Dental disease affects appetite, food selection, and overall caloric intake in ways that can look like digestive or systemic illness.",
+        ],
+      },
+      {
+        heading: "How to Calculate the Right Daily Portion",
+        paragraphs: [
+          "The feeding guidelines on dog food packaging are based on the average dog at the stated life stage. They do not account for neuter status, activity level, or individual metabolic variation - all of which significantly affect actual caloric need. Use the bag as a starting point, then adjust based on body condition.",
+          "For a more precise calculation, start with resting energy requirement (RER): 70 × (body weight in kg)^0.75. Then apply a life stage multiplier to get maintenance energy requirement (MER). Common multipliers: intact adult 1.8×; neutered adult 1.6×; inactive/obese-prone 1.4×; weight loss 1.0×; puppy under 4 months 3.0×; puppy 4 months to adult 2.0×; senior 1.4×.",
+          "Example: a 25kg neutered adult Labrador. RER = 70 × (25)^0.75 ≈ 877 kcal. MER at 1.6× = 1,403 kcal/day. If feeding a dry food with 360 kcal/100g: 1,403 ÷ 3.6 ≈ 390g per day, split into two meals of 195g each.",
+          "Weigh food with a kitchen scale. Measuring cups are inconsistent - the same cup filled loosely versus firmly can differ by 20–30%. For a dog eating 400g/day, that discrepancy is 80–120g, which is a meaningful caloric difference over time.",
+          "Adjust every 2–4 weeks based on body condition. If the dog is gaining weight on the calculated amount, reduce by 10%. If losing weight unintentionally, increase by 10% and rule out medical causes. The goal is a dog whose ribs you can feel without pressing, with a visible waist and tuck.",
+        ],
+      },
+      {
+        heading: "Common Feeding Mistakes",
+        paragraphs: [
+          "Free-feeding dry food: works only for dogs with self-regulating appetites, which are the minority. Most dogs will eat whatever is available. Free-feeding also removes appetite as a health signal - a dog that stops eating is showing you something important, and you will miss it if the bowl is never empty.",
+          "Not adjusting after neutering: neutering reduces energy requirement by an estimated 20–30%. Dogs neutered at 6 months that continue on puppy-sized portions will gain weight steadily through their first year. Reduce portions by 20% after neutering and monitor body condition monthly.",
+          "Supplementing a complete diet: a diet labelled 'complete and balanced' meets all nutritional requirements. Adding supplements - calcium, cod liver oil, raw meat - to a complete commercial diet creates imbalances. The exception is omega-3 fish oil at appropriate doses, which provides anti-inflammatory benefit beyond what most commercial diets include.",
+          "Trusting the bag: the recommended feeding amount on pet food packaging is based on an unneutered average dog at moderate activity. For most of the neutered, moderately-active Dubai apartment dogs we see, the actual requirement is 20–30% less. Start at the lower end of the bag's range and increase only if body condition scores indicate the dog is too lean.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "When should I switch from puppy food to adult food?", a: "When the dog has completed the majority of its growth. For small breeds, that's around 9–12 months; medium breeds 12–15 months; large breeds 15–18 months; giant breeds up to 24 months. Transition gradually over 7–10 days by mixing increasing proportions of adult food into the puppy food." },
+      { q: "How do I know if my dog is overweight?", a: "Feel the ribs: they should be easy to feel under a thin layer of fat, without pressing hard. From above, there should be a clear waist. From the side, the abdomen should tuck up. If you can't feel the ribs without firm pressure, the dog is overweight. Your vet can formally body condition score your dog - many owners are surprised at the result. Overweight dogs in Dubai are common enough to look normal." },
+      { q: "My dog has gained weight since being neutered. What should I do?", a: "Reduce daily portions by 15–20% and reassess after 4–6 weeks. Neutering reduces resting energy requirement significantly - many owners don't adjust portions and the weight creeps on over the first year. If the dog is significantly overweight, ask your vet for a formal weight loss plan - crash-dieting a dog is not safe." },
+      { q: "Should I feed once or twice a day?", a: "Twice daily for most adult dogs. It distributes caloric intake more evenly, reduces the bile vomiting some dogs show when fasted for more than 12 hours, and decreases the risk of bloat in large breeds. For dogs prone to bloat (deep-chested large breeds like Great Danes, German Shepherds, Dobermanns), twice daily with a rest period after meals is a standard recommendation." },
+      { q: "Is raw feeding better for dogs?", a: "The evidence is mixed. Raw diets can be nutritionally complete if properly formulated, and some dogs do well on them. The main concerns are microbiological risk (Salmonella, Listeria, E. coli - relevant both to the dog and the humans handling the food), nutritional imbalance in home-prepared diets, and bone fragments causing GI perforations. If you want to feed raw, use a commercially prepared complete raw diet rather than a home-made one, and discuss it with your vet." },
+      { q: "My senior dog is losing weight but eating normally. What should I do?", a: "See a vet promptly. Weight loss with normal or increased appetite in a senior dog has a differential that includes hypothyroidism, diabetes, exocrine pancreatic insufficiency, intestinal malabsorption, dental disease, and cancer. Blood work, urine, and a physical exam will usually point to the cause. Don't simply increase food before you have a diagnosis." },
+    ],
+    references: [
+      "Laflamme DP. Development and validation of a body condition score system for dogs. Canine Practice. 1997;22(3):10–15.",
+      "Fascetti AJ, Delaney SJ. Applied Veterinary Clinical Nutrition. Wiley-Blackwell, 2012.",
+      "German AJ. The growing problem of obesity in dogs and cats. Journal of Nutrition. 2006;136(7):1940S–1946S.",
+      "Kealy RD, et al. Effects of diet restriction on life span and age-related changes in dogs. Journal of the American Veterinary Medical Association. 2002;220(9):1315–1320.",
+    ],
+  },
+  {
+    slug: 'signs-cat-is-in-pain',
+    title: '5 Signs Your Cat Is in Pain (And Why They Hide It So Well)',
+    date: '2026-11-24',
+    readTime: '5 min read',
+    excerpt: "Cats are experts at hiding pain. By the time an owner notices something is wrong, the cat has often been uncomfortable for days or longer. These are the five signs our vets look for -- and what to do when you spot them.",
+    metaTitle: "5 Signs Your Cat Is in Pain | Mike's Vet Dubai",
+    metaDescription: "Cats hide pain instinctively. Here are 5 signs your cat is hurting that owners often miss -- changes in posture, grooming, behaviour, facial expression, and appetite. Know when to call a vet.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A cat resting quietly at home',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Eslam Asran',
+      role: 'DVM',
+      photo: '/vets/eslam.jpg',
+      profileHref: '/team/eslam-asran',
+    },
+    relatedService: { name: 'Consultations', href: '/services/consultations' },
+    sections: [
+      {
+        paragraphs: [
+          "Cats evolved as both predator and prey. Showing weakness in the wild is dangerous, so hiding pain is instinctive and deeply hardwired -- even in a pampered Dubai apartment cat. This means by the time most owners notice something is wrong, the cat has often been uncomfortable for days, sometimes longer.",
+          "The result is that pain in cats gets missed or dismissed until it becomes severe. Knowing what to look for is one of the most valuable things an owner can do.",
+        ],
+      },
+      {
+        heading: 'Sign 1 -- Changes in Posture and Movement',
+        paragraphs: [
+          "A cat in pain often adopts a hunched or tucked posture -- back arched, head lowered, all four feet close together. This is different from a cat curled up asleep; a painful cat holds the position with tension, doesn't shift or stretch out, and may resist being moved.",
+          "Reluctance to jump -- onto furniture they normally use, or down from a height -- is one of the most common things owners miss because they assume the cat is 'just getting lazy.' Pain in the joints, abdomen, spine, or chest can all make jumping uncomfortable.",
+          "Other movement signs: stiffness after rest, a subtle change in gait, favouring one limb, or sitting with one leg held at an odd angle.",
+        ],
+      },
+      {
+        heading: 'Sign 2 -- Changes in Grooming',
+        paragraphs: [
+          "Cats in pain often groom obsessively at the painful area. If you notice your cat repeatedly licking one spot on their abdomen, back, or a limb -- especially if the fur is thinning -- that area is worth examining. Skin problems are one cause, but localised pain is another.",
+          "The opposite also happens. Cats in significant discomfort may stop grooming entirely. A coat that suddenly looks dull, matted, or greasy is not normal and usually means the cat is not well, either physically or in terms of pain.",
+          "Dental pain -- which is extremely common in cats over three -- often causes a cat to stop grooming their face. Owners may notice their cat avoiding the left or right side when eating, or food dropping from their mouth.",
+        ],
+      },
+      {
+        heading: 'Sign 3 -- Behaviour Changes',
+        paragraphs: [
+          "Hiding is one of the clearest signs that a cat is unwell or in pain. A cat that suddenly spends most of their time under the bed, in a cupboard, or in a corner they never used before is telling you something important. This is not sulking -- it is a protective instinct.",
+          "Increased aggression when touched, picked up, or approached can mean the cat is guarding a painful area. A cat that has never bitten or hissed and suddenly does so when you touch their abdomen or back should be examined -- they are communicating pain in the only way available to them.",
+          "Withdrawal from interactions they normally enjoy -- sitting with you, playing, responding to their name -- is worth noting. It is not always pain, but it is never nothing.",
+        ],
+      },
+      {
+        heading: 'Sign 4 -- The Facial Grimace Scale',
+        paragraphs: [
+          "Veterinary researchers have developed a validated feline grimace scale based on observable facial changes in cats experiencing pain. The five features assessed are: orbital tightening (squinting or partially closed eyes), ear position (flattened or rotated back), muzzle tension (tightened, whiskers pulled back or stiff), whisker change, and head position (lowered, with the chin near the chest).",
+          "You do not need to know the scale formally to use it. Simply observe: does your cat look different around the eyes and mouth? Are the ears flattened? Is the face tense in a way that is hard to define but clearly not relaxed? Trust what you see. Owners often describe a subtle look that 'wasn\'t there before' -- that instinct is worth acting on.",
+        ],
+      },
+      {
+        heading: 'Sign 5 -- Changes in Eating, Drinking or Litter Box Use',
+        paragraphs: [
+          "A cat that is eating less or not at all, drinking more than usual, or avoiding their litter box may be in pain -- or may have an underlying condition causing pain. These changes are rarely behavioural; they almost always reflect a physical problem.",
+          "Litter box avoidance in cats is a clinical sign that warrants attention. It can indicate urinary pain, constipation, joint pain making it hard to get in and out of the box, or a previous negative experience in the box during illness. Cats do not 'protest' by avoiding the litter tray. Something is wrong.",
+          "Weight loss that is not intentional -- especially in a cat who is still eating -- should always be investigated. Dental disease, hyperthyroidism, kidney disease, cancer, and inflammatory bowel disease can all cause pain that suppresses appetite or affects absorption.",
+        ],
+      },
+      {
+        heading: 'What to Do',
+        paragraphs: [
+          "If you notice one or more of these signs, book a vet appointment rather than waiting to see if it resolves. Pain in cats does not usually go away on its own -- and if it does, it often means the cat has simply adapted to it.",
+          "Never give your cat human pain medication. Paracetamol (acetaminophen) is fatal in cats. Ibuprofen and aspirin are also toxic. The only safe option is a vet-prescribed medication.",
+          "At the consultation, describe what you have observed and when it started. The more specific you can be -- 'she stopped jumping onto the sofa five days ago' or 'he has been grooming his left flank obsessively' -- the more useful the information is to the vet.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How do I know if my cat is in pain?", a: "The most reliable signs are changes from their normal behaviour: hiding more than usual, resisting being touched, changes in grooming, reluctance to jump, and a tense or grimacing facial expression. Cats instinctively hide pain, so any unexplained change in behaviour or routine is worth investigating." },
+      { q: "Do cats cry or vocalise when they are in pain?", a: "Some cats vocalise -- particularly if touched in a painful area or during urination if they have a urinary problem. But many cats in significant pain make no sound at all. Silence is not reassurance. Behavioural and postural changes are more reliable indicators than vocalisation." },
+      { q: "My cat seems fine but is grooming one spot constantly -- should I be concerned?", a: "Yes. Repetitive grooming of a single area is a pain signal. It can indicate skin disease, a wound, a foreign object, or localised internal pain. Have the area examined rather than waiting for the behaviour to escalate." },
+      { q: "Can I give my cat paracetamol or ibuprofen for pain?", a: "No. Both are toxic to cats. Paracetamol is fatal in cats even in small doses. Never give a cat any human pain medication. If your cat is in pain, call your vet for safe, appropriate options." },
+      { q: "How quickly should I take my cat to the vet if I think they are in pain?", a: "Same day if the cat is in obvious distress, not eating, or showing signs of a urinary blockage (straining to urinate without producing urine). For more subtle signs -- hiding, reluctance to jump, behaviour changes -- book the soonest available appointment rather than waiting weeks." },
+    ],
+  },
+  {
+    slug: 'dog-skin-allergies-dubai',
+    title: 'Dog Skin Allergies in Dubai: Causes, Signs and What Actually Works',
+    date: '2026-11-20',
+    readTime: '6 min read',
+    excerpt: "Skin allergies are one of the most common reasons dogs come to us at Mike's Vet. Dubai's climate makes them worse. Here's what causes them, how to tell the type, and what actually helps.",
+    metaTitle: "Dog Skin Allergies Dubai: Causes, Signs and Treatment | Mike's Vet",
+    metaDescription: "Skin allergies are one of the most common dog problems in Dubai. Learn about atopy, food allergies and flea allergy dermatitis -- signs to watch for, how they're diagnosed, and what treatment actually works.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop',
+      alt: 'A dog sitting outdoors',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Mohamad Hassan',
+      role: 'DVM',
+      photo: '/vets/hassan.jpg',
+      profileHref: '/team/mohamad-hassan',
+    },
+    relatedService: { name: 'Consultations', href: '/services/consultations' },
+    sections: [
+      {
+        paragraphs: [
+          "Skin problems are one of the top reasons dogs come to our clinic on Hessa Street. The itch, the scratching, the red skin, the recurring ear infections -- for many Dubai dog owners it feels like a constant battle that never quite resolves. That is often because the underlying cause has not been properly identified.",
+          "Dubai's environment creates specific challenges: year-round heat, low humidity from air conditioning, dusty outdoor spaces, and a limited range of grass species that are common allergen triggers. Add a food protein the dog is reacting to, and you have multiple overlapping causes that are hard to unpick without a methodical approach.",
+        ],
+      },
+      {
+        heading: 'The Three Main Types of Skin Allergy in Dogs',
+        paragraphs: [
+          "Environmental allergy (atopic dermatitis) is the most common type. The dog's immune system overreacts to airborne particles -- dust mites, mould spores, pollen, grass -- causing inflammation. In Dubai, house dust mites are present year-round (they thrive in air-conditioned environments), and certain grasses like kikuyu and buffalo grass are significant triggers. Signs include itching at the paws, face, armpits, and groin -- areas where allergens make skin contact.",
+          "Food allergy is less common than owners assume, but real. A true food allergy is an immune response to a protein the dog has been exposed to previously -- usually chicken, beef, dairy, or wheat. It does not develop immediately after introducing a food; it typically appears after months or years of exposure to the same protein. Signs often overlap with environmental allergy but may include gastrointestinal symptoms alongside skin changes.",
+          "Flea allergy dermatitis (FAD) is an intense allergic reaction to flea saliva. Even a single flea bite can trigger a significant response in a sensitised dog. The pattern is usually intense itching at the base of the tail, hindquarters, and inner thighs. In Dubai, fleas are present year-round and can survive in sand, carpet, and outdoor areas. Regular flea prevention is essential for allergic dogs.",
+        ],
+      },
+      {
+        heading: 'Signs of Skin Allergies in Dogs',
+        paragraphs: [
+          "Itching (pruritus) is the defining sign -- scratching, rubbing the face on the floor or furniture, biting at the paws or flanks, dragging the bottom along the ground. The intensity and location of itching give the vet useful clues about the type.",
+          "Paw licking and chewing is one of the most common presentations. Dogs with environmental allergies often have red-stained fur between the toes from chronic saliva contact. The paws may also be swollen or warm.",
+          "Ear infections that recur despite treatment are a classic sign of an underlying allergy. The inflammation changes the skin environment inside the ear, making it hospitable to yeast and bacteria. Treating the infection without treating the allergy leads to a cycle of resolution and recurrence.",
+          "Secondary skin changes from chronic scratching include hot spots (acute moist dermatitis), thickened or darkened skin (lichenification), hair loss, and skin that is broken and prone to bacterial infection. These secondary changes can obscure the original allergy, making diagnosis harder if treatment is delayed.",
+        ],
+      },
+      {
+        heading: 'How We Diagnose Skin Allergies',
+        paragraphs: [
+          "There is no single test that diagnoses atopic dermatitis -- it is a clinical diagnosis based on history, pattern of signs, ruling out other causes (parasites, infections, food), and response to treatment. Blood tests and intradermal skin tests can support the diagnosis but are not always required initially.",
+          "Food allergy requires a strict dietary elimination trial -- usually 8 to 12 weeks on a novel protein (a meat the dog has never eaten: kangaroo, rabbit, venison) or a hydrolysed protein diet. This is the only way to confirm or exclude food allergy. Over-the-counter 'sensitive' foods do not constitute a proper elimination trial.",
+          "Skin scrapes, cytology, and culture help identify secondary infections (bacterial and yeast) that need treating alongside the allergy itself. Treating only the infection without the allergy leads to recurrence.",
+        ],
+      },
+      {
+        heading: 'What Actually Works',
+        paragraphs: [
+          "Flea prevention, all year round, every dog in the household. Non-negotiable for any allergic dog, regardless of whether fleas are seen -- by the time you see one flea, the dog has been bitten many times.",
+          "Regular bathing with a veterinary-prescribed shampoo (not human shampoo) reduces the allergen load on the skin and relieves symptoms. Twice weekly is a reasonable starting point for actively itchy dogs.",
+          "For environmental allergies, newer medications (Apoquel, Cytopoint) are effective and much safer for long-term use than traditional steroids. They target the specific pathways driving the itch without broad immune suppression. We use these at Mike's Vet as first-line treatment for moderate to severe atopic dermatitis.",
+          "Allergen-specific immunotherapy (desensitisation) is the only treatment that modifies the underlying allergy rather than managing symptoms. It involves a custom injection or oral programme based on what the dog is reacting to. It takes months to reach full effect but can significantly reduce the severity of the allergy long term.",
+          "Omega-3 fatty acid supplementation and a high-quality diet support skin barrier function and reduce inflammation. These are supportive, not curative, but they make a meaningful difference as part of a broader management plan.",
+        ],
+      },
+      {
+        heading: 'Managing Skin Allergies Long-Term in Dubai',
+        paragraphs: [
+          "Allergies in dogs are managed, not cured. The goal is to identify the triggers, reduce exposure where possible, and keep the itch at a level that does not affect the dog's quality of life.",
+          "Air conditioning reduces airborne allergens indoors but also dries the skin. Maintaining indoor humidity around 50% and regular bathing can offset this.",
+          "Keeping the dog off grass during peak allergen times (usually early morning and evening in Dubai's cooler months when grasses are more active), wiping paws after outdoor walks, and regular vacuuming all reduce allergen load.",
+          "Work with your vet to establish a maintenance plan that keeps symptoms controlled without relying on steroids long-term. The first step is getting an accurate diagnosis -- if your dog has been itching for months and treatments have only provided temporary relief, a thorough dermatology workup is worth doing properly.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Why does my dog keep getting ear infections in Dubai?", a: "Recurring ear infections in dogs are almost always a sign of an underlying allergy -- environmental, food, or both. The allergy inflames the ear canal, creating conditions where yeast and bacteria multiply. Treating the infection without addressing the allergy leads to a cycle of recurrence. If your dog has had more than two ear infections in a year, the allergy should be investigated." },
+      { q: "What food should I feed my dog with skin allergies?", a: "If a food allergy is suspected, a strict elimination trial is needed -- 8 to 12 weeks on a novel protein your dog has never eaten (such as kangaroo, venison, or rabbit), or a veterinary hydrolysed protein diet. Standard commercial 'sensitive' foods are not sufficient for a proper elimination trial as they often contain multiple proteins. Your vet can guide you through this." },
+      { q: "Is Apoquel safe for dogs?", a: "Apoquel (oclacitinib) is a targeted medication that reduces itch and inflammation by blocking specific pathways involved in allergic response. It is considered safe for long-term use in dogs over 12 months and is significantly safer than long-term steroid use. Like any medication, it has potential side effects that your vet will discuss with you." },
+      { q: "Can dogs grow out of skin allergies?", a: "No -- atopic dermatitis in dogs tends to worsen over time as the immune system becomes sensitised to more allergens. Early, appropriate management reduces the progression. Some dogs on allergen-specific immunotherapy show significant long-term improvement, but most require ongoing management." },
+      { q: "My dog is constantly licking their paws -- is this allergies?", a: "Paw licking is one of the most common signs of environmental allergy in dogs. The feet and face are primary contact points for allergens. If the fur between the toes is red-stained from saliva, the skin is inflamed, or the paws are itchy after outdoor walks, allergic dermatitis is likely. Book a consultation so we can examine the paws and take a full history." },
+    ],
+  },
+  {
+    slug: 'kennel-cough-dogs-dubai',
+    title: 'Kennel Cough in Dogs: What Dubai Pet Owners Need to Know',
+    date: '2026-11-18',
+    readTime: '5 min read',
+    excerpt: "Kennel cough is one of the most contagious dog infections we see in Dubai -- and dog parks, boarding facilities, and groomers are where it spreads. Here's how to recognise it, treat it, and prevent it.",
+    metaTitle: "Kennel Cough Dogs Dubai: Symptoms, Treatment and Vaccine | Mike's Vet",
+    metaDescription: "Kennel cough is common in Dubai's dog-dense environment. Learn the signs, how it spreads, treatment options, and why the Bordetella vaccine is recommended for most Dubai dogs.",
+    heroImage: {
+      url: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1200&q=80&auto=format&fit=crop&crop=top',
+      alt: 'A dog at a park',
+      credit: 'Unsplash',
+    },
+    author: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM',
+      photo: '/vets/feth.jpg',
+      profileHref: '/team/feth-mazari',
+    },
+    relatedService: { name: 'Vaccinations', href: '/services/vaccinations' },
+    sections: [
+      {
+        paragraphs: [
+          "Kennel cough -- infectious tracheobronchitis -- is one of the most contagious respiratory infections in dogs, and Dubai's dog-friendly environment creates ideal conditions for it to spread. Dog parks like Zabeel, Safa, and the community parks across JVC and Arabian Ranches, plus the growing number of dog cafes, boarding facilities, and grooming salons, mean many Dubai dogs have regular close contact with other dogs.",
+          "The good news is that kennel cough is rarely serious in healthy adult dogs. Most recover without complications. The concern is secondary pneumonia in puppies, senior dogs, and immunocompromised animals -- and the rapid spread through any group of dogs that share a space.",
+        ],
+      },
+      {
+        heading: 'What Causes Kennel Cough?',
+        paragraphs: [
+          "Kennel cough is not caused by a single pathogen -- it is typically a combination of viral and bacterial agents. The most significant are Bordetella bronchiseptica (bacteria), canine parainfluenza virus (included in the standard DHPPi vaccine), and canine adenovirus-2. In practice, infections are often mixed, which is why kennel cough can vary in severity from a mild cough that lasts a week to a more prolonged illness.",
+          "Bordetella is the most common bacterial cause and the one the specific kennel cough vaccine targets. It attaches to the cilia of the respiratory tract, disrupting the normal clearance mechanism and allowing secondary infection to take hold.",
+        ],
+      },
+      {
+        heading: 'How It Spreads',
+        paragraphs: [
+          "Kennel cough is airborne and spreads through respiratory droplets -- a coughing or sneezing dog disperses the pathogen into the air and onto surfaces. Direct nose-to-nose contact, shared water bowls, and shared spaces all facilitate transmission.",
+          "The incubation period is 3 to 10 days, meaning a dog can be infected and spreading the illness before any symptoms appear. This is why outbreaks move quickly through boarding facilities, dog parks, and training classes.",
+          "In Dubai's climate, air-conditioned indoor spaces -- groomers, boarding facilities, dog cafes -- can concentrate respiratory pathogens more than outdoor settings.",
+        ],
+      },
+      {
+        heading: 'Signs of Kennel Cough',
+        paragraphs: [
+          "The hallmark sign is a harsh, dry, honking cough -- often described as sounding like something is stuck in the throat. It may be followed by gagging or bringing up white foam. Many owners initially think the dog has swallowed something.",
+          "The cough is often triggered by exercise, excitement, or pressure on the throat -- pulling on the lead, being picked up. Applying gentle pressure to the trachea during examination typically produces the cough.",
+          "In uncomplicated kennel cough, the dog usually remains bright, eating normally, and without fever. If the dog is lethargic, has a reduced appetite, or develops a productive (wet) cough with nasal discharge and fever, this may indicate secondary pneumonia and requires prompt veterinary attention.",
+          "Symptoms typically develop 3 to 10 days after exposure and last 1 to 3 weeks in otherwise healthy adult dogs.",
+        ],
+      },
+      {
+        heading: 'Treatment',
+        paragraphs: [
+          "Uncomplicated kennel cough in a healthy adult dog often resolves without treatment beyond rest and reduced exercise for 1 to 2 weeks. Avoid lead walks that cause pulling on the trachea -- use a harness rather than a collar. Avoid mixing with other dogs during the infectious period.",
+          "In cases where Bordetella is confirmed or strongly suspected, a course of antibiotics is typically prescribed. This reduces the duration of illness and lowers the risk of secondary bacterial pneumonia.",
+          "Cough suppressants may be recommended for dogs with a severe cough that is disrupting sleep or causing significant distress.",
+          "If secondary pneumonia develops -- indicated by fever, lethargy, reduced appetite, and a productive cough -- prompt veterinary attention, chest X-rays, and more intensive antibiotic therapy are needed. This is the scenario to watch for in puppies, senior dogs, and dogs with underlying health conditions.",
+        ],
+      },
+      {
+        heading: 'The Bordetella Vaccine',
+        paragraphs: [
+          "The Bordetella intranasal or injectable vaccine provides protection against Bordetella bronchiseptica, the most common bacterial cause of kennel cough. It does not prevent all causes -- parainfluenza and adenovirus are covered by the standard DHPPi vaccine -- but significantly reduces the risk of severe disease.",
+          "In Dubai, Bordetella vaccination is required by most boarding facilities and many doggy daycares. We recommend it for any dog with regular contact with other dogs: dog parks, grooming, boarding, training classes, or dog cafes.",
+          "The vaccine is given annually. For dogs going into boarding or attending a training programme, it should ideally be given at least 1 to 2 weeks before exposure to allow immunity to develop.",
+          "Vaccinated dogs can still contract kennel cough -- particularly from non-Bordetella causes -- but typically show milder symptoms and recover more quickly.",
+        ],
+      },
+      {
+        heading: 'Keeping Your Dog Safe in Dubai',
+        paragraphs: [
+          "Do not take your dog to a dog park, boarding facility, or grooming salon if they are showing respiratory symptoms. This protects other dogs.",
+          "Carry your own water and use it rather than shared water stations where possible.",
+          "Ensure kennel cough vaccination is current before any boarding stay or intensive social period (such as over Eid or Christmas holidays when many owners board their dogs).",
+          "If your dog develops a cough within 10 days of contact with other dogs, call us. Most cases are straightforward, but it is always better to confirm than to risk missing a secondary infection.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How do I know if my dog has kennel cough?", a: "The characteristic sign is a harsh, dry, honking cough -- often triggered by excitement or lead pressure on the throat. The dog usually remains otherwise well. If you are unsure, call us: we can often make an initial assessment by phone based on the description of the cough." },
+      { q: "Is kennel cough contagious to other dogs?", a: "Yes, highly. Kennel cough spreads through respiratory droplets and is contagious before symptoms appear. Keep your dog away from other dogs and public dog areas until they have been cough-free for at least a week, or until your vet advises it is safe." },
+      { q: "Is kennel cough contagious to humans or cats?", a: "In healthy humans, kennel cough does not pose a risk. In severely immunocompromised people, there is a theoretical low risk from Bordetella -- discuss this with your doctor if relevant. Cats can contract Bordetella but it is uncommon. The main concern is spread between dogs." },
+      { q: "How long does kennel cough last?", a: "In healthy adult dogs, 1 to 3 weeks. Puppies, senior dogs, and dogs with underlying conditions may take longer to recover and are at higher risk of secondary pneumonia. If symptoms persist beyond 3 weeks or the dog develops fever and lethargy, see your vet." },
+      { q: "My dog was vaccinated against kennel cough -- can they still get it?", a: "Yes, but vaccination significantly reduces the severity and duration of illness. The Bordetella vaccine covers the most common bacterial cause. Other agents (parainfluenza, adenovirus) are covered by the standard DHPPi vaccine, but there are additional viruses that can cause kennel cough-like illness that no current vaccine covers." },
+      { q: "Does my dog need the Bordetella vaccine if they don't go to kennels?", a: "If your dog visits dog parks, groomers, training classes, or dog-friendly cafes in Dubai, they have regular contact with other dogs and we recommend the vaccine. It's not just kennels -- any situation where dogs share air or surfaces is a transmission risk." },
     ],
   },
 ]
