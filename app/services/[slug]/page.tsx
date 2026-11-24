@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { services, getService } from '../data'
 import type { Metadata } from 'next'
 
@@ -172,6 +173,24 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               {service.whyUs}
             </p>
           </section>
+
+          {/* Specialist card */}
+          {service.specialist && (
+            <section className="rounded-2xl border border-[var(--color-border)] p-6 flex items-start gap-5">
+              <Image
+                src={service.specialist.photo}
+                alt={service.specialist.name}
+                width={72}
+                height={72}
+                className="rounded-full object-cover shrink-0 w-16 h-16 sm:w-18 sm:h-18"
+              />
+              <div>
+                <p className="font-bold text-[var(--color-navy)]">{service.specialist.name}</p>
+                <p className="text-sm mb-2" style={{ color: 'var(--color-brand)' }}>{service.specialist.role}</p>
+                <p className="text-sm text-[var(--color-gray-mid)] leading-relaxed">{service.specialist.bio}</p>
+              </div>
+            </section>
+          )}
 
           {/* Book CTA */}
           <section className="text-center rounded-2xl p-8" style={{ backgroundColor: slug === 'emergency-care' ? '#dc2626' : 'var(--color-brand)' }}>

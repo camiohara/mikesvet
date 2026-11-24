@@ -7,6 +7,7 @@ export type Service = {
   bullets: string[]
   conditions?: string[]
   whyUs: string
+  specialist?: { name: string; role: string; photo: string; bio: string }
   faqs: { q: string; a: string }[]
 }
 
@@ -182,7 +183,7 @@ export const services: Service[] = [
     slug: 'pet-ultrasound',
     name: 'Ultrasound & X-Ray',
     tagline: 'In-house ultrasound and X-ray - answers today, not next week.',
-    metaDescription: "Pet ultrasound and X-ray in Dubai at Mike's Vet. Mindray Vetus9 ultrasound with full cardiology suite, digital radiography, same-day results. No referral needed. Hessa Street, open 7 days.",
+    metaDescription: "Pet ultrasound and X-ray in Dubai at Mike's Vet. Mindray Vetus9 ultrasound performed by Dr. Feth Mazari DVM GP Cert Ultrasound. Digital radiography, same-day results. No referral needed. Hessa Street, open 7 days.",
     intro: "When your pet is unwell, waiting days for imaging results is not an option. Our clinic runs a Mindray Vetus9 - one of the most advanced veterinary ultrasound platforms available - alongside digital radiography, giving our vets a detailed diagnostic picture within minutes, without sending you to an external imaging centre.",
     bullets: [
       'Mindray Vetus9 ultrasound - Zone Sonography Technology (ZST+) for exceptional image clarity',
@@ -194,7 +195,13 @@ export const services: Service[] = [
       'Same-day results - no external referral required',
     ],
     conditions: ['Respiratory disease', 'Heart enlargement or fluid', 'Abdominal masses', 'Bladder stones', 'Fractures', 'Foreign body ingestion', 'Pregnancy', 'Cardiac disease'],
-    whyUs: "The Mindray Vetus9 is the same platform used in leading referral hospitals. Having it in-house at Hessa Street means your vet reads the images themselves - no miscommunication, no waiting, no second visit.",
+    whyUs: "The Mindray Vetus9 is the same platform used in leading referral hospitals. Our ultrasound examinations are performed by Dr. Feth Mazari DVM, who holds a GP Certificate in Ultrasound - specialist-level imaging in-house at Hessa Street, without the wait or cost of an external referral centre.",
+    specialist: {
+      name: 'Dr. Feth Mazari',
+      role: 'DVM, GP Cert in Ultrasound',
+      photo: '/vets/feth.jpg',
+      bio: 'Dr. Feth holds a GP Certificate in Ultrasound and leads all diagnostic imaging at Mike\'s Vet. He performs abdominal, cardiac, and guided ultrasound procedures on our Mindray Vetus9 platform - the same equipment used in specialist referral centres.',
+    },
     faqs: [
       { q: 'What ultrasound machine does Mike\'s Vet use?', a: "We use the Mindray Vetus9 - a premium veterinary ultrasound platform with Zone Sonography Technology (ZST+), tissue Doppler, contrast imaging, elastography, and a full cardiology suite including echocardiography. It's the same level of technology found in specialist referral centres." },
       { q: 'Does my pet need sedation for an X-ray?', a: "Not always. Many cooperative pets can be X-rayed without sedation. For painful or anxious pets, or when precise positioning is needed, light sedation may be recommended for their comfort and image quality." },
