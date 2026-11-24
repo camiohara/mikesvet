@@ -6,6 +6,7 @@ import Image from 'next/image'
 
 const servicesItems = [
   { href: '/services', label: 'All Services' },
+  { href: '/second-opinion', label: 'Second Opinion' },
   { href: '/pricing', label: 'Pricing' },
   { href: '/services/home-visit', label: 'Home Visit' },
   { href: '/services/pet-ultrasound', label: 'Ultrasound & X-Ray' },
