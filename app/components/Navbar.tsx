@@ -8,6 +8,9 @@ const servicesItems = [
   { href: '/services', label: 'All Services' },
   { href: '/pricing', label: 'Pricing' },
   { href: '/services/home-visit', label: 'Home Visit' },
+  { href: '/services/imaging-xray', label: 'Ultrasound & X-Ray' },
+  { href: '/services/soft-tissue-surgery', label: 'Soft Tissue Surgery' },
+  { href: '/services/orthopaedic-surgery', label: 'Orthopaedic Surgery' },
   { href: '/senior-pets', label: 'Senior Pets' },
   { href: '/end-of-life-care', label: 'End of Life Care' },
 ]

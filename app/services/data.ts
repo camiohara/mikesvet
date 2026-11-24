@@ -180,9 +180,9 @@ export const services: Service[] = [
   },
   {
     slug: 'imaging-xray',
-    name: 'Imaging & X-Ray',
-    tagline: 'In-house imaging means answers today - not next week.',
-    metaDescription: "Digital X-ray and ultrasound for pets in Dubai at Mike's Vet. Mindray Vetus9 ultrasound with cardiology suite, digital radiography, same-day results. Hessa Street, open 7 days.",
+    name: 'Ultrasound & X-Ray',
+    tagline: 'In-house ultrasound and X-ray - answers today, not next week.',
+    metaDescription: "Pet ultrasound and X-ray in Dubai at Mike's Vet. Mindray Vetus9 ultrasound with full cardiology suite, digital radiography, same-day results. No referral needed. Hessa Street, open 7 days.",
     intro: "When your pet is unwell, waiting days for imaging results is not an option. Our clinic runs a Mindray Vetus9 - one of the most advanced veterinary ultrasound platforms available - alongside digital radiography, giving our vets a detailed diagnostic picture within minutes, without sending you to an external imaging centre.",
     bullets: [
       'Mindray Vetus9 ultrasound - Zone Sonography Technology (ZST+) for exceptional image clarity',
