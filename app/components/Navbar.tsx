@@ -39,6 +39,7 @@ export default function Navbar() {
           <Link href="/#team" className="hidden lg:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Team</Link>
           <Link href="/#about" className="hidden xl:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Our Story</Link>
           <Link href="/senior-pets" className="hidden lg:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Senior Pets</Link>
+          <Link href="/end-of-life-care" className="hidden xl:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">End of Life</Link>
           <Link href="/adoptions" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Adoptions</Link>
           <Link href="/blog" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Blog</Link>
           <Link href="/#press" className="hidden xl:inline hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">Press</Link>
@@ -86,6 +87,7 @@ export default function Navbar() {
             { href: '/#team', label: 'Our Team' },
             { href: '/#about', label: 'Our Story' },
             { href: '/senior-pets', label: 'Senior Pets' },
+            { href: '/end-of-life-care', label: 'End of Life Care' },
             { href: '/adoptions', label: 'Adoptions' },
             { href: '/blog', label: 'Blog' },
             { href: '/#press', label: 'Press' },
