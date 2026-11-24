@@ -179,7 +179,7 @@ export const services: Service[] = [
     ],
   },
   {
-    slug: 'imaging-xray',
+    slug: 'pet-ultrasound',
     name: 'Ultrasound & X-Ray',
     tagline: 'In-house ultrasound and X-ray - answers today, not next week.',
     metaDescription: "Pet ultrasound and X-ray in Dubai at Mike's Vet. Mindray Vetus9 ultrasound with full cardiology suite, digital radiography, same-day results. No referral needed. Hessa Street, open 7 days.",

@@ -7,7 +7,7 @@ const slugMap: Record<string, string> = {
   'Dental Care': 'dental-care',
   'Spay & Neuter': 'spay-neuter',
   'Soft Tissue Surgery': 'soft-tissue-surgery',
-  'Imaging & X-Ray': 'imaging-xray',
+  'Ultrasound & X-Ray': 'pet-ultrasound',
   'Orthopaedic Surgery': 'orthopaedic-surgery',
   'In-House Laboratory': 'in-house-laboratory',
   'Ophthalmology': 'ophthalmology',
@@ -91,8 +91,8 @@ const services = [
     ),
   },
   {
-    name: 'Imaging & X-Ray',
-    description: 'In-house digital X-ray and ultrasound imaging for fast, accurate internal assessments - results without the wait of external referrals.',
+    name: 'Ultrasound & X-Ray',
+    description: 'In-house digital ultrasound and X-ray imaging for fast, accurate internal assessments - results without the wait of external referrals.',
     icon: (
       <svg viewBox="0 0 64 64" fill="none" className="w-16 h-16">
         <rect x="10" y="14" width="44" height="36" rx="4" fill="var(--color-brand)" opacity=".12"/>
