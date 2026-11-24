@@ -114,6 +114,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
+      url: 'https://www.mikesvet.com/microchipping',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
       url: 'https://www.mikesvet.com/pricing',
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
