@@ -18,6 +18,7 @@ function toArabic(path: string): string {
   if (path === '/senior-pets') return '/ar/services/senior-pets'
   if (path === '/end-of-life-care') return '/ar/services/end-of-life-care'
   if (path.startsWith('/services/')) return `/ar${path}`
+  if (path.startsWith('/team')) return '/ar/team'
   return '/ar'
 }
 
