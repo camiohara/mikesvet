@@ -16,6 +16,7 @@ function toEnglish(path: string): string {
   if (path === '/ar/pet-travel') return '/dubai-pet-travel'
   if (path === '/ar/services') return '/services'
   if (path.startsWith('/ar/services/')) return path.replace('/ar', '')
+  if (path.startsWith('/ar/team/')) return path.replace('/ar', '')
   return '/'
 }
 

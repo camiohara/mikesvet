@@ -248,6 +248,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
+    ...vets.map((v) => ({
+      url: `https://www.mikesvet.com/ar/team/${v.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
     {
       url: 'https://www.mikesvet.com/ar/home-visit',
       lastModified: new Date(),

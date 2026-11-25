@@ -15,7 +15,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: { absolute: vet.metaTitle },
     description: vet.metaDescription,
-    alternates: { canonical: `https://www.mikesvet.com/team/${vet.slug}` },
+    alternates: {
+      canonical: `https://www.mikesvet.com/team/${vet.slug}`,
+      languages: {
+        en: `https://www.mikesvet.com/team/${vet.slug}`,
+        ar: `https://www.mikesvet.com/ar/team/${vet.slug}`,
+      },
+    },
     openGraph: {
       title: vet.metaTitle,
       description: vet.metaDescription,

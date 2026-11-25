@@ -47,7 +47,7 @@ export default function ArTeamPage() {
             return (
               <Link
                 key={vet.slug}
-                href={`/team/${vet.slug}`}
+                href={`/ar/team/${vet.slug}`}
                 className="group rounded-2xl border border-[var(--color-border)] overflow-hidden hover:border-[var(--color-brand)] hover:shadow-md transition-all bg-white"
               >
                 <div className="relative h-56 w-full bg-[var(--color-brand-light)]">
