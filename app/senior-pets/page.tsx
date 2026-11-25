@@ -13,7 +13,10 @@ export const metadata: Metadata = {
     'pet bloodwork Dubai', 'joint pain dog Dubai', 'cognitive dysfunction dog Dubai',
     'dental disease cat Dubai', 'weight management pet Dubai',
   ],
-  alternates: { canonical: 'https://www.mikesvet.com/senior-pets' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/senior-pets',
+    languages: { en: 'https://www.mikesvet.com/senior-pets', ar: 'https://www.mikesvet.com/ar/services/senior-pets' },
+  },
   openGraph: {
     title: "Senior Pet Vet Dubai | Geriatric Care for Dogs & Cats | Mike's Vet",
     description:

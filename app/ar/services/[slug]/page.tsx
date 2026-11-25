@@ -12,7 +12,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${s.name} | عيادة مايك للبيطرة، دبي`,
     description: s.metaDescription,
-    alternates: { canonical: `https://www.mikesvet.com/ar/services/${slug}` },
+    alternates: {
+      canonical: `https://www.mikesvet.com/ar/services/${slug}`,
+      languages: { ar: `https://www.mikesvet.com/ar/services/${slug}`, en: `https://www.mikesvet.com/services/${slug}` },
+    },
     openGraph: {
       title: `${s.name} | عيادة مايك`,
       description: s.metaDescription,

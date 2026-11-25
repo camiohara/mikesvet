@@ -13,7 +13,10 @@ export const metadata: Metadata = {
     'end of life care pet Dubai', 'palliative care pet Dubai', 'pet hospice Dubai',
     'pet goodbye Dubai', 'euthanasia at home Dubai', 'pet death Dubai',
   ],
-  alternates: { canonical: 'https://www.mikesvet.com/end-of-life-care' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/end-of-life-care',
+    languages: { en: 'https://www.mikesvet.com/end-of-life-care', ar: 'https://www.mikesvet.com/ar/services/end-of-life-care' },
+  },
   openGraph: {
     title: "Pet Euthanasia Dubai | End of Life Care | Mike's Vet",
     description:

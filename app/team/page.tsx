@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: "Our Veterinary Team in Dubai | Mike's Vet",
   description:
     "Meet the international team of vets at Mike's Vet on Hessa Street, Dubai. Six experienced small animal veterinarians specialising in surgery, internal medicine, and diagnostics.",
-  alternates: { canonical: 'https://www.mikesvet.com/team' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/team',
+    languages: { en: 'https://www.mikesvet.com/team', ar: 'https://www.mikesvet.com/ar/team' },
+  },
   openGraph: {
     title: "Our Veterinary Team | Mike's Vet Dubai",
     description:

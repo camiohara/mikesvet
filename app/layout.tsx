@@ -65,6 +65,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.mikesvet.com',
+    languages: { en: 'https://www.mikesvet.com', ar: 'https://www.mikesvet.com/ar' },
   },
 };
 

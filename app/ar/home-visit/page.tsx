@@ -4,7 +4,10 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'زيارة بيطرية منزلية في دبي | عيادة مايك — 420 درهم',
   description: 'خدمة الزيارة البيطرية المنزلية في دبي. طبيب بيطري يجيء إليك في JVC والبرشاء والسبرينغز وجميرا والنخلة وجي بي آر. 420 درهم + ضريبة القيمة المضافة.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/home-visit' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/home-visit',
+    languages: { ar: 'https://www.mikesvet.com/ar/home-visit', en: 'https://www.mikesvet.com/home-visit' },
+  },
   openGraph: {
     title: 'زيارة بيطرية منزلية في دبي | عيادة مايك',
     description: 'طبيب بيطري يجيء إليك في أي منطقة بدبي. 420 درهم + ضريبة القيمة المضافة.',

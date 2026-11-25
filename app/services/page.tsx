@@ -19,7 +19,10 @@ export const metadata: Metadata = {
   title: "Vet Services in Dubai | Mike's Vet, Hessa Street",
   description:
     "Complete veterinary services for cats and dogs in Dubai - vaccinations, dental care, surgery, imaging, emergency care, and more. Open 7 days at Mike's Vet, Hessa Street.",
-  alternates: { canonical: 'https://www.mikesvet.com/services' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/services',
+    languages: { en: 'https://www.mikesvet.com/services', ar: 'https://www.mikesvet.com/ar/services' },
+  },
   openGraph: {
     title: "Vet Services in Dubai | Mike's Vet",
     description:

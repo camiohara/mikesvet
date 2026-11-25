@@ -6,7 +6,10 @@ import { vets } from '../../team/data'
 export const metadata: Metadata = {
   title: 'فريقنا البيطري | عيادة مايك للبيطرة، دبي',
   description: 'تعرف على فريق أطبائنا البيطريين الدوليين في عيادة مايك على شارع حصة. ستة أطباء متخصصون من إيطاليا وأيرلندا والجزائر ومصر ولبنان وباكستان.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/team' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/team',
+    languages: { ar: 'https://www.mikesvet.com/ar/team', en: 'https://www.mikesvet.com/team' },
+  },
 }
 
 const vetTranslations: Record<string, { origin: string; specialties: string }> = {

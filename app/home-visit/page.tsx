@@ -5,7 +5,10 @@ export const metadata: Metadata = {
   title: "Vet Home Visit Dubai | Mike's Vet, Hessa Street",
   description:
     "Mike's Vet comes to you. Vet home visits across all of Dubai from AED 420 travel fee. Same experienced team, same standard of care — in your home.",
-  alternates: { canonical: 'https://www.mikesvet.com/home-visit' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/home-visit',
+    languages: { en: 'https://www.mikesvet.com/home-visit', ar: 'https://www.mikesvet.com/ar/home-visit' },
+  },
   openGraph: {
     title: "Vet Home Visit Dubai | Mike's Vet",
     description:

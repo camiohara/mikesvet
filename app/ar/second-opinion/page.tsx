@@ -4,7 +4,10 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'رأي ثانٍ من طبيب بيطري في دبي | عيادة مايك',
   description: 'احصل على رأي ثانٍ مستقل من طبيب بيطري مختلف في دبي. مناسب للحالات المعقدة والتشخيصات المتعارضة وقبل أي جراحة كبرى. 340 درهم.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/second-opinion' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/second-opinion',
+    languages: { ar: 'https://www.mikesvet.com/ar/second-opinion', en: 'https://www.mikesvet.com/second-opinion' },
+  },
   openGraph: {
     title: 'رأي ثانٍ من طبيب بيطري في دبي | عيادة مايك',
     description: 'تقييم مستقل من طبيب بيطري مختلف. 340 درهم. مفتوح 7 أيام.',

@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     'dog second opinion Dubai', 'cat second opinion Dubai', 'independent vet opinion Dubai',
     'vet diagnosis review Dubai', 'second vet opinion surgery Dubai',
   ],
-  alternates: { canonical: 'https://www.mikesvet.com/second-opinion' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/second-opinion',
+    languages: { en: 'https://www.mikesvet.com/second-opinion', ar: 'https://www.mikesvet.com/ar/second-opinion' },
+  },
   openGraph: {
     title: "Vet Second Opinion Dubai | Mike's Vet",
     description:

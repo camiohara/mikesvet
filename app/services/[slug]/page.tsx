@@ -15,7 +15,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: service.name.includes('Dubai') ? `${service.name} | Mike's Vet, Hessa Street` : `${service.name} in Dubai | Mike's Vet`,
     description: service.metaDescription,
-    alternates: { canonical: `https://www.mikesvet.com/services/${slug}` },
+    alternates: {
+      canonical: `https://www.mikesvet.com/services/${slug}`,
+      languages: { en: `https://www.mikesvet.com/services/${slug}`, ar: `https://www.mikesvet.com/ar/services/${slug}` },
+    },
     openGraph: {
       title: service.name.includes('Dubai') ? `${service.name} | Mike's Vet, Hessa Street` : `${service.name} for Cats & Dogs in Dubai | Mike's Vet`,
       description: service.metaDescription,

@@ -3,7 +3,10 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'تأمين الحيوانات الأليفة في دبي | عيادة مايك',
   description: 'نقبل جميع وثائق تأمين الحيوانات الأليفة في عيادة مايك دبي. فهم كيفية استخدام التأمين البيطري في الإمارات، متطلبات المطالبة، وأفضل شركات التأمين.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/pet-insurance' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/pet-insurance',
+    languages: { ar: 'https://www.mikesvet.com/ar/pet-insurance', en: 'https://www.mikesvet.com/pet-insurance-dubai' },
+  },
   openGraph: {
     title: 'تأمين الحيوانات الأليفة في دبي | عيادة مايك',
     description: 'نقبل جميع وثائق تأمين الحيوانات الأليفة. دفع أولاً ثم استرداد من شركة التأمين.',

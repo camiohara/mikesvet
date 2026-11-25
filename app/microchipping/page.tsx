@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Pet Microchipping Dubai | Dogs & Cats | Mike's Vet, Hessa Street",
   description:
     "Microchipping for dogs and cats in Dubai at Mike's Vet. ISO 15-digit chip, Dubai Municipality compliant, same-day walk-in. Required for all pets in Dubai. Open 7 days on Hessa Street.",
-  alternates: { canonical: 'https://www.mikesvet.com/microchipping' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/microchipping',
+    languages: { en: 'https://www.mikesvet.com/microchipping', ar: 'https://www.mikesvet.com/ar/microchipping' },
+  },
   openGraph: {
     title: "Pet Microchipping Dubai | Dogs & Cats | Mike's Vet",
     description:

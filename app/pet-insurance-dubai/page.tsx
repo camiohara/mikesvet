@@ -4,7 +4,10 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: "Pet Insurance Dubai | Pay and Claim at Mike's Vet",
   description: "Mike's Vet works with all pet insurance providers in Dubai. Pay and claim: you pay your bill, we provide a full itemised invoice and medical records, you claim back from your insurer. Open 7 days, Hessa Street.",
-  alternates: { canonical: 'https://www.mikesvet.com/pet-insurance-dubai' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/pet-insurance-dubai',
+    languages: { en: 'https://www.mikesvet.com/pet-insurance-dubai', ar: 'https://www.mikesvet.com/ar/pet-insurance' },
+  },
   openGraph: {
     title: "Pet Insurance Dubai | Pay and Claim at Mike's Vet",
     description: "Mike's Vet works with all pet insurance providers in Dubai. Pay and claim: you pay your bill, we provide a full itemised invoice and medical records, you claim back from your insurer. Open 7 days, Hessa Street.",

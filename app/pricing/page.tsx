@@ -5,7 +5,10 @@ export const metadata: Metadata = {
   title: "Vet Pricing Dubai | Mike's Vet, Hessa Street",
   description:
     "Transparent, all-inclusive pricing for consultations, vaccinations, desexing, dentals, and more at Mike's Vet Dubai. All prices include 5% VAT.",
-  alternates: { canonical: 'https://www.mikesvet.com/pricing' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/pricing',
+    languages: { en: 'https://www.mikesvet.com/pricing', ar: 'https://www.mikesvet.com/ar/pricing' },
+  },
   openGraph: {
     title: "Transparent Vet Pricing | Mike's Vet Dubai",
     description:

@@ -3,7 +3,10 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'الشريحة الإلكترونية للحيوانات في دبي | عيادة مايك — 150 درهم',
   description: 'زراعة الشريحة الإلكترونية للقطط والكلاب في دبي. 150 درهم. مطلوبة قانوناً في دبي للكلاب. تسجيل فوري في قاعدة بيانات الإمارات. عيادة مايك على شارع حصة.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/microchipping' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/microchipping',
+    languages: { ar: 'https://www.mikesvet.com/ar/microchipping', en: 'https://www.mikesvet.com/microchipping' },
+  },
   openGraph: {
     title: 'الشريحة الإلكترونية للحيوانات في دبي | عيادة مايك',
     description: 'زراعة الشريحة الإلكترونية للقطط والكلاب. 150 درهم. مطلوبة قانوناً للكلاب في دبي.',

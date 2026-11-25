@@ -3,7 +3,10 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'سفر الحيوانات الأليفة من دبي | شهادات الصحة والوثائق | عيادة مايك',
   description: 'خدمة وثائق سفر الحيوانات من دبي. شهادات الصحة، التيتر لداء الكلب، متطلبات استيراد وتصدير القطط والكلاب. عيادة مايك على شارع حصة.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/pet-travel' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/pet-travel',
+    languages: { ar: 'https://www.mikesvet.com/ar/pet-travel', en: 'https://www.mikesvet.com/dubai-pet-travel' },
+  },
   openGraph: {
     title: 'سفر الحيوانات الأليفة من دبي | عيادة مايك',
     description: 'وثائق السفر، شهادات الصحة، ومتطلبات الاستيراد والتصدير للقطط والكلاب من دبي.',

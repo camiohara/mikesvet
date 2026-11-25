@@ -5,7 +5,10 @@ import { arServices } from '../data/services'
 export const metadata: Metadata = {
   title: 'خدماتنا البيطرية | عيادة مايك للبيطرة، دبي',
   description: 'خدمات بيطرية شاملة للقطط والكلاب في دبي. استشارات، تطعيمات، جراحة، أسنان، موجات فوق صوتية وأكثر. عيادة مايك على شارع حصة.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/services' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/services',
+    languages: { ar: 'https://www.mikesvet.com/ar/services', en: 'https://www.mikesvet.com/services' },
+  },
 }
 
 const extraServices = [

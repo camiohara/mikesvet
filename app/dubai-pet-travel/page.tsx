@@ -4,7 +4,10 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: "Moving to Dubai with Pets | Pet Import & Export Guide | Mike's Vet",
   description: "Complete guide to moving to Dubai with a dog or cat, and exporting pets from the UAE. Health certificates, import permits, vaccines, blood titer tests -- Mike's Vet handles it all. Open 7 days, Hessa Street.",
-  alternates: { canonical: 'https://www.mikesvet.com/dubai-pet-travel' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/dubai-pet-travel',
+    languages: { en: 'https://www.mikesvet.com/dubai-pet-travel', ar: 'https://www.mikesvet.com/ar/pet-travel' },
+  },
   openGraph: {
     title: "Moving to Dubai with Pets | Pet Import & Export Guide | Mike's Vet",
     description: "Complete guide to moving to Dubai with a dog or cat, and exporting pets from the UAE. Health certificates, import permits, vaccines, blood titer tests -- Mike's Vet handles it all.",

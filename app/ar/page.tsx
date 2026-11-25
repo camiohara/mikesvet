@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "عيادة مايك للبيطرة في شارع حصة، دبي. 513 تقييماً بمعدل 4.8 نجوم على جوجل. مفتوحون 7 أيام في الأسبوع من الساعة 9 صباحاً حتى 9:30 مساءً. نعالج القطط والكلاب.",
   alternates: {
     canonical: 'https://www.mikesvet.com/ar',
-    languages: { ar: 'https://www.mikesvet.com/ar' },
+    languages: { ar: 'https://www.mikesvet.com/ar', en: 'https://www.mikesvet.com' },
   },
   openGraph: {
     title: "عيادة بيطرية في دبي | مايك فيت",

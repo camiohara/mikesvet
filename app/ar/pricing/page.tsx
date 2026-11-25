@@ -4,7 +4,10 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'أسعار الخدمات البيطرية | عيادة مايك للبيطرة، دبي',
   description: 'أسعار شفافة وواضحة لجميع خدمات عيادة مايك في دبي. الاستشارات، التطعيمات، الجراحة، الأسنان وأكثر. جميع الأسعار تشمل ضريبة القيمة المضافة 5%.',
-  alternates: { canonical: 'https://www.mikesvet.com/ar/pricing' },
+  alternates: {
+    canonical: 'https://www.mikesvet.com/ar/pricing',
+    languages: { ar: 'https://www.mikesvet.com/ar/pricing', en: 'https://www.mikesvet.com/pricing' },
+  },
 }
 
 type SimpleTile = { type: 'simple'; name: string; price: number; note?: string }
