@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
+import { vets } from '../team/data'
 
 export const metadata: Metadata = {
   title: "عيادة بيطرية في دبي | مايك فيت — شارع حصة",
@@ -46,57 +48,53 @@ const faqSchema = {
     {
       '@type': 'Question',
       name: 'ما هي أوقات عمل عيادة مايك للبيطرة؟',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'العيادة مفتوحة 7 أيام في الأسبوع من الساعة 9:00 صباحاً حتى 9:30 مساءً، بما في ذلك أيام الجمعة والسبت.',
-      },
+      acceptedAnswer: { '@type': 'Answer', text: 'العيادة مفتوحة 7 أيام في الأسبوع من الساعة 9:00 صباحاً حتى 9:30 مساءً، بما في ذلك أيام الجمعة والسبت.' },
     },
     {
       '@type': 'Question',
       name: 'ما هي الخدمات البيطرية المتوفرة في عيادة مايك؟',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'نقدم خدمات الكشف والتطعيمات وجراحة الأنسجة الرخوة وجراحة العظام والأسنان والتصوير بالموجات فوق الصوتية والأشعة السينية والرعاية الطارئة والزيارات المنزلية.',
-      },
+      acceptedAnswer: { '@type': 'Answer', text: 'نقدم خدمات الكشف والتطعيمات وجراحة الأنسجة الرخوة وجراحة العظام والأسنان والتصوير بالموجات فوق الصوتية والرعاية الطارئة والزيارات المنزلية.' },
     },
     {
       '@type': 'Question',
       name: 'أين تقع عيادة مايك للبيطرة في دبي؟',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'العيادة تقع في شارع حصة، دبي، بالقرب من مناطق JVC وبرشاء وموتور سيتي وميدان دبي الرياضي وريمرام.',
-      },
+      acceptedAnswer: { '@type': 'Answer', text: 'العيادة تقع في شارع حصة، دبي، بالقرب من مناطق JVC وبرشاء وموتور سيتي ومدينة دبي الرياضية والسبرينغز.' },
     },
     {
       '@type': 'Question',
       name: 'هل تعملون مع شركات التأمين على الحيوانات الأليفة؟',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'نعم، نقبل جميع وثائق تأمين الحيوانات الأليفة. النظام المتبع هو "الدفع أولاً ثم استرداد المبلغ" من شركة التأمين.',
-      },
+      acceptedAnswer: { '@type': 'Answer', text: 'نعم، نقبل جميع وثائق تأمين الحيوانات الأليفة. النظام المتبع هو "الدفع أولاً ثم استرداد المبلغ" من شركة التأمين.' },
     },
     {
       '@type': 'Question',
       name: 'هل يمكنني حجز موعد عبر الواتساب؟',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'نعم، يمكنك التواصل معنا عبر الواتساب على رقم 97142837744+ أو من خلال نموذج الحجز على الموقع الإلكتروني.',
-      },
+      acceptedAnswer: { '@type': 'Answer', text: 'نعم، يمكنك التواصل معنا عبر الواتساب على رقم 97142837744+ أو من خلال نموذج الحجز على الموقع الإلكتروني.' },
     },
   ],
 }
 
+const vetAr: Record<string, { role: string; specialties: string[] }> = {
+  'debora-ferraris': { role: 'DVM، متخصصة في جراحة الحيوانات الصغيرة', specialties: ['جراحة العظام', 'الجراحة العامة', 'الطب الباطني'] },
+  'nick-stokes': { role: 'DVM GPCert SAS', specialties: ['جراحة الأنسجة الرخوة', 'جراحة العظام'] },
+  'feth-mazari': { role: 'DVM، شهادة GP Cert في الموجات فوق الصوتية', specialties: ['جراحة الأنسجة الرخوة', 'التصوير بالأشعة', 'التنظير'] },
+  'jana-khazaal': { role: 'DVM', specialties: ['الطب الباطني', 'التشخيص', 'طب الطوارئ'] },
+  'eslam-asran': { role: 'DVM، BVSc', specialties: ['الطب الباطني', 'الموجات فوق الصوتية'] },
+  'mohamad-hassan': { role: 'DVM', specialties: ['جراحة الأنسجة الرخوة', 'جراحة العظام', 'الطب الباطني'] },
+}
+
 const services = [
-  { ar: 'الكشف والاستشارة', en: 'Consultation', href: '/ar/services/consultations' },
-  { ar: 'التطعيمات', en: 'Vaccinations', href: '/ar/services/vaccinations' },
-  { ar: 'جراحة الأنسجة الرخوة', en: 'Soft Tissue Surgery', href: '/ar/services/soft-tissue-surgery' },
-  { ar: 'جراحة العظام', en: 'Orthopaedic Surgery', href: '/ar/services/orthopaedic-surgery' },
-  { ar: 'تنظيف الأسنان', en: 'Dental Care', href: '/ar/services/dental-care' },
-  { ar: 'الموجات فوق الصوتية والأشعة', en: 'Ultrasound & X-Ray', href: '/ar/services/pet-ultrasound' },
-  { ar: 'المختبر الداخلي', en: 'In-House Lab', href: '/ar/services/in-house-laboratory' },
-  { ar: 'رعاية طارئة', en: 'Emergency Care', href: '/ar/services/emergency-care' },
-  { ar: 'زيارات منزلية', en: 'Home Visits', href: '/ar/home-visit' },
-  { ar: 'رعاية كبار السن من الحيوانات', en: 'Senior Pets', href: '/ar/services/senior-pets' },
+  { ar: 'الكشف والاستشارة', href: '/ar/services/consultations' },
+  { ar: 'التطعيمات', href: '/ar/services/vaccinations' },
+  { ar: 'جراحة الأنسجة الرخوة', href: '/ar/services/soft-tissue-surgery' },
+  { ar: 'جراحة العظام', href: '/ar/services/orthopaedic-surgery' },
+  { ar: 'تنظيف الأسنان', href: '/ar/services/dental-care' },
+  { ar: 'الموجات فوق الصوتية', href: '/ar/services/pet-ultrasound' },
+  { ar: 'المختبر الداخلي', href: '/ar/services/in-house-laboratory' },
+  { ar: 'رعاية طارئة', href: '/ar/services/emergency-care' },
+  { ar: 'زيارات منزلية', href: '/ar/home-visit' },
+  { ar: 'رعاية كبار السن', href: '/ar/services/senior-pets' },
+  { ar: 'الشريحة الإلكترونية', href: '/ar/microchipping' },
+  { ar: 'تأمين الحيوانات', href: '/ar/pet-insurance' },
 ]
 
 export default function ArabicPage() {
@@ -106,7 +104,7 @@ export default function ArabicPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
-      <section className="py-16 sm:py-24" style={{ backgroundColor: 'var(--color-brand-light)' }}>
+      <section className="py-20 sm:py-28" style={{ backgroundColor: 'var(--color-brand-light)' }}>
         <div className="max-w-3xl mx-auto px-6 text-center">
           <p className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'var(--color-brand)' }}>
             شارع حصة، دبي · مفتوح 7 أيام
@@ -120,14 +118,11 @@ export default function ArabicPage() {
           <p className="text-lg text-[var(--color-gray-mid)] leading-relaxed mb-3 max-w-xl mx-auto">
             رعاية بيطرية متخصصة لقطتك وكلبك في دبي
           </p>
-
-          {/* Stars */}
           <div className="flex items-center justify-center gap-2 mb-8">
             <span className="text-yellow-400 text-xl">★★★★★</span>
             <span className="font-bold text-[var(--color-navy)]">4.8</span>
             <span className="text-sm text-[var(--color-gray-mid)]">— 513 تقييماً على جوجل</span>
           </div>
-
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="https://wa.me/97142837744?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D9%85%D8%A7%D9%8A%D9%83"
@@ -144,9 +139,6 @@ export default function ArabicPage() {
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 transition-colors hover:text-white hover:bg-[var(--color-brand)]"
               style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
             >
-              <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4" aria-hidden="true">
-                <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
-              </svg>
               04 283 7744
             </a>
           </div>
@@ -155,203 +147,186 @@ export default function ArabicPage() {
 
       {/* Trust bar */}
       <div className="bg-[var(--color-navy)] text-white">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex flex-wrap justify-center gap-6 text-sm font-medium text-center">
-          <span>🕘 مفتوح من 9 صباحاً – 9:30 مساءً</span>
+        <div className="max-w-4xl mx-auto px-6 py-4 flex flex-wrap justify-center gap-6 text-sm font-medium">
+          <span>🕘 9 ص – 9:30 م</span>
           <span>📅 7 أيام في الأسبوع</span>
           <span>📍 شارع حصة، دبي</span>
           <span>⭐ 4.8 نجوم · 513 تقييماً</span>
         </div>
       </div>
 
-      {/* Why Mike's Vet */}
-      <section className="py-16 max-w-4xl mx-auto px-6">
-        <h2
-          className="text-2xl sm:text-3xl font-bold text-[var(--color-navy)] mb-10 text-center"
-          style={{ fontFamily: 'Georgia, serif' }}
-        >
-          لماذا يثق أصحاب الحيوانات الأليفة بعيادة مايك؟
-        </h2>
-        <div className="grid sm:grid-cols-2 gap-5">
-          {[
-            {
-              icon: '🏥',
-              title: 'جراحة متخصصة تحت سقف واحد',
-              body: 'نُجري عمليات TPLO لجراحة الرباط الصليبي وجراحات الأنسجة الرخوة والأسنان في عيادتنا — دون الحاجة إلى إحالتك لجهة أخرى.',
-            },
-            {
-              icon: '🔬',
-              title: 'مختبر وتصوير داخلي',
-              body: 'مختبر IDEXX كامل وجهاز موجات فوق صوتية Mindray Vetus9 بمعايير المستشفيات المتخصصة — نتائج في نفس اليوم.',
-            },
-            {
-              icon: '👨‍⚕️',
-              title: 'فريق من 6 أطباء بيطريين دوليين',
-              body: 'أطباؤنا متخصصون في الجراحة والطب الباطني والتصوير التشخيصي، قادمون من إيطاليا وأيرلندا والجزائر ومصر وباكستان ولبنان.',
-            },
-            {
-              icon: '💊',
-              title: 'تأمين الحيوانات الأليفة',
-              body: 'نعمل مع جميع شركات التأمين. ادفع في العيادة واسترد مبلغك من شركتك. نُعطيك كافة الوثائق المطلوبة.',
-            },
-            {
-              icon: '🏠',
-              title: 'زيارات منزلية',
-              body: 'نزورك في منزلك بأي منطقة في دبي. رسوم التنقل من 420 درهماً. مثالية للقطط والحيوانات التي تعاني من القلق.',
-            },
-            {
-              icon: '🌙',
-              title: 'ساعات عمل مرنة',
-              body: 'مفتوحون حتى 9:30 مساءً كل يوم، بما في ذلك أيام الجمعة والسبت — لأن حيوانك الأليف لا يعرف الإجازات.',
-            },
-          ].map((item) => (
-            <div
-              key={item.title}
-              className="rounded-2xl border border-[var(--color-border)] p-6"
-              style={{ backgroundColor: 'var(--color-brand-light)' }}
-            >
-              <span className="text-3xl mb-3 block">{item.icon}</span>
-              <h3 className="font-bold text-[var(--color-navy)] mb-2">{item.title}</h3>
-              <p className="text-sm text-[var(--color-gray-mid)] leading-relaxed">{item.body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Services */}
-      <section className="py-14 border-t border-[var(--color-border)]" style={{ backgroundColor: 'var(--color-brand-light)' }}>
-        <div className="max-w-4xl mx-auto px-6">
-          <h2
-            className="text-2xl sm:text-3xl font-bold text-[var(--color-navy)] mb-8 text-center"
-            style={{ fontFamily: 'Georgia, serif' }}
-          >
+      <section className="py-20 max-w-5xl mx-auto px-6">
+        <div className="text-center mb-10">
+          <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-3" style={{ color: 'var(--color-brand)' }}>
+            خدماتنا
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-navy)]" style={{ fontFamily: 'Georgia, serif' }}>
             خدماتنا البيطرية
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {services.map((s) => (
-              <Link
-                key={s.href}
-                href={s.href}
-                className="rounded-xl border border-[var(--color-border)] bg-white p-4 text-center hover:border-[var(--color-brand)] hover:shadow-sm transition-all"
-              >
-                <p className="font-bold text-sm text-[var(--color-navy)] mb-1">{s.ar}</p>
-                <p className="text-xs text-[var(--color-gray-mid)]">{s.en}</p>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-6">
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          {services.map((s) => (
             <Link
-              href="/ar/services"
-              className="inline-block text-sm font-semibold hover:opacity-70 transition-opacity"
-              style={{ color: 'var(--color-brand)' }}
+              key={s.href}
+              href={s.href}
+              className="rounded-xl border border-[var(--color-border)] bg-white p-4 text-center hover:border-[var(--color-brand)] hover:shadow-sm transition-all font-semibold text-sm text-[var(--color-navy)] hover:text-[var(--color-brand)]"
             >
-              عرض جميع الخدمات ←
+              {s.ar}
+            </Link>
+          ))}
+        </div>
+        <div className="text-center mt-6">
+          <Link href="/ar/services" className="text-sm font-semibold hover:opacity-70 transition-opacity" style={{ color: 'var(--color-brand)' }}>
+            عرض جميع الخدمات ←
+          </Link>
+        </div>
+      </section>
+
+      {/* Team */}
+      <section className="py-20 bg-white border-t border-[var(--color-border)]">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-4" style={{ color: 'var(--color-brand)' }}>
+              فريقنا
+            </p>
+            <h2 className="text-3xl sm:text-5xl font-bold text-[var(--color-navy)] mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+              أطباء دوليون، قلب محلي
+            </h2>
+            <p className="text-[var(--color-gray-mid)] max-w-xl mx-auto text-lg">
+              متخصصون من ست دول مختلفة يجمعهم هدف واحد — أفضل رعاية ممكنة لحيوانك الأليف.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
+            {vets.map((vet) => {
+              const ar = vetAr[vet.slug]
+              return (
+                <Link
+                  key={vet.slug}
+                  href={`/ar/team/${vet.slug}`}
+                  className="flex flex-col rounded-xl overflow-hidden border border-[var(--color-border)] bg-white shadow-sm hover:shadow-md hover:border-[var(--color-brand)] transition-all duration-200"
+                >
+                  <div className="relative aspect-[3/4] w-full">
+                    <Image
+                      src={vet.photo}
+                      alt={vet.name}
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 640px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="flex flex-col p-4 gap-2">
+                    <div>
+                      <h3 className="text-base font-bold text-[var(--color-navy)] leading-snug" style={{ fontFamily: 'Georgia, serif' }}>
+                        {vet.name}
+                      </h3>
+                      <p className="text-xs font-medium mt-0.5" style={{ color: 'var(--color-brand)' }}>
+                        {ar?.role ?? vet.role}
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap gap-1">
+                      {(ar?.specialties ?? vet.specialisations).slice(0, 3).map((s) => (
+                        <span key={s} className="text-xs px-2 py-0.5 rounded-full font-medium" style={{ backgroundColor: 'var(--color-brand-light)', color: 'var(--color-brand)' }}>
+                          {s}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/ar/team" className="text-sm font-semibold hover:opacity-70 transition-opacity" style={{ color: 'var(--color-brand)' }}>
+              تعرف على فريقنا ←
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Arabic sub-pages nav */}
-      <section className="py-14 max-w-4xl mx-auto px-6">
-        <h2 className="text-2xl font-bold text-[var(--color-navy)] mb-8 text-center" style={{ fontFamily: 'Georgia, serif' }}>
-          صفحات العيادة بالعربية
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {[
-            { href: '/ar/services', label: 'جميع الخدمات', icon: '🩺' },
-            { href: '/ar/pricing', label: 'الأسعار', icon: '💰' },
-            { href: '/ar/team', label: 'فريقنا', icon: '👨‍⚕️' },
-            { href: '/ar/home-visit', label: 'الزيارات المنزلية', icon: '🏠' },
-            { href: '/ar/second-opinion', label: 'رأي ثانٍ', icon: '🔬' },
-            { href: '/ar/microchipping', label: 'الشريحة الإلكترونية', icon: '📡' },
-            { href: '/ar/pet-insurance', label: 'تأمين الحيوانات', icon: '🛡️' },
-            { href: '/ar/pet-travel', label: 'سفر الحيوانات', icon: '✈️' },
-          ].map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="rounded-xl border border-[var(--color-border)] bg-white p-4 text-center hover:border-[var(--color-brand)] hover:shadow-sm transition-all"
-            >
-              <span className="text-2xl block mb-1">{item.icon}</span>
-              <p className="font-semibold text-sm text-[var(--color-navy)]">{item.label}</p>
-            </Link>
-          ))}
+      {/* Why */}
+      <section className="py-20 border-t border-[var(--color-border)]" style={{ backgroundColor: 'var(--color-brand-light)' }}>
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-10">
+            <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-3" style={{ color: 'var(--color-brand)' }}>
+              لماذا مايك فيت
+            </p>
+            <h2 className="text-3xl font-bold text-[var(--color-navy)]" style={{ fontFamily: 'Georgia, serif' }}>
+              عيادة واحدة، رعاية شاملة
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-3 gap-5">
+            {[
+              { icon: '🏥', title: 'جراحة متخصصة', body: 'نُجري عمليات TPLO وجراحات الأنسجة الرخوة والأسنان في عيادتنا — دون الحاجة إلى إحالتك لجهة أخرى.' },
+              { icon: '🔬', title: 'مختبر وتصوير داخلي', body: 'مختبر IDEXX كامل وجهاز موجات فوق صوتية بمعايير المستشفيات المتخصصة — نتائج في نفس اليوم.' },
+              { icon: '🌙', title: 'مفتوح حتى 9:30 مساءً', body: 'مفتوحون 7 أيام في الأسبوع، بما في ذلك الجمعة والسبت — لأن حيوانك الأليف لا يعرف الإجازات.' },
+            ].map((item) => (
+              <div key={item.title} className="rounded-2xl border border-[var(--color-border)] p-6 bg-white">
+                <span className="text-3xl mb-3 block">{item.icon}</span>
+                <h3 className="font-bold text-[var(--color-navy)] mb-2">{item.title}</h3>
+                <p className="text-sm text-[var(--color-gray-mid)] leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Location */}
-      <section id="location" className="py-16 max-w-4xl mx-auto px-6">
-        <div className="rounded-2xl overflow-hidden border border-[var(--color-border)] grid sm:grid-cols-2">
-          <div className="p-8 flex flex-col justify-center">
-            <h2
-              className="text-2xl font-bold text-[var(--color-navy)] mb-4"
-              style={{ fontFamily: 'Georgia, serif' }}
-            >
-              موقعنا
-            </h2>
-            <p className="text-sm text-[var(--color-gray-mid)] leading-relaxed mb-5">
-              شارع حصة، دبي<br />
-              على بُعد دقائق من JVC وبرشاء وموتور سيتي ومدينة دبي الرياضية والسبرينغز
-            </p>
-            <div className="space-y-2 text-sm text-[var(--color-gray-mid)] mb-6">
-              <p>🕘 الأحد – السبت: 9:00 ص – 9:30 م</p>
-              <p>📞 04 283 7744</p>
-            </div>
-            <a
-              href="https://maps.google.com/?q=Mike%27s+Vet+Dubai+Hessa+Street"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white w-fit"
-              style={{ backgroundColor: 'var(--color-brand)' }}
-            >
-              عرض على الخريطة
-            </a>
+      <section id="location" className="py-20 border-t border-[var(--color-border)] bg-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-10">
+            <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-3" style={{ color: 'var(--color-brand)' }}>موقعنا</p>
+            <h2 className="text-3xl font-bold text-[var(--color-navy)]" style={{ fontFamily: 'Georgia, serif' }}>شارع حصة، دبي</h2>
           </div>
-          <div className="aspect-video sm:aspect-auto">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4!2d55.17!3d25.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6e!2sMike%27s+Vet!5e0!3m2!1sen!2sae!4v1"
-              width="100%"
-              height="100%"
-              style={{ border: 0, minHeight: '240px' }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="موقع عيادة مايك للبيطرة على الخريطة"
-            />
+          <div className="rounded-2xl overflow-hidden border border-[var(--color-border)] grid sm:grid-cols-2">
+            <div className="p-8 flex flex-col justify-center">
+              <p className="text-sm text-[var(--color-gray-mid)] leading-relaxed mb-5">
+                على بُعد دقائق من JVC وبرشاء وموتور سيتي ومدينة دبي الرياضية والسبرينغز
+              </p>
+              <div className="space-y-2 text-sm text-[var(--color-gray-mid)] mb-6">
+                <p>🕘 الأحد – السبت: 9:00 ص – 9:30 م</p>
+                <p>📞 04 283 7744</p>
+              </div>
+              <a
+                href="https://maps.app.goo.gl/niYAN4UqH1f5WAYw6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white w-fit"
+                style={{ backgroundColor: 'var(--color-brand)' }}
+              >
+                عرض على الخريطة
+              </a>
+            </div>
+            <div>
+              <iframe
+                src="https://maps.google.com/maps?q=Mike%27s+Vet+Dubai+Hessa+Street&z=17&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: '280px' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="موقع عيادة مايك للبيطرة"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-14 border-t border-[var(--color-border)]" style={{ backgroundColor: 'var(--color-brand-light)' }}>
+      <section className="py-20 border-t border-[var(--color-border)]" style={{ backgroundColor: 'var(--color-brand-light)' }}>
         <div className="max-w-3xl mx-auto px-6">
-          <h2
-            className="text-2xl sm:text-3xl font-bold text-[var(--color-navy)] mb-8 text-center"
-            style={{ fontFamily: 'Georgia, serif' }}
-          >
-            الأسئلة الشائعة
-          </h2>
+          <div className="text-center mb-10">
+            <p className="text-sm uppercase tracking-[0.3em] font-semibold mb-3" style={{ color: 'var(--color-brand)' }}>الأسئلة الشائعة</p>
+            <h2 className="text-3xl font-bold text-[var(--color-navy)]" style={{ fontFamily: 'Georgia, serif' }}>أسئلة وأجوبة</h2>
+          </div>
           <div className="space-y-6">
             {[
-              {
-                q: 'ما هي أوقات عمل العيادة؟',
-                a: 'مفتوحون 7 أيام في الأسبوع من الساعة 9:00 صباحاً حتى 9:30 مساءً، بما في ذلك الجمعة والسبت.',
-              },
-              {
-                q: 'هل تقبلون تأمين الحيوانات الأليفة؟',
-                a: 'نعم. نعمل مع جميع شركات التأمين على أساس "الدفع أولاً والاسترداد لاحقاً". نزودك بالفواتير التفصيلية وكافة الوثائق اللازمة للمطالبة بالتعويض.',
-              },
-              {
-                q: 'هل تُجرون عمليات جراحية؟',
-                a: 'نعم. نُجري جراحات الأنسجة الرخوة وعمليات TPLO لجراحة الرباط الصليبي وتنظيف الأسنان وغيرها داخل العيادة. لا حاجة للإحالة.',
-              },
-              {
-                q: 'هل يمكنكم الزيارة في المنزل؟',
-                a: 'نعم، نقدم خدمة الزيارات المنزلية في جميع أنحاء دبي برسوم تنقل من 420 درهماً. مناسبة للقطط والحيوانات التي تعاني من القلق أو بعد العمليات.',
-              },
-              {
-                q: 'كيف أحجز موعداً؟',
-                a: 'عبر الواتساب على 97142837744+ أو من خلال نموذج الحجز الإلكتروني على الموقع. بالعربية أو الإنجليزية.',
-              },
+              { q: 'ما هي أوقات عمل العيادة؟', a: 'مفتوحون 7 أيام في الأسبوع من الساعة 9:00 صباحاً حتى 9:30 مساءً، بما في ذلك الجمعة والسبت.' },
+              { q: 'هل تقبلون تأمين الحيوانات الأليفة؟', a: 'نعم. نعمل مع جميع شركات التأمين على أساس "الدفع أولاً والاسترداد لاحقاً". نزودك بكافة الوثائق اللازمة للمطالبة بالتعويض.' },
+              { q: 'هل تُجرون عمليات جراحية؟', a: 'نعم. نُجري جراحات الأنسجة الرخوة وعمليات TPLO وتنظيف الأسنان وغيرها داخل العيادة. لا حاجة للإحالة.' },
+              { q: 'هل يمكنكم الزيارة في المنزل؟', a: 'نعم، نقدم خدمة الزيارات المنزلية في جميع أنحاء دبي برسوم تنقل من 420 درهماً. مناسبة للقطط وبعد العمليات.' },
+              { q: 'كيف أحجز موعداً؟', a: 'عبر الواتساب على 97142837744+ أو من خلال نموذج الحجز الإلكتروني على الموقع. بالعربية أو الإنجليزية.' },
             ].map((faq) => (
               <div key={faq.q} className="border-b border-[var(--color-border)] pb-6 last:border-0">
                 <h3 className="font-bold text-[var(--color-navy)] mb-2">{faq.q}</h3>
@@ -362,16 +337,10 @@ export default function ArabicPage() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-16 max-w-4xl mx-auto px-6">
-        <div
-          className="rounded-2xl p-10 text-center text-white"
-          style={{ backgroundColor: 'var(--color-brand)' }}
-        >
-          <h2
-            className="text-2xl sm:text-3xl font-bold mb-3"
-            style={{ fontFamily: 'Georgia, serif' }}
-          >
+      {/* CTA */}
+      <section className="py-20 max-w-4xl mx-auto px-6">
+        <div className="rounded-2xl p-10 text-center text-white" style={{ backgroundColor: 'var(--color-brand)' }}>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3" style={{ fontFamily: 'Georgia, serif' }}>
             احجز موعدك اليوم
           </h2>
           <p className="text-white/80 mb-8 text-sm leading-relaxed max-w-md mx-auto">
