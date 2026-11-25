@@ -83,6 +83,14 @@ export default function Navbar() {
 
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
+          <Link
+            href="/ar"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors whitespace-nowrap"
+            title="الموقع بالعربية"
+          >
+            <span>🇦🇪</span>
+            <span>عربي</span>
+          </Link>
           <Link href="/vouchers" className="voucher-pill px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap border-2 transition-colors">
             Gift Vouchers
           </Link>
@@ -130,6 +138,7 @@ export default function Navbar() {
             { href: '/blog', label: 'Blog' },
             { href: '/#contact', label: 'Find Us' },
             { href: '/vouchers', label: 'Gift Vouchers' },
+            { href: '/ar', label: '🇦🇪 عربي' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} className="text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors py-1.5" onClick={() => setMenuOpen(false)}>
               {label}
