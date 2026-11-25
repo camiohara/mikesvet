@@ -10,12 +10,12 @@ const securityHeaders = [
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://w.behold.so",  // unsafe-eval: Sanity Studio; behold.so: Instagram feed
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://w.behold.so https://www.googletagmanager.com https://googleads.g.doubleclick.net https://bzrcdn.openai.com",  // unsafe-eval: Sanity Studio; behold.so: Instagram feed
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' data: blob: https://cdn.sanity.io https://static.wixstatic.com https://*.behold.so https://*.cdninstagram.com https://images.unsplash.com https://cdn.shopify.com",
+      "img-src 'self' data: blob: https://cdn.sanity.io https://static.wixstatic.com https://*.behold.so https://*.cdninstagram.com https://images.unsplash.com https://cdn.shopify.com https://www.google-analytics.com https://www.google.com https://www.google.ae https://www.googletagmanager.com",
       "font-src 'self' data:",
       "frame-src https://app.cw.vet https://maps.google.com https://www.google.com",  // ezyVet + Google Maps
-      "connect-src 'self' https://*.sanity.io https://api.sanity.io https://formspree.io https://*.behold.so https://mikesvet.myshopify.com",
+      "connect-src 'self' https://*.sanity.io https://api.sanity.io https://formspree.io https://*.behold.so https://mikesvet.myshopify.com https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://ad.doubleclick.net https://stats.g.doubleclick.net https://www.google.com https://www.googleadservices.com https://*.openai.com",
       "media-src 'self'",
     ].join('; '),
   },
@@ -25,9 +25,9 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ['sanity', 'next-sanity', '@sanity/client'],
   async redirects() {
     return [
+      { source: '/services/intensive-care', destination: '/services/emergency-care', permanent: true },
       { source: '/shop', destination: '/', permanent: false },
       { source: '/shop/:path*', destination: '/', permanent: false },
-      { source: '/services/intensive-care', destination: '/services/emergency-care', permanent: true },
     ]
   },
   async headers() {
