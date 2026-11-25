@@ -87,16 +87,16 @@ const faqSchema = {
 }
 
 const services = [
-  { ar: 'الكشف والاستشارة', en: 'Consultation', href: '/services/consultations' },
-  { ar: 'التطعيمات', en: 'Vaccinations', href: '/services/vaccinations' },
-  { ar: 'جراحة الأنسجة الرخوة', en: 'Soft Tissue Surgery', href: '/services/soft-tissue-surgery' },
-  { ar: 'جراحة العظام', en: 'Orthopaedic Surgery', href: '/services/orthopaedic-surgery' },
-  { ar: 'تنظيف الأسنان', en: 'Dental Care', href: '/services/dental-care' },
-  { ar: 'الموجات فوق الصوتية والأشعة', en: 'Ultrasound & X-Ray', href: '/services/pet-ultrasound' },
-  { ar: 'المختبر الداخلي', en: 'In-House Lab', href: '/services/in-house-laboratory' },
-  { ar: 'رعاية طارئة', en: 'Emergency Care', href: '/services/emergency-care' },
-  { ar: 'زيارات منزلية', en: 'Home Visits', href: '/home-visit' },
-  { ar: 'رعاية كبار السن من الحيوانات', en: 'Senior Pets', href: '/senior-pets' },
+  { ar: 'الكشف والاستشارة', en: 'Consultation', href: '/ar/services/consultations' },
+  { ar: 'التطعيمات', en: 'Vaccinations', href: '/ar/services/vaccinations' },
+  { ar: 'جراحة الأنسجة الرخوة', en: 'Soft Tissue Surgery', href: '/ar/services/soft-tissue-surgery' },
+  { ar: 'جراحة العظام', en: 'Orthopaedic Surgery', href: '/ar/services/orthopaedic-surgery' },
+  { ar: 'تنظيف الأسنان', en: 'Dental Care', href: '/ar/services/dental-care' },
+  { ar: 'الموجات فوق الصوتية والأشعة', en: 'Ultrasound & X-Ray', href: '/ar/services/pet-ultrasound' },
+  { ar: 'المختبر الداخلي', en: 'In-House Lab', href: '/ar/services/in-house-laboratory' },
+  { ar: 'رعاية طارئة', en: 'Emergency Care', href: '/ar/services/emergency-care' },
+  { ar: 'زيارات منزلية', en: 'Home Visits', href: '/ar/home-visit' },
+  { ar: 'رعاية كبار السن من الحيوانات', en: 'Senior Pets', href: '/ar/services/senior-pets' },
 ]
 
 export default function ArabicPage() {
@@ -240,7 +240,7 @@ export default function ArabicPage() {
           </div>
           <div className="text-center mt-6">
             <Link
-              href="/services"
+              href="/ar/services"
               className="inline-block text-sm font-semibold hover:opacity-70 transition-opacity"
               style={{ color: 'var(--color-brand)' }}
             >
@@ -250,8 +250,36 @@ export default function ArabicPage() {
         </div>
       </section>
 
+      {/* Arabic sub-pages nav */}
+      <section className="py-14 max-w-4xl mx-auto px-6">
+        <h2 className="text-2xl font-bold text-[var(--color-navy)] mb-8 text-center" style={{ fontFamily: 'Georgia, serif' }}>
+          صفحات العيادة بالعربية
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {[
+            { href: '/ar/services', label: 'جميع الخدمات', icon: '🩺' },
+            { href: '/ar/pricing', label: 'الأسعار', icon: '💰' },
+            { href: '/ar/team', label: 'فريقنا', icon: '👨‍⚕️' },
+            { href: '/ar/home-visit', label: 'الزيارات المنزلية', icon: '🏠' },
+            { href: '/ar/second-opinion', label: 'رأي ثانٍ', icon: '🔬' },
+            { href: '/ar/microchipping', label: 'الشريحة الإلكترونية', icon: '📡' },
+            { href: '/ar/pet-insurance', label: 'تأمين الحيوانات', icon: '🛡️' },
+            { href: '/ar/pet-travel', label: 'سفر الحيوانات', icon: '✈️' },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="rounded-xl border border-[var(--color-border)] bg-white p-4 text-center hover:border-[var(--color-brand)] hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl block mb-1">{item.icon}</span>
+              <p className="font-semibold text-sm text-[var(--color-navy)]">{item.label}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Location */}
-      <section className="py-16 max-w-4xl mx-auto px-6">
+      <section id="location" className="py-16 max-w-4xl mx-auto px-6">
         <div className="rounded-2xl overflow-hidden border border-[var(--color-border)] grid sm:grid-cols-2">
           <div className="p-8 flex flex-col justify-center">
             <h2
