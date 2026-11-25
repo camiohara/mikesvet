@@ -20,15 +20,20 @@ const communities = [
   { name: 'Al Barsha', driveTime: '10 min', href: '/areas/vet-near-al-barsha' },
   { name: 'Barsha Heights', driveTime: '12 min', href: '/areas/vet-near-barsha-heights' },
   { name: 'The Springs', driveTime: '12 min', href: '/areas/vet-near-the-springs' },
-  { name: 'The Meadows', driveTime: '12 min', href: null },
+  { name: 'The Meadows', driveTime: '8 min', href: '/areas/vet-near-the-meadows' },
   { name: 'Motor City', driveTime: '15 min', href: '/areas/vet-near-motor-city' },
   { name: 'DAMAC Hills', driveTime: '12 min', href: '/areas/vet-near-damac-hills' },
   { name: 'Arabian Ranches', driveTime: '18 min', href: '/areas/vet-near-arabian-ranches' },
+  { name: 'Jumeirah Golf Estates', driveTime: '10 min', href: '/areas/vet-near-jumeirah-golf-estates' },
+  { name: 'Emirates Hills', driveTime: '12 min', href: '/areas/vet-near-emirates-hills' },
   { name: 'Dubai Sports City', driveTime: '10 min', href: null },
   { name: 'Arjan', driveTime: '8 min', href: null },
   { name: 'Al Furjan', driveTime: '14 min', href: null },
-  { name: 'Emirates Hills', driveTime: '15 min', href: null },
   { name: 'Remraam', driveTime: '18 min', href: null },
+  { name: 'JLT', driveTime: '15 min', href: '/areas/vet-near-jlt' },
+  { name: 'Dubai Marina', driveTime: '18 min', href: '/areas/vet-near-dubai-marina' },
+  { name: 'JBR', driveTime: '20 min', href: '/areas/vet-near-jbr' },
+  { name: 'Palm Jumeirah', driveTime: '20 min', href: '/areas/vet-near-palm-jumeirah' },
 ]
 
 const services = [
