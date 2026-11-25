@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import { getProducts } from '../lib/shopify'
 import ShopClient from './ShopClient'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: "Pet Shop - Vet-Approved Products",
   description: "Shop vet-approved supplements, grooming, dental care, and pet supplies at Mike's Vet Dubai.",

@@ -11,8 +11,6 @@ import InstagramFeed from './components/InstagramFeed'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import StructuredData from './components/StructuredData'
-import AwardPopup from './components/AwardPopup'
-
 export default function Home() {
   return (
     <>
@@ -31,7 +29,6 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppButton />
-      <AwardPopup />
     </>
   )
 }

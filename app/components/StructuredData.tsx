@@ -28,8 +28,7 @@ export default function StructuredData() {
       ratingValue: '4.8',
       bestRating: '5',
       worstRating: '1',
-      // Update reviewCount to match your current Google review total
-      reviewCount: '50',
+      reviewCount: '513',
     },
     openingHoursSpecification: [
       {
@@ -118,7 +117,7 @@ export default function StructuredData() {
         name: "Who is the best vet in Dubai?",
         acceptedAnswer: {
           '@type': 'Answer',
-          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated veterinary clinics, with a 4.8-star Google rating from over 500 reviews. Founded by Mike and Camelia O'Hara, the clinic offers expert care for cats and dogs - including advanced diagnostics, orthopaedic surgery, TPLO, emergency care, and ICU. Open 7 days, 9am–9:30pm including public holidays.",
+          text: "Mike's Vet on Hessa Street is one of Dubai's highest-rated veterinary clinics, with a 4.8-star Google rating from over 513 reviews. Founded by Mike and Camelia O'Hara, the clinic offers expert care for cats and dogs - including advanced diagnostics, orthopaedic surgery, TPLO, emergency care, and ICU. Open 7 days, 9am–9:30pm including public holidays.",
         },
       },
       {

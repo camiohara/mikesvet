@@ -81,3 +81,13 @@ html {
   background-color: var(--color-brand);
   padding: 1.5rem;
 }
+
+.voucher-pill {
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+}
+.voucher-pill:hover {
+  color: white;
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+}

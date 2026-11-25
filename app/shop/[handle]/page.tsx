@@ -5,10 +5,7 @@ import ProductDetail from './ProductDetail'
 
 type Props = { params: Promise<{ handle: string }> }
 
-export async function generateStaticParams() {
-  const products = await getProducts(200)
-  return products.map(p => ({ handle: p.handle }))
-}
+export const dynamic = 'force-dynamic'
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { handle } = await params

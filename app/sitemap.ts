@@ -4,6 +4,7 @@ import { adoptionsQuery } from '@/sanity/lib/queries'
 import { services } from './services/data'
 import { areas } from './areas/data'
 import { posts } from './blog/data'
+import { vets } from './team/data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const animals = await client.fetch(adoptionsQuery).catch(() => [])
@@ -34,6 +35,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date(p.date),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
+  }))
+
+  const vetUrls = vets.map((v) => ({
+    url: `https://www.mikesvet.com/team/${v.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
   }))
 
   return [
@@ -132,7 +140,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     },
     {
-      url: 'https://www.mikesvet.com/vets',
+      url: 'https://www.mikesvet.com/team',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
+    ...vetUrls,
+    {
+      url: 'https://www.mikesvet.com/home-visit',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.mikesvet.com/hessa-street',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.mikesvet.com/ar',
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,

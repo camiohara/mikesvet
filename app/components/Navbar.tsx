@@ -8,7 +8,7 @@ const servicesItems = [
   { href: '/services', label: 'All Services' },
   { href: '/second-opinion', label: 'Second Opinion' },
   { href: '/pricing', label: 'Pricing' },
-  { href: '/services/home-visit', label: 'Home Visit' },
+  { href: '/home-visit', label: 'Home Visit' },
   { href: '/services/pet-ultrasound', label: 'Ultrasound & X-Ray' },
   { href: '/services/soft-tissue-surgery', label: 'Soft Tissue Surgery' },
   { href: '/services/orthopaedic-surgery', label: 'Orthopaedic Surgery' },
@@ -17,7 +17,7 @@ const servicesItems = [
 ]
 
 const aboutItems = [
-  { href: '/#team', label: 'Our Team' },
+  { href: '/team', label: 'Our Team' },
   { href: '/#about', label: 'Our Story' },
   { href: '/#press', label: 'Press' },
 ]

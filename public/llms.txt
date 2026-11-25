@@ -1,6 +1,6 @@
 # Mike's Vet Dubai
 
-> Mike's Vet is a full-service veterinary clinic on Hessa Street, Dubai, UAE. Founded by Mike and Camelia O'Hara. Rated 4.8 stars on Google by over 500 pet owners. Open 7 days a week, 9:00 AM to 9:30 PM including public holidays. Phone: +971 4 283 7744.
+> Mike's Vet is a full-service veterinary clinic on Hessa Street, Dubai, UAE. Founded by Mike and Camelia O'Hara. Rated 4.8 stars on Google by over 513 pet owners. Open 7 days a week, 9:00 AM to 9:30 PM including public holidays. Phone: +971 4 283 7744.
 
 Mike's Vet provides expert veterinary care for cats and dogs in Dubai. Services include consultations, vaccinations, dental care, soft tissue surgery, orthopaedic surgery (including TPLO for cruciate ligament tears), in-house diagnostics (blood tests, digital X-ray, ultrasound), a fully equipped ICU, spay and neuter, and vet home visits across Dubai. The clinic also runs a rescue and cat adoption programme.
 
@@ -49,6 +49,16 @@ Mike's Vet on Hessa Street serves pet owners across Dubai. Approximate drive tim
 - [Cat Spaying in Dubai](https://www.mikesvet.com/blog/cat-spaying-dubai-guide): Age, procedure, and recovery guide
 - [When to Vaccinate Your Cat in Dubai](https://www.mikesvet.com/blog/when-to-vaccinate-cat-dubai): Core and non-core vaccine schedule
 - [Dental Care for Cats and Dogs in Dubai](https://www.mikesvet.com/blog/dental-care-cats-dogs-dubai): Why it matters and what to expect
+- [Feeding Indoor Cats in Dubai](https://www.mikesvet.com/blog/feeding-indoor-cats-dubai): Diet, hydration, and common mistakes in Dubai's climate
+- [Senior Pet Care in Dubai](https://www.mikesvet.com/blog/senior-pet-care-dubai): What changes at age 7 and what your vet should be checking
+- [Cat Grooming in Dubai](https://www.mikesvet.com/blog/cat-grooming-dubai): What's normal and when grooming signals a health problem
+- [Stray Cat Quarantine Dubai](https://www.mikesvet.com/blog/stray-cat-quarantine-dubai): How long to quarantine, vet tests, and safe introduction
+- [Cat Scratch Disease](https://www.mikesvet.com/blog/cat-scratch-disease-dubai): Signs, risk factors, and prevention after a cat scratch or bite
+- [Ringworm in Cats](https://www.mikesvet.com/blog/ringworm-cats-dubai): Causes, signs, treatment and preventing spread to humans
+- [Feline Parvovirus in Cats](https://www.mikesvet.com/blog/feline-parvovirus-panleukopenia-cats-dubai): Symptoms, treatment, and why vaccination is critical
+- [Feline Mycoplasma](https://www.mikesvet.com/blog/feline-mycoplasma-haemofelis-cats-dubai): Blood parasite causing anaemia in cats, transmitted by fleas
+- [Dog Nutrition in Dubai](https://www.mikesvet.com/blog/dog-nutrition-dubai): Life stage feeding, fad diets, and what vets actually recommend
+- [Cat Nutrition in Dubai](https://www.mikesvet.com/blog/cat-nutrition-dubai): Kitten, adult, and senior feeding — and what to ignore
 
 ## Contact and location
 
@@ -58,4 +68,4 @@ Mike's Vet on Hessa Street serves pet owners across Dubai. Approximate drive tim
 - Hours: 9:00 AM – 9:30 PM, 7 days a week including public holidays
 - Google Maps: https://maps.app.goo.gl/niYAN4UqH1f5WAYw6
 - Instagram: https://www.instagram.com/mikesvetdxb
-- Google rating: 4.8 stars (500+ reviews)
+- Google rating: 4.8 stars (513 reviews)

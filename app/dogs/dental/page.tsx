@@ -35,7 +35,7 @@ const included = [
 ]
 
 const signs = [
-  "Bad breath that won't go away",
+  "Bad breath that won’t go away",
   'Yellow or brown buildup on teeth',
   'Red, swollen, or bleeding gums',
   'Difficulty chewing or dropping food',

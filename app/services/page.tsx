@@ -2,6 +2,19 @@ import Link from 'next/link'
 import { services } from './data'
 import type { Metadata } from 'next'
 
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: "Mike's Vet — Veterinary Services in Dubai",
+  url: 'https://www.mikesvet.com/services',
+  itemListElement: services.map((s, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: s.name,
+    url: `https://www.mikesvet.com/services/${s.slug}`,
+  })),
+}
+
 export const metadata: Metadata = {
   title: "Vet Services in Dubai | Mike's Vet, Hessa Street",
   description:
@@ -18,6 +31,10 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <main className="pt-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       {/* Hero */}
       <section className="py-16 sm:py-24 text-center" style={{ backgroundColor: 'var(--color-brand-light)' }}>
         <div className="max-w-3xl mx-auto px-6">
