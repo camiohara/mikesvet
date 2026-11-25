@@ -1,8 +1,23 @@
 'use client'
 
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
+
+function toEnglish(path: string): string {
+  if (path === '/ar') return '/'
+  if (path === '/ar/pricing') return '/pricing'
+  if (path === '/ar/team') return '/team'
+  if (path === '/ar/home-visit') return '/home-visit'
+  if (path === '/ar/second-opinion') return '/second-opinion'
+  if (path === '/ar/microchipping') return '/microchipping'
+  if (path === '/ar/pet-insurance') return '/pet-insurance-dubai'
+  if (path === '/ar/pet-travel') return '/dubai-pet-travel'
+  if (path === '/ar/services') return '/services'
+  if (path.startsWith('/ar/services/')) return path.replace('/ar', '')
+  return '/'
+}
 
 const servicesItems = [
   { href: '/ar/services', label: 'جميع الخدمات' },
@@ -24,6 +39,8 @@ const chevron = (
 
 export default function ArNavbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const enHref = toEnglish(pathname)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[var(--color-border)] shadow-sm" dir="rtl">
@@ -62,7 +79,7 @@ export default function ArNavbar() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
           <Link
-            href="/"
+            href={enHref}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors whitespace-nowrap"
             title="Switch to English"
           >
@@ -118,7 +135,7 @@ export default function ArNavbar() {
             { href: '/ar/pricing', label: 'الأسعار' },
             { href: '/ar/team', label: 'فريقنا' },
             { href: '/ar#location', label: 'موقعنا' },
-            { href: '/', label: '🇬🇧 English' },
+            { href: enHref, label: '🇬🇧 English' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} className="text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors py-1.5" onClick={() => setMenuOpen(false)}>
               {label}

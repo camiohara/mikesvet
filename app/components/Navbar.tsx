@@ -1,8 +1,25 @@
 'use client'
 
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
+
+function toArabic(path: string): string {
+  if (path === '/') return '/ar'
+  if (path === '/pricing') return '/ar/pricing'
+  if (path === '/team') return '/ar/team'
+  if (path === '/home-visit') return '/ar/home-visit'
+  if (path === '/second-opinion') return '/ar/second-opinion'
+  if (path === '/microchipping') return '/ar/microchipping'
+  if (path === '/pet-insurance-dubai') return '/ar/pet-insurance'
+  if (path === '/dubai-pet-travel') return '/ar/pet-travel'
+  if (path === '/services') return '/ar/services'
+  if (path === '/senior-pets') return '/ar/services/senior-pets'
+  if (path === '/end-of-life-care') return '/ar/services/end-of-life-care'
+  if (path.startsWith('/services/')) return `/ar${path}`
+  return '/ar'
+}
 
 const servicesItems = [
   { href: '/services', label: 'All Services' },
@@ -30,6 +47,8 @@ const chevron = (
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const arHref = toArabic(pathname)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[var(--color-border)] shadow-sm">
@@ -84,7 +103,7 @@ export default function Navbar() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3 shrink-0">
           <Link
-            href="/ar"
+            href={arHref}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors whitespace-nowrap"
             title="الموقع بالعربية"
           >
@@ -138,7 +157,7 @@ export default function Navbar() {
             { href: '/blog', label: 'Blog' },
             { href: '/#contact', label: 'Find Us' },
             { href: '/vouchers', label: 'Gift Vouchers' },
-            { href: '/ar', label: '🇦🇪 عربي' },
+            { href: arHref, label: '🇦🇪 عربي' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} className="text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors py-1.5" onClick={() => setMenuOpen(false)}>
               {label}
