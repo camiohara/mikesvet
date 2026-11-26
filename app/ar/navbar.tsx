@@ -17,7 +17,24 @@ function toEnglish(path: string): string {
   if (path === '/ar/services') return '/services'
   if (path.startsWith('/ar/services/')) return path.replace('/ar', '')
   if (path.startsWith('/ar/team/')) return path.replace('/ar', '')
+  if (path === '/ar/blog') return '/blog'
+  if (path.startsWith('/ar/blog/')) return path.replace('/ar', '')
   return '/'
+}
+
+function toRussian(path: string): string {
+  if (path === '/ar') return '/ru'
+  if (path.startsWith('/ar/services/')) return path.replace('/ar', '/ru')
+  if (path.startsWith('/ar/team/')) return path.replace('/ar', '/ru')
+  if (path === '/ar/pricing') return '/ru/pricing'
+  if (path === '/ar/team') return '/ru/team'
+  if (path === '/ar/home-visit') return '/ru/home-visit'
+  if (path === '/ar/second-opinion') return '/ru/second-opinion'
+  if (path === '/ar/microchipping') return '/ru/microchipping'
+  if (path === '/ar/pet-insurance') return '/ru/pet-insurance'
+  if (path === '/ar/pet-travel') return '/ru/pet-travel'
+  if (path === '/ar/services') return '/ru/services'
+  return '/ru'
 }
 
 const servicesItems = [
@@ -42,6 +59,7 @@ export default function ArNavbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const pathname = usePathname()
   const enHref = toEnglish(pathname)
+  const ruHref = toRussian(pathname)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[var(--color-border)] shadow-sm" dir="rtl">
@@ -74,6 +92,7 @@ export default function ArNavbar() {
 
           <Link href="/ar/pricing" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">الأسعار</Link>
           <Link href="/ar/team" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">فريقنا</Link>
+          <Link href="/ar/blog" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">المدونة</Link>
           <Link href="/ar#location" className="hover:text-[var(--color-brand)] transition-colors whitespace-nowrap">موقعنا</Link>
         </nav>
 
@@ -86,6 +105,14 @@ export default function ArNavbar() {
           >
             <span>🇬🇧</span>
             <span>EN</span>
+          </Link>
+          <Link
+            href={ruHref}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors whitespace-nowrap"
+            title="Сайт на русском"
+          >
+            <span>🇷🇺</span>
+            <span>RU</span>
           </Link>
           <a
             href="https://wa.me/97142837744?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D9%85%D8%A7%D9%8A%D9%83"
@@ -135,8 +162,10 @@ export default function ArNavbar() {
           {[
             { href: '/ar/pricing', label: 'الأسعار' },
             { href: '/ar/team', label: 'فريقنا' },
+            { href: '/ar/blog', label: 'المدونة' },
             { href: '/ar#location', label: 'موقعنا' },
             { href: enHref, label: '🇬🇧 English' },
+            { href: ruHref, label: '🇷🇺 RU' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} className="text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors py-1.5" onClick={() => setMenuOpen(false)}>
               {label}

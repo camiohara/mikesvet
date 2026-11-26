@@ -22,6 +22,23 @@ function toArabic(path: string): string {
   return '/ar'
 }
 
+function toRussian(path: string): string {
+  if (path === '/') return '/ru'
+  if (path === '/pricing') return '/ru/pricing'
+  if (path === '/team') return '/ru/team'
+  if (path === '/home-visit') return '/ru/home-visit'
+  if (path === '/second-opinion') return '/ru/second-opinion'
+  if (path === '/microchipping') return '/ru/microchipping'
+  if (path === '/pet-insurance-dubai') return '/ru/pet-insurance'
+  if (path === '/dubai-pet-travel') return '/ru/pet-travel'
+  if (path === '/services') return '/ru/services'
+  if (path === '/senior-pets') return '/ru/services/senior-pets'
+  if (path === '/end-of-life-care') return '/ru/services/end-of-life-care'
+  if (path.startsWith('/services/')) return `/ru${path}`
+  if (path.startsWith('/team')) return '/ru/team'
+  return '/ru'
+}
+
 const servicesItems = [
   { href: '/services', label: 'All Services' },
   { href: '/second-opinion', label: 'Second Opinion' },
@@ -50,6 +67,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const pathname = usePathname()
   const arHref = toArabic(pathname)
+  const ruHref = toRussian(pathname)
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[var(--color-border)] shadow-sm">
@@ -111,6 +129,14 @@ export default function Navbar() {
             <span>🇦🇪</span>
             <span>عربي</span>
           </Link>
+          <Link
+            href={ruHref}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors whitespace-nowrap"
+            title="Сайт на русском"
+          >
+            <span>🇷🇺</span>
+            <span>RU</span>
+          </Link>
           <Link href="/vouchers" className="voucher-pill px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap border-2 transition-colors">
             Gift Vouchers
           </Link>
@@ -159,6 +185,7 @@ export default function Navbar() {
             { href: '/#contact', label: 'Find Us' },
             { href: '/vouchers', label: 'Gift Vouchers' },
             { href: arHref, label: '🇦🇪 عربي' },
+            { href: ruHref, label: '🇷🇺 RU' },
           ].map(({ href, label }) => (
             <Link key={href} href={href} className="text-[var(--color-navy)] hover:text-[var(--color-brand)] transition-colors py-1.5" onClick={() => setMenuOpen(false)}>
               {label}
