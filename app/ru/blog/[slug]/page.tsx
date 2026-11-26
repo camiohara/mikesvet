@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import { posts } from '../../../blog/data'
+import { posts } from '../data'
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }))

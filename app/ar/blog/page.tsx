@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import { posts } from '../../blog/data'
+import { posts } from './data'
 
 export const metadata: Metadata = {
   title: { absolute: "مدونة صحة الحيوانات الأليفة | نصائح رعاية القطط والكلاب | عيادة مايك للبيطرة" },

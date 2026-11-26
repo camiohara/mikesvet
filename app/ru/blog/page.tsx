@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
-import { posts } from '../../blog/data'
+import { posts } from './data'
 
 export const metadata: Metadata = {
   title: { absolute: "Блог о здоровье питомцев | Советы по уходу за кошками и собаками | Mike's Vet Дубай" },
