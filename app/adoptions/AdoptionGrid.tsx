@@ -16,7 +16,7 @@ type Animal = {
   ageYears: number
   ageMonths?: number
   photo: { asset: { _ref: string } }
-  status: 'available' | 'fostering'
+  status: 'available' | 'fostering' | 'adopted'
   dateAvailable: string
   personalityTags?: string[]
   vaccinated?: boolean
@@ -51,6 +51,7 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
   const [age, setAge] = useState('all')
 
   const filtered = useMemo(() => animals.filter(a => {
+    if (a.status === 'adopted') return true  // always show adopted, unsorted to bottom
     if (species !== 'all' && a.species !== species) return false
     if (gender !== 'all' && a.gender !== gender) return false
     if (age !== 'all' && ageGroup(a.ageYears) !== age) return false
@@ -112,9 +113,11 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
       </div>
 
       {/* Results count */}
-      <p className="text-sm text-[var(--color-gray-mid)] mb-6">
-        {filtered.length} {filtered.length === 1 ? 'animal' : 'animals'} available
-      </p>
+      {(() => { const n = filtered.filter(a => a.status !== 'adopted').length; return (
+        <p className="text-sm text-[var(--color-gray-mid)] mb-6">
+          {n} {n === 1 ? 'animal' : 'animals'} available
+        </p>
+      )})()}
 
       {/* Grid */}
       {filtered.length === 0 ? (
@@ -130,27 +133,43 @@ export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
               : ''
 
             return (
-              <div key={animal._id} className="group flex flex-col rounded-2xl overflow-hidden border border-[var(--color-border)] bg-white shadow-sm hover:shadow-md transition-shadow">
+              <div key={animal._id} className={`group flex flex-col rounded-2xl overflow-hidden border bg-white shadow-sm transition-shadow ${animal.status === 'adopted' ? 'border-[var(--color-border)] opacity-75' : 'border-[var(--color-border)] hover:shadow-md'}`}>
                 {/* Photo */}
-                <Link href={`/adoptions/${animal.slug}`} className="relative aspect-square w-full bg-[var(--color-brand-light)] block">
+                <Link href={`/adoptions/${animal.slug}`} className="relative aspect-square w-full bg-[var(--color-brand-light)] block overflow-hidden">
                   {photoUrl ? (
-                    <Image src={photoUrl} alt={animal.name} fill className="object-cover group-hover:scale-[1.02] transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
+                    <Image src={photoUrl} alt={animal.name} fill className={`object-cover transition-transform duration-300 ${animal.status !== 'adopted' ? 'group-hover:scale-[1.02]' : 'grayscale-[30%]'}`} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-5xl opacity-30">🐾</div>
                   )}
 
-                  {/* Status badge */}
-                  <span
-                    className="absolute top-3 left-3 text-xs font-bold px-2.5 py-1 rounded-full text-white"
-                    style={{ backgroundColor: 'var(--color-brand)' }}
-                  >
-                    Adopt / Foster
-                  </span>
+                  {/* Adopted stamp */}
+                  {animal.status === 'adopted' && (
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                      <div
+                        className="rotate-[-25deg] border-4 rounded-lg px-4 py-1.5 text-2xl font-black tracking-widest uppercase select-none"
+                        style={{ borderColor: '#16a34a', color: '#16a34a', backgroundColor: 'rgba(255,255,255,0.15)', textShadow: '0 1px 2px rgba(0,0,0,0.15)' }}
+                      >
+                        Adopted
+                      </div>
+                    </div>
+                  )}
 
-                  {/* Days waiting */}
-                  <span className="absolute bottom-3 right-3 text-xs font-medium px-2 py-1 rounded-full bg-black/50 text-white backdrop-blur-sm">
-                    {days === 0 ? 'Just arrived' : `${days} day${days !== 1 ? 's' : ''} waiting`}
-                  </span>
+                  {/* Status badge — only for non-adopted */}
+                  {animal.status !== 'adopted' && (
+                    <span
+                      className="absolute top-3 left-3 text-xs font-bold px-2.5 py-1 rounded-full text-white"
+                      style={{ backgroundColor: 'var(--color-brand)' }}
+                    >
+                      Adopt / Foster
+                    </span>
+                  )}
+
+                  {/* Days waiting — only for non-adopted */}
+                  {animal.status !== 'adopted' && (
+                    <span className="absolute bottom-3 right-3 text-xs font-medium px-2 py-1 rounded-full bg-black/50 text-white backdrop-blur-sm">
+                      {days === 0 ? 'Just arrived' : `${days} day${days !== 1 ? 's' : ''} waiting`}
+                    </span>
+                  )}
                 </Link>
 
                 {/* Info */}

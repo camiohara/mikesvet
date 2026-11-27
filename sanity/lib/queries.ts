@@ -47,9 +47,9 @@ export const postBySlugQuery = groq`
   }
 `
 
-// All non-adopted animals, featured first then oldest-waiting first
+// All animals — available/fostering first (featured → oldest), adopted last
 export const adoptionsQuery = groq`
-  *[_type == "adoption" && status != "adopted"] | order(featured desc, dateAvailable asc) {
+  *[_type == "adoption"] | order(status == "adopted" asc, featured desc, dateAvailable asc) {
     _id,
     name,
     "slug": slug.current,
