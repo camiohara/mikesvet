@@ -80,7 +80,7 @@ export default function ArHomeVisitPage() {
               احجز زيارة منزلية
             </a>
             <a
-              href="tel:+97142837744"
+              href="tel:+97142837744" dir="ltr"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 hover:text-white hover:bg-[var(--color-brand)] transition-colors"
               style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
             >

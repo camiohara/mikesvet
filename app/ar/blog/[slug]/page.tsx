@@ -205,7 +205,7 @@ export default async function ArBlogPostPage({ params }: { params: Promise<{ slu
                 احجز عبر الإنترنت
               </a>
               <a
-                href="tel:+97142837744"
+                href="tel:+97142837744" dir="ltr"
                 className="px-5 py-2.5 rounded-full font-semibold text-sm border-2 hover:bg-white transition-colors"
                 style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
               >

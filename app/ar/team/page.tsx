@@ -146,7 +146,7 @@ export default function ArTeamPage() {
               احجز عبر الواتساب
             </a>
             <a
-              href="tel:+97142837744"
+              href="tel:+97142837744" dir="ltr"
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-sm border-2 transition-colors hover:text-white hover:bg-[var(--color-brand)]"
               style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
             >

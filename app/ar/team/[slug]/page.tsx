@@ -157,7 +157,7 @@ export default async function ArVetProfilePage({ params }: { params: Promise<{ s
                   احجز عبر الواتساب
                 </a>
                 <a
-                  href="tel:+97142837744"
+                  href="tel:+97142837744" dir="ltr"
                   className="inline-flex items-center justify-center px-5 py-2.5 rounded-full font-semibold text-sm border-2 transition-colors hover:text-white hover:bg-[var(--color-brand)]"
                   style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
                 >

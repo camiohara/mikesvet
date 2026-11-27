@@ -45,7 +45,7 @@ export default function ArBookingSection() {
               واتساب
             </a>
             <a
-              href="tel:+97142837744"
+              href="tel:+97142837744" dir="ltr"
               className="flex items-center gap-3 px-7 py-3.5 rounded-full font-semibold text-white text-sm shadow-sm hover:opacity-90 transition-opacity"
               style={{ backgroundColor: 'var(--color-brand)' }}
             >
