@@ -123,7 +123,7 @@ export default function ArabicPage() {
             مستشفى حيوانات متكامل يديره محبّو الحيوانات — مجهّز بأحدث التقنيات للتشخيص والجراحة والرعاية الطارئة والإحالات التخصصية.
           </p>
           <p className="text-sm opacity-70 mb-10">
-            مفتوح 7 أيام &bull; 9:00 ص – 9:30 م &bull; 80+ عاماً من الخبرة المشتركة &bull; 6 جنسيات
+            مفتوح 7 أيام في الأسبوع &bull; 9:00 ص – 9:30 م &bull; 80+ عاماً من الخبرة المشتركة &bull; 6 جنسيات
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="/ar#booking" className="px-8 py-4 rounded-full font-semibold text-base transition-opacity hover:opacity-90 shadow-lg" style={{ backgroundColor: 'var(--color-brand)', color: 'white' }}>احجز موعداً</a>
