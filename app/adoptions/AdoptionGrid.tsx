@@ -45,7 +45,10 @@ const FILTER_BTN = 'px-4 py-1.5 rounded-full text-sm font-medium border transiti
 const FILTER_ACTIVE = 'text-white border-transparent'
 const FILTER_IDLE = 'bg-white border-[var(--color-border)] text-[var(--color-navy)] hover:border-[var(--color-brand)]'
 
-export default function AdoptionGrid({ animals }: { animals: Animal[] }) {
+export default function AdoptionGrid({ animals: rawAnimals }: { animals: Animal[] }) {
+  const animals = [...rawAnimals].sort((a, b) =>
+    a.status === 'adopted' && b.status !== 'adopted' ? 1 : b.status === 'adopted' && a.status !== 'adopted' ? -1 : 0
+  )
   const [species, setSpecies] = useState('all')
   const [gender, setGender] = useState('all')
   const [age, setAge] = useState('all')

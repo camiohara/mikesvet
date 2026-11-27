@@ -47,9 +47,9 @@ export const postBySlugQuery = groq`
   }
 `
 
-// All animals — available/fostering first (featured → oldest), adopted last
+// All animals — featured first then oldest-waiting, adopted sorted last in JS
 export const adoptionsQuery = groq`
-  *[_type == "adoption"] | order(status == "adopted" asc, featured desc, dateAvailable asc) {
+  *[_type == "adoption"] | order(featured desc, dateAvailable asc) {
     _id,
     name,
     "slug": slug.current,
