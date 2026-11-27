@@ -124,7 +124,7 @@ export default function ArNavbar() {
             </svg>
             واتساب
           </a>
-          <a href="tel:+97142837744" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
+          <a dir="ltr" href="tel:+97142837744" className="nav-cta-btn px-4 py-2 rounded-full text-sm font-semibold text-white whitespace-nowrap">
             احجز موعداً
           </a>
         </div>

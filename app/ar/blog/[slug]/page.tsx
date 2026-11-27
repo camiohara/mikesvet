@@ -209,7 +209,7 @@ export default async function ArBlogPostPage({ params }: { params: Promise<{ slu
                 className="px-5 py-2.5 rounded-full font-semibold text-sm border-2 hover:bg-white transition-colors"
                 style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
               >
-                04 283 7744+
+                +971 4 283 7744
               </a>
             </div>
           </div>

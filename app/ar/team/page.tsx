@@ -150,7 +150,7 @@ export default function ArTeamPage() {
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-sm border-2 transition-colors hover:text-white hover:bg-[var(--color-brand)]"
               style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
             >
-              04 283 7744
+              +971 4 283 7744
             </a>
           </div>
         </div>

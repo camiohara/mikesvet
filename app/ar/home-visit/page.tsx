@@ -84,7 +84,7 @@ export default function ArHomeVisitPage() {
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 hover:text-white hover:bg-[var(--color-brand)] transition-colors"
               style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
             >
-              04 283 7744
+              +971 4 283 7744
             </a>
           </div>
         </div>

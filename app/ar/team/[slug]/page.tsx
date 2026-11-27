@@ -161,7 +161,7 @@ export default async function ArVetProfilePage({ params }: { params: Promise<{ s
                   className="inline-flex items-center justify-center px-5 py-2.5 rounded-full font-semibold text-sm border-2 transition-colors hover:text-white hover:bg-[var(--color-brand)]"
                   style={{ borderColor: 'var(--color-brand)', color: 'var(--color-brand)' }}
                 >
-                  04 283 7744
+                  +971 4 283 7744
                 </a>
               </div>
             </div>
@@ -171,7 +171,7 @@ export default async function ArVetProfilePage({ params }: { params: Promise<{ s
 
       {/* Info strip */}
       <div className="bg-[#1a1a1a] text-white text-xs sm:text-sm text-center py-3 px-4">
-        عيادة مايك للبيطرة · شارع حصة، دبي · مفتوح 7 أيام، 9 ص – 9:30 م · 97142837744+
+        عيادة مايك للبيطرة · شارع حصة، دبي · مفتوح 7 أيام، 9 ص – 9:30 م · <span dir="ltr">+971 4 283 7744</span>
       </div>
 
       {/* Rest of team */}
