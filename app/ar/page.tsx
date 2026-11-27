@@ -117,7 +117,7 @@ export default function ArabicPage() {
         <div className="relative text-center text-white px-6 max-w-4xl mx-auto" style={{ zIndex: 2 }}>
           <p className="text-sm uppercase tracking-[0.3em] font-medium mb-6 opacity-80">شارع حصة، دبي</p>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-lg" style={{ fontFamily: 'var(--font-cairo)' }}>
-            عيادة بيطرية موثوقة في دبي — مفتوحة كل يوم
+            عيادة بيطرية موثوقة في دبي
           </h1>
           <p className="text-lg md:text-xl opacity-90 mb-6 max-w-2xl mx-auto leading-relaxed">
             مستشفى حيوانات متكامل يديره محبّو الحيوانات — مجهّز بأحدث التقنيات للتشخيص والجراحة والرعاية الطارئة والإحالات التخصصية.
