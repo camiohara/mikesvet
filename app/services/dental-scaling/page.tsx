@@ -21,12 +21,12 @@ const steps = [
   {
     step: '01',
     title: 'Pre-anaesthetic assessment',
-    body: 'Before any procedure, we examine your pet's overall health and may recommend pre-operative bloodwork to confirm they're fit for anaesthesia.',
+    body: "Before any procedure, we examine your pet's overall health and may recommend pre-operative bloodwork to confirm they're fit for anaesthesia.",
   },
   {
     step: '02',
     title: 'Full-mouth dental x-rays',
-    body: 'We take digital x-rays of every tooth — including the roots — to identify disease that isn't visible to the naked eye. This step is essential to planning the right treatment.',
+    body: "We take digital x-rays of every tooth — including the roots — to identify disease that isn't visible to the naked eye. This step is essential to planning the right treatment.",
   },
   {
     step: '03',
@@ -46,7 +46,7 @@ const steps = [
   {
     step: '06',
     title: 'Recovery & discharge',
-    body: 'Your pet is monitored through anaesthetic recovery before you take them home. We'll go through aftercare and home-brushing technique before you leave.',
+    body: "Your pet is monitored through anaesthetic recovery before you take them home. We'll go through aftercare and home-brushing technique before you leave.",
   },
 ]
 
@@ -68,11 +68,11 @@ const faqs = [
     a: 'Most dogs and cats benefit from professional scaling every 1–2 years. Some small-breed dogs and brachycephalic cats (Persians, Exotics) may need annual treatment due to dental crowding. Daily tooth brushing is the single most effective home measure to extend the interval between professional cleans.',
   },
   {
-    q: 'Will scaling fix my pet's bad breath?',
+    q: "Will scaling fix my pet's bad breath?",
     a: 'In most cases, yes. The majority of pet halitosis comes from bacteria colonising the tartar and periodontal pockets below the gumline. Scaling removes the substrate those bacteria live on. If bad breath persists after a professional clean, we will investigate other causes such as gastrointestinal disease.',
   },
   {
-    q: 'What should I do to maintain my pet's teeth between scalings?',
+    q: "What should I do to maintain my pet's teeth between scalings?",
     a: 'Daily tooth brushing with a pet-safe toothpaste is the gold standard. Dental chews and water additives can supplement brushing but are not a substitute. We will show you brushing technique at your pet\'s discharge appointment.',
   },
 ]
